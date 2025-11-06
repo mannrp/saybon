@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Documentation files (keep in .kiro/specs only)
+/*.md
+!README.md

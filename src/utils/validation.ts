@@ -2,9 +2,14 @@
 import { levenshteinDistance } from './levenshtein';
 import type { Exercise } from '../types';
 
-// Normalize answer by converting to lowercase and trimming whitespace
+// Remove diacritics (accents) from text
+function removeDiacritics(text: string): string {
+  return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
+// Normalize answer by converting to lowercase, trimming whitespace, and removing diacritics
 export function normalizeAnswer(answer: string): string {
-  return answer.toLowerCase().trim();
+  return removeDiacritics(answer.toLowerCase().trim());
 }
 
 // Check if two answers match exactly after normalization
@@ -12,19 +17,17 @@ function exactMatch(userAnswer: string, correctAnswer: string): boolean {
   return normalizeAnswer(userAnswer) === normalizeAnswer(correctAnswer);
 }
 
-// Check if answers match with fuzzy matching (Levenshtein distance <= 1)
-// Only applies to single-word responses to avoid false positives
+// Check if answers match with fuzzy matching (Levenshtein distance <= 2)
+// Allows for minor typos and spelling variations
 function fuzzyMatch(userAnswer: string, correctAnswer: string): boolean {
   const normalizedUser = normalizeAnswer(userAnswer);
   const normalizedCorrect = normalizeAnswer(correctAnswer);
 
-  // Only apply fuzzy matching to single words
-  if (normalizedUser.includes(' ') || normalizedCorrect.includes(' ')) {
-    return false;
-  }
+  // For single words, allow distance of 1
+  // For phrases, allow distance of 2
+  const maxDistance = normalizedUser.includes(' ') || normalizedCorrect.includes(' ') ? 2 : 1;
 
-  // Allow Levenshtein distance of 1 for typo tolerance
-  return levenshteinDistance(normalizedUser, normalizedCorrect) <= 1;
+  return levenshteinDistance(normalizedUser, normalizedCorrect) <= maxDistance;
 }
 
 // Validate user answer against exercise

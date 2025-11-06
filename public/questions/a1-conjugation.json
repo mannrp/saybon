@@ -1,0 +1,86 @@
+{
+  "level": "A1",
+  "type": "conjugation",
+  "exercises": [
+    {
+      "question": "Conjugate (être) in present tense, first person singular (I am)",
+      "correctAnswer": "je suis",
+      "acceptableAnswers": ["suis"],
+      "explanation": "'Je suis' means 'I am'. Être (to be) is one of the most important irregular verbs in French.",
+      "topic": "être conjugation",
+      "difficulty": 1
+    },
+    {
+      "question": "Conjugate (avoir) in present tense, first person singular (I have)",
+      "correctAnswer": "j'ai",
+      "acceptableAnswers": ["ai"],
+      "explanation": "'J'ai' means 'I have'. Avoir (to have) is another essential irregular verb.",
+      "topic": "avoir conjugation",
+      "difficulty": 1
+    },
+    {
+      "question": "Conjugate (parler) in present tense, first person singular (I speak)",
+      "correctAnswer": "je parle",
+      "acceptableAnswers": ["parle"],
+      "explanation": "'Je parle' means 'I speak'. Regular -er verbs follow this pattern.",
+      "topic": "regular -er verbs",
+      "difficulty": 1
+    },
+    {
+      "question": "Conjugate (manger) in present tense, first person singular (I eat)",
+      "correctAnswer": "je mange",
+      "acceptableAnswers": ["mange"],
+      "explanation": "'Je mange' means 'I eat'. Manger is a regular -er verb.",
+      "topic": "regular -er verbs",
+      "difficulty": 1
+    },
+    {
+      "question": "Conjugate (aller) in present tense, first person singular (I go)",
+      "correctAnswer": "je vais",
+      "acceptableAnswers": ["vais"],
+      "explanation": "'Je vais' means 'I go'. Aller (to go) is an irregular verb.",
+      "topic": "aller conjugation",
+      "difficulty": 2
+    },
+    {
+      "question": "Conjugate (faire) in present tense, first person singular (I do/make)",
+      "correctAnswer": "je fais",
+      "acceptableAnswers": ["fais"],
+      "explanation": "'Je fais' means 'I do' or 'I make'. Faire is an irregular verb.",
+      "topic": "faire conjugation",
+      "difficulty": 2
+    },
+    {
+      "question": "Conjugate (vouloir) in present tense, first person singular (I want)",
+      "correctAnswer": "je veux",
+      "acceptableAnswers": ["veux"],
+      "explanation": "'Je veux' means 'I want'. Vouloir is an irregular verb.",
+      "topic": "vouloir conjugation",
+      "difficulty": 2
+    },
+    {
+      "question": "Conjugate (pouvoir) in present tense, first person singular (I can)",
+      "correctAnswer": "je peux",
+      "acceptableAnswers": ["peux"],
+      "explanation": "'Je peux' means 'I can'. Pouvoir is an irregular verb.",
+      "topic": "pouvoir conjugation",
+      "difficulty": 2
+    },
+    {
+      "question": "Conjugate (aimer) in present tense, first person singular (I like/love)",
+      "correctAnswer": "j'aime",
+      "acceptableAnswers": ["aime"],
+      "explanation": "'J'aime' means 'I like' or 'I love'. Regular -er verb.",
+      "topic": "regular -er verbs",
+      "difficulty": 1
+    },
+    {
+      "question": "Conjugate (habiter) in present tense, first person singular (I live)",
+      "correctAnswer": "j'habite",
+      "acceptableAnswers": ["habite"],
+      "explanation": "'J'habite' means 'I live'. Regular -er verb.",
+      "topic": "regular -er verbs",
+      "difficulty": 1
+    }
+  ]
+}

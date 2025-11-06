@@ -11,6 +11,9 @@ interface PracticeSessionState {
   isLoading: boolean;
   error: string | null;
   currentQuestionNumber: number;
+  isEndless: boolean;
+  level: CEFRLevel | null;
+  type: ExerciseType | null;
 }
 
 export function usePracticeSession() {
@@ -21,10 +24,13 @@ export function usePracticeSession() {
     isLoading: false,
     error: null,
     currentQuestionNumber: 0,
+    isEndless: false,
+    level: null,
+    type: null,
   });
 
   // Start a new practice session
-  const startSession = useCallback(() => {
+  const startSession = useCallback((endless = false, level?: CEFRLevel, type?: ExerciseType) => {
     setState({
       currentExercise: null,
       exerciseQueue: [],
@@ -32,6 +38,9 @@ export function usePracticeSession() {
       isLoading: false,
       error: null,
       currentQuestionNumber: 0,
+      isEndless: endless,
+      level: level || null,
+      type: type || null,
     });
   }, []);
 
@@ -111,6 +120,25 @@ export function usePracticeSession() {
     });
   }, []);
 
+  // Add more exercises to the queue (for endless mode)
+  const addExercises = useCallback(async (exercises: Exercise[]) => {
+    try {
+      await exerciseStorage.storeMany(exercises);
+      
+      setState((prev) => ({
+        ...prev,
+        exerciseQueue: [...prev.exerciseQueue, ...exercises],
+      }));
+    } catch (err) {
+      console.error('Failed to add exercises');
+    }
+  }, []);
+
+  // Check if we need to fetch more exercises (for endless mode)
+  const needsMoreExercises = useCallback(() => {
+    return state.isEndless && state.exerciseQueue.length < 3;
+  }, [state.isEndless, state.exerciseQueue.length]);
+
   // Load exercises from cache by level and type
   const loadFromCache = useCallback(
     async (level: CEFRLevel, type: ExerciseType) => {
@@ -178,11 +206,16 @@ export function usePracticeSession() {
     error: state.error,
     currentQuestionNumber: state.currentQuestionNumber,
     totalQuestionsInQueue: state.exerciseQueue.length + (state.currentExercise ? 1 : 0),
+    isEndless: state.isEndless,
+    level: state.level,
+    type: state.type,
     startSession,
     loadExercises,
     submitAnswer,
     nextQuestion,
     loadFromCache,
     getStats,
+    addExercises,
+    needsMoreExercises,
   };
 }

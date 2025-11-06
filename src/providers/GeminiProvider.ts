@@ -105,17 +105,24 @@ export class GeminiProvider implements AIProvider {
       }
 
       const text = data.candidates[0].content.parts[0].text;
-      const parsed = this.parseExerciseResponse(text);
-
-      // Add unique IDs and timestamps to exercises
-      return parsed.exercises.map((exercise) => ({
-        ...exercise,
-        id: crypto.randomUUID(),
-        metadata: {
-          ...exercise.metadata,
-          createdAt: new Date().toISOString(),
-        },
-      }));
+      
+      // Handle different response formats based on exercise type
+      if (params.type === 'vocabulary') {
+        return this.parseVocabularyResponse(text, params);
+      } else if (params.type === 'conjugation') {
+        return this.parseConjugationResponse(text, params);
+      } else {
+        const parsed = this.parseExerciseResponse(text);
+        // Add unique IDs and timestamps to exercises
+        return parsed.exercises.map((exercise) => ({
+          ...exercise,
+          id: crypto.randomUUID(),
+          metadata: {
+            ...exercise.metadata,
+            createdAt: new Date().toISOString(),
+          },
+        }));
+      }
     } catch (error) {
       console.error('Exercise generation failed');
       throw error;
@@ -140,15 +147,23 @@ export class GeminiProvider implements AIProvider {
     }
   }
 
-  // Analyze batch of answers (optional for MVP, included for completeness)
-  async analyzeBatch(answers: UserAnswer[]): Promise<AIFeedback> {
+  // Analyze batch of answers with exercise details
+  async analyzeBatch(
+    answers: UserAnswer[],
+    exercises: Map<string, Exercise>
+  ): Promise<AIFeedback> {
     try {
-      // For MVP, we skip this - but implementation is here for Phase 2
-      const answerData = answers.map((a) => ({
-        question: 'Question text', // Would need to fetch from exercise
-        userAnswer: a.userAnswer,
-        isCorrect: a.isCorrect,
-      }));
+      const answerData = answers.map((a) => {
+        const exercise = exercises.get(a.exerciseId);
+        return {
+          question: exercise?.question || 'Unknown question',
+          userAnswer: a.userAnswer,
+          correctAnswer: Array.isArray(exercise?.correctAnswer)
+            ? exercise.correctAnswer[0]
+            : exercise?.correctAnswer || '',
+          isCorrect: a.isCorrect,
+        };
+      });
 
       const prompt = buildBatchAnalysisPrompt(answerData);
       const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
@@ -202,6 +217,85 @@ export class GeminiProvider implements AIProvider {
       return JSON.parse(cleanText);
     } catch (error) {
       console.error('Failed to parse analysis response:', cleanText);
+      throw new Error('Invalid JSON response from Gemini');
+    }
+  }
+
+  // Parse vocabulary bulk data and convert to exercises
+  private parseVocabularyResponse(text: string, params: GenerationParams): Exercise[] {
+    let cleanText = text.trim();
+    if (cleanText.startsWith('```json')) {
+      cleanText = cleanText.replace(/^```json\n/, '').replace(/\n```$/, '');
+    } else if (cleanText.startsWith('```')) {
+      cleanText = cleanText.replace(/^```\n/, '').replace(/\n```$/, '');
+    }
+
+    try {
+      const data = JSON.parse(cleanText);
+      const vocabulary = data.vocabulary || [];
+
+      return vocabulary.map((item: any) => ({
+        id: crypto.randomUUID(),
+        type: 'vocabulary',
+        level: params.level,
+        question: `What is the French word for "${item.english}"?`,
+        correctAnswer: item.french,
+        acceptableAnswers: [],
+        hint: `Think about ${item.topic}`,
+        explanation: `The French word for "${item.english}" is "${item.french}".`,
+        metadata: {
+          topic: item.topic || 'vocabulary',
+          difficulty: item.difficulty || 3,
+          createdAt: new Date().toISOString(),
+          source: 'ai-generated',
+        },
+      }));
+    } catch (error) {
+      console.error('Failed to parse vocabulary response');
+      throw new Error('Invalid JSON response from Gemini');
+    }
+  }
+
+  // Parse conjugation bulk data and convert to exercises
+  private parseConjugationResponse(text: string, params: GenerationParams): Exercise[] {
+    let cleanText = text.trim();
+    if (cleanText.startsWith('```json')) {
+      cleanText = cleanText.replace(/^```json\n/, '').replace(/\n```$/, '');
+    } else if (cleanText.startsWith('```')) {
+      cleanText = cleanText.replace(/^```\n/, '').replace(/\n```$/, '');
+    }
+
+    try {
+      const data = JSON.parse(cleanText);
+      const conjugations = data.conjugations || [];
+
+      const personMap: Record<string, string> = {
+        je: 'I',
+        tu: 'you (informal)',
+        'il/elle': 'he/she',
+        nous: 'we',
+        vous: 'you (formal/plural)',
+        'ils/elles': 'they',
+      };
+
+      return conjugations.map((item: any) => ({
+        id: crypto.randomUUID(),
+        type: 'conjugation',
+        level: params.level,
+        question: `Conjugate "${item.verb}" in ${item.tense} tense for "${item.person}" (${personMap[item.person] || item.person})`,
+        correctAnswer: item.answer,
+        acceptableAnswers: [],
+        hint: `Think about ${item.topic}`,
+        explanation: `The correct conjugation of "${item.verb}" in ${item.tense} tense for "${item.person}" is "${item.answer}".`,
+        metadata: {
+          topic: item.topic || 'conjugation',
+          difficulty: item.difficulty || 3,
+          createdAt: new Date().toISOString(),
+          source: 'ai-generated',
+        },
+      }));
+    } catch (error) {
+      console.error('Failed to parse conjugation response');
       throw new Error('Invalid JSON response from Gemini');
     }
   }

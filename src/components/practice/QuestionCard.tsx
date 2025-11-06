@@ -1,5 +1,6 @@
 // QuestionCard component for displaying exercises and capturing answers
 import { useState, useEffect, useRef } from 'react';
+import { motion } from 'framer-motion';
 import type { FormEvent } from 'react';
 import type { Exercise } from '../../types';
 
@@ -35,20 +36,23 @@ export function QuestionCard({
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md">
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="w-full max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-lg border border-gray-100"
+    >
       {/* Question counter */}
-      <div className="text-sm text-gray-500 mb-4">
-        Question {questionNumber}
-        {totalQuestions && ` of ${totalQuestions}`}
-      </div>
-
-      {/* Exercise type badge */}
-      <div className="inline-block px-3 py-1 mb-4 text-xs font-semibold text-blue-700 bg-blue-100 rounded-full">
-        {exercise.type}
+      <div className="flex items-center justify-between mb-6">
+        <div className="text-sm font-medium text-gray-500">
+          Question {questionNumber}
+        </div>
+        <div className="inline-flex items-center px-3 py-1 text-xs font-semibold text-blue-700 bg-blue-50 rounded-full border border-blue-200">
+          {exercise.type}
+        </div>
       </div>
 
       {/* Question text */}
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">
+      <h2 className="text-3xl font-bold text-gray-900 mb-8 leading-tight">
         {exercise.question}
       </h2>
 
@@ -66,24 +70,26 @@ export function QuestionCard({
             onChange={(e) => setAnswer(e.target.value)}
             disabled={isSubmitting}
             placeholder="Type your answer..."
-            className="w-full px-4 py-3 text-lg border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100 disabled:cursor-not-allowed"
+            className="w-full px-5 py-4 text-xl border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-50 disabled:cursor-not-allowed transition-all"
             aria-label="Answer input"
           />
         </div>
 
-        <button
+        <motion.button
           type="submit"
           disabled={!answer.trim() || isSubmitting}
-          className="w-full px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+          whileHover={{ scale: 1.02 }}
+          whileTap={{ scale: 0.98 }}
+          className="w-full px-6 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:from-gray-300 disabled:to-gray-300 disabled:cursor-not-allowed transition-all shadow-md disabled:shadow-none"
         >
           {isSubmitting ? 'Checking...' : 'Submit Answer'}
-        </button>
+        </motion.button>
       </form>
 
       {/* Keyboard hint */}
-      <p className="mt-4 text-sm text-gray-500 text-center">
-        Press <kbd className="px-2 py-1 text-xs font-semibold text-gray-800 bg-gray-100 border border-gray-200 rounded">Enter</kbd> to submit
+      <p className="mt-6 text-sm text-gray-400 text-center">
+        Press <kbd className="px-2 py-1 text-xs font-semibold text-gray-700 bg-gray-100 border border-gray-200 rounded shadow-sm">Enter</kbd> to submit
       </p>
-    </div>
+    </motion.div>
   );
 }

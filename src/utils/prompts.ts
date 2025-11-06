@@ -6,11 +6,58 @@ export function buildExerciseGenerationPrompt(params: GenerationParams): string 
 
   const topicContext = topic ? `focusing on the topic: ${topic}` : '';
 
+  // Optimized prompts for bulk data generation
+  if (type === 'vocabulary') {
+    return `Generate ${count} French vocabulary word pairs for ${level} CEFR level ${topicContext}.
+
+Return ONLY valid JSON (no markdown, no code blocks):
+{
+  "vocabulary": [
+    {
+      "english": "house",
+      "french": "maison",
+      "topic": "home",
+      "difficulty": 1
+    }
+  ]
+}
+
+Requirements:
+- Common, practical vocabulary for ${level} level
+- DO NOT include articles (le, la, les, un, une, des) - just the word itself
+- Variety of topics: daily life, food, family, activities, etc.
+- Difficulty 1-5 scale`;
+  }
+
+  if (type === 'conjugation') {
+    return `Generate ${count} French verb conjugation exercises for ${level} CEFR level ${topicContext}.
+
+Return ONLY valid JSON (no markdown, no code blocks):
+{
+  "conjugations": [
+    {
+      "verb": "parler",
+      "tense": "present",
+      "person": "je",
+      "answer": "parle",
+      "topic": "regular -er verbs",
+      "difficulty": 1
+    }
+  ]
+}
+
+Requirements:
+- Common verbs appropriate for ${level} level
+- Mix of regular and irregular verbs
+- Tenses: present, passé composé, imparfait, futur (based on level)
+- Persons: je, tu, il/elle, nous, vous, ils/elles
+- Difficulty 1-5 scale`;
+  }
+
+  // Fallback to full question generation for other types
   const typeInstructions = {
-    conjugation: 'Provide the French verb in parentheses, ask for a specific conjugation in English. Example: "Conjugate (parler) in present tense, first person singular"',
     'fill-blank': 'Give a French sentence with a blank, ask in English what word fits. Example: "Fill in the blank: Je ___ au cinéma (I go to the cinema)"',
     translation: 'Provide an English sentence and ask for French translation. Example: "Translate to French: I am happy"',
-    vocabulary: 'Ask for the French word in English. Example: "What is the French word for \'house\'?"',
     grammar: 'Ask a grammar question in English about French. Example: "What is the correct article for \'maison\' (house)?"',
   };
 
@@ -53,12 +100,17 @@ Return ONLY valid JSON in this exact format (no markdown, no code blocks):
 }
 
 export function buildBatchAnalysisPrompt(
-  answers: Array<{ question: string; userAnswer: string; isCorrect: boolean }>
+  answers: Array<{
+    question: string;
+    userAnswer: string;
+    correctAnswer: string;
+    isCorrect: boolean;
+  }>
 ): string {
   const answerSummary = answers
     .map(
       (a, i) =>
-        `${i + 1}. Q: "${a.question}" | User: "${a.userAnswer}" | ${a.isCorrect ? '✓' : '✗'}`
+        `${i + 1}. Q: "${a.question}" | User: "${a.userAnswer}" | Correct: "${a.correctAnswer}" | ${a.isCorrect ? '✓' : '✗'}`
     )
     .join('\n');
 
@@ -67,7 +119,7 @@ export function buildBatchAnalysisPrompt(
 Student answers:
 ${answerSummary}
 
-Provide constructive feedback in ENGLISH. Focus on patterns in their French learning.
+Provide constructive feedback in ENGLISH. Focus on patterns in their French learning, common mistakes, and areas for improvement.
 
 Return JSON format (no markdown, no code blocks):
 {

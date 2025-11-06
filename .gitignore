@@ -26,3 +26,6 @@ dist-ssr
 # Documentation files (keep in .kiro/specs only)
 /*.md
 !README.md
+
+# Kiro IDE files
+.kiro/

@@ -59,7 +59,7 @@ export function usePracticeSession() {
           currentQuestionNumber: first ? 1 : 0,
         }));
       } catch (err) {
-        console.error('Failed to load exercises:', err);
+        console.error('Failed to load exercises');
         setState((prev) => ({
           ...prev,
           error: 'Failed to load exercises',
@@ -142,7 +142,7 @@ export function usePracticeSession() {
           currentQuestionNumber: 1,
         }));
       } catch (err) {
-        console.error('Failed to load from cache:', err);
+        console.error('Failed to load from cache');
         setState((prev) => ({
           ...prev,
           error: 'Failed to load cached exercises',

@@ -36,7 +36,7 @@ export function useSettings() {
           setSettings(stored);
         }
       } catch (err) {
-        console.error('Failed to load settings:', err);
+        console.error('Failed to load settings');
         setError('Failed to load settings');
       } finally {
         setIsLoading(false);
@@ -53,7 +53,7 @@ export function useSettings() {
       setSettings(newSettings);
       setError(null);
     } catch (err) {
-      console.error('Failed to save settings:', err);
+      console.error('Failed to save settings');
       setError('Failed to save settings');
       throw err;
     }

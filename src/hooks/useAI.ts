@@ -30,7 +30,7 @@ export function useAI(settings: AppSettings) {
         setProvider(geminiProvider);
         setIsReady(true);
       } catch (err) {
-        console.error('Failed to initialize AI provider:', err);
+        console.error('Failed to initialize AI provider');
         setError('Failed to initialize AI provider');
         setProvider(null);
       }
@@ -74,7 +74,7 @@ export function useAI(settings: AppSettings) {
       }
       return result;
     } catch (err) {
-      console.error('Connection test error:', err);
+      console.error('Connection test error');
       setError('Connection test failed');
       return false;
     }

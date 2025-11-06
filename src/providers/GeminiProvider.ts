@@ -58,7 +58,7 @@ export class GeminiProvider implements AIProvider {
       const data: GeminiResponse = await response.json();
       return !data.error && !!data.candidates;
     } catch (error) {
-      console.error('Gemini connection test failed:', error);
+      console.error('Gemini connection test failed');
       return false;
     }
   }
@@ -117,7 +117,7 @@ export class GeminiProvider implements AIProvider {
         },
       }));
     } catch (error) {
-      console.error('Exercise generation failed:', error);
+      console.error('Exercise generation failed');
       throw error;
     }
   }
@@ -184,7 +184,7 @@ export class GeminiProvider implements AIProvider {
       const text = data.candidates[0].content.parts[0].text;
       return this.parseAnalysisResponse(text);
     } catch (error) {
-      console.error('Batch analysis failed:', error);
+      console.error('Batch analysis failed');
       throw error;
     }
   }

@@ -53,7 +53,7 @@ export function PracticePage() {
       setViewState('question');
       setAnswerStartTime(Date.now());
     } catch (err) {
-      console.error('Failed to start practice:', err);
+      console.error('Failed to start practice');
       setError(err instanceof Error ? err.message : 'Failed to generate exercises');
       setViewState('error');
     }

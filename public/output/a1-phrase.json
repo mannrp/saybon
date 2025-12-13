@@ -1,0 +1,1109 @@
+{
+  "version": "1.0",
+  "level": "a1",
+  "type": "phrase",
+  "generated_at": "2025-12-13T04:03:14.654689Z",
+  "total_count": 50,
+  "flashcards": [
+    {
+      "id": "a1-phrase-001",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Hello / Good day' in French?",
+      "back": "Bonjour",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.651682Z",
+      "metadata": {
+        "french": "Bonjour",
+        "english": "Hello / Good day",
+        "context": "Standard greeting used generally until evening (around 6 PM).",
+        "formality": "neutral",
+        "category": "greetings",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-002",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Good evening' in French?",
+      "back": "Bonsoir",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.651682Z",
+      "metadata": {
+        "french": "Bonsoir",
+        "english": "Good evening",
+        "context": "Standard greeting used from late afternoon/evening onwards.",
+        "formality": "neutral",
+        "category": "greetings",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-003",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Goodbye' in French?",
+      "back": "Au revoir",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.651682Z",
+      "metadata": {
+        "french": "Au revoir",
+        "english": "Goodbye",
+        "context": "Standard and polite farewell.",
+        "formality": "neutral",
+        "category": "greetings",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-004",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Hi / Bye' in French?",
+      "back": "Salut",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Salut",
+        "english": "Hi / Bye",
+        "context": "Used to greet or say farewell to friends, family, or people you know well.",
+        "formality": "informal",
+        "category": "greetings",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-005",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'How are you?' in French?",
+      "back": "Comment allez-vous ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Comment allez-vous ?",
+        "english": "How are you?",
+        "context": "A polite, standard way to ask about someone's well-being.",
+        "formality": "formal",
+        "category": "greetings",
+        "formal_variant": "Comment allez-vous ?",
+        "informal_variant": "Comment ça va ?"
+      }
+    },
+    {
+      "id": "a1-phrase-006",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I am fine, thank you.' in French?",
+      "back": "Ça va bien, merci.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Ça va bien, merci.",
+        "english": "I am fine, thank you.",
+        "context": "Standard response when asked 'How are you?'.",
+        "formality": "neutral",
+        "category": "greetings",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-007",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'And you?' in French?",
+      "back": "Et vous ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Et vous ?",
+        "english": "And you?",
+        "context": "Politely returning the question to the speaker.",
+        "formality": "formal",
+        "category": "greetings",
+        "formal_variant": "Et vous ?",
+        "informal_variant": "Et toi ?"
+      }
+    },
+    {
+      "id": "a1-phrase-008",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Please (formal)' in French?",
+      "back": "S'il vous plaît",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "S'il vous plaît",
+        "english": "Please (formal)",
+        "context": "Used when making a request to someone you don't know or in a professional setting.",
+        "formality": "formal",
+        "category": "greetings",
+        "formal_variant": "S'il vous plaît",
+        "informal_variant": "S'il te plaît"
+      }
+    },
+    {
+      "id": "a1-phrase-009",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Thank you very much' in French?",
+      "back": "Merci beaucoup",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Merci beaucoup",
+        "english": "Thank you very much",
+        "context": "Expressing strong gratitude.",
+        "formality": "neutral",
+        "category": "greetings",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-010",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Excuse me' in French?",
+      "back": "Excusez-moi",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "greetings"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Excusez-moi",
+        "english": "Excuse me",
+        "context": "Used to get someone's attention, apologize, or pass through a crowd.",
+        "formality": "neutral",
+        "category": "greetings",
+        "formal_variant": "Excusez-moi",
+        "informal_variant": "Excuse-moi"
+      }
+    },
+    {
+      "id": "a1-phrase-011",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'How much does this cost?' in French?",
+      "back": "Combien ça coûte ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Combien ça coûte ?",
+        "english": "How much does this cost?",
+        "context": "Asking the price of an item in a shop.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-012",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I would like...' in French?",
+      "back": "Je voudrais...",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je voudrais...",
+        "english": "I would like...",
+        "context": "The standard, polite way to request an item or service.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-013",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'It is expensive.' in French?",
+      "back": "C'est cher.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est cher.",
+        "english": "It is expensive.",
+        "context": "Commenting on the high price of an item.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-014",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Where are the fitting rooms?' in French?",
+      "back": "Où sont les cabines d'essayage ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Où sont les cabines d'essayage ?",
+        "english": "Where are the fitting rooms?",
+        "context": "Asking to try on clothes.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-015",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I will buy this.' in French?",
+      "back": "J'achète ça.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "J'achète ça.",
+        "english": "I will buy this.",
+        "context": "Indicating to the salesperson that you intend to purchase the item.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-016",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Do you have size M?' in French?",
+      "back": "Vous avez la taille M ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Vous avez la taille M ?",
+        "english": "Do you have size M?",
+        "context": "Asking for a specific clothing size.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": "Vous avez la taille M ?",
+        "informal_variant": "Tu as la taille M ?"
+      }
+    },
+    {
+      "id": "a1-phrase-017",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I am just looking.' in French?",
+      "back": "Je regarde seulement.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je regarde seulement.",
+        "english": "I am just looking.",
+        "context": "Used when a salesperson asks if you need help, but you are only browsing.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-018",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'That's all.' in French?",
+      "back": "C'est tout.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est tout.",
+        "english": "That's all.",
+        "context": "Used at the end of a transaction to indicate you have finished selecting items.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-019",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'The checkout, please.' in French?",
+      "back": "La caisse, s'il vous plaît.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "La caisse, s'il vous plaît.",
+        "english": "The checkout, please.",
+        "context": "Asking where to pay for the goods.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-020",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Can I pay by card?' in French?",
+      "back": "Je peux payer par carte ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "shopping"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je peux payer par carte ?",
+        "english": "Can I pay by card?",
+        "context": "Asking if credit/debit cards are accepted.",
+        "formality": "neutral",
+        "category": "shopping",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-021",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'A table for one/two/three, please.' in French?",
+      "back": "Une table pour un/deux/trois, s'il vous plaît.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Une table pour un/deux/trois, s'il vous plaît.",
+        "english": "A table for one/two/three, please.",
+        "context": "Requesting a table at a café or restaurant.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-022",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'The menu, please.' in French?",
+      "back": "La carte, s'il vous plaît.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "La carte, s'il vous plaît.",
+        "english": "The menu, please.",
+        "context": "Asking the waiter for the menu.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-023",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I will take/have...' in French?",
+      "back": "Je prends...",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je prends...",
+        "english": "I will take/have...",
+        "context": "Used when ordering food or drink.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-024",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Water, please.' in French?",
+      "back": "De l'eau, s'il vous plaît.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "De l'eau, s'il vous plaît.",
+        "english": "Water, please.",
+        "context": "Requesting water (implied tap water unless 'minérale' is specified).",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-025",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'It was delicious.' in French?",
+      "back": "C'était délicieux.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'était délicieux.",
+        "english": "It was delicious.",
+        "context": "Complimenting the food to the waiter or chef.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-026",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'The bill/check, please.' in French?",
+      "back": "L'addition, s'il vous plaît.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "L'addition, s'il vous plaît.",
+        "english": "The bill/check, please.",
+        "context": "Requesting the bill after the meal.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-027",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Without gluten.' in French?",
+      "back": "Sans gluten.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Sans gluten.",
+        "english": "Without gluten.",
+        "context": "Specifying a dietary requirement.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-028",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'A coffee, please.' in French?",
+      "back": "Un café, s'il vous plaît.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Un café, s'il vous plaît.",
+        "english": "A coffee, please.",
+        "context": "Ordering a standard espresso (typical French coffee).",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-029",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I am vegetarian.' in French?",
+      "back": "Je suis végétarien(ne).",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je suis végétarien(ne).",
+        "english": "I am vegetarian.",
+        "context": "Informing staff of a dietary restriction. (Add 'ne' if female).",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-030",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Enjoy your meal!' in French?",
+      "back": "Bon appétit !",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "dining"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Bon appétit !",
+        "english": "Enjoy your meal!",
+        "context": "Wishing someone well before they start eating.",
+        "formality": "neutral",
+        "category": "dining",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-031",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Where is the hotel?' in French?",
+      "back": "Où est l'hôtel ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Où est l'hôtel ?",
+        "english": "Where is the hotel?",
+        "context": "Asking for the location of accommodation.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-032",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I have a reservation.' in French?",
+      "back": "J'ai une réservation.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "J'ai une réservation.",
+        "english": "I have a reservation.",
+        "context": "Used when checking in at a hotel or restaurant.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-033",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'A ticket for Nice.' in French?",
+      "back": "Un billet pour Nice.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Un billet pour Nice.",
+        "english": "A ticket for Nice.",
+        "context": "Buying a transport ticket (train, bus, etc.).",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-034",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'At what time does the bus leave?' in French?",
+      "back": "À quelle heure part le bus ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "À quelle heure part le bus ?",
+        "english": "At what time does the bus leave?",
+        "context": "Asking for the departure time of public transport.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-035",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Do you speak English?' in French?",
+      "back": "Parlez-vous anglais ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Parlez-vous anglais ?",
+        "english": "Do you speak English?",
+        "context": "Asking politely if someone can communicate in English.",
+        "formality": "formal",
+        "category": "travel",
+        "formal_variant": "Parlez-vous anglais ?",
+        "informal_variant": "Parles-tu anglais ?"
+      }
+    },
+    {
+      "id": "a1-phrase-036",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I do not understand.' in French?",
+      "back": "Je ne comprends pas.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je ne comprends pas.",
+        "english": "I do not understand.",
+        "context": "Indicating a lack of comprehension.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-037",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I have lost my passport.' in French?",
+      "back": "J'ai perdu mon passeport.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "J'ai perdu mon passeport.",
+        "english": "I have lost my passport.",
+        "context": "Reporting a lost essential item.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-038",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Is it far from here?' in French?",
+      "back": "C'est loin d'ici ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est loin d'ici ?",
+        "english": "Is it far from here?",
+        "context": "Asking about distance.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-039",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I need help.' in French?",
+      "back": "J'ai besoin d'aide.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "J'ai besoin d'aide.",
+        "english": "I need help.",
+        "context": "Requesting assistance in a general situation.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-040",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'What is the price for one night?' in French?",
+      "back": "Quel est le prix pour une nuit ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "travel"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Quel est le prix pour une nuit ?",
+        "english": "What is the price for one night?",
+        "context": "Asking the cost of accommodation.",
+        "formality": "neutral",
+        "category": "travel",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-041",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Straight ahead.' in French?",
+      "back": "Tout droit.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Tout droit.",
+        "english": "Straight ahead.",
+        "context": "Giving a direction to continue forward.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-042",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Turn left.' in French?",
+      "back": "Tournez à gauche.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Tournez à gauche.",
+        "english": "Turn left.",
+        "context": "Giving a direction to turn (formal/polite imperative).",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": "Tournez à gauche.",
+        "informal_variant": "Tourne à gauche."
+      }
+    },
+    {
+      "id": "a1-phrase-043",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Turn right.' in French?",
+      "back": "Tournez à droite.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Tournez à droite.",
+        "english": "Turn right.",
+        "context": "Giving a direction to turn (formal/polite imperative).",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": "Tournez à droite.",
+        "informal_variant": "Tourne à droite."
+      }
+    },
+    {
+      "id": "a1-phrase-044",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'It is next to the bakery.' in French?",
+      "back": "C'est à côté de la boulangerie.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est à côté de la boulangerie.",
+        "english": "It is next to the bakery.",
+        "context": "Specifying a location relative to a landmark.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-045",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Where is the metro station?' in French?",
+      "back": "Où est la station de métro ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Où est la station de métro ?",
+        "english": "Where is the metro station?",
+        "context": "Asking for the location of public transport.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-046",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'I am looking for Victor Hugo Street.' in French?",
+      "back": "Je cherche la rue Victor Hugo.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Je cherche la rue Victor Hugo.",
+        "english": "I am looking for Victor Hugo Street.",
+        "context": "Asking for help locating a specific street.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-047",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'It is after the traffic light.' in French?",
+      "back": "C'est après le feu rouge.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est après le feu rouge.",
+        "english": "It is after the traffic light.",
+        "context": "Using a traffic light as a point of reference.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-048",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'It is far.' in French?",
+      "back": "C'est loin.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est loin.",
+        "english": "It is far.",
+        "context": "Indicating that the destination is a long distance away.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    },
+    {
+      "id": "a1-phrase-049",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'Can you repeat, please?' in French?",
+      "back": "Vous pouvez répéter, s'il vous plaît ?",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "Vous pouvez répéter, s'il vous plaît ?",
+        "english": "Can you repeat, please?",
+        "context": "Asking someone to say the directions again because you did not catch them.",
+        "formality": "formal",
+        "category": "directions",
+        "formal_variant": "Vous pouvez répéter ?",
+        "informal_variant": "Tu peux répéter ?"
+      }
+    },
+    {
+      "id": "a1-phrase-050",
+      "type": "phrase",
+      "level": "a1",
+      "front": "How do you say 'It is here.' in French?",
+      "back": "C'est ici.",
+      "difficulty": 2,
+      "tags": [
+        "phrase",
+        "directions"
+      ],
+      "created_at": "2025-12-13T04:03:14.652680Z",
+      "metadata": {
+        "french": "C'est ici.",
+        "english": "It is here.",
+        "context": "Confirming the arrival at a destination.",
+        "formality": "neutral",
+        "category": "directions",
+        "formal_variant": null,
+        "informal_variant": null
+      }
+    }
+  ]
+}

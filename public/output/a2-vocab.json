@@ -1,0 +1,1416 @@
+{
+  "version": "1.0",
+  "level": "a2",
+  "type": "vocab",
+  "generated_at": "2025-12-13T04:03:55.696145Z",
+  "total_count": 60,
+  "flashcards": [
+    {
+      "id": "a2-vocab-001",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'bakery'?",
+      "back": "la boulangerie",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la boulangerie",
+        "english": "bakery",
+        "alternatives": [
+          "bread shop"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "J'achète ma baguette à la boulangerie tous les matins.",
+        "example_en": "I buy my baguette at the bakery every morning."
+      }
+    },
+    {
+      "id": "a2-vocab-002",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'market'?",
+      "back": "le marché",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le marché",
+        "english": "market",
+        "alternatives": [
+          "marketplace"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Nous allons au marché le samedi pour acheter des fruits frais.",
+        "example_en": "We go to the market on Saturday to buy fresh fruit."
+      }
+    },
+    {
+      "id": "a2-vocab-003",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to buy'?",
+      "back": "acheter",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "acheter",
+        "english": "to buy",
+        "alternatives": [
+          "to purchase"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Tu devrais acheter un nouveau manteau pour l'hiver.",
+        "example_en": "You should buy a new coat for the winter."
+      }
+    },
+    {
+      "id": "a2-vocab-004",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to sell'?",
+      "back": "vendre",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "vendre",
+        "english": "to sell",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Ils vendent de vieux meubles en ligne.",
+        "example_en": "They are selling old furniture online."
+      }
+    },
+    {
+      "id": "a2-vocab-005",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'something'?",
+      "back": "quelque chose",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "indefinite pronoun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "quelque chose",
+        "english": "something",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "indefinite pronoun",
+        "example_fr": "Il y a quelque chose de bizarre dans cette pièce.",
+        "example_en": "There is something strange in this room."
+      }
+    },
+    {
+      "id": "a2-vocab-006",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'nobody'?",
+      "back": "personne",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "indefinite pronoun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "personne",
+        "english": "nobody",
+        "alternatives": [
+          "no one"
+        ],
+        "gender": null,
+        "part_of_speech": "indefinite pronoun",
+        "example_fr": "Personne n'a vu l'accident.",
+        "example_en": "Nobody saw the accident."
+      }
+    },
+    {
+      "id": "a2-vocab-007",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'often'?",
+      "back": "souvent",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adverb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "souvent",
+        "english": "often",
+        "alternatives": [
+          "frequently"
+        ],
+        "gender": null,
+        "part_of_speech": "adverb",
+        "example_fr": "Je vais souvent à la bibliothèque après le travail.",
+        "example_en": "I often go to the library after work."
+      }
+    },
+    {
+      "id": "a2-vocab-008",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'rarely'?",
+      "back": "rarement",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adverb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "rarement",
+        "english": "rarely",
+        "alternatives": [
+          "seldom"
+        ],
+        "gender": null,
+        "part_of_speech": "adverb",
+        "example_fr": "Nous mangeons rarement de la viande rouge.",
+        "example_en": "We rarely eat red meat."
+      }
+    },
+    {
+      "id": "a2-vocab-009",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'after'?",
+      "back": "après",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "preposition"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "après",
+        "english": "after",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "preposition",
+        "example_fr": "Je ferai mes devoirs après le dîner.",
+        "example_en": "I will do my homework after dinner."
+      }
+    },
+    {
+      "id": "a2-vocab-010",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'before'?",
+      "back": "avant",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "preposition"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "avant",
+        "english": "before",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "preposition",
+        "example_fr": "Lavez-vous les mains avant de manger.",
+        "example_en": "Wash your hands before eating."
+      }
+    },
+    {
+      "id": "a2-vocab-011",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'almost'?",
+      "back": "presque",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adverb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "presque",
+        "english": "almost",
+        "alternatives": [
+          "nearly"
+        ],
+        "gender": null,
+        "part_of_speech": "adverb",
+        "example_fr": "Il est presque midi, dépêchons-nous !",
+        "example_en": "It is almost noon, let's hurry up!"
+      }
+    },
+    {
+      "id": "a2-vocab-012",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'noise'?",
+      "back": "le bruit",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le bruit",
+        "english": "noise",
+        "alternatives": [
+          "sound (loud)"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Fais attention, il y a beaucoup de bruit dehors.",
+        "example_en": "Be careful, there is a lot of noise outside."
+      }
+    },
+    {
+      "id": "a2-vocab-013",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'quiet'?",
+      "back": "silencieux/silencieuse",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "silencieux/silencieuse",
+        "english": "quiet",
+        "alternatives": [
+          "silent"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "La bibliothèque est un endroit silencieux.",
+        "example_en": "The library is a quiet place."
+      }
+    },
+    {
+      "id": "a2-vocab-014",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'key'?",
+      "back": "la clé",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la clé",
+        "english": "key",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Où sont les clés de la voiture ?",
+        "example_en": "Where are the car keys?"
+      }
+    },
+    {
+      "id": "a2-vocab-015",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'post office'?",
+      "back": "la poste",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la poste",
+        "english": "post office",
+        "alternatives": [
+          "mail"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Je dois aller à la poste pour envoyer ce colis.",
+        "example_en": "I have to go to the post office to send this package."
+      }
+    },
+    {
+      "id": "a2-vocab-016",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to send'?",
+      "back": "envoyer",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "envoyer",
+        "english": "to send",
+        "alternatives": [
+          "to mail"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "N'oublie pas d'envoyer un message à ta mère.",
+        "example_en": "Don't forget to send a message to your mother."
+      }
+    },
+    {
+      "id": "a2-vocab-017",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to receive'?",
+      "back": "recevoir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "recevoir",
+        "english": "to receive",
+        "alternatives": [
+          "to get"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "J'ai reçu une lettre importante ce matin.",
+        "example_en": "I received an important letter this morning."
+      }
+    },
+    {
+      "id": "a2-vocab-018",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'mail'?",
+      "back": "le courrier",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le courrier",
+        "english": "mail",
+        "alternatives": [
+          "post"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Y a-t-il du courrier pour moi aujourd'hui ?",
+        "example_en": "Is there any mail for me today?"
+      }
+    },
+    {
+      "id": "a2-vocab-019",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'bill'?",
+      "back": "la facture",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la facture",
+        "english": "bill",
+        "alternatives": [
+          "invoice"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "J'ai oublié de payer la facture d'électricité.",
+        "example_en": "I forgot to pay the electricity bill."
+      }
+    },
+    {
+      "id": "a2-vocab-020",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to pay'?",
+      "back": "payer",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "payer",
+        "english": "to pay",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Tu peux payer par carte ou en espèces.",
+        "example_en": "You can pay by card or in cash."
+      }
+    },
+    {
+      "id": "a2-vocab-021",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to save (money)'?",
+      "back": "économiser",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "économiser",
+        "english": "to save (money)",
+        "alternatives": [
+          "to economize"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "J'essaie d'économiser pour acheter une voiture.",
+        "example_en": "I am trying to save up to buy a car."
+      }
+    },
+    {
+      "id": "a2-vocab-022",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'expensive'?",
+      "back": "cher/chère",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "cher/chère",
+        "english": "expensive",
+        "alternatives": [
+          "dear"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "Ce restaurant est très cher, mais la nourriture est bonne.",
+        "example_en": "This restaurant is very expensive, but the food is good."
+      }
+    },
+    {
+      "id": "a2-vocab-023",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'cheap'?",
+      "back": "bon marché",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "bon marché",
+        "english": "cheap",
+        "alternatives": [
+          "inexpensive",
+          "good value"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "J'ai trouvé un billet d'avion bon marché.",
+        "example_en": "I found a cheap plane ticket."
+      }
+    },
+    {
+      "id": "a2-vocab-024",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'weather forecast'?",
+      "back": "la météo",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la météo",
+        "english": "weather forecast",
+        "alternatives": [
+          "weather"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Quelle est la météo pour demain ?",
+        "example_en": "What is the weather forecast for tomorrow?"
+      }
+    },
+    {
+      "id": "a2-vocab-025",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'it is raining'?",
+      "back": "il pleut",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "impersonal verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "il pleut",
+        "english": "it is raining",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "impersonal verb",
+        "example_fr": "Il pleut beaucoup en automne.",
+        "example_en": "It rains a lot in autumn."
+      }
+    },
+    {
+      "id": "a2-vocab-026",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to snow'?",
+      "back": "neiger",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "neiger",
+        "english": "to snow",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Il va neiger ce week-end à la montagne.",
+        "example_en": "It is going to snow this weekend in the mountains."
+      }
+    },
+    {
+      "id": "a2-vocab-027",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'umbrella'?",
+      "back": "le parapluie",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le parapluie",
+        "english": "umbrella",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "N'oublie pas ton parapluie s'il pleut.",
+        "example_en": "Don't forget your umbrella if it rains."
+      }
+    },
+    {
+      "id": "a2-vocab-028",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to leave'?",
+      "back": "partir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "partir",
+        "english": "to leave",
+        "alternatives": [
+          "to depart"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Nous partons en vacances dans deux jours.",
+        "example_en": "We are leaving for vacation in two days."
+      }
+    },
+    {
+      "id": "a2-vocab-029",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to come back'?",
+      "back": "revenir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "revenir",
+        "english": "to come back",
+        "alternatives": [
+          "to return"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Quand est-ce que tu vas revenir de Paris ?",
+        "example_en": "When are you going to come back from Paris?"
+      }
+    },
+    {
+      "id": "a2-vocab-030",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'train station'?",
+      "back": "la gare",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la gare",
+        "english": "train station",
+        "alternatives": [
+          "railway station"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Le train part de la gare à sept heures.",
+        "example_en": "The train leaves the station at seven o'clock."
+      }
+    },
+    {
+      "id": "a2-vocab-031",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'airport'?",
+      "back": "l'aéroport",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "l'aéroport",
+        "english": "airport",
+        "alternatives": [],
+        "gender": "l'",
+        "part_of_speech": "noun",
+        "example_fr": "Nous devons être à l'aéroport deux heures avant le vol.",
+        "example_en": "We must be at the airport two hours before the flight."
+      }
+    },
+    {
+      "id": "a2-vocab-032",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'trip'?",
+      "back": "le voyage",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le voyage",
+        "english": "trip",
+        "alternatives": [
+          "journey",
+          "travel"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "C'était un long voyage en voiture.",
+        "example_en": "It was a long car trip."
+      }
+    },
+    {
+      "id": "a2-vocab-033",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to rent'?",
+      "back": "louer",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "louer",
+        "english": "to rent",
+        "alternatives": [
+          "to hire"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Nous avons décidé de louer un appartement près de la mer.",
+        "example_en": "We decided to rent an apartment near the sea."
+      }
+    },
+    {
+      "id": "a2-vocab-034",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'rent (payment)'?",
+      "back": "le loyer",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le loyer",
+        "english": "rent (payment)",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Le loyer est très élevé dans cette ville.",
+        "example_en": "The rent is very high in this city."
+      }
+    },
+    {
+      "id": "a2-vocab-035",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'room'?",
+      "back": "la chambre",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la chambre",
+        "english": "room",
+        "alternatives": [
+          "bedroom"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Ma chambre est au deuxième étage.",
+        "example_en": "My room is on the second floor."
+      }
+    },
+    {
+      "id": "a2-vocab-036",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'neighbor'?",
+      "back": "le voisin/la voisine",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le voisin/la voisine",
+        "english": "neighbor",
+        "alternatives": [],
+        "gender": "le/la",
+        "part_of_speech": "noun",
+        "example_fr": "Mon voisin est très gentil et m'aide souvent.",
+        "example_en": "My neighbor is very kind and often helps me."
+      }
+    },
+    {
+      "id": "a2-vocab-037",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to help'?",
+      "back": "aider",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "aider",
+        "english": "to help",
+        "alternatives": [
+          "to assist"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Peux-tu m'aider à porter ces sacs ?",
+        "example_en": "Can you help me carry these bags?"
+      }
+    },
+    {
+      "id": "a2-vocab-038",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'easy'?",
+      "back": "facile",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "facile",
+        "english": "easy",
+        "alternatives": [
+          "simple"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "L'examen était plus facile que prévu.",
+        "example_en": "The exam was easier than expected."
+      }
+    },
+    {
+      "id": "a2-vocab-039",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'difficult'?",
+      "back": "difficile",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "difficile",
+        "english": "difficult",
+        "alternatives": [
+          "hard"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "C'est une question difficile à répondre.",
+        "example_en": "That is a difficult question to answer."
+      }
+    },
+    {
+      "id": "a2-vocab-040",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'interesting'?",
+      "back": "intéressant/intéressante",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "intéressant/intéressante",
+        "english": "interesting",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "J'ai lu un livre très intéressant hier soir.",
+        "example_en": "I read a very interesting book last night."
+      }
+    },
+    {
+      "id": "a2-vocab-041",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'boring'?",
+      "back": "ennuyeux/ennuyeuse",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "ennuyeux/ennuyeuse",
+        "english": "boring",
+        "alternatives": [
+          "annoying"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "Ce film est vraiment ennuyeux, je m'endors.",
+        "example_en": "This movie is really boring, I am falling asleep."
+      }
+    },
+    {
+      "id": "a2-vocab-042",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to think'?",
+      "back": "penser",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "penser",
+        "english": "to think",
+        "alternatives": [
+          "to believe"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Que penses-tu de cette idée ?",
+        "example_en": "What do you think of this idea?"
+      }
+    },
+    {
+      "id": "a2-vocab-043",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to believe'?",
+      "back": "croire",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "croire",
+        "english": "to believe",
+        "alternatives": [
+          "to think"
+        ],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "Je crois qu'il fait beau aujourd'hui.",
+        "example_en": "I believe that the weather is nice today."
+      }
+    },
+    {
+      "id": "a2-vocab-044",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'health'?",
+      "back": "la santé",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la santé",
+        "english": "health",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Il est important de prendre soin de sa santé.",
+        "example_en": "It is important to take care of your health."
+      }
+    },
+    {
+      "id": "a2-vocab-045",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'tired'?",
+      "back": "fatigué/fatiguée",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "fatigué/fatiguée",
+        "english": "tired",
+        "alternatives": [
+          "weary"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "Je suis très fatigué après cette longue journée.",
+        "example_en": "I am very tired after this long day."
+      }
+    },
+    {
+      "id": "a2-vocab-046",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to rest'?",
+      "back": "se reposer",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "reflexive verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "se reposer",
+        "english": "to rest",
+        "alternatives": [
+          "to relax"
+        ],
+        "gender": null,
+        "part_of_speech": "reflexive verb",
+        "example_fr": "Tu devrais te reposer un peu après le sport.",
+        "example_en": "You should rest a little after exercising."
+      }
+    },
+    {
+      "id": "a2-vocab-047",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'appointment'?",
+      "back": "le rendez-vous",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le rendez-vous",
+        "english": "appointment",
+        "alternatives": [
+          "meeting",
+          "date"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "J'ai un rendez-vous chez le dentiste à 15 heures.",
+        "example_en": "I have an appointment at the dentist's at 3 PM."
+      }
+    },
+    {
+      "id": "a2-vocab-048",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'early'?",
+      "back": "tôt",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adverb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "tôt",
+        "english": "early",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "adverb",
+        "example_fr": "Je me lève très tôt pour aller travailler.",
+        "example_en": " I get up very early to go to work."
+      }
+    },
+    {
+      "id": "a2-vocab-049",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'late'?",
+      "back": "tard",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adverb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "tard",
+        "english": "late",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "adverb",
+        "example_fr": "Ne rentre pas trop tard ce soir.",
+        "example_en": "Don't come home too late tonight."
+      }
+    },
+    {
+      "id": "a2-vocab-050",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'each'?",
+      "back": "chaque",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "adjective"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "chaque",
+        "english": "each",
+        "alternatives": [
+          "every"
+        ],
+        "gender": null,
+        "part_of_speech": "adjective",
+        "example_fr": "Nous allons au cinéma chaque semaine.",
+        "example_en": "We go to the cinema every week."
+      }
+    },
+    {
+      "id": "a2-vocab-051",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'free time'?",
+      "back": "le temps libre",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le temps libre",
+        "english": "free time",
+        "alternatives": [
+          "le loisir"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Qu'est-ce que tu aimes faire pendant ton temps libre ?",
+        "example_en": "What do you like to do during your free time?"
+      }
+    },
+    {
+      "id": "a2-vocab-052",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'homework'?",
+      "back": "le devoir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le devoir",
+        "english": "homework",
+        "alternatives": [
+          "duty",
+          "task"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Les enfants doivent faire leurs devoirs avant de jouer.",
+        "example_en": "The children must do their homework before playing."
+      }
+    },
+    {
+      "id": "a2-vocab-053",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'week'?",
+      "back": "la semaine",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la semaine",
+        "english": "week",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Je travaille cinq jours par semaine.",
+        "example_en": "I work five days per week."
+      }
+    },
+    {
+      "id": "a2-vocab-054",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'month'?",
+      "back": "le mois",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le mois",
+        "english": "month",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Nous partons en vacances le mois prochain.",
+        "example_en": "We are leaving for vacation next month."
+      }
+    },
+    {
+      "id": "a2-vocab-055",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'year'?",
+      "back": "l'année",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "l'année",
+        "english": "year",
+        "alternatives": [
+          "l'an"
+        ],
+        "gender": "l'",
+        "part_of_speech": "noun",
+        "example_fr": "Il y a douze mois dans une année.",
+        "example_en": "There are twelve months in a year."
+      }
+    },
+    {
+      "id": "a2-vocab-056",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'hour'?",
+      "back": "l'heure",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "l'heure",
+        "english": "hour",
+        "alternatives": [
+          "time"
+        ],
+        "gender": "l'",
+        "part_of_speech": "noun",
+        "example_fr": "Nous avons attendu pendant une heure.",
+        "example_en": "We waited for one hour."
+      }
+    },
+    {
+      "id": "a2-vocab-057",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'dish'?",
+      "back": "le plat",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le plat",
+        "english": "dish",
+        "alternatives": [
+          "meal",
+          "plate"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "Quel est le plat du jour ?",
+        "example_en": "What is the dish of the day?"
+      }
+    },
+    {
+      "id": "a2-vocab-058",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'kitchen'?",
+      "back": "la cuisine",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "la cuisine",
+        "english": "kitchen",
+        "alternatives": [
+          "cooking"
+        ],
+        "gender": "la",
+        "part_of_speech": "noun",
+        "example_fr": "Ma mère prépare le dîner dans la cuisine.",
+        "example_en": "My mother is preparing dinner in the kitchen."
+      }
+    },
+    {
+      "id": "a2-vocab-059",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'gift'?",
+      "back": "le cadeau",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "noun"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "le cadeau",
+        "english": "gift",
+        "alternatives": [
+          "present"
+        ],
+        "gender": "le",
+        "part_of_speech": "noun",
+        "example_fr": "J'ai acheté un beau cadeau pour son anniversaire.",
+        "example_en": "I bought a beautiful gift for his birthday."
+      }
+    },
+    {
+      "id": "a2-vocab-060",
+      "type": "vocab",
+      "level": "a2",
+      "front": "What is the French word for 'to forget'?",
+      "back": "oublier",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "verb"
+      ],
+      "created_at": "2025-12-13T04:03:55.693144Z",
+      "metadata": {
+        "french": "oublier",
+        "english": "to forget",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "verb",
+        "example_fr": "N'oublie pas d'éteindre la lumière en partant.",
+        "example_en": "Don't forget to turn off the light when leaving."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1162 @@
+{
+  "version": "1.0",
+  "level": "a1",
+  "type": "vocab",
+  "generated_at": "2025-12-13T04:02:27.025579Z",
+  "total_count": 50,
+  "flashcards": [
+    {
+      "id": "a1-vocab-001",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Hello'?",
+      "back": "Bonjour",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Greeting"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Bonjour",
+        "english": "Hello",
+        "alternatives": [
+          "Good day",
+          "Hi"
+        ],
+        "gender": null,
+        "part_of_speech": "Greeting",
+        "example_fr": "Bonjour, comment ça va ?",
+        "example_en": "Hello, how are you?"
+      }
+    },
+    {
+      "id": "a1-vocab-002",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Goodbye'?",
+      "back": "Au revoir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Greeting"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Au revoir",
+        "english": "Goodbye",
+        "alternatives": [
+          "Bye"
+        ],
+        "gender": null,
+        "part_of_speech": "Greeting",
+        "example_fr": "Au revoir, à demain.",
+        "example_en": "Goodbye, see you tomorrow."
+      }
+    },
+    {
+      "id": "a1-vocab-003",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Thank you'?",
+      "back": "Merci",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Interjection"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Merci",
+        "english": "Thank you",
+        "alternatives": [
+          "Thanks"
+        ],
+        "gender": null,
+        "part_of_speech": "Interjection",
+        "example_fr": "Merci beaucoup pour le cadeau.",
+        "example_en": "Thank you very much for the gift."
+      }
+    },
+    {
+      "id": "a1-vocab-004",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Please (formal)'?",
+      "back": "S'il vous plaît",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Phrase"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "S'il vous plaît",
+        "english": "Please (formal)",
+        "alternatives": [
+          "If you please"
+        ],
+        "gender": null,
+        "part_of_speech": "Phrase",
+        "example_fr": "Un café, s'il vous plaît.",
+        "example_en": "A coffee, please."
+      }
+    },
+    {
+      "id": "a1-vocab-005",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Yes'?",
+      "back": "Oui",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adverb"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Oui",
+        "english": "Yes",
+        "alternatives": [
+          "Yeah"
+        ],
+        "gender": null,
+        "part_of_speech": "Adverb",
+        "example_fr": "Oui, je suis prêt.",
+        "example_en": "Yes, I am ready."
+      }
+    },
+    {
+      "id": "a1-vocab-006",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'No'?",
+      "back": "Non",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adverb"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Non",
+        "english": "No",
+        "alternatives": [
+          "Not"
+        ],
+        "gender": null,
+        "part_of_speech": "Adverb",
+        "example_fr": "Non, ce n'est pas vrai.",
+        "example_en": "No, that is not true."
+      }
+    },
+    {
+      "id": "a1-vocab-007",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Book'?",
+      "back": "Le livre",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le livre",
+        "english": "Book",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "J'ai un nouveau livre.",
+        "example_en": "I have a new book."
+      }
+    },
+    {
+      "id": "a1-vocab-008",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Table'?",
+      "back": "La table",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La table",
+        "english": "Table",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "La table est grande.",
+        "example_en": "The table is big."
+      }
+    },
+    {
+      "id": "a1-vocab-009",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Chair'?",
+      "back": "La chaise",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La chaise",
+        "english": "Chair",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Assieds-toi sur la chaise.",
+        "example_en": "Sit down on the chair."
+      }
+    },
+    {
+      "id": "a1-vocab-010",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Pen'?",
+      "back": "Le stylo",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le stylo",
+        "english": "Pen",
+        "alternatives": [
+          "Ballpoint pen"
+        ],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "Où est mon stylo bleu ?",
+        "example_en": "Where is my blue pen?"
+      }
+    },
+    {
+      "id": "a1-vocab-011",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Door'?",
+      "back": "La porte",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La porte",
+        "english": "Door",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Ferme la porte, s'il te plaît.",
+        "example_en": "Close the door, please."
+      }
+    },
+    {
+      "id": "a1-vocab-012",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Window'?",
+      "back": "La fenêtre",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La fenêtre",
+        "english": "Window",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "La fenêtre est ouverte.",
+        "example_en": "The window is open."
+      }
+    },
+    {
+      "id": "a1-vocab-013",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Telephone'?",
+      "back": "Le téléphone",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le téléphone",
+        "english": "Telephone",
+        "alternatives": [
+          "Phone"
+        ],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "Mon téléphone est sur la table.",
+        "example_en": "My phone is on the table."
+      }
+    },
+    {
+      "id": "a1-vocab-014",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Key'?",
+      "back": "La clé",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La clé",
+        "english": "Key",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "J'ai perdu ma clé.",
+        "example_en": "I lost my key."
+      }
+    },
+    {
+      "id": "a1-vocab-015",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Water'?",
+      "back": "L'eau",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "L'eau",
+        "english": "Water",
+        "alternatives": [],
+        "gender": "l' (la)",
+        "part_of_speech": "Noun",
+        "example_fr": "Je voudrais de l'eau.",
+        "example_en": "I would like some water."
+      }
+    },
+    {
+      "id": "a1-vocab-016",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Bread'?",
+      "back": "Le pain",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le pain",
+        "english": "Bread",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "J'achète du pain à la boulangerie.",
+        "example_en": "I buy bread at the bakery."
+      }
+    },
+    {
+      "id": "a1-vocab-017",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Apple'?",
+      "back": "La pomme",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La pomme",
+        "english": "Apple",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Tu aimes la pomme rouge ?",
+        "example_en": "Do you like the red apple?"
+      }
+    },
+    {
+      "id": "a1-vocab-018",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Cat'?",
+      "back": "Le chat",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le chat",
+        "english": "Cat",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "Le chat dort beaucoup.",
+        "example_en": "The cat sleeps a lot."
+      }
+    },
+    {
+      "id": "a1-vocab-019",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Dog'?",
+      "back": "Le chien",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le chien",
+        "english": "Dog",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "J'ai un petit chien.",
+        "example_en": "I have a small dog."
+      }
+    },
+    {
+      "id": "a1-vocab-020",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Car'?",
+      "back": "La voiture",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La voiture",
+        "english": "Car",
+        "alternatives": [
+          "Automobile"
+        ],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Ma voiture est rouge.",
+        "example_en": "My car is red."
+      }
+    },
+    {
+      "id": "a1-vocab-021",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'School'?",
+      "back": "L'école",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "L'école",
+        "english": "School",
+        "alternatives": [],
+        "gender": "l' (la)",
+        "part_of_speech": "Noun",
+        "example_fr": "Je vais à l'école tous les jours.",
+        "example_en": "I go to school every day."
+      }
+    },
+    {
+      "id": "a1-vocab-022",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'House'?",
+      "back": "La maison",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La maison",
+        "english": "House",
+        "alternatives": [
+          "Home"
+        ],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Nous habitons une grande maison.",
+        "example_en": "We live in a big house."
+      }
+    },
+    {
+      "id": "a1-vocab-023",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Street'?",
+      "back": "La rue",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La rue",
+        "english": "Street",
+        "alternatives": [
+          "Road"
+        ],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "La rue est très longue.",
+        "example_en": "The street is very long."
+      }
+    },
+    {
+      "id": "a1-vocab-024",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Work'?",
+      "back": "Le travail",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le travail",
+        "english": "Work",
+        "alternatives": [
+          "Job"
+        ],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "J'aime mon travail.",
+        "example_en": "I like my work."
+      }
+    },
+    {
+      "id": "a1-vocab-025",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Money'?",
+      "back": "L'argent",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "L'argent",
+        "english": "Money",
+        "alternatives": [
+          "Silver"
+        ],
+        "gender": "l' (le)",
+        "part_of_speech": "Noun",
+        "example_fr": "Il n'a pas beaucoup d'argent.",
+        "example_en": "He doesn't have much money."
+      }
+    },
+    {
+      "id": "a1-vocab-026",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Brother'?",
+      "back": "Le frère",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le frère",
+        "english": "Brother",
+        "alternatives": [],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "Mon frère est étudiant.",
+        "example_en": "My brother is a student."
+      }
+    },
+    {
+      "id": "a1-vocab-027",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Sister'?",
+      "back": "La sœur",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La sœur",
+        "english": "Sister",
+        "alternatives": [],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Ma sœur est gentille.",
+        "example_en": "My sister is kind."
+      }
+    },
+    {
+      "id": "a1-vocab-028",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Father'?",
+      "back": "Le père",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Le père",
+        "english": "Father",
+        "alternatives": [
+          "Dad"
+        ],
+        "gender": "le",
+        "part_of_speech": "Noun",
+        "example_fr": "Où est ton père ?",
+        "example_en": "Where is your father?"
+      }
+    },
+    {
+      "id": "a1-vocab-029",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Mother'?",
+      "back": "La mère",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Noun"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "La mère",
+        "english": "Mother",
+        "alternatives": [
+          "Mom"
+        ],
+        "gender": "la",
+        "part_of_speech": "Noun",
+        "example_fr": "Ma mère cuisine bien.",
+        "example_en": "My mother cooks well."
+      }
+    },
+    {
+      "id": "a1-vocab-030",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To have'?",
+      "back": "Avoir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Avoir",
+        "english": "To have",
+        "alternatives": [
+          "To possess"
+        ],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "J'ai deux frères.",
+        "example_en": "I have two brothers."
+      }
+    },
+    {
+      "id": "a1-vocab-031",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To be'?",
+      "back": "Être",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Être",
+        "english": "To be",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Tu es fatigué.",
+        "example_en": "You are tired."
+      }
+    },
+    {
+      "id": "a1-vocab-032",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To speak'?",
+      "back": "Parler",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Parler",
+        "english": "To speak",
+        "alternatives": [
+          "To talk"
+        ],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Nous parlons français.",
+        "example_en": "We speak French."
+      }
+    },
+    {
+      "id": "a1-vocab-033",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To live (in a place)'?",
+      "back": "Habiter",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Habiter",
+        "english": "To live (in a place)",
+        "alternatives": [
+          "To reside"
+        ],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "J'habite à Paris.",
+        "example_en": "I live in Paris."
+      }
+    },
+    {
+      "id": "a1-vocab-034",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To eat'?",
+      "back": "Manger",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Manger",
+        "english": "To eat",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Ils mangent des pâtes.",
+        "example_en": "They are eating pasta."
+      }
+    },
+    {
+      "id": "a1-vocab-035",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To drink'?",
+      "back": "Boire",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Boire",
+        "english": "To drink",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Je bois du thé le matin.",
+        "example_en": "I drink tea in the morning."
+      }
+    },
+    {
+      "id": "a1-vocab-036",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To go'?",
+      "back": "Aller",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Aller",
+        "english": "To go",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Elle va au supermarché.",
+        "example_en": "She is going to the supermarket."
+      }
+    },
+    {
+      "id": "a1-vocab-037",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To come'?",
+      "back": "Venir",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Venir",
+        "english": "To come",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Vous venez d'où ?",
+        "example_en": "Where do you come from?"
+      }
+    },
+    {
+      "id": "a1-vocab-038",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To do'?",
+      "back": "Faire",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Faire",
+        "english": "To do",
+        "alternatives": [
+          "To make"
+        ],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Je fais mes devoirs.",
+        "example_en": "I do my homework."
+      }
+    },
+    {
+      "id": "a1-vocab-039",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To look (at)'?",
+      "back": "Regarder",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Regarder",
+        "english": "To look (at)",
+        "alternatives": [
+          "To watch"
+        ],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "Nous regardons un film.",
+        "example_en": "We are watching a movie."
+      }
+    },
+    {
+      "id": "a1-vocab-040",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'To listen (to)'?",
+      "back": "Écouter",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Verb (Infinitive)"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Écouter",
+        "english": "To listen (to)",
+        "alternatives": [
+          "To hear"
+        ],
+        "gender": null,
+        "part_of_speech": "Verb (Infinitive)",
+        "example_fr": "J'écoute la radio.",
+        "example_en": "I am listening to the radio."
+      }
+    },
+    {
+      "id": "a1-vocab-041",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Big'?",
+      "back": "Grand(e)",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adjective"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Grand(e)",
+        "english": "Big",
+        "alternatives": [
+          "Tall",
+          "Large"
+        ],
+        "gender": null,
+        "part_of_speech": "Adjective",
+        "example_fr": "Mon appartement est grand.",
+        "example_en": "My apartment is big."
+      }
+    },
+    {
+      "id": "a1-vocab-042",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Small'?",
+      "back": "Petit(e)",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adjective"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Petit(e)",
+        "english": "Small",
+        "alternatives": [
+          "Short",
+          "Little"
+        ],
+        "gender": null,
+        "part_of_speech": "Adjective",
+        "example_fr": "J'ai une petite voiture.",
+        "example_en": "I have a small car."
+      }
+    },
+    {
+      "id": "a1-vocab-043",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Blue'?",
+      "back": "Bleu(e)",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adjective"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Bleu(e)",
+        "english": "Blue",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Adjective",
+        "example_fr": "Le ciel est bleu.",
+        "example_en": "The sky is blue."
+      }
+    },
+    {
+      "id": "a1-vocab-044",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Red'?",
+      "back": "Rouge",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adjective"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Rouge",
+        "english": "Red",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Adjective",
+        "example_fr": "J'aime la couleur rouge.",
+        "example_en": "I like the color red."
+      }
+    },
+    {
+      "id": "a1-vocab-045",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Green'?",
+      "back": "Vert(e)",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adjective"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Vert(e)",
+        "english": "Green",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Adjective",
+        "example_fr": "Mon jardin est vert.",
+        "example_en": "My garden is green."
+      }
+    },
+    {
+      "id": "a1-vocab-046",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Very'?",
+      "back": "Très",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adverb"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Très",
+        "english": "Very",
+        "alternatives": [
+          "Really"
+        ],
+        "gender": null,
+        "part_of_speech": "Adverb",
+        "example_fr": "C'est très facile.",
+        "example_en": "It is very easy."
+      }
+    },
+    {
+      "id": "a1-vocab-047",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Here'?",
+      "back": "Ici",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adverb"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Ici",
+        "english": "Here",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Adverb",
+        "example_fr": "Attendez ici, s'il vous plaît.",
+        "example_en": "Wait here, please."
+      }
+    },
+    {
+      "id": "a1-vocab-048",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'Tomorrow'?",
+      "back": "Demain",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Adverb"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Demain",
+        "english": "Tomorrow",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Adverb",
+        "example_fr": "On se voit demain.",
+        "example_en": "We will see each other tomorrow."
+      }
+    },
+    {
+      "id": "a1-vocab-049",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'And'?",
+      "back": "Et",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Conjunction"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Et",
+        "english": "And",
+        "alternatives": [],
+        "gender": null,
+        "part_of_speech": "Conjunction",
+        "example_fr": "J'ai un chien et un chat.",
+        "example_en": "I have a dog and a cat."
+      }
+    },
+    {
+      "id": "a1-vocab-050",
+      "type": "vocab",
+      "level": "a1",
+      "front": "What is the French word for 'In'?",
+      "back": "Dans",
+      "difficulty": 2,
+      "tags": [
+        "vocab",
+        "Preposition"
+      ],
+      "created_at": "2025-12-13T04:02:27.017553Z",
+      "metadata": {
+        "french": "Dans",
+        "english": "In",
+        "alternatives": [
+          "Inside"
+        ],
+        "gender": null,
+        "part_of_speech": "Preposition",
+        "example_fr": "Le livre est dans le sac.",
+        "example_en": "The book is in the bag."
+      }
+    }
+  ]
+}

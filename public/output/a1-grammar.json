@@ -1,0 +1,745 @@
+{
+  "version": "1.0",
+  "level": "a1",
+  "type": "grammar",
+  "generated_at": "2025-12-13T04:02:50.447557Z",
+  "total_count": 29,
+  "flashcards": [
+    {
+      "id": "a1-grammar-001",
+      "type": "grammar",
+      "level": "a1",
+      "front": "For regular -ER verbs in the present tense, the endings for Je, Tu, Il/Elle/On are -e, -es, -e.",
+      "back": "Je parle français. (I speak French.)\nTu regardes la télévision. (You watch TV.)\nElle écoute la musique. (She listens to music.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-ER)"
+      ],
+      "created_at": "2025-12-13T04:02:50.441406Z",
+      "metadata": {
+        "rule": "For regular -ER verbs in the present tense, the endings for Je, Tu, Il/Elle/On are -e, -es, -e.",
+        "pattern": "Verb Stem + e, es, e",
+        "examples": [
+          "Je parle français. (I speak French.)",
+          "Tu regardes la télévision. (You watch TV.)",
+          "Elle écoute la musique. (She listens to music.)"
+        ],
+        "exceptions": [
+          "Aller (to go) is highly irregular."
+        ],
+        "topic": "Conjugation (-ER)"
+      }
+    },
+    {
+      "id": "a1-grammar-002",
+      "type": "grammar",
+      "level": "a1",
+      "front": "For regular -ER verbs in the present tense, the endings for Nous, Vous, Ils/Elles are -ons, -ez, -ent.",
+      "back": "Nous mangeons à midi. (We eat at noon.)\nVous travaillez beaucoup. (You work a lot.)\nIls aiment le chocolat. (They like chocolate.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-ER)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "For regular -ER verbs in the present tense, the endings for Nous, Vous, Ils/Elles are -ons, -ez, -ent.",
+        "pattern": "Verb Stem + ons, ez, ent",
+        "examples": [
+          "Nous mangeons à midi. (We eat at noon.)",
+          "Vous travaillez beaucoup. (You work a lot.)",
+          "Ils aiment le chocolat. (They like chocolate.)"
+        ],
+        "exceptions": [
+          "The '-ent' ending is silent."
+        ],
+        "topic": "Conjugation (-ER)"
+      }
+    },
+    {
+      "id": "a1-grammar-003",
+      "type": "grammar",
+      "level": "a1",
+      "front": "To form a negative sentence, place 'ne' before the conjugated verb and 'pas' after it.",
+      "back": "Je ne parle pas espagnol. (I do not speak Spanish.)\nNous n'étudions pas ce soir. (We are not studying tonight.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Negation"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "To form a negative sentence, place 'ne' before the conjugated verb and 'pas' after it.",
+        "pattern": "Subject + ne + Verb + pas + Object",
+        "examples": [
+          "Je ne parle pas espagnol. (I do not speak Spanish.)",
+          "Nous n'étudions pas ce soir. (We are not studying tonight.)"
+        ],
+        "exceptions": [
+          "If the verb starts with a vowel or silent 'h', 'ne' becomes 'n''."
+        ],
+        "topic": "Negation"
+      }
+    },
+    {
+      "id": "a1-grammar-004",
+      "type": "grammar",
+      "level": "a1",
+      "front": "In French, the definite article 'le' is used before singular masculine nouns.",
+      "back": "Le livre est rouge. (The book is red.)\nJ'aime le sport. (I like sport.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Articles (Definite)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "In French, the definite article 'le' is used before singular masculine nouns.",
+        "pattern": "Le + Masculine Noun",
+        "examples": [
+          "Le livre est rouge. (The book is red.)",
+          "J'aime le sport. (I like sport.)"
+        ],
+        "exceptions": [
+          "If the noun starts with a vowel, use 'l'' (e.g., l'homme)."
+        ],
+        "topic": "Articles (Definite)"
+      }
+    },
+    {
+      "id": "a1-grammar-005",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The definite article 'la' is used before singular feminine nouns.",
+      "back": "La table est grande. (The table is big.)\nOù est la clé? (Where is the key?)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Articles (Definite)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The definite article 'la' is used before singular feminine nouns.",
+        "pattern": "La + Feminine Noun",
+        "examples": [
+          "La table est grande. (The table is big.)",
+          "Où est la clé? (Where is the key?)"
+        ],
+        "exceptions": [
+          "If the noun starts with a vowel, use 'l'' (e.g., l'école)."
+        ],
+        "topic": "Articles (Definite)"
+      }
+    },
+    {
+      "id": "a1-grammar-006",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The definite article 'les' is used before all plural nouns, regardless of gender.",
+      "back": "Les étudiants sont ici. (The students are here.)\nJ'achète les pommes. (I buy the apples.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Articles (Definite)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The definite article 'les' is used before all plural nouns, regardless of gender.",
+        "pattern": "Les + Plural Noun",
+        "examples": [
+          "Les étudiants sont ici. (The students are here.)",
+          "J'achète les pommes. (I buy the apples.)"
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "Articles (Definite)"
+      }
+    },
+    {
+      "id": "a1-grammar-007",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The indefinite article 'un' means 'a' or 'an' and is used before singular masculine nouns.",
+      "back": "J'ai un chien. (I have a dog.)\nC'est un problème. (It is a problem.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Articles (Indefinite)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The indefinite article 'un' means 'a' or 'an' and is used before singular masculine nouns.",
+        "pattern": "Un + Masculine Noun",
+        "examples": [
+          "J'ai un chien. (I have a dog.)",
+          "C'est un problème. (It is a problem.)"
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "Articles (Indefinite)"
+      }
+    },
+    {
+      "id": "a1-grammar-009",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The indefinite article 'des' means 'some' and is used before all plural nouns.",
+      "back": "Il y a des livres sur la table. (There are some books on the table.)\nNous achetons des fleurs. (We buy some flowers.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Articles (Indefinite)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The indefinite article 'des' means 'some' and is used before all plural nouns.",
+        "pattern": "Des + Plural Noun",
+        "examples": [
+          "Il y a des livres sur la table. (There are some books on the table.)",
+          "Nous achetons des fleurs. (We buy some flowers.)"
+        ],
+        "exceptions": [
+          "In negative sentences, 'des' often changes to 'de' or 'd''."
+        ],
+        "topic": "Articles (Indefinite)"
+      }
+    },
+    {
+      "id": "a1-grammar-010",
+      "type": "grammar",
+      "level": "a1",
+      "front": "For regular -IR verbs (like 'finir'), the present tense endings for Je, Tu, Il/Elle/On are -is, -is, -it.",
+      "back": "Je finis mes devoirs. (I finish my homework.)\nTu choisis une couleur. (You choose a color.)\nIl réagit bien. (He reacts well.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-IR)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "For regular -IR verbs (like 'finir'), the present tense endings for Je, Tu, Il/Elle/On are -is, -is, -it.",
+        "pattern": "Verb Stem + is, is, it",
+        "examples": [
+          "Je finis mes devoirs. (I finish my homework.)",
+          "Tu choisis une couleur. (You choose a color.)",
+          "Il réagit bien. (He reacts well.)"
+        ],
+        "exceptions": [
+          "Many common -IR verbs (like Venir, Sortir) are irregular."
+        ],
+        "topic": "Conjugation (-IR)"
+      }
+    },
+    {
+      "id": "a1-grammar-011",
+      "type": "grammar",
+      "level": "a1",
+      "front": "For regular -IR verbs, the present tense endings for Nous, Vous, Ils/Elles include the 'ss' suffix: -issons, -issez, -issent.",
+      "back": "Nous finissons le repas. (We finish the meal.)\nVous réussissez à l'examen. (You succeed on the exam.)\nElles punissent les enfants. (They punish the children.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-IR)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "For regular -IR verbs, the present tense endings for Nous, Vous, Ils/Elles include the 'ss' suffix: -issons, -issez, -issent.",
+        "pattern": "Verb Stem + issons, issez, issent",
+        "examples": [
+          "Nous finissons le repas. (We finish the meal.)",
+          "Vous réussissez à l'examen. (You succeed on the exam.)",
+          "Elles punissent les enfants. (They punish the children.)"
+        ],
+        "exceptions": [
+          "The '-issent' ending is silent."
+        ],
+        "topic": "Conjugation (-IR)"
+      }
+    },
+    {
+      "id": "a1-grammar-012",
+      "type": "grammar",
+      "level": "a1",
+      "front": "For regular -RE verbs (like 'vendre'), the present tense endings for Je, Tu, Il/Elle/On are -s, -s, (nothing).",
+      "back": "Je vends ma maison. (I sell my house.)\nTu attends le bus. (You wait for the bus.)\nIl répond à la question. (He answers the question.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-RE)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "For regular -RE verbs (like 'vendre'), the present tense endings for Je, Tu, Il/Elle/On are -s, -s, (nothing).",
+        "pattern": "Verb Stem + s, s, (no ending)",
+        "examples": [
+          "Je vends ma maison. (I sell my house.)",
+          "Tu attends le bus. (You wait for the bus.)",
+          "Il répond à la question. (He answers the question.)"
+        ],
+        "exceptions": [
+          "Prendre (to take) is a common irregular -RE verb."
+        ],
+        "topic": "Conjugation (-RE)"
+      }
+    },
+    {
+      "id": "a1-grammar-013",
+      "type": "grammar",
+      "level": "a1",
+      "front": "For regular -RE verbs, the present tense endings for Nous, Vous, Ils/Elles are -ons, -ez, -ent.",
+      "back": "Nous perdons le match. (We lose the match.)\nVous rendez les clés. (You return the keys.)\nElles entendent du bruit. (They hear noise.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-RE)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "For regular -RE verbs, the present tense endings for Nous, Vous, Ils/Elles are -ons, -ez, -ent.",
+        "pattern": "Verb Stem + ons, ez, ent",
+        "examples": [
+          "Nous perdons le match. (We lose the match.)",
+          "Vous rendez les clés. (You return the keys.)",
+          "Elles entendent du bruit. (They hear noise.)"
+        ],
+        "exceptions": [
+          "The '-ent' ending is silent."
+        ],
+        "topic": "Conjugation (-RE)"
+      }
+    },
+    {
+      "id": "a1-grammar-014",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The basic word order in a French declarative sentence is Subject-Verb-Object (SVO).",
+      "back": "Marie boit du café. (Marie drinks coffee.)\nNous visitons Paris. (We visit Paris.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Sentence Structure"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The basic word order in a French declarative sentence is Subject-Verb-Object (SVO).",
+        "pattern": "Subject + Verb + Object/Complement",
+        "examples": [
+          "Marie boit du café. (Marie drinks coffee.)",
+          "Nous visitons Paris. (We visit Paris.)"
+        ],
+        "exceptions": [
+          "Pronouns (like 'le', 'la', 'me', 'te') usually precede the verb."
+        ],
+        "topic": "Sentence Structure"
+      }
+    },
+    {
+      "id": "a1-grammar-015",
+      "type": "grammar",
+      "level": "a1",
+      "front": "To form a simple Yes/No question, use rising intonation at the end of a declarative sentence.",
+      "back": "Tu travailles aujourd'hui ? (You are working today?)\nVous parlez français ? (You speak French?)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Question Formation"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "To form a simple Yes/No question, use rising intonation at the end of a declarative sentence.",
+        "pattern": "Statement + ?",
+        "examples": [
+          "Tu travailles aujourd'hui ? (You are working today?)",
+          "Vous parlez français ? (You speak French?)"
+        ],
+        "exceptions": [
+          "This is the most informal way; 'Est-ce que' is more formal."
+        ],
+        "topic": "Question Formation"
+      }
+    },
+    {
+      "id": "a1-grammar-016",
+      "type": "grammar",
+      "level": "a1",
+      "front": "Nouns that end in -e (especially -tion, -sion, -té) are generally feminine.",
+      "back": "La voiture (the car)\nLa télévision (the television)\nLa liberté (liberty)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Gender Rules"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "Nouns that end in -e (especially -tion, -sion, -té) are generally feminine.",
+        "pattern": "Noun ending in -e, -tion, -té, -ude",
+        "examples": [
+          "La voiture (the car)",
+          "La télévision (the television)",
+          "La liberté (liberty)"
+        ],
+        "exceptions": [
+          "Le problème, Le musée, Le téléphone (Masculine exceptions)."
+        ],
+        "topic": "Gender Rules"
+      }
+    },
+    {
+      "id": "a1-grammar-017",
+      "type": "grammar",
+      "level": "a1",
+      "front": "Nouns that end in consonants (excluding -tion, -sion) or vowels (excluding -e) are often masculine.",
+      "back": "Le fromage (the cheese)\nLe restaurant (the restaurant)\nLe cadeau (the gift)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Gender Rules"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "Nouns that end in consonants (excluding -tion, -sion) or vowels (excluding -e) are often masculine.",
+        "pattern": "Noun ending in -age, -ment, -eau, -isme",
+        "examples": [
+          "Le fromage (the cheese)",
+          "Le restaurant (the restaurant)",
+          "Le cadeau (the gift)"
+        ],
+        "exceptions": [
+          "La main (the hand), La fleur (the flower) (Feminine exceptions)."
+        ],
+        "topic": "Gender Rules"
+      }
+    },
+    {
+      "id": "a1-grammar-018",
+      "type": "grammar",
+      "level": "a1",
+      "front": "To make most nouns plural, add an -s to the end of the singular form.",
+      "back": "Un ami → Des amis (A friend → Some friends)\nLa pomme → Les pommes (The apple → The apples)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Noun Agreement"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "To make most nouns plural, add an -s to the end of the singular form.",
+        "pattern": "Noun + s",
+        "examples": [
+          "Un ami → Des amis (A friend → Some friends)",
+          "La pomme → Les pommes (The apple → The apples)"
+        ],
+        "exceptions": [
+          "Nouns ending in -s, -x, -z remain unchanged (e.g., un nez → des nez).",
+          "Nouns ending in -al change to -aux (e.g., un cheval → des chevaux)."
+        ],
+        "topic": "Noun Agreement"
+      }
+    },
+    {
+      "id": "a1-grammar-019",
+      "type": "grammar",
+      "level": "a1",
+      "front": "Adjectives must agree in gender with the noun they modify. To form the feminine, add an -e to the masculine singular form.",
+      "back": "Un petit garçon. (A small boy.)\nUne petite fille. (A small girl.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Adjective Agreement"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "Adjectives must agree in gender with the noun they modify. To form the feminine, add an -e to the masculine singular form.",
+        "pattern": "Masculine Adjective + e",
+        "examples": [
+          "Un petit garçon. (A small boy.)",
+          "Une petite fille. (A small girl.)"
+        ],
+        "exceptions": [
+          "If the masculine already ends in -e, no change is made (e.g., rapide)."
+        ],
+        "topic": "Adjective Agreement"
+      }
+    },
+    {
+      "id": "a1-grammar-020",
+      "type": "grammar",
+      "level": "a1",
+      "front": "Most descriptive adjectives are placed *after* the noun they modify.",
+      "back": "J'ai une voiture rouge. (I have a red car.)\nC'est un film intéressant. (It is an interesting movie.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Adjective Placement"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "Most descriptive adjectives are placed *after* the noun they modify.",
+        "pattern": "Noun + Adjective",
+        "examples": [
+          "J'ai une voiture rouge. (I have a red car.)",
+          "C'est un film intéressant. (It is an interesting movie.)"
+        ],
+        "exceptions": [
+          "BAGS adjectives (Beauty, Age, Goodness, Size) precede the noun (e.g., un grand homme)."
+        ],
+        "topic": "Adjective Placement"
+      }
+    },
+    {
+      "id": "a1-grammar-021",
+      "type": "grammar",
+      "level": "a1",
+      "front": "When conjugating -ER verbs that end in -GER (like manger), an 'e' is added before the -ons ending for 'Nous' to keep the soft 'g' sound.",
+      "back": "Je mange. (I eat.)\nNous mangeons. (We eat.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-ER Exceptions)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "When conjugating -ER verbs that end in -GER (like manger), an 'e' is added before the -ons ending for 'Nous' to keep the soft 'g' sound.",
+        "pattern": "nous + Verb Stem + e + ons",
+        "examples": [
+          "Je mange. (I eat.)",
+          "Nous mangeons. (We eat.)"
+        ],
+        "exceptions": [
+          "This only applies to the 'Nous' form."
+        ],
+        "topic": "Conjugation (-ER Exceptions)"
+      }
+    },
+    {
+      "id": "a1-grammar-022",
+      "type": "grammar",
+      "level": "a1",
+      "front": "When conjugating -ER verbs that end in -CER (like commencer), the 'c' changes to 'ç' before the -ons ending for 'Nous' to keep the soft 'c' sound.",
+      "back": "Il commence. (He starts.)\nNous commençons. (We start.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Conjugation (-ER Exceptions)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "When conjugating -ER verbs that end in -CER (like commencer), the 'c' changes to 'ç' before the -ons ending for 'Nous' to keep the soft 'c' sound.",
+        "pattern": "nous + Verb Stem (with ç) + ons",
+        "examples": [
+          "Il commence. (He starts.)",
+          "Nous commençons. (We start.)"
+        ],
+        "exceptions": [
+          "This only applies to the 'Nous' form."
+        ],
+        "topic": "Conjugation (-ER Exceptions)"
+      }
+    },
+    {
+      "id": "a1-grammar-023",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The verb 'Avoir' (to have) is highly irregular and essential for A1 communication.",
+      "back": "J'ai faim. (I am hungry.)\nTu as quel âge? (How old are you?)\nElle a un chat. (She has a cat.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Irregular Verbs (Avoir)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The verb 'Avoir' (to have) is highly irregular and essential for A1 communication.",
+        "pattern": "J'ai, Tu as, Il/Elle/On a",
+        "examples": [
+          "J'ai faim. (I am hungry.)",
+          "Tu as quel âge? (How old are you?)",
+          "Elle a un chat. (She has a cat.)"
+        ],
+        "exceptions": [
+          "The full conjugation is irregular (Nous avons, Vous avez, Ils ont)."
+        ],
+        "topic": "Irregular Verbs (Avoir)"
+      }
+    },
+    {
+      "id": "a1-grammar-024",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The verb 'Être' (to be) is highly irregular and essential for description and location.",
+      "back": "Je suis étudiant. (I am a student.)\nTu es fatigué. (You are tired.)\nIl est ici. (He is here.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Irregular Verbs (Être)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The verb 'Être' (to be) is highly irregular and essential for description and location.",
+        "pattern": "Je suis, Tu es, Il/Elle/On est",
+        "examples": [
+          "Je suis étudiant. (I am a student.)",
+          "Tu es fatigué. (You are tired.)",
+          "Il est ici. (He is here.)"
+        ],
+        "exceptions": [
+          "The full conjugation is irregular (Nous sommes, Vous êtes, Ils sont)."
+        ],
+        "topic": "Irregular Verbs (Être)"
+      }
+    },
+    {
+      "id": "a1-grammar-025",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The verb 'Aller' (to go) is highly irregular, even though it ends in -ER.",
+      "back": "Je vais au marché. (I go to the market.)\nElle va bien. (She is doing well.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Irregular Verbs (Aller)"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The verb 'Aller' (to go) is highly irregular, even though it ends in -ER.",
+        "pattern": "Je vais, Tu vas, Il/Elle/On va",
+        "examples": [
+          "Je vais au marché. (I go to the market.)",
+          "Elle va bien. (She is doing well.)"
+        ],
+        "exceptions": [
+          "The 'Nous' form is 'Nous allons'."
+        ],
+        "topic": "Irregular Verbs (Aller)"
+      }
+    },
+    {
+      "id": "a1-grammar-026",
+      "type": "grammar",
+      "level": "a1",
+      "front": "In negation, if the verb starts with a vowel (A, E, I, O, U) or a silent 'H', 'ne' contracts to 'n''.",
+      "back": "Je n'aime pas le froid. (I don't like the cold.)\nIl n'habite pas ici. (He doesn't live here.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Negation"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "In negation, if the verb starts with a vowel (A, E, I, O, U) or a silent 'H', 'ne' contracts to 'n''.",
+        "pattern": "Subject + n' + Vowel-starting Verb + pas",
+        "examples": [
+          "Je n'aime pas le froid. (I don't like the cold.)",
+          "Il n'habite pas ici. (He doesn't live here.)"
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "Negation"
+      }
+    },
+    {
+      "id": "a1-grammar-027",
+      "type": "grammar",
+      "level": "a1",
+      "front": "When asking questions using 'Est-ce que', the word order remains SVO (Subject-Verb-Object).",
+      "back": "Est-ce que tu étudies le soir ? (Do you study in the evening?)\nEst-ce qu'elle mange de la viande ? (Does she eat meat?)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Question Formation"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "When asking questions using 'Est-ce que', the word order remains SVO (Subject-Verb-Object).",
+        "pattern": "Est-ce que + Subject + Verb + Object ?",
+        "examples": [
+          "Est-ce que tu étudies le soir ? (Do you study in the evening?)",
+          "Est-ce qu'elle mange de la viande ? (Does she eat meat?)"
+        ],
+        "exceptions": [
+          "The 'e' in 'que' drops before a vowel (qu'il, qu'elle)."
+        ],
+        "topic": "Question Formation"
+      }
+    },
+    {
+      "id": "a1-grammar-028",
+      "type": "grammar",
+      "level": "a1",
+      "front": "Possessive adjectives (mon, ma, mes) agree in gender and number with the noun they modify, not the owner.",
+      "back": "C'est mon livre (masc. noun). (It is my book.)\nC'est ma voiture (fem. noun). (It is my car.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Possessives"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "Possessive adjectives (mon, ma, mes) agree in gender and number with the noun they modify, not the owner.",
+        "pattern": "Mon/Ma/Mes + Noun",
+        "examples": [
+          "C'est mon livre (masc. noun). (It is my book.)",
+          "C'est ma voiture (fem. noun). (It is my car.)"
+        ],
+        "exceptions": [
+          "Use 'mon' before a feminine singular noun if it starts with a vowel (e.g., mon amie)."
+        ],
+        "topic": "Possessives"
+      }
+    },
+    {
+      "id": "a1-grammar-029",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The preposition 'à' (to/at) contracts with the definite articles 'le' and 'les'.",
+      "back": "Je parle au professeur. (I speak to the teacher.)\nNous allons aux États-Unis. (We go to the USA.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Prepositions/Contractions"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The preposition 'à' (to/at) contracts with the definite articles 'le' and 'les'.",
+        "pattern": "à + le = au; à + les = aux",
+        "examples": [
+          "Je parle au professeur. (I speak to the teacher.)",
+          "Nous allons aux États-Unis. (We go to the USA.)"
+        ],
+        "exceptions": [
+          "It does not contract with 'la' or 'l'' (à la, à l')."
+        ],
+        "topic": "Prepositions/Contractions"
+      }
+    },
+    {
+      "id": "a1-grammar-030",
+      "type": "grammar",
+      "level": "a1",
+      "front": "The preposition 'de' (of/from) contracts with the definite articles 'le' and 'les'.",
+      "back": "C'est le livre du garçon. (It is the boy's book.)\nJe viens des Pays-Bas. (I come from the Netherlands.)",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "Prepositions/Contractions"
+      ],
+      "created_at": "2025-12-13T04:02:50.442395Z",
+      "metadata": {
+        "rule": "The preposition 'de' (of/from) contracts with the definite articles 'le' and 'les'.",
+        "pattern": "de + le = du; de + les = des",
+        "examples": [
+          "C'est le livre du garçon. (It is the boy's book.)",
+          "Je viens des Pays-Bas. (I come from the Netherlands.)"
+        ],
+        "exceptions": [
+          "It does not contract with 'la' or 'l'' (de la, de l')."
+        ],
+        "topic": "Prepositions/Contractions"
+      }
+    }
+  ]
+}

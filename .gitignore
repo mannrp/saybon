@@ -29,3 +29,30 @@ dist-ssr
 
 # Kiro IDE files
 .kiro/
+
+# Python flashcard generator (local tooling only)
+scripts/flashcard_generator/
+scripts/tests/
+*.pyc
+__pycache__/
+.venv/
+venv/
+*.egg-info/
+
+# Generated output (regenerate locally with run_generator.py)
+/output/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Test coverage
+coverage/
+.nyc_output/

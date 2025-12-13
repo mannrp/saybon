@@ -1,0 +1,1080 @@
+{
+  "version": "1.0",
+  "level": "a2",
+  "type": "conjugation",
+  "generated_at": "2025-12-13T04:05:10.054935Z",
+  "total_count": 51,
+  "flashcards": [
+    {
+      "id": "a2-conjugation-001",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for je (present)",
+      "back": "suis",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "suis",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-002",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for nous (present)",
+      "back": "sommes",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "sommes",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-003",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for ils/elles (present)",
+      "back": "sont",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "sont",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-004",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for tu (passé composé)",
+      "back": "as été",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "passé composé",
+        "subject": "tu",
+        "conjugated": "as été",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-005",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for vous (passé composé)",
+      "back": "avez été",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "passé composé",
+        "subject": "vous",
+        "conjugated": "avez été",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-006",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for il/elle (passé composé)",
+      "back": "a été",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "passé composé",
+        "subject": "il/elle",
+        "conjugated": "a été",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-007",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for je (futur proche)",
+      "back": "vais être",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.050943Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "futur proche",
+        "subject": "je",
+        "conjugated": "vais être",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-008",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for nous (futur proche)",
+      "back": "allons être",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "futur proche",
+        "subject": "nous",
+        "conjugated": "allons être",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-009",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'être' for ils/elles (futur proche)",
+      "back": "vont être",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "futur proche",
+        "subject": "ils/elles",
+        "conjugated": "vont être",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-010",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for tu (present)",
+      "back": "as",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "as",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-011",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for il/elle (present)",
+      "back": "a",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "a",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-012",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for vous (present)",
+      "back": "avez",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "avez",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-013",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for je (passé composé)",
+      "back": "ai eu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "passé composé",
+        "subject": "je",
+        "conjugated": "ai eu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-014",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for nous (passé composé)",
+      "back": "avons eu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "passé composé",
+        "subject": "nous",
+        "conjugated": "avons eu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-015",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for ils/elles (passé composé)",
+      "back": "ont eu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "passé composé",
+        "subject": "ils/elles",
+        "conjugated": "ont eu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-016",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for tu (futur proche)",
+      "back": "vas avoir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "futur proche",
+        "subject": "tu",
+        "conjugated": "vas avoir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-017",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for il/elle (futur proche)",
+      "back": "va avoir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "futur proche",
+        "subject": "il/elle",
+        "conjugated": "va avoir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-018",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'avoir' for vous (futur proche)",
+      "back": "allez avoir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "futur proche",
+        "subject": "vous",
+        "conjugated": "allez avoir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-019",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for je (present)",
+      "back": "vais",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "vais",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-020",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for nous (present)",
+      "back": "allons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "allons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-021",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for ils/elles (present)",
+      "back": "vont",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "vont",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-022",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for tu (passé composé)",
+      "back": "es allé",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "passé composé",
+        "subject": "tu",
+        "conjugated": "es allé",
+        "verb_group": "irregular",
+        "auxiliary": "être"
+      }
+    },
+    {
+      "id": "a2-conjugation-023",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for nous (passé composé)",
+      "back": "sommes allés",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "passé composé",
+        "subject": "nous",
+        "conjugated": "sommes allés",
+        "verb_group": "irregular",
+        "auxiliary": "être"
+      }
+    },
+    {
+      "id": "a2-conjugation-024",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for vous (passé composé)",
+      "back": "êtes allés",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "passé composé",
+        "subject": "vous",
+        "conjugated": "êtes allés",
+        "verb_group": "irregular",
+        "auxiliary": "être"
+      }
+    },
+    {
+      "id": "a2-conjugation-025",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for je (futur proche)",
+      "back": "vais aller",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "futur proche",
+        "subject": "je",
+        "conjugated": "vais aller",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-026",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for il/elle (futur proche)",
+      "back": "va aller",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "futur proche",
+        "subject": "il/elle",
+        "conjugated": "va aller",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-027",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'aller' for nous (futur proche)",
+      "back": "allons aller",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "futur proche",
+        "subject": "nous",
+        "conjugated": "allons aller",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-028",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for je (present)",
+      "back": "fais",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "fais",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-029",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for vous (present)",
+      "back": "faites",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "faites",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-030",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for ils/elles (present)",
+      "back": "font",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "font",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-031",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for tu (passé composé)",
+      "back": "as fait",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "passé composé",
+        "subject": "tu",
+        "conjugated": "as fait",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-032",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for nous (passé composé)",
+      "back": "avons fait",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "passé composé",
+        "subject": "nous",
+        "conjugated": "avons fait",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-033",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for il/elle (passé composé)",
+      "back": "a fait",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "passé composé",
+        "subject": "il/elle",
+        "conjugated": "a fait",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-034",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for il/elle (futur proche)",
+      "back": "va faire",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "futur proche",
+        "subject": "il/elle",
+        "conjugated": "va faire",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-035",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for vous (futur proche)",
+      "back": "allez faire",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "futur proche",
+        "subject": "vous",
+        "conjugated": "allez faire",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-036",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'faire' for ils/elles (futur proche)",
+      "back": "vont faire",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "futur proche",
+        "subject": "ils/elles",
+        "conjugated": "vont faire",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-037",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for il/elle (present)",
+      "back": "peut",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "peut",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-038",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for nous (present)",
+      "back": "pouvons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "pouvons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-039",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for vous (present)",
+      "back": "pouvez",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "pouvez",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-040",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for je (passé composé)",
+      "back": "ai pu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "passé composé",
+        "subject": "je",
+        "conjugated": "ai pu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-041",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for tu (passé composé)",
+      "back": "as pu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "passé composé",
+        "subject": "tu",
+        "conjugated": "as pu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-042",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for ils/elles (passé composé)",
+      "back": "ont pu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "passé composé",
+        "subject": "ils/elles",
+        "conjugated": "ont pu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-043",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for je (futur proche)",
+      "back": "vais pouvoir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "futur proche",
+        "subject": "je",
+        "conjugated": "vais pouvoir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-044",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'pouvoir' for nous (futur proche)",
+      "back": "allons pouvoir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "futur proche",
+        "subject": "nous",
+        "conjugated": "allons pouvoir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-045",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for je (present)",
+      "back": "veux",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "veux",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-046",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for tu (present)",
+      "back": "veux",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "veux",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-047",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for ils/elles (present)",
+      "back": "veulent",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "veulent",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-048",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for il/elle (passé composé)",
+      "back": "a voulu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "passé composé",
+        "subject": "il/elle",
+        "conjugated": "a voulu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-049",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for vous (passé composé)",
+      "back": "avez voulu",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "passé composé",
+        "subject": "vous",
+        "conjugated": "avez voulu",
+        "verb_group": "irregular",
+        "auxiliary": "avoir"
+      }
+    },
+    {
+      "id": "a2-conjugation-050",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for tu (futur proche)",
+      "back": "vas vouloir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "futur proche",
+        "subject": "tu",
+        "conjugated": "vas vouloir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a2-conjugation-051",
+      "type": "conjugation",
+      "level": "a2",
+      "front": "Conjugate 'vouloir' for ils/elles (futur proche)",
+      "back": "vont vouloir",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:05:10.051935Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "futur proche",
+        "subject": "ils/elles",
+        "conjugated": "vont vouloir",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    }
+  ]
+}

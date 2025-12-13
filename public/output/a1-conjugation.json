@@ -1,0 +1,765 @@
+{
+  "version": "1.0",
+  "level": "a1",
+  "type": "conjugation",
+  "generated_at": "2025-12-13T04:03:30.972116Z",
+  "total_count": 36,
+  "flashcards": [
+    {
+      "id": "a1-conjugation-001",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'être' for je (present)",
+      "back": "suis",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "suis",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-002",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'être' for tu (present)",
+      "back": "es",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "es",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-003",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'être' for il/elle (present)",
+      "back": "est",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "est",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-004",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'être' for nous (present)",
+      "back": "sommes",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "sommes",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-005",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'être' for vous (present)",
+      "back": "êtes",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "êtes",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-006",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'être' for ils/elles (present)",
+      "back": "sont",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "être",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "sont",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-007",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'avoir' for je (present)",
+      "back": "ai",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "ai",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-008",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'avoir' for tu (present)",
+      "back": "as",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.968128Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "as",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-009",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'avoir' for il/elle (present)",
+      "back": "a",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "a",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-010",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'avoir' for nous (present)",
+      "back": "avons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "avons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-011",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'avoir' for vous (present)",
+      "back": "avez",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "avez",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-012",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'avoir' for ils/elles (present)",
+      "back": "ont",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "avoir",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "ont",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-013",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'aller' for je (present)",
+      "back": "vais",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "vais",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-014",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'aller' for tu (present)",
+      "back": "vas",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "vas",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-015",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'aller' for il/elle (present)",
+      "back": "va",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "va",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-016",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'aller' for nous (present)",
+      "back": "allons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "allons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-017",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'aller' for vous (present)",
+      "back": "allez",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "allez",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-018",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'aller' for ils/elles (present)",
+      "back": "vont",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "aller",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "vont",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-019",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'faire' for je (present)",
+      "back": "fais",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "fais",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-020",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'faire' for tu (present)",
+      "back": "fais",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "fais",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-021",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'faire' for il/elle (present)",
+      "back": "fait",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "fait",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-022",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'faire' for nous (present)",
+      "back": "faisons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "faisons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-023",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'faire' for vous (present)",
+      "back": "faites",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "faites",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-024",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'faire' for ils/elles (present)",
+      "back": "font",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "faire",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "font",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-025",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'pouvoir' for je (present)",
+      "back": "peux",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "peux",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-026",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'pouvoir' for tu (present)",
+      "back": "peux",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "peux",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-027",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'pouvoir' for il/elle (present)",
+      "back": "peut",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "peut",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-028",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'pouvoir' for nous (present)",
+      "back": "pouvons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "pouvons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-029",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'pouvoir' for vous (present)",
+      "back": "pouvez",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "pouvez",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-030",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'pouvoir' for ils/elles (present)",
+      "back": "peuvent",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "pouvoir",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "peuvent",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-031",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'vouloir' for je (present)",
+      "back": "veux",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "je",
+        "conjugated": "veux",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-032",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'vouloir' for tu (present)",
+      "back": "veux",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "tu",
+        "conjugated": "veux",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-033",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'vouloir' for il/elle (present)",
+      "back": "veut",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "il/elle",
+        "conjugated": "veut",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-034",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'vouloir' for nous (present)",
+      "back": "voulons",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "nous",
+        "conjugated": "voulons",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-035",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'vouloir' for vous (present)",
+      "back": "voulez",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "vous",
+        "conjugated": "voulez",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    },
+    {
+      "id": "a1-conjugation-036",
+      "type": "conjugation",
+      "level": "a1",
+      "front": "Conjugate 'vouloir' for ils/elles (present)",
+      "back": "veulent",
+      "difficulty": 2,
+      "tags": [
+        "conjugation",
+        "irregular"
+      ],
+      "created_at": "2025-12-13T04:03:30.969120Z",
+      "metadata": {
+        "infinitive": "vouloir",
+        "tense": "present",
+        "subject": "ils/elles",
+        "conjugated": "veulent",
+        "verb_group": "irregular",
+        "auxiliary": null
+      }
+    }
+  ]
+}

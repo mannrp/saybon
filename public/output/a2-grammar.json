@@ -1,0 +1,759 @@
+{
+  "version": "1.0",
+  "level": "a2",
+  "type": "grammar",
+  "generated_at": "2025-12-13T04:04:22.968918Z",
+  "total_count": 30,
+  "flashcards": [
+    {
+      "id": "a2-grammar-001",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Use the auxiliary verb 'avoir' to form the Passé Composé for the majority of French verbs.",
+      "back": "J'ai mangé une pomme hier.\nNous avons fini le travail.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Use the auxiliary verb 'avoir' to form the Passé Composé for the majority of French verbs.",
+        "pattern": "Subject + Avoir (present) + Past Participle",
+        "examples": [
+          "J'ai mangé une pomme hier.",
+          "Nous avons fini le travail."
+        ],
+        "exceptions": [
+          "Verbs of movement/state change (DR MRS VANDERTRAMP) and all reflexive verbs use 'être'."
+        ],
+        "topic": "passé composé"
+      }
+    },
+    {
+      "id": "a2-grammar-002",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Use the auxiliary verb 'être' for verbs expressing movement or a change of state (e.g., aller, venir, rester, naître, mourir).",
+      "back": "Elle est allée au magasin.\nIls sont restés à la maison.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Use the auxiliary verb 'être' for verbs expressing movement or a change of state (e.g., aller, venir, rester, naître, mourir).",
+        "pattern": "Subject + Être (present) + Past Participle",
+        "examples": [
+          "Elle est allée au magasin.",
+          "Ils sont restés à la maison."
+        ],
+        "exceptions": [
+          "Some movement verbs (like marcher) still use 'avoir'."
+        ],
+        "topic": "passé composé"
+      }
+    },
+    {
+      "id": "a2-grammar-003",
+      "type": "grammar",
+      "level": "a2",
+      "front": "When using 'être' in the Passé Composé, the past participle must agree in gender and number with the subject.",
+      "back": "Elle est partie en vacances.\nNous sommes rentrés tard (if mixed gender/masculine plural).",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "When using 'être' in the Passé Composé, the past participle must agree in gender and number with the subject.",
+        "pattern": "Subject + Être + Past Participle (+e for feminine, +s for plural, +es for feminine plural)",
+        "examples": [
+          "Elle est partie en vacances.",
+          "Nous sommes rentrés tard (if mixed gender/masculine plural)."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "passé composé"
+      }
+    },
+    {
+      "id": "a2-grammar-004",
+      "type": "grammar",
+      "level": "a2",
+      "front": "To negate the Passé Composé, place 'ne' before the auxiliary verb (avoir/être) and 'pas' after it.",
+      "back": "Je n'ai pas vu ce film.\nElles ne sont pas venues à la fête.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "To negate the Passé Composé, place 'ne' before the auxiliary verb (avoir/être) and 'pas' after it.",
+        "pattern": "Ne + Auxiliary (Avoir/Être) + Pas + Past Participle",
+        "examples": [
+          "Je n'ai pas vu ce film.",
+          "Elles ne sont pas venues à la fête."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "passé composé"
+      }
+    },
+    {
+      "id": "a2-grammar-005",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The past participle of the common irregular verb 'faire' (to do/make) is 'fait'.",
+      "back": "J'ai fait mes devoirs hier soir.\nNous avons fait une promenade.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé (irregular)"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The past participle of the common irregular verb 'faire' (to do/make) is 'fait'.",
+        "pattern": "Avoir + Fait",
+        "examples": [
+          "J'ai fait mes devoirs hier soir.",
+          "Nous avons fait une promenade."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "passé composé (irregular)"
+      }
+    },
+    {
+      "id": "a2-grammar-006",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The past participle of the common irregular verb 'prendre' (to take) is 'pris'.",
+      "back": "J'ai pris le bus ce matin.\nElle a pris un verre d'eau.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé (irregular)"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The past participle of the common irregular verb 'prendre' (to take) is 'pris'.",
+        "pattern": "Avoir + Pris",
+        "examples": [
+          "J'ai pris le bus ce matin.",
+          "Elle a pris un verre d'eau."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "passé composé (irregular)"
+      }
+    },
+    {
+      "id": "a2-grammar-007",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The past participle of the common irregular verb 'voir' (to see) is 'vu'.",
+      "back": "Avez-vous vu mon téléphone ?\nNous avons vu la Tour Eiffel.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "passé composé (irregular)"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The past participle of the common irregular verb 'voir' (to see) is 'vu'.",
+        "pattern": "Avoir + Vu",
+        "examples": [
+          "Avez-vous vu mon téléphone ?",
+          "Nous avons vu la Tour Eiffel."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "passé composé (irregular)"
+      }
+    },
+    {
+      "id": "a2-grammar-008",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The Imparfait is used to describe habitual or repeated actions in the past ('used to').",
+      "back": "Quand j'étais jeune, je jouais souvent au foot.\nNous allions à la plage chaque été.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "imparfait"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The Imparfait is used to describe habitual or repeated actions in the past ('used to').",
+        "pattern": "Subject + Imparfait Verb",
+        "examples": [
+          "Quand j'étais jeune, je jouais souvent au foot.",
+          "Nous allions à la plage chaque été."
+        ],
+        "exceptions": [
+          "Specific, one-time actions use the Passé Composé."
+        ],
+        "topic": "imparfait"
+      }
+    },
+    {
+      "id": "a2-grammar-009",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The Imparfait is used to describe the setting, background, weather, or ongoing states/emotions in the past.",
+      "back": "Il faisait froid ce matin-là.\nJ'étais très fatigué.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "imparfait"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The Imparfait is used to describe the setting, background, weather, or ongoing states/emotions in the past.",
+        "pattern": "Subject + Imparfait Verb",
+        "examples": [
+          "Il faisait froid ce matin-là.",
+          "J'étais très fatigué."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "imparfait"
+      }
+    },
+    {
+      "id": "a2-grammar-010",
+      "type": "grammar",
+      "level": "a2",
+      "front": "To form the Imparfait, take the 'nous' form of the present tense, drop the '-ons', and add the endings (-ais, -ais, -ait, -ions, -iez, -aient).",
+      "back": "Je parlais (Nous parlons).\nVous finissiez (Nous finissons).",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "imparfait"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "To form the Imparfait, take the 'nous' form of the present tense, drop the '-ons', and add the endings (-ais, -ais, -ait, -ions, -iez, -aient).",
+        "pattern": "Nous stem (e.g., parl-) + Imparfait endings",
+        "examples": [
+          "Je parlais (Nous parlons).",
+          "Vous finissiez (Nous finissons)."
+        ],
+        "exceptions": [
+          "Only 'être' is truly irregular."
+        ],
+        "topic": "imparfait"
+      }
+    },
+    {
+      "id": "a2-grammar-011",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The verb 'être' is irregular in the Imparfait, using the stem 'ét-'.",
+      "back": "J'étais à Paris l'année dernière.\nTu étais très gentil avec moi.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "imparfait (irregular)"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The verb 'être' is irregular in the Imparfait, using the stem 'ét-'.",
+        "pattern": "Ét- + Imparfait endings",
+        "examples": [
+          "J'étais à Paris l'année dernière.",
+          "Tu étais très gentil avec moi."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "imparfait (irregular)"
+      }
+    },
+    {
+      "id": "a2-grammar-012",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Passé Composé (PC) signals a completed action (the event); Imparfait (IMP) provides the context, description, or ongoing background.",
+      "back": "Il pleuvait (IMP) quand je suis tombé (PC).\nJ'avais faim (IMP), alors j'ai mangé (PC).",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "pc vs imparfait"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Passé Composé (PC) signals a completed action (the event); Imparfait (IMP) provides the context, description, or ongoing background.",
+        "pattern": "IMP (Context) + PC (Event)",
+        "examples": [
+          "Il pleuvait (IMP) quand je suis tombé (PC).",
+          "J'avais faim (IMP), alors j'ai mangé (PC)."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "pc vs imparfait"
+      }
+    },
+    {
+      "id": "a2-grammar-013",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Reflexive verbs require a reflexive pronoun (me, te, se, nous, vous, se) that agrees with the subject.",
+      "back": "Je me lève à sept heures.\nElle se prépare pour l'école.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "reflexive verbs"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Reflexive verbs require a reflexive pronoun (me, te, se, nous, vous, se) that agrees with the subject.",
+        "pattern": "Subject + Reflexive Pronoun + Verb",
+        "examples": [
+          "Je me lève à sept heures.",
+          "Elle se prépare pour l'école."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "reflexive verbs"
+      }
+    },
+    {
+      "id": "a2-grammar-014",
+      "type": "grammar",
+      "level": "a2",
+      "front": "All reflexive verbs use 'être' as the auxiliary verb in the Passé Composé.",
+      "back": "Nous nous sommes couchés tard.\nIl s'est levé tôt.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "reflexive verbs"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "All reflexive verbs use 'être' as the auxiliary verb in the Passé Composé.",
+        "pattern": "Subject + Auxiliary Être + Reflexive Pronoun + Past Participle",
+        "examples": [
+          "Nous nous sommes couchés tard.",
+          "Il s'est levé tôt."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "reflexive verbs"
+      }
+    },
+    {
+      "id": "a2-grammar-015",
+      "type": "grammar",
+      "level": "a2",
+      "front": "In the PC, the past participle of a reflexive verb agrees with the subject IF the reflexive pronoun is the Direct Object.",
+      "back": "Elles se sont promenées (Themselves = D.O.).\nNous nous sommes parlé (D.O. is implied, but no agreement here, as the R.P. is Indirect).",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "reflexive verbs"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "In the PC, the past participle of a reflexive verb agrees with the subject IF the reflexive pronoun is the Direct Object.",
+        "pattern": "Subject + Être + R.P. + PP (+e, +s, +es)",
+        "examples": [
+          "Elles se sont promenées (Themselves = D.O.).",
+          "Nous nous sommes parlé (D.O. is implied, but no agreement here, as the R.P. is Indirect)."
+        ],
+        "exceptions": [
+          "If the action is done *to a body part* (e.g., Elle s'est lavé les mains), there is no agreement."
+        ],
+        "topic": "reflexive verbs"
+      }
+    },
+    {
+      "id": "a2-grammar-016",
+      "type": "grammar",
+      "level": "a2",
+      "front": "To negate a reflexive verb, place 'ne' before the reflexive pronoun and 'pas' after the conjugated verb/auxiliary.",
+      "back": "Je ne me rase pas le matin.\nIls ne se sont pas vus hier.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "reflexive verbs"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "To negate a reflexive verb, place 'ne' before the reflexive pronoun and 'pas' after the conjugated verb/auxiliary.",
+        "pattern": "Ne + Reflexive Pronoun + Verb/Auxiliary + Pas",
+        "examples": [
+          "Je ne me rase pas le matin.",
+          "Ils ne se sont pas vus hier."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "reflexive verbs"
+      }
+    },
+    {
+      "id": "a2-grammar-017",
+      "type": "grammar",
+      "level": "a2",
+      "front": "In affirmative commands (imperative), the reflexive pronoun follows the verb and 'te' becomes 'toi' (me becomes 'moi').",
+      "back": "Lève-toi immédiatement !\nDépêchons-nous !",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "reflexive verbs"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "In affirmative commands (imperative), the reflexive pronoun follows the verb and 'te' becomes 'toi' (me becomes 'moi').",
+        "pattern": "Verb + Hyphen + Moi/Toi/Nous/Vous",
+        "examples": [
+          "Lève-toi immédiatement !",
+          "Dépêchons-nous !"
+        ],
+        "exceptions": [
+          "In negative commands, the pronoun precedes the verb (Ne te lève pas)."
+        ],
+        "topic": "reflexive verbs"
+      }
+    },
+    {
+      "id": "a2-grammar-018",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Direct Object Pronouns (DOP) replace nouns that receive the action directly (le, la, l', les).",
+      "back": "Tu vois le chien? Oui, je le vois.\nJ'achète la robe -> Je l'achète.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Direct Object Pronouns (DOP) replace nouns that receive the action directly (le, la, l', les).",
+        "pattern": "Le (him/it), La (her/it), Les (them). Use L' before a vowel sound.",
+        "examples": [
+          "Tu vois le chien? Oui, je le vois.",
+          "J'achète la robe -> Je l'achète."
+        ],
+        "exceptions": [
+          "Me, te, nous, vous also function as DOPs."
+        ],
+        "topic": "object pronouns"
+      }
+    },
+    {
+      "id": "a2-grammar-019",
+      "type": "grammar",
+      "level": "a2",
+      "front": "DOPs are placed immediately before the conjugated verb (or before the auxiliary verb in PC).",
+      "back": "Nous la regardons.\nJe l'ai acheté hier.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "DOPs are placed immediately before the conjugated verb (or before the auxiliary verb in PC).",
+        "pattern": "Subject + DOP + Verb",
+        "examples": [
+          "Nous la regardons.",
+          "Je l'ai acheté hier."
+        ],
+        "exceptions": [
+          "In the affirmative imperative, the pronoun follows the verb."
+        ],
+        "topic": "object pronouns"
+      }
+    },
+    {
+      "id": "a2-grammar-020",
+      "type": "grammar",
+      "level": "a2",
+      "front": "When a DOP precedes the verb in the Passé Composé (with Avoir), the past participle must agree in gender and number with the DOP.",
+      "back": "La voiture? Je l'ai vue hier.\nLes films? Nous les avons aimés.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "When a DOP precedes the verb in the Passé Composé (with Avoir), the past participle must agree in gender and number with the DOP.",
+        "pattern": "DOP + Avoir + PP (+e, +s, +es)",
+        "examples": [
+          "La voiture? Je l'ai vue hier.",
+          "Les films? Nous les avons aimés."
+        ],
+        "exceptions": [
+          "This agreement rule does not apply when the auxiliary is 'être' (as agreement with the subject is already mandatory)."
+        ],
+        "topic": "object pronouns"
+      }
+    },
+    {
+      "id": "a2-grammar-021",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Indirect Object Pronouns (IOP) replace nouns introduced by 'à' (to whom/for whom): lui (singular) and leur (plural).",
+      "back": "Je parle à Marie -> Je lui parle.\nNous écrivons aux parents -> Nous leur écrivons.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Indirect Object Pronouns (IOP) replace nouns introduced by 'à' (to whom/for whom): lui (singular) and leur (plural).",
+        "pattern": "Lui (to him/her/it), Leur (to them)",
+        "examples": [
+          "Je parle à Marie -> Je lui parle.",
+          "Nous écrivons aux parents -> Nous leur écrivons."
+        ],
+        "exceptions": [
+          "Me, te, nous, vous also function as IOPs."
+        ],
+        "topic": "object pronouns"
+      }
+    },
+    {
+      "id": "a2-grammar-022",
+      "type": "grammar",
+      "level": "a2",
+      "front": "IOPs are placed immediately before the conjugated verb (or before the auxiliary verb in PC).",
+      "back": "Il lui a donné le cadeau.\nVous leur téléphonez souvent.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "IOPs are placed immediately before the conjugated verb (or before the auxiliary verb in PC).",
+        "pattern": "Subject + IOP + Verb",
+        "examples": [
+          "Il lui a donné le cadeau.",
+          "Vous leur téléphonez souvent."
+        ],
+        "exceptions": [
+          "In the affirmative imperative, the pronoun follows the verb."
+        ],
+        "topic": "object pronouns"
+      }
+    },
+    {
+      "id": "a2-grammar-023",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Use 'plus... que' to express superiority ('more... than').",
+      "back": "Ce livre est plus intéressant que le film.\nIl a plus d'argent que moi.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Use 'plus... que' to express superiority ('more... than').",
+        "pattern": "Plus + Adjective/Adverb/Noun + Que",
+        "examples": [
+          "Ce livre est plus intéressant que le film.",
+          "Il a plus d'argent que moi."
+        ],
+        "exceptions": [
+          "Good (bon) and well (bien) have irregular comparative forms (meilleur, mieux)."
+        ],
+        "topic": "comparatives"
+      }
+    },
+    {
+      "id": "a2-grammar-024",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Use 'moins... que' to express inferiority ('less... than').",
+      "back": "Cette voiture est moins chère que l'autre.\nElle court moins vite que son frère.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Use 'moins... que' to express inferiority ('less... than').",
+        "pattern": "Moins + Adjective/Adverb/Noun + Que",
+        "examples": [
+          "Cette voiture est moins chère que l'autre.",
+          "Elle court moins vite que son frère."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "comparatives"
+      }
+    },
+    {
+      "id": "a2-grammar-025",
+      "type": "grammar",
+      "level": "a2",
+      "front": "Use 'aussi... que' to express equality ('as... as').",
+      "back": "Paul est aussi grand que Marc.\nElle chante aussi bien que toi.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "Use 'aussi... que' to express equality ('as... as').",
+        "pattern": "Aussi + Adjective/Adverb + Que",
+        "examples": [
+          "Paul est aussi grand que Marc.",
+          "Elle chante aussi bien que toi."
+        ],
+        "exceptions": [
+          "When comparing nouns, use 'autant de... que'."
+        ],
+        "topic": "comparatives"
+      }
+    },
+    {
+      "id": "a2-grammar-026",
+      "type": "grammar",
+      "level": "a2",
+      "front": "To compare quantities of nouns, use 'plus de', 'moins de', or 'autant de'.",
+      "back": "J'ai plus de travail que toi.\nIl a autant d'amis qu'avant.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "comparatives"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "To compare quantities of nouns, use 'plus de', 'moins de', or 'autant de'.",
+        "pattern": "Plus de / Moins de / Autant de + Noun + Que",
+        "examples": [
+          "J'ai plus de travail que toi.",
+          "Il a autant d'amis qu'avant."
+        ],
+        "exceptions": [
+          "'De' contracts to 'd'' before a vowel or mute 'h'."
+        ],
+        "topic": "comparatives"
+      }
+    },
+    {
+      "id": "a2-grammar-027",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The adjective 'bon' (good) becomes 'meilleur' (better) in the comparative form.",
+      "back": "Ce vin est meilleur que l'eau.\nTes notes sont meilleures que les miennes.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "comparatives (irregular)"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The adjective 'bon' (good) becomes 'meilleur' (better) in the comparative form.",
+        "pattern": "Être + Meilleur(e)(s) + Que",
+        "examples": [
+          "Ce vin est meilleur que l'eau.",
+          "Tes notes sont meilleures que les miennes."
+        ],
+        "exceptions": [
+          "'Meilleur' is an adjective and must agree in gender and number."
+        ],
+        "topic": "comparatives (irregular)"
+      }
+    },
+    {
+      "id": "a2-grammar-028",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The adverb 'bien' (well) becomes 'mieux' (better) in the comparative form.",
+      "back": "Il cuisine mieux que sa sœur.\nJe me sens mieux aujourd'hui.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "comparatives (irregular)"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The adverb 'bien' (well) becomes 'mieux' (better) in the comparative form.",
+        "pattern": "Verb + Mieux + Que",
+        "examples": [
+          "Il cuisine mieux que sa sœur.",
+          "Je me sens mieux aujourd'hui."
+        ],
+        "exceptions": [
+          "'Mieux' is an adverb and is invariable (no agreement)."
+        ],
+        "topic": "comparatives (irregular)"
+      }
+    },
+    {
+      "id": "a2-grammar-029",
+      "type": "grammar",
+      "level": "a2",
+      "front": "The personal object pronouns 'me', 'te', 'nous', and 'vous' can function as either DOP or IOP depending on the verb.",
+      "back": "Il me voit (DOP).\nElle nous parle (IOP).",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "The personal object pronouns 'me', 'te', 'nous', and 'vous' can function as either DOP or IOP depending on the verb.",
+        "pattern": "Subject + Me/Te/Nous/Vous + Verb",
+        "examples": [
+          "Il me voit (DOP).",
+          "Elle nous parle (IOP)."
+        ],
+        "exceptions": [
+          "They become 'moi' and 'toi' in affirmative commands."
+        ],
+        "topic": "object pronouns"
+      }
+    },
+    {
+      "id": "a2-grammar-030",
+      "type": "grammar",
+      "level": "a2",
+      "front": "In the negative imperative, object pronouns return to their standard position before the verb.",
+      "back": "Ne le prends pas!\nNe nous parle pas de ça.",
+      "difficulty": 2,
+      "tags": [
+        "grammar",
+        "object pronouns"
+      ],
+      "created_at": "2025-12-13T04:04:22.966932Z",
+      "metadata": {
+        "rule": "In the negative imperative, object pronouns return to their standard position before the verb.",
+        "pattern": "Ne + Pronoun (DOP or IOP) + Verb + Pas",
+        "examples": [
+          "Ne le prends pas!",
+          "Ne nous parle pas de ça."
+        ],
+        "exceptions": [
+          "None."
+        ],
+        "topic": "object pronouns"
+      }
+    }
+  ]
+}

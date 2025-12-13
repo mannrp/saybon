@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-do
 import { SettingsPage } from './components/settings/SettingsPage';
 import { VocabPracticePage } from './components/vocabulary/VocabPracticePage';
 import { HeatmapPage } from './components/vocabulary/HeatmapPage';
+import { FlashcardPracticePage } from './components/flashcards/FlashcardPracticePage';
 import { ThemeToggle } from './components/shared/ThemeToggle';
 import { InstallButton } from './components/shared/InstallButton';
 
@@ -19,10 +20,10 @@ function Navigation() {
             <div className="flex-shrink-0 flex items-center">
               <h1 className="text-2xl font-bold text-[var(--color-primary)]">SayBon</h1>
             </div>
-            <div className="ml-6 flex space-x-8">
+            <div className="ml-6 flex space-x-4 sm:space-x-8 overflow-x-auto">
               <Link
                 to="/"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
+                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium whitespace-nowrap ${
                   isActive('/')
                     ? 'border-[var(--color-primary)] text-[var(--color-text-primary)]'
                     : 'border-transparent text-[var(--color-text-secondary)] hover:border-[var(--color-border)] hover:text-[var(--color-text-primary)]'
@@ -31,8 +32,18 @@ function Navigation() {
                 Practice
               </Link>
               <Link
+                to="/flashcards"
+                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium whitespace-nowrap ${
+                  isActive('/flashcards')
+                    ? 'border-[var(--color-primary)] text-[var(--color-text-primary)]'
+                    : 'border-transparent text-[var(--color-text-secondary)] hover:border-[var(--color-border)] hover:text-[var(--color-text-primary)]'
+                }`}
+              >
+                Flashcards
+              </Link>
+              <Link
                 to="/heatmap"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
+                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium whitespace-nowrap ${
                   isActive('/heatmap')
                     ? 'border-[var(--color-primary)] text-[var(--color-text-primary)]'
                     : 'border-transparent text-[var(--color-text-secondary)] hover:border-[var(--color-border)] hover:text-[var(--color-text-primary)]'
@@ -42,7 +53,7 @@ function Navigation() {
               </Link>
               <Link
                 to="/settings"
-                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
+                className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium whitespace-nowrap ${
                   isActive('/settings')
                     ? 'border-[var(--color-primary)] text-[var(--color-text-primary)]'
                     : 'border-transparent text-[var(--color-text-secondary)] hover:border-[var(--color-border)] hover:text-[var(--color-text-primary)]'
@@ -69,6 +80,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<VocabPracticePage />} />
+          <Route path="/flashcards" element={<FlashcardPracticePage />} />
           <Route path="/heatmap" element={<HeatmapPage />} />
           <Route path="/settings" element={<SettingsPage />} />
         </Routes>

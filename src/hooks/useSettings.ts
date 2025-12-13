@@ -19,6 +19,7 @@ const DEFAULT_SETTINGS: AppSettings = {
   privacy: {
     shareAnonymousData: false,
   },
+  theme: 'system',
 };
 
 export function useSettings() {

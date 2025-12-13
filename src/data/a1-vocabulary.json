@@ -1,0 +1,2619 @@
+{
+  "level": "A1",
+  "words": [
+    {
+      "id": "a1-001",
+      "french": "bonjour",
+      "english": "hello",
+      "alternativeTranslations": ["good morning", "good day"],
+      "partOfSpeech": "other",
+      "exampleFr": "Bonjour, comment allez-vous?",
+      "exampleEn": "Hello, how are you?"
+    },
+    {
+      "id": "a1-002",
+      "french": "au revoir",
+      "english": "goodbye",
+      "alternativeTranslations": ["bye"],
+      "partOfSpeech": "other",
+      "exampleFr": "Au revoir, à demain!",
+      "exampleEn": "Goodbye, see you tomorrow!"
+    },
+    {
+      "id": "a1-003",
+      "french": "merci",
+      "english": "thank you",
+      "alternativeTranslations": ["thanks"],
+      "partOfSpeech": "other",
+      "exampleFr": "Merci beaucoup pour votre aide.",
+      "exampleEn": "Thank you very much for your help."
+    },
+    {
+      "id": "a1-004",
+      "french": "s'il vous plaît",
+      "english": "please",
+      "partOfSpeech": "other",
+      "exampleFr": "Un café, s'il vous plaît.",
+      "exampleEn": "A coffee, please."
+    },
+    {
+      "id": "a1-005",
+      "french": "oui",
+      "english": "yes",
+      "partOfSpeech": "other",
+      "exampleFr": "Oui, je comprends.",
+      "exampleEn": "Yes, I understand."
+    },
+    {
+      "id": "a1-006",
+      "french": "non",
+      "english": "no",
+      "partOfSpeech": "other",
+      "exampleFr": "Non, je ne suis pas d'accord.",
+      "exampleEn": "No, I don't agree."
+    },
+    {
+      "id": "a1-007",
+      "french": "excusez-moi",
+      "english": "excuse me",
+      "alternativeTranslations": ["sorry"],
+      "partOfSpeech": "other",
+      "exampleFr": "Excusez-moi, où est la gare?",
+      "exampleEn": "Excuse me, where is the train station?"
+    },
+    {
+      "id": "a1-008",
+      "french": "pardon",
+      "english": "sorry",
+      "alternativeTranslations": ["pardon", "excuse me"],
+      "partOfSpeech": "other",
+      "exampleFr": "Pardon, je n'ai pas compris.",
+      "exampleEn": "Sorry, I didn't understand."
+    },
+    {
+      "id": "a1-009",
+      "french": "bonsoir",
+      "english": "good evening",
+      "partOfSpeech": "other",
+      "exampleFr": "Bonsoir, bienvenue au restaurant.",
+      "exampleEn": "Good evening, welcome to the restaurant."
+    },
+    {
+      "id": "a1-010",
+      "french": "bonne nuit",
+      "english": "good night",
+      "partOfSpeech": "other",
+      "exampleFr": "Bonne nuit, dormez bien!",
+      "exampleEn": "Good night, sleep well!"
+    },
+    {
+      "id": "a1-011",
+      "french": "salut",
+      "english": "hi",
+      "alternativeTranslations": ["hey", "bye"],
+      "partOfSpeech": "other",
+      "exampleFr": "Salut, ça va?",
+      "exampleEn": "Hi, how's it going?"
+    },
+    {
+      "id": "a1-012",
+      "french": "bienvenue",
+      "english": "welcome",
+      "partOfSpeech": "other",
+      "exampleFr": "Bienvenue en France!",
+      "exampleEn": "Welcome to France!"
+    },
+    {
+      "id": "a1-013",
+      "french": "maison",
+      "english": "house",
+      "alternativeTranslations": ["home"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La maison est grande.",
+      "exampleEn": "The house is big."
+    },
+    {
+      "id": "a1-014",
+      "french": "appartement",
+      "english": "apartment",
+      "alternativeTranslations": ["flat"],
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'appartement a trois chambres.",
+      "exampleEn": "The apartment has three bedrooms."
+    },
+    {
+      "id": "a1-015",
+      "french": "chambre",
+      "english": "bedroom",
+      "alternativeTranslations": ["room"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma chambre est au premier étage.",
+      "exampleEn": "My bedroom is on the first floor."
+    },
+    {
+      "id": "a1-016",
+      "french": "cuisine",
+      "english": "kitchen",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je prépare le dîner dans la cuisine.",
+      "exampleEn": "I prepare dinner in the kitchen."
+    },
+    {
+      "id": "a1-017",
+      "french": "salle de bain",
+      "english": "bathroom",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La salle de bain est propre.",
+      "exampleEn": "The bathroom is clean."
+    },
+    {
+      "id": "a1-018",
+      "french": "salon",
+      "english": "living room",
+      "alternativeTranslations": ["lounge"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Nous regardons la télé dans le salon.",
+      "exampleEn": "We watch TV in the living room."
+    },
+    {
+      "id": "a1-019",
+      "french": "jardin",
+      "english": "garden",
+      "alternativeTranslations": ["yard"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les enfants jouent dans le jardin.",
+      "exampleEn": "The children play in the garden."
+    },
+    {
+      "id": "a1-020",
+      "french": "porte",
+      "english": "door",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Fermez la porte, s'il vous plaît.",
+      "exampleEn": "Close the door, please."
+    },
+    {
+      "id": "a1-021",
+      "french": "fenêtre",
+      "english": "window",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ouvrez la fenêtre, il fait chaud.",
+      "exampleEn": "Open the window, it's hot."
+    },
+    {
+      "id": "a1-022",
+      "french": "table",
+      "english": "table",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le livre est sur la table.",
+      "exampleEn": "The book is on the table."
+    },
+    {
+      "id": "a1-023",
+      "french": "chaise",
+      "english": "chair",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Asseyez-vous sur la chaise.",
+      "exampleEn": "Sit on the chair."
+    },
+    {
+      "id": "a1-024",
+      "french": "lit",
+      "english": "bed",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je dors dans mon lit.",
+      "exampleEn": "I sleep in my bed."
+    },
+    {
+      "id": "a1-025",
+      "french": "père",
+      "english": "father",
+      "alternativeTranslations": ["dad"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon père travaille à Paris.",
+      "exampleEn": "My father works in Paris."
+    },
+    {
+      "id": "a1-026",
+      "french": "mère",
+      "english": "mother",
+      "alternativeTranslations": ["mom", "mum"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma mère cuisine très bien.",
+      "exampleEn": "My mother cooks very well."
+    },
+    {
+      "id": "a1-027",
+      "french": "frère",
+      "english": "brother",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon frère a dix ans.",
+      "exampleEn": "My brother is ten years old."
+    },
+    {
+      "id": "a1-028",
+      "french": "sœur",
+      "english": "sister",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma sœur habite à Lyon.",
+      "exampleEn": "My sister lives in Lyon."
+    },
+    {
+      "id": "a1-029",
+      "french": "fils",
+      "english": "son",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon fils va à l'école.",
+      "exampleEn": "My son goes to school."
+    },
+    {
+      "id": "a1-030",
+      "french": "fille",
+      "english": "daughter",
+      "alternativeTranslations": ["girl"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma fille aime la musique.",
+      "exampleEn": "My daughter loves music."
+    },
+    {
+      "id": "a1-031",
+      "french": "grand-père",
+      "english": "grandfather",
+      "alternativeTranslations": ["grandpa"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon grand-père a quatre-vingts ans.",
+      "exampleEn": "My grandfather is eighty years old."
+    },
+    {
+      "id": "a1-032",
+      "french": "grand-mère",
+      "english": "grandmother",
+      "alternativeTranslations": ["grandma"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma grand-mère fait des gâteaux.",
+      "exampleEn": "My grandmother makes cakes."
+    },
+    {
+      "id": "a1-033",
+      "french": "oncle",
+      "english": "uncle",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon oncle habite en Belgique.",
+      "exampleEn": "My uncle lives in Belgium."
+    },
+    {
+      "id": "a1-034",
+      "french": "tante",
+      "english": "aunt",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma tante vient nous voir dimanche.",
+      "exampleEn": "My aunt is coming to see us on Sunday."
+    },
+    {
+      "id": "a1-035",
+      "french": "cousin",
+      "english": "cousin",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon cousin joue au football.",
+      "exampleEn": "My cousin plays football."
+    },
+    {
+      "id": "a1-036",
+      "french": "cousine",
+      "english": "cousin",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma cousine étudie la médecine.",
+      "exampleEn": "My cousin studies medicine."
+    },
+    {
+      "id": "a1-037",
+      "french": "mari",
+      "english": "husband",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon mari travaille à la banque.",
+      "exampleEn": "My husband works at the bank."
+    },
+    {
+      "id": "a1-038",
+      "french": "femme",
+      "english": "wife",
+      "alternativeTranslations": ["woman"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma femme est médecin.",
+      "exampleEn": "My wife is a doctor."
+    },
+    {
+      "id": "a1-039",
+      "french": "enfant",
+      "english": "child",
+      "alternativeTranslations": ["kid"],
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'enfant joue dans le parc.",
+      "exampleEn": "The child plays in the park."
+    },
+    {
+      "id": "a1-040",
+      "french": "bébé",
+      "english": "baby",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le bébé dort dans son lit.",
+      "exampleEn": "The baby sleeps in his bed."
+    },
+    {
+      "id": "a1-041",
+      "french": "ami",
+      "english": "friend",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon ami vient dîner ce soir.",
+      "exampleEn": "My friend is coming for dinner tonight."
+    },
+    {
+      "id": "a1-042",
+      "french": "amie",
+      "english": "friend",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon amie habite près de chez moi.",
+      "exampleEn": "My friend lives near my place."
+    },
+    {
+      "id": "a1-043",
+      "french": "homme",
+      "english": "man",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'homme porte un chapeau.",
+      "exampleEn": "The man wears a hat."
+    },
+    {
+      "id": "a1-044",
+      "french": "garçon",
+      "english": "boy",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le garçon mange une pomme.",
+      "exampleEn": "The boy eats an apple."
+    },
+    {
+      "id": "a1-045",
+      "french": "personne",
+      "english": "person",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Cette personne est très gentille.",
+      "exampleEn": "This person is very kind."
+    },
+    {
+      "id": "a1-046",
+      "french": "rouge",
+      "english": "red",
+      "partOfSpeech": "adjective",
+      "exampleFr": "La voiture rouge est rapide.",
+      "exampleEn": "The red car is fast."
+    },
+    {
+      "id": "a1-047",
+      "french": "bleu",
+      "english": "blue",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le ciel est bleu aujourd'hui.",
+      "exampleEn": "The sky is blue today."
+    },
+    {
+      "id": "a1-048",
+      "french": "vert",
+      "english": "green",
+      "partOfSpeech": "adjective",
+      "exampleFr": "L'herbe est verte au printemps.",
+      "exampleEn": "The grass is green in spring."
+    },
+    {
+      "id": "a1-049",
+      "french": "jaune",
+      "english": "yellow",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le soleil est jaune.",
+      "exampleEn": "The sun is yellow."
+    },
+    {
+      "id": "a1-050",
+      "french": "orange",
+      "english": "orange",
+      "partOfSpeech": "adjective",
+      "exampleFr": "J'aime les fleurs orange.",
+      "exampleEn": "I like orange flowers."
+    },
+    {
+      "id": "a1-051",
+      "french": "violet",
+      "english": "purple",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Elle porte une robe violette.",
+      "exampleEn": "She wears a purple dress."
+    },
+    {
+      "id": "a1-052",
+      "french": "rose",
+      "english": "pink",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Les fleurs roses sont belles.",
+      "exampleEn": "The pink flowers are beautiful."
+    },
+    {
+      "id": "a1-053",
+      "french": "noir",
+      "english": "black",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le chat noir dort.",
+      "exampleEn": "The black cat sleeps."
+    },
+    {
+      "id": "a1-054",
+      "french": "blanc",
+      "english": "white",
+      "partOfSpeech": "adjective",
+      "exampleFr": "La neige est blanche.",
+      "exampleEn": "The snow is white."
+    },
+    {
+      "id": "a1-055",
+      "french": "gris",
+      "english": "gray",
+      "alternativeTranslations": ["grey"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le ciel est gris aujourd'hui.",
+      "exampleEn": "The sky is gray today."
+    },
+    {
+      "id": "a1-056",
+      "french": "marron",
+      "english": "brown",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Ses yeux sont marron.",
+      "exampleEn": "His eyes are brown."
+    },
+    {
+      "id": "a1-057",
+      "french": "un",
+      "english": "one",
+      "partOfSpeech": "other",
+      "exampleFr": "J'ai un frère.",
+      "exampleEn": "I have one brother."
+    },
+    {
+      "id": "a1-058",
+      "french": "deux",
+      "english": "two",
+      "partOfSpeech": "other",
+      "exampleFr": "J'ai deux sœurs.",
+      "exampleEn": "I have two sisters."
+    },
+    {
+      "id": "a1-059",
+      "french": "trois",
+      "english": "three",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a trois pommes.",
+      "exampleEn": "There are three apples."
+    },
+    {
+      "id": "a1-060",
+      "french": "quatre",
+      "english": "four",
+      "partOfSpeech": "other",
+      "exampleFr": "La table a quatre pieds.",
+      "exampleEn": "The table has four legs."
+    },
+    {
+      "id": "a1-061",
+      "french": "cinq",
+      "english": "five",
+      "partOfSpeech": "other",
+      "exampleFr": "J'ai cinq doigts.",
+      "exampleEn": "I have five fingers."
+    },
+    {
+      "id": "a1-062",
+      "french": "six",
+      "english": "six",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a six œufs dans la boîte.",
+      "exampleEn": "There are six eggs in the box."
+    },
+    {
+      "id": "a1-063",
+      "french": "sept",
+      "english": "seven",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a sept jours dans une semaine.",
+      "exampleEn": "There are seven days in a week."
+    },
+    {
+      "id": "a1-064",
+      "french": "huit",
+      "english": "eight",
+      "partOfSpeech": "other",
+      "exampleFr": "Le cours commence à huit heures.",
+      "exampleEn": "The class starts at eight o'clock."
+    },
+    {
+      "id": "a1-065",
+      "french": "neuf",
+      "english": "nine",
+      "partOfSpeech": "other",
+      "exampleFr": "J'ai neuf ans.",
+      "exampleEn": "I am nine years old."
+    },
+    {
+      "id": "a1-066",
+      "french": "dix",
+      "english": "ten",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a dix élèves dans la classe.",
+      "exampleEn": "There are ten students in the class."
+    },
+    {
+      "id": "a1-067",
+      "french": "onze",
+      "english": "eleven",
+      "partOfSpeech": "other",
+      "exampleFr": "Le match commence à onze heures.",
+      "exampleEn": "The match starts at eleven o'clock."
+    },
+    {
+      "id": "a1-068",
+      "french": "douze",
+      "english": "twelve",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a douze mois dans une année.",
+      "exampleEn": "There are twelve months in a year."
+    },
+    {
+      "id": "a1-069",
+      "french": "treize",
+      "english": "thirteen",
+      "partOfSpeech": "other",
+      "exampleFr": "Elle a treize ans.",
+      "exampleEn": "She is thirteen years old."
+    },
+    {
+      "id": "a1-070",
+      "french": "quatorze",
+      "english": "fourteen",
+      "partOfSpeech": "other",
+      "exampleFr": "Le quatorze juillet est la fête nationale.",
+      "exampleEn": "July fourteenth is the national holiday."
+    },
+    {
+      "id": "a1-071",
+      "french": "quinze",
+      "english": "fifteen",
+      "partOfSpeech": "other",
+      "exampleFr": "J'arrive dans quinze minutes.",
+      "exampleEn": "I arrive in fifteen minutes."
+    },
+    {
+      "id": "a1-072",
+      "french": "seize",
+      "english": "sixteen",
+      "partOfSpeech": "other",
+      "exampleFr": "Mon frère a seize ans.",
+      "exampleEn": "My brother is sixteen years old."
+    },
+    {
+      "id": "a1-073",
+      "french": "vingt",
+      "english": "twenty",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a vingt étudiants.",
+      "exampleEn": "There are twenty students."
+    },
+    {
+      "id": "a1-074",
+      "french": "trente",
+      "english": "thirty",
+      "partOfSpeech": "other",
+      "exampleFr": "Le mois a trente jours.",
+      "exampleEn": "The month has thirty days."
+    },
+    {
+      "id": "a1-075",
+      "french": "quarante",
+      "english": "forty",
+      "partOfSpeech": "other",
+      "exampleFr": "Mon père a quarante ans.",
+      "exampleEn": "My father is forty years old."
+    },
+    {
+      "id": "a1-076",
+      "french": "cinquante",
+      "english": "fifty",
+      "partOfSpeech": "other",
+      "exampleFr": "Il y a cinquante personnes.",
+      "exampleEn": "There are fifty people."
+    },
+    {
+      "id": "a1-077",
+      "french": "soixante",
+      "english": "sixty",
+      "partOfSpeech": "other",
+      "exampleFr": "Une heure a soixante minutes.",
+      "exampleEn": "An hour has sixty minutes."
+    },
+    {
+      "id": "a1-078",
+      "french": "cent",
+      "english": "hundred",
+      "alternativeTranslations": ["one hundred"],
+      "partOfSpeech": "other",
+      "exampleFr": "J'ai cent euros.",
+      "exampleEn": "I have one hundred euros."
+    },
+    {
+      "id": "a1-079",
+      "french": "mille",
+      "english": "thousand",
+      "alternativeTranslations": ["one thousand"],
+      "partOfSpeech": "other",
+      "exampleFr": "La ville a mille habitants.",
+      "exampleEn": "The town has one thousand inhabitants."
+    },
+    {
+      "id": "a1-080",
+      "french": "premier",
+      "english": "first",
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est mon premier jour.",
+      "exampleEn": "It's my first day."
+    },
+    {
+      "id": "a1-081",
+      "french": "deuxième",
+      "english": "second",
+      "partOfSpeech": "adjective",
+      "exampleFr": "J'habite au deuxième étage.",
+      "exampleEn": "I live on the second floor."
+    },
+    {
+      "id": "a1-082",
+      "french": "dernier",
+      "english": "last",
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est le dernier jour.",
+      "exampleEn": "It's the last day."
+    },
+    {
+      "id": "a1-083",
+      "french": "pain",
+      "english": "bread",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'achète du pain tous les jours.",
+      "exampleEn": "I buy bread every day."
+    },
+    {
+      "id": "a1-084",
+      "french": "eau",
+      "english": "water",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je bois de l'eau.",
+      "exampleEn": "I drink water."
+    },
+    {
+      "id": "a1-085",
+      "french": "café",
+      "english": "coffee",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je prends un café le matin.",
+      "exampleEn": "I have a coffee in the morning."
+    },
+    {
+      "id": "a1-086",
+      "french": "thé",
+      "english": "tea",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Elle préfère le thé.",
+      "exampleEn": "She prefers tea."
+    },
+    {
+      "id": "a1-087",
+      "french": "lait",
+      "english": "milk",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les enfants boivent du lait.",
+      "exampleEn": "The children drink milk."
+    },
+    {
+      "id": "a1-088",
+      "french": "jus",
+      "english": "juice",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je voudrais un jus d'orange.",
+      "exampleEn": "I would like an orange juice."
+    },
+    {
+      "id": "a1-089",
+      "french": "vin",
+      "english": "wine",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le vin rouge est bon.",
+      "exampleEn": "The red wine is good."
+    },
+    {
+      "id": "a1-090",
+      "french": "bière",
+      "english": "beer",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Une bière, s'il vous plaît.",
+      "exampleEn": "A beer, please."
+    },
+    {
+      "id": "a1-091",
+      "french": "pomme",
+      "english": "apple",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je mange une pomme.",
+      "exampleEn": "I eat an apple."
+    },
+    {
+      "id": "a1-092",
+      "french": "banane",
+      "english": "banana",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La banane est jaune.",
+      "exampleEn": "The banana is yellow."
+    },
+    {
+      "id": "a1-093",
+      "french": "fraise",
+      "english": "strawberry",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'aime les fraises.",
+      "exampleEn": "I like strawberries."
+    },
+    {
+      "id": "a1-094",
+      "french": "raisin",
+      "english": "grape",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les raisins sont délicieux.",
+      "exampleEn": "The grapes are delicious."
+    },
+    {
+      "id": "a1-095",
+      "french": "citron",
+      "english": "lemon",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le citron est acide.",
+      "exampleEn": "The lemon is sour."
+    },
+    {
+      "id": "a1-096",
+      "french": "tomate",
+      "english": "tomato",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La tomate est rouge.",
+      "exampleEn": "The tomato is red."
+    },
+    {
+      "id": "a1-097",
+      "french": "carotte",
+      "english": "carrot",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les carottes sont bonnes pour la santé.",
+      "exampleEn": "Carrots are good for health."
+    },
+    {
+      "id": "a1-098",
+      "french": "salade",
+      "english": "salad",
+      "alternativeTranslations": ["lettuce"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je prends une salade.",
+      "exampleEn": "I'll have a salad."
+    },
+    {
+      "id": "a1-099",
+      "french": "légume",
+      "english": "vegetable",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les légumes sont importants.",
+      "exampleEn": "Vegetables are important."
+    },
+    {
+      "id": "a1-100",
+      "french": "fruit",
+      "english": "fruit",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je mange des fruits chaque jour.",
+      "exampleEn": "I eat fruit every day."
+    },
+    {
+      "id": "a1-101",
+      "french": "viande",
+      "english": "meat",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je ne mange pas de viande.",
+      "exampleEn": "I don't eat meat."
+    },
+    {
+      "id": "a1-102",
+      "french": "poulet",
+      "english": "chicken",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le poulet est cuit.",
+      "exampleEn": "The chicken is cooked."
+    },
+    {
+      "id": "a1-103",
+      "french": "poisson",
+      "english": "fish",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'aime le poisson frais.",
+      "exampleEn": "I like fresh fish."
+    },
+    {
+      "id": "a1-104",
+      "french": "œuf",
+      "english": "egg",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je mange un œuf au petit-déjeuner.",
+      "exampleEn": "I eat an egg for breakfast."
+    },
+    {
+      "id": "a1-105",
+      "french": "fromage",
+      "english": "cheese",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le fromage français est délicieux.",
+      "exampleEn": "French cheese is delicious."
+    },
+    {
+      "id": "a1-106",
+      "french": "beurre",
+      "english": "butter",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je mets du beurre sur le pain.",
+      "exampleEn": "I put butter on the bread."
+    },
+    {
+      "id": "a1-107",
+      "french": "sucre",
+      "english": "sugar",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je prends mon café sans sucre.",
+      "exampleEn": "I take my coffee without sugar."
+    },
+    {
+      "id": "a1-108",
+      "french": "sel",
+      "english": "salt",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Passez-moi le sel, s'il vous plaît.",
+      "exampleEn": "Pass me the salt, please."
+    },
+    {
+      "id": "a1-109",
+      "french": "riz",
+      "english": "rice",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je mange du riz avec le poulet.",
+      "exampleEn": "I eat rice with chicken."
+    },
+    {
+      "id": "a1-110",
+      "french": "pâtes",
+      "english": "pasta",
+      "gender": "les",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les pâtes sont prêtes.",
+      "exampleEn": "The pasta is ready."
+    },
+    {
+      "id": "a1-111",
+      "french": "soupe",
+      "english": "soup",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La soupe est chaude.",
+      "exampleEn": "The soup is hot."
+    },
+    {
+      "id": "a1-112",
+      "french": "gâteau",
+      "english": "cake",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le gâteau au chocolat est délicieux.",
+      "exampleEn": "The chocolate cake is delicious."
+    },
+    {
+      "id": "a1-113",
+      "french": "glace",
+      "english": "ice cream",
+      "alternativeTranslations": ["ice"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je voudrais une glace à la vanille.",
+      "exampleEn": "I would like a vanilla ice cream."
+    },
+    {
+      "id": "a1-114",
+      "french": "chocolat",
+      "english": "chocolate",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'adore le chocolat.",
+      "exampleEn": "I love chocolate."
+    },
+    {
+      "id": "a1-115",
+      "french": "petit-déjeuner",
+      "english": "breakfast",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le petit-déjeuner est servi.",
+      "exampleEn": "Breakfast is served."
+    },
+    {
+      "id": "a1-116",
+      "french": "déjeuner",
+      "english": "lunch",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le déjeuner est à midi.",
+      "exampleEn": "Lunch is at noon."
+    },
+    {
+      "id": "a1-117",
+      "french": "dîner",
+      "english": "dinner",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le dîner est prêt.",
+      "exampleEn": "Dinner is ready."
+    },
+    {
+      "id": "a1-118",
+      "french": "repas",
+      "english": "meal",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "C'est un bon repas.",
+      "exampleEn": "It's a good meal."
+    },
+    {
+      "id": "a1-119",
+      "french": "restaurant",
+      "english": "restaurant",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Nous allons au restaurant ce soir.",
+      "exampleEn": "We're going to the restaurant tonight."
+    },
+    {
+      "id": "a1-120",
+      "french": "être",
+      "english": "to be",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je suis français.",
+      "exampleEn": "I am French."
+    },
+    {
+      "id": "a1-121",
+      "french": "avoir",
+      "english": "to have",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'ai une voiture.",
+      "exampleEn": "I have a car."
+    },
+    {
+      "id": "a1-122",
+      "french": "faire",
+      "english": "to do",
+      "alternativeTranslations": ["to make"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je fais mes devoirs.",
+      "exampleEn": "I do my homework."
+    },
+    {
+      "id": "a1-123",
+      "french": "aller",
+      "english": "to go",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je vais à l'école.",
+      "exampleEn": "I go to school."
+    },
+    {
+      "id": "a1-124",
+      "french": "venir",
+      "english": "to come",
+      "partOfSpeech": "verb",
+      "exampleFr": "Tu viens avec moi?",
+      "exampleEn": "Are you coming with me?"
+    },
+    {
+      "id": "a1-125",
+      "french": "voir",
+      "english": "to see",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je vois la mer.",
+      "exampleEn": "I see the sea."
+    },
+    {
+      "id": "a1-126",
+      "french": "savoir",
+      "english": "to know",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je sais parler français.",
+      "exampleEn": "I know how to speak French."
+    },
+    {
+      "id": "a1-127",
+      "french": "pouvoir",
+      "english": "to be able to",
+      "alternativeTranslations": ["can"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je peux vous aider.",
+      "exampleEn": "I can help you."
+    },
+    {
+      "id": "a1-128",
+      "french": "vouloir",
+      "english": "to want",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je veux un café.",
+      "exampleEn": "I want a coffee."
+    },
+    {
+      "id": "a1-129",
+      "french": "devoir",
+      "english": "to have to",
+      "alternativeTranslations": ["must"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je dois partir.",
+      "exampleEn": "I have to leave."
+    },
+    {
+      "id": "a1-130",
+      "french": "dire",
+      "english": "to say",
+      "alternativeTranslations": ["to tell"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Il dit la vérité.",
+      "exampleEn": "He tells the truth."
+    },
+    {
+      "id": "a1-131",
+      "french": "parler",
+      "english": "to speak",
+      "alternativeTranslations": ["to talk"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je parle français.",
+      "exampleEn": "I speak French."
+    },
+    {
+      "id": "a1-132",
+      "french": "manger",
+      "english": "to eat",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je mange une pomme.",
+      "exampleEn": "I eat an apple."
+    },
+    {
+      "id": "a1-133",
+      "french": "boire",
+      "english": "to drink",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je bois de l'eau.",
+      "exampleEn": "I drink water."
+    },
+    {
+      "id": "a1-134",
+      "french": "dormir",
+      "english": "to sleep",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je dors huit heures.",
+      "exampleEn": "I sleep eight hours."
+    },
+    {
+      "id": "a1-135",
+      "french": "travailler",
+      "english": "to work",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je travaille à Paris.",
+      "exampleEn": "I work in Paris."
+    },
+    {
+      "id": "a1-136",
+      "french": "habiter",
+      "english": "to live",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'habite en France.",
+      "exampleEn": "I live in France."
+    },
+    {
+      "id": "a1-137",
+      "french": "aimer",
+      "english": "to like",
+      "alternativeTranslations": ["to love"],
+      "partOfSpeech": "verb",
+      "exampleFr": "J'aime le chocolat.",
+      "exampleEn": "I like chocolate."
+    },
+    {
+      "id": "a1-138",
+      "french": "acheter",
+      "english": "to buy",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'achète du pain.",
+      "exampleEn": "I buy bread."
+    },
+    {
+      "id": "a1-139",
+      "french": "prendre",
+      "english": "to take",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je prends le bus.",
+      "exampleEn": "I take the bus."
+    },
+    {
+      "id": "a1-140",
+      "french": "donner",
+      "english": "to give",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je donne un cadeau.",
+      "exampleEn": "I give a gift."
+    },
+    {
+      "id": "a1-141",
+      "french": "regarder",
+      "english": "to watch",
+      "alternativeTranslations": ["to look at"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je regarde la télévision.",
+      "exampleEn": "I watch television."
+    },
+    {
+      "id": "a1-142",
+      "french": "écouter",
+      "english": "to listen",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'écoute de la musique.",
+      "exampleEn": "I listen to music."
+    },
+    {
+      "id": "a1-143",
+      "french": "lire",
+      "english": "to read",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je lis un livre.",
+      "exampleEn": "I read a book."
+    },
+    {
+      "id": "a1-144",
+      "french": "écrire",
+      "english": "to write",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'écris une lettre.",
+      "exampleEn": "I write a letter."
+    },
+    {
+      "id": "a1-145",
+      "french": "jouer",
+      "english": "to play",
+      "partOfSpeech": "verb",
+      "exampleFr": "Les enfants jouent dehors.",
+      "exampleEn": "The children play outside."
+    },
+    {
+      "id": "a1-146",
+      "french": "marcher",
+      "english": "to walk",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je marche dans le parc.",
+      "exampleEn": "I walk in the park."
+    },
+    {
+      "id": "a1-147",
+      "french": "courir",
+      "english": "to run",
+      "partOfSpeech": "verb",
+      "exampleFr": "Il court très vite.",
+      "exampleEn": "He runs very fast."
+    },
+    {
+      "id": "a1-148",
+      "french": "nager",
+      "english": "to swim",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je nage dans la piscine.",
+      "exampleEn": "I swim in the pool."
+    },
+    {
+      "id": "a1-149",
+      "french": "chanter",
+      "english": "to sing",
+      "partOfSpeech": "verb",
+      "exampleFr": "Elle chante bien.",
+      "exampleEn": "She sings well."
+    },
+    {
+      "id": "a1-150",
+      "french": "danser",
+      "english": "to dance",
+      "partOfSpeech": "verb",
+      "exampleFr": "Nous dansons ensemble.",
+      "exampleEn": "We dance together."
+    },
+    {
+      "id": "a1-151",
+      "french": "apprendre",
+      "english": "to learn",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'apprends le français.",
+      "exampleEn": "I learn French."
+    },
+    {
+      "id": "a1-152",
+      "french": "comprendre",
+      "english": "to understand",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je comprends la question.",
+      "exampleEn": "I understand the question."
+    },
+    {
+      "id": "a1-153",
+      "french": "attendre",
+      "english": "to wait",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'attends le bus.",
+      "exampleEn": "I wait for the bus."
+    },
+    {
+      "id": "a1-154",
+      "french": "chercher",
+      "english": "to look for",
+      "alternativeTranslations": ["to search"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je cherche mes clés.",
+      "exampleEn": "I look for my keys."
+    },
+    {
+      "id": "a1-155",
+      "french": "trouver",
+      "english": "to find",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'ai trouvé mon livre.",
+      "exampleEn": "I found my book."
+    },
+    {
+      "id": "a1-156",
+      "french": "ouvrir",
+      "english": "to open",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'ouvre la fenêtre.",
+      "exampleEn": "I open the window."
+    },
+    {
+      "id": "a1-157",
+      "french": "fermer",
+      "english": "to close",
+      "partOfSpeech": "verb",
+      "exampleFr": "Fermez la porte.",
+      "exampleEn": "Close the door."
+    },
+    {
+      "id": "a1-158",
+      "french": "commencer",
+      "english": "to start",
+      "alternativeTranslations": ["to begin"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Le film commence à huit heures.",
+      "exampleEn": "The movie starts at eight o'clock."
+    },
+    {
+      "id": "a1-159",
+      "french": "finir",
+      "english": "to finish",
+      "alternativeTranslations": ["to end"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je finis mon travail.",
+      "exampleEn": "I finish my work."
+    },
+    {
+      "id": "a1-160",
+      "french": "arriver",
+      "english": "to arrive",
+      "partOfSpeech": "verb",
+      "exampleFr": "Le train arrive à midi.",
+      "exampleEn": "The train arrives at noon."
+    },
+    {
+      "id": "a1-161",
+      "french": "partir",
+      "english": "to leave",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je pars demain.",
+      "exampleEn": "I leave tomorrow."
+    },
+    {
+      "id": "a1-162",
+      "french": "entrer",
+      "english": "to enter",
+      "partOfSpeech": "verb",
+      "exampleFr": "Entrez, s'il vous plaît.",
+      "exampleEn": "Enter, please."
+    },
+    {
+      "id": "a1-163",
+      "french": "sortir",
+      "english": "to go out",
+      "alternativeTranslations": ["to exit"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je sors ce soir.",
+      "exampleEn": "I'm going out tonight."
+    },
+    {
+      "id": "a1-164",
+      "french": "rester",
+      "english": "to stay",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je reste à la maison.",
+      "exampleEn": "I stay at home."
+    },
+    {
+      "id": "a1-165",
+      "french": "penser",
+      "english": "to think",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je pense à toi.",
+      "exampleEn": "I think of you."
+    },
+    {
+      "id": "a1-166",
+      "french": "croire",
+      "english": "to believe",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je crois que c'est vrai.",
+      "exampleEn": "I believe it's true."
+    },
+    {
+      "id": "a1-167",
+      "french": "demander",
+      "english": "to ask",
+      "partOfSpeech": "verb",
+      "exampleFr": "Je demande de l'aide.",
+      "exampleEn": "I ask for help."
+    },
+    {
+      "id": "a1-168",
+      "french": "répondre",
+      "english": "to answer",
+      "alternativeTranslations": ["to reply"],
+      "partOfSpeech": "verb",
+      "exampleFr": "Je réponds à la question.",
+      "exampleEn": "I answer the question."
+    },
+    {
+      "id": "a1-169",
+      "french": "appeler",
+      "english": "to call",
+      "partOfSpeech": "verb",
+      "exampleFr": "J'appelle ma mère.",
+      "exampleEn": "I call my mother."
+    },
+    {
+      "id": "a1-170",
+      "french": "grand",
+      "english": "big",
+      "alternativeTranslations": ["tall", "large"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "La maison est grande.",
+      "exampleEn": "The house is big."
+    },
+    {
+      "id": "a1-171",
+      "french": "petit",
+      "english": "small",
+      "alternativeTranslations": ["little"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le chat est petit.",
+      "exampleEn": "The cat is small."
+    },
+    {
+      "id": "a1-172",
+      "french": "bon",
+      "english": "good",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le repas est bon.",
+      "exampleEn": "The meal is good."
+    },
+    {
+      "id": "a1-173",
+      "french": "mauvais",
+      "english": "bad",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le temps est mauvais.",
+      "exampleEn": "The weather is bad."
+    },
+    {
+      "id": "a1-174",
+      "french": "beau",
+      "english": "beautiful",
+      "alternativeTranslations": ["handsome"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est un beau jour.",
+      "exampleEn": "It's a beautiful day."
+    },
+    {
+      "id": "a1-175",
+      "french": "joli",
+      "english": "pretty",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Elle porte une jolie robe.",
+      "exampleEn": "She wears a pretty dress."
+    },
+    {
+      "id": "a1-176",
+      "french": "nouveau",
+      "english": "new",
+      "partOfSpeech": "adjective",
+      "exampleFr": "J'ai une nouvelle voiture.",
+      "exampleEn": "I have a new car."
+    },
+    {
+      "id": "a1-177",
+      "french": "vieux",
+      "english": "old",
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est un vieux livre.",
+      "exampleEn": "It's an old book."
+    },
+    {
+      "id": "a1-178",
+      "french": "jeune",
+      "english": "young",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Elle est très jeune.",
+      "exampleEn": "She is very young."
+    },
+    {
+      "id": "a1-179",
+      "french": "chaud",
+      "english": "hot",
+      "alternativeTranslations": ["warm"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le café est chaud.",
+      "exampleEn": "The coffee is hot."
+    },
+    {
+      "id": "a1-180",
+      "french": "froid",
+      "english": "cold",
+      "partOfSpeech": "adjective",
+      "exampleFr": "L'eau est froide.",
+      "exampleEn": "The water is cold."
+    },
+    {
+      "id": "a1-181",
+      "french": "facile",
+      "english": "easy",
+      "partOfSpeech": "adjective",
+      "exampleFr": "L'exercice est facile.",
+      "exampleEn": "The exercise is easy."
+    },
+    {
+      "id": "a1-182",
+      "french": "difficile",
+      "english": "difficult",
+      "alternativeTranslations": ["hard"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "La question est difficile.",
+      "exampleEn": "The question is difficult."
+    },
+    {
+      "id": "a1-183",
+      "french": "content",
+      "english": "happy",
+      "alternativeTranslations": ["glad"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "Je suis content de te voir.",
+      "exampleEn": "I'm happy to see you."
+    },
+    {
+      "id": "a1-184",
+      "french": "triste",
+      "english": "sad",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Elle est triste aujourd'hui.",
+      "exampleEn": "She is sad today."
+    },
+    {
+      "id": "a1-185",
+      "french": "fatigué",
+      "english": "tired",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Je suis fatigué.",
+      "exampleEn": "I am tired."
+    },
+    {
+      "id": "a1-186",
+      "french": "gentil",
+      "english": "kind",
+      "alternativeTranslations": ["nice"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "Il est très gentil.",
+      "exampleEn": "He is very kind."
+    },
+    {
+      "id": "a1-187",
+      "french": "important",
+      "english": "important",
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est très important.",
+      "exampleEn": "It's very important."
+    },
+    {
+      "id": "a1-188",
+      "french": "intéressant",
+      "english": "interesting",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le livre est intéressant.",
+      "exampleEn": "The book is interesting."
+    },
+    {
+      "id": "a1-189",
+      "french": "différent",
+      "english": "different",
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est différent.",
+      "exampleEn": "It's different."
+    },
+    {
+      "id": "a1-190",
+      "french": "même",
+      "english": "same",
+      "partOfSpeech": "adjective",
+      "exampleFr": "C'est la même chose.",
+      "exampleEn": "It's the same thing."
+    },
+    {
+      "id": "a1-191",
+      "french": "autre",
+      "english": "other",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Je veux un autre café.",
+      "exampleEn": "I want another coffee."
+    },
+    {
+      "id": "a1-192",
+      "french": "seul",
+      "english": "alone",
+      "alternativeTranslations": ["only"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "Je suis seul à la maison.",
+      "exampleEn": "I am alone at home."
+    },
+    {
+      "id": "a1-193",
+      "french": "libre",
+      "english": "free",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Je suis libre demain.",
+      "exampleEn": "I am free tomorrow."
+    },
+    {
+      "id": "a1-194",
+      "french": "prêt",
+      "english": "ready",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Je suis prêt à partir.",
+      "exampleEn": "I am ready to leave."
+    },
+    {
+      "id": "a1-195",
+      "french": "ouvert",
+      "english": "open",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le magasin est ouvert.",
+      "exampleEn": "The store is open."
+    },
+    {
+      "id": "a1-196",
+      "french": "fermé",
+      "english": "closed",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le restaurant est fermé.",
+      "exampleEn": "The restaurant is closed."
+    },
+    {
+      "id": "a1-197",
+      "french": "propre",
+      "english": "clean",
+      "alternativeTranslations": ["own"],
+      "partOfSpeech": "adjective",
+      "exampleFr": "La chambre est propre.",
+      "exampleEn": "The room is clean."
+    },
+    {
+      "id": "a1-198",
+      "french": "sale",
+      "english": "dirty",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Les mains sont sales.",
+      "exampleEn": "The hands are dirty."
+    },
+    {
+      "id": "a1-199",
+      "french": "plein",
+      "english": "full",
+      "partOfSpeech": "adjective",
+      "exampleFr": "Le verre est plein.",
+      "exampleEn": "The glass is full."
+    },
+    {
+      "id": "a1-200",
+      "french": "vide",
+      "english": "empty",
+      "partOfSpeech": "adjective",
+      "exampleFr": "La bouteille est vide.",
+      "exampleEn": "The bottle is empty."
+    },
+    {
+      "id": "a1-201",
+      "french": "lundi",
+      "english": "Monday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je travaille lundi.",
+      "exampleEn": "I work on Monday."
+    },
+    {
+      "id": "a1-202",
+      "french": "mardi",
+      "english": "Tuesday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le cours est mardi.",
+      "exampleEn": "The class is on Tuesday."
+    },
+    {
+      "id": "a1-203",
+      "french": "mercredi",
+      "english": "Wednesday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mercredi, je suis libre.",
+      "exampleEn": "Wednesday, I am free."
+    },
+    {
+      "id": "a1-204",
+      "french": "jeudi",
+      "english": "Thursday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Jeudi prochain, nous partons.",
+      "exampleEn": "Next Thursday, we leave."
+    },
+    {
+      "id": "a1-205",
+      "french": "vendredi",
+      "english": "Friday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Vendredi soir, je sors.",
+      "exampleEn": "Friday evening, I go out."
+    },
+    {
+      "id": "a1-206",
+      "french": "samedi",
+      "english": "Saturday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Samedi, je fais les courses.",
+      "exampleEn": "Saturday, I do the shopping."
+    },
+    {
+      "id": "a1-207",
+      "french": "dimanche",
+      "english": "Sunday",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Dimanche, je me repose.",
+      "exampleEn": "Sunday, I rest."
+    },
+    {
+      "id": "a1-208",
+      "french": "janvier",
+      "english": "January",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Janvier est le premier mois.",
+      "exampleEn": "January is the first month."
+    },
+    {
+      "id": "a1-209",
+      "french": "février",
+      "english": "February",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Février est court.",
+      "exampleEn": "February is short."
+    },
+    {
+      "id": "a1-210",
+      "french": "mars",
+      "english": "March",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le printemps commence en mars.",
+      "exampleEn": "Spring begins in March."
+    },
+    {
+      "id": "a1-211",
+      "french": "avril",
+      "english": "April",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Il pleut souvent en avril.",
+      "exampleEn": "It often rains in April."
+    },
+    {
+      "id": "a1-212",
+      "french": "mai",
+      "english": "May",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mai est un beau mois.",
+      "exampleEn": "May is a beautiful month."
+    },
+    {
+      "id": "a1-213",
+      "french": "juin",
+      "english": "June",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'été commence en juin.",
+      "exampleEn": "Summer begins in June."
+    },
+    {
+      "id": "a1-214",
+      "french": "juillet",
+      "english": "July",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Juillet est chaud.",
+      "exampleEn": "July is hot."
+    },
+    {
+      "id": "a1-215",
+      "french": "août",
+      "english": "August",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "En août, je suis en vacances.",
+      "exampleEn": "In August, I am on vacation."
+    },
+    {
+      "id": "a1-216",
+      "french": "septembre",
+      "english": "September",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'école commence en septembre.",
+      "exampleEn": "School starts in September."
+    },
+    {
+      "id": "a1-217",
+      "french": "octobre",
+      "english": "October",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'automne est en octobre.",
+      "exampleEn": "Autumn is in October."
+    },
+    {
+      "id": "a1-218",
+      "french": "novembre",
+      "english": "November",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Novembre est gris.",
+      "exampleEn": "November is gray."
+    },
+    {
+      "id": "a1-219",
+      "french": "décembre",
+      "english": "December",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Noël est en décembre.",
+      "exampleEn": "Christmas is in December."
+    },
+    {
+      "id": "a1-220",
+      "french": "aujourd'hui",
+      "english": "today",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Aujourd'hui, il fait beau.",
+      "exampleEn": "Today, the weather is nice."
+    },
+    {
+      "id": "a1-221",
+      "french": "demain",
+      "english": "tomorrow",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je pars demain.",
+      "exampleEn": "I leave tomorrow."
+    },
+    {
+      "id": "a1-222",
+      "french": "hier",
+      "english": "yesterday",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Hier, j'ai travaillé.",
+      "exampleEn": "Yesterday, I worked."
+    },
+    {
+      "id": "a1-223",
+      "french": "maintenant",
+      "english": "now",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je mange maintenant.",
+      "exampleEn": "I eat now."
+    },
+    {
+      "id": "a1-224",
+      "french": "toujours",
+      "english": "always",
+      "alternativeTranslations": ["still"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "Il est toujours en retard.",
+      "exampleEn": "He is always late."
+    },
+    {
+      "id": "a1-225",
+      "french": "jamais",
+      "english": "never",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je ne mange jamais de viande.",
+      "exampleEn": "I never eat meat."
+    },
+    {
+      "id": "a1-226",
+      "french": "souvent",
+      "english": "often",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je vais souvent au cinéma.",
+      "exampleEn": "I often go to the cinema."
+    },
+    {
+      "id": "a1-227",
+      "french": "parfois",
+      "english": "sometimes",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Parfois, je lis le soir.",
+      "exampleEn": "Sometimes, I read in the evening."
+    },
+    {
+      "id": "a1-228",
+      "french": "déjà",
+      "english": "already",
+      "partOfSpeech": "adverb",
+      "exampleFr": "J'ai déjà mangé.",
+      "exampleEn": "I have already eaten."
+    },
+    {
+      "id": "a1-229",
+      "french": "encore",
+      "english": "again",
+      "alternativeTranslations": ["still", "more"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je veux encore du pain.",
+      "exampleEn": "I want more bread."
+    },
+    {
+      "id": "a1-230",
+      "french": "très",
+      "english": "very",
+      "partOfSpeech": "adverb",
+      "exampleFr": "C'est très bon.",
+      "exampleEn": "It's very good."
+    },
+    {
+      "id": "a1-231",
+      "french": "bien",
+      "english": "well",
+      "alternativeTranslations": ["good"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je vais bien.",
+      "exampleEn": "I am well."
+    },
+    {
+      "id": "a1-232",
+      "french": "mal",
+      "english": "badly",
+      "alternativeTranslations": ["bad"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "J'ai mal à la tête.",
+      "exampleEn": "I have a headache."
+    },
+    {
+      "id": "a1-233",
+      "french": "vite",
+      "english": "fast",
+      "alternativeTranslations": ["quickly"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "Il court vite.",
+      "exampleEn": "He runs fast."
+    },
+    {
+      "id": "a1-234",
+      "french": "lentement",
+      "english": "slowly",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Parlez lentement, s'il vous plaît.",
+      "exampleEn": "Speak slowly, please."
+    },
+    {
+      "id": "a1-235",
+      "french": "beaucoup",
+      "english": "a lot",
+      "alternativeTranslations": ["much", "many"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "J'aime beaucoup le chocolat.",
+      "exampleEn": "I like chocolate a lot."
+    },
+    {
+      "id": "a1-236",
+      "french": "peu",
+      "english": "little",
+      "alternativeTranslations": ["few"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je mange peu le soir.",
+      "exampleEn": "I eat little in the evening."
+    },
+    {
+      "id": "a1-237",
+      "french": "trop",
+      "english": "too much",
+      "alternativeTranslations": ["too"],
+      "partOfSpeech": "adverb",
+      "exampleFr": "C'est trop cher.",
+      "exampleEn": "It's too expensive."
+    },
+    {
+      "id": "a1-238",
+      "french": "assez",
+      "english": "enough",
+      "partOfSpeech": "adverb",
+      "exampleFr": "J'ai assez mangé.",
+      "exampleEn": "I have eaten enough."
+    },
+    {
+      "id": "a1-239",
+      "french": "ici",
+      "english": "here",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Je suis ici.",
+      "exampleEn": "I am here."
+    },
+    {
+      "id": "a1-240",
+      "french": "là",
+      "english": "there",
+      "partOfSpeech": "adverb",
+      "exampleFr": "Le livre est là.",
+      "exampleEn": "The book is there."
+    },
+    {
+      "id": "a1-241",
+      "french": "heure",
+      "english": "hour",
+      "alternativeTranslations": ["time", "o'clock"],
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Quelle heure est-il?",
+      "exampleEn": "What time is it?"
+    },
+    {
+      "id": "a1-242",
+      "french": "minute",
+      "english": "minute",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Attendez une minute.",
+      "exampleEn": "Wait a minute."
+    },
+    {
+      "id": "a1-243",
+      "french": "seconde",
+      "english": "second",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Une seconde, s'il vous plaît.",
+      "exampleEn": "One second, please."
+    },
+    {
+      "id": "a1-244",
+      "french": "jour",
+      "english": "day",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "C'est un beau jour.",
+      "exampleEn": "It's a beautiful day."
+    },
+    {
+      "id": "a1-245",
+      "french": "semaine",
+      "english": "week",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La semaine prochaine, je pars.",
+      "exampleEn": "Next week, I leave."
+    },
+    {
+      "id": "a1-246",
+      "french": "mois",
+      "english": "month",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le mois de mai est agréable.",
+      "exampleEn": "The month of May is pleasant."
+    },
+    {
+      "id": "a1-247",
+      "french": "année",
+      "english": "year",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Bonne année!",
+      "exampleEn": "Happy New Year!"
+    },
+    {
+      "id": "a1-248",
+      "french": "matin",
+      "english": "morning",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je me lève le matin.",
+      "exampleEn": "I get up in the morning."
+    },
+    {
+      "id": "a1-249",
+      "french": "après-midi",
+      "english": "afternoon",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je travaille l'après-midi.",
+      "exampleEn": "I work in the afternoon."
+    },
+    {
+      "id": "a1-250",
+      "french": "soir",
+      "english": "evening",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je lis le soir.",
+      "exampleEn": "I read in the evening."
+    },
+    {
+      "id": "a1-251",
+      "french": "nuit",
+      "english": "night",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La nuit est calme.",
+      "exampleEn": "The night is calm."
+    },
+    {
+      "id": "a1-252",
+      "french": "temps",
+      "english": "time",
+      "alternativeTranslations": ["weather"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je n'ai pas le temps.",
+      "exampleEn": "I don't have time."
+    },
+    {
+      "id": "a1-253",
+      "french": "voiture",
+      "english": "car",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Ma voiture est bleue.",
+      "exampleEn": "My car is blue."
+    },
+    {
+      "id": "a1-254",
+      "french": "bus",
+      "english": "bus",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je prends le bus.",
+      "exampleEn": "I take the bus."
+    },
+    {
+      "id": "a1-255",
+      "french": "train",
+      "english": "train",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le train arrive à midi.",
+      "exampleEn": "The train arrives at noon."
+    },
+    {
+      "id": "a1-256",
+      "french": "avion",
+      "english": "airplane",
+      "alternativeTranslations": ["plane"],
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'avion décolle à huit heures.",
+      "exampleEn": "The plane takes off at eight o'clock."
+    },
+    {
+      "id": "a1-257",
+      "french": "vélo",
+      "english": "bicycle",
+      "alternativeTranslations": ["bike"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je vais au travail à vélo.",
+      "exampleEn": "I go to work by bike."
+    },
+    {
+      "id": "a1-258",
+      "french": "métro",
+      "english": "subway",
+      "alternativeTranslations": ["metro", "underground"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je prends le métro tous les jours.",
+      "exampleEn": "I take the subway every day."
+    },
+    {
+      "id": "a1-259",
+      "french": "rue",
+      "english": "street",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La rue est calme.",
+      "exampleEn": "The street is quiet."
+    },
+    {
+      "id": "a1-260",
+      "french": "ville",
+      "english": "city",
+      "alternativeTranslations": ["town"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Paris est une grande ville.",
+      "exampleEn": "Paris is a big city."
+    },
+    {
+      "id": "a1-261",
+      "french": "pays",
+      "english": "country",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "La France est un beau pays.",
+      "exampleEn": "France is a beautiful country."
+    },
+    {
+      "id": "a1-262",
+      "french": "école",
+      "english": "school",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les enfants vont à l'école.",
+      "exampleEn": "The children go to school."
+    },
+    {
+      "id": "a1-263",
+      "french": "université",
+      "english": "university",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'étudie à l'université.",
+      "exampleEn": "I study at the university."
+    },
+    {
+      "id": "a1-264",
+      "french": "bureau",
+      "english": "office",
+      "alternativeTranslations": ["desk"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je travaille au bureau.",
+      "exampleEn": "I work at the office."
+    },
+    {
+      "id": "a1-265",
+      "french": "magasin",
+      "english": "store",
+      "alternativeTranslations": ["shop"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le magasin ferme à sept heures.",
+      "exampleEn": "The store closes at seven o'clock."
+    },
+    {
+      "id": "a1-266",
+      "french": "hôpital",
+      "english": "hospital",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'hôpital est près d'ici.",
+      "exampleEn": "The hospital is near here."
+    },
+    {
+      "id": "a1-267",
+      "french": "banque",
+      "english": "bank",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La banque ouvre à neuf heures.",
+      "exampleEn": "The bank opens at nine o'clock."
+    },
+    {
+      "id": "a1-268",
+      "french": "poste",
+      "english": "post office",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je vais à la poste.",
+      "exampleEn": "I go to the post office."
+    },
+    {
+      "id": "a1-269",
+      "french": "gare",
+      "english": "train station",
+      "alternativeTranslations": ["station"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La gare est au centre-ville.",
+      "exampleEn": "The train station is downtown."
+    },
+    {
+      "id": "a1-270",
+      "french": "aéroport",
+      "english": "airport",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'aéroport est loin.",
+      "exampleEn": "The airport is far."
+    },
+    {
+      "id": "a1-271",
+      "french": "hôtel",
+      "english": "hotel",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "L'hôtel est confortable.",
+      "exampleEn": "The hotel is comfortable."
+    },
+    {
+      "id": "a1-272",
+      "french": "cinéma",
+      "english": "cinema",
+      "alternativeTranslations": ["movie theater"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je vais au cinéma ce soir.",
+      "exampleEn": "I'm going to the cinema tonight."
+    },
+    {
+      "id": "a1-273",
+      "french": "musée",
+      "english": "museum",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le musée est fermé le lundi.",
+      "exampleEn": "The museum is closed on Monday."
+    },
+    {
+      "id": "a1-274",
+      "french": "parc",
+      "english": "park",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je me promène dans le parc.",
+      "exampleEn": "I walk in the park."
+    },
+    {
+      "id": "a1-275",
+      "french": "plage",
+      "english": "beach",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La plage est belle.",
+      "exampleEn": "The beach is beautiful."
+    },
+    {
+      "id": "a1-276",
+      "french": "mer",
+      "english": "sea",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La mer est bleue.",
+      "exampleEn": "The sea is blue."
+    },
+    {
+      "id": "a1-277",
+      "french": "montagne",
+      "english": "mountain",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La montagne est haute.",
+      "exampleEn": "The mountain is high."
+    },
+    {
+      "id": "a1-278",
+      "french": "forêt",
+      "english": "forest",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La forêt est grande.",
+      "exampleEn": "The forest is big."
+    },
+    {
+      "id": "a1-279",
+      "french": "rivière",
+      "english": "river",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La rivière coule doucement.",
+      "exampleEn": "The river flows gently."
+    },
+    {
+      "id": "a1-280",
+      "french": "soleil",
+      "english": "sun",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le soleil brille.",
+      "exampleEn": "The sun shines."
+    },
+    {
+      "id": "a1-281",
+      "french": "lune",
+      "english": "moon",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La lune est pleine ce soir.",
+      "exampleEn": "The moon is full tonight."
+    },
+    {
+      "id": "a1-282",
+      "french": "étoile",
+      "english": "star",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Les étoiles brillent la nuit.",
+      "exampleEn": "The stars shine at night."
+    },
+    {
+      "id": "a1-283",
+      "french": "ciel",
+      "english": "sky",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le ciel est bleu.",
+      "exampleEn": "The sky is blue."
+    },
+    {
+      "id": "a1-284",
+      "french": "pluie",
+      "english": "rain",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La pluie tombe.",
+      "exampleEn": "The rain falls."
+    },
+    {
+      "id": "a1-285",
+      "french": "neige",
+      "english": "snow",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "La neige est blanche.",
+      "exampleEn": "The snow is white."
+    },
+    {
+      "id": "a1-286",
+      "french": "vent",
+      "english": "wind",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le vent souffle fort.",
+      "exampleEn": "The wind blows hard."
+    },
+    {
+      "id": "a1-287",
+      "french": "nuage",
+      "english": "cloud",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Il y a des nuages.",
+      "exampleEn": "There are clouds."
+    },
+    {
+      "id": "a1-288",
+      "french": "livre",
+      "english": "book",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je lis un livre.",
+      "exampleEn": "I read a book."
+    },
+    {
+      "id": "a1-289",
+      "french": "stylo",
+      "english": "pen",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'écris avec un stylo.",
+      "exampleEn": "I write with a pen."
+    },
+    {
+      "id": "a1-290",
+      "french": "crayon",
+      "english": "pencil",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le crayon est sur la table.",
+      "exampleEn": "The pencil is on the table."
+    },
+    {
+      "id": "a1-291",
+      "french": "papier",
+      "english": "paper",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'ai besoin de papier.",
+      "exampleEn": "I need paper."
+    },
+    {
+      "id": "a1-292",
+      "french": "cahier",
+      "english": "notebook",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'écris dans mon cahier.",
+      "exampleEn": "I write in my notebook."
+    },
+    {
+      "id": "a1-293",
+      "french": "sac",
+      "english": "bag",
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon sac est lourd.",
+      "exampleEn": "My bag is heavy."
+    },
+    {
+      "id": "a1-294",
+      "french": "clé",
+      "english": "key",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'ai perdu ma clé.",
+      "exampleEn": "I lost my key."
+    },
+    {
+      "id": "a1-295",
+      "french": "téléphone",
+      "english": "phone",
+      "alternativeTranslations": ["telephone"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Mon téléphone sonne.",
+      "exampleEn": "My phone is ringing."
+    },
+    {
+      "id": "a1-296",
+      "french": "ordinateur",
+      "english": "computer",
+      "gender": "l'",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je travaille sur l'ordinateur.",
+      "exampleEn": "I work on the computer."
+    },
+    {
+      "id": "a1-297",
+      "french": "télévision",
+      "english": "television",
+      "alternativeTranslations": ["TV"],
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "Je regarde la télévision.",
+      "exampleEn": "I watch television."
+    },
+    {
+      "id": "a1-298",
+      "french": "radio",
+      "english": "radio",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'écoute la radio.",
+      "exampleEn": "I listen to the radio."
+    },
+    {
+      "id": "a1-299",
+      "french": "musique",
+      "english": "music",
+      "gender": "la",
+      "partOfSpeech": "noun",
+      "exampleFr": "J'aime la musique.",
+      "exampleEn": "I like music."
+    },
+    {
+      "id": "a1-300",
+      "french": "film",
+      "english": "movie",
+      "alternativeTranslations": ["film"],
+      "gender": "le",
+      "partOfSpeech": "noun",
+      "exampleFr": "Le film est intéressant.",
+      "exampleEn": "The movie is interesting."
+    }
+  ]
+}

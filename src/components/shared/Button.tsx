@@ -1,4 +1,4 @@
-// Basic Button component
+// Basic Button component with sharp design (2-4px radius)
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -12,14 +12,15 @@ export function Button({
   variant = 'primary',
   size = 'md',
   className = '',
+  style,
   ...props
 }: ButtonProps) {
-  const baseClasses = 'font-semibold rounded-lg focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors disabled:cursor-not-allowed';
+  const baseClasses = 'font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors disabled:cursor-not-allowed';
 
   const variantClasses = {
-    primary: 'text-white bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 disabled:bg-gray-300',
-    secondary: 'text-gray-700 bg-gray-200 hover:bg-gray-300 focus:ring-gray-400 disabled:bg-gray-100',
-    danger: 'text-white bg-red-600 hover:bg-red-700 focus:ring-red-500 disabled:bg-gray-300',
+    primary: 'text-white bg-[var(--color-primary)] hover:bg-[var(--color-primary-hover)] focus:ring-[var(--color-primary)] disabled:opacity-50',
+    secondary: 'text-[var(--color-text-primary)] bg-[var(--color-bg-secondary)] hover:bg-[var(--color-border)] focus:ring-[var(--color-border)] disabled:opacity-50',
+    danger: 'text-white bg-[var(--color-weak)] hover:opacity-90 focus:ring-[var(--color-weak)] disabled:opacity-50',
   };
 
   const sizeClasses = {
@@ -31,6 +32,7 @@ export function Button({
   return (
     <button
       className={`${baseClasses} ${variantClasses[variant]} ${sizeClasses[size]} ${className}`}
+      style={{ borderRadius: 'var(--radius-button)', ...style }}
       {...props}
     >
       {children}

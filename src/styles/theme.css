@@ -1,0 +1,162 @@
+/* Theme CSS - Poppins font and CSS custom properties for theming */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Typography */
+  --font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Light theme (default) */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f9fa;
+  --color-bg-card: #ffffff;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #6b7280;
+  --color-text-muted: #9ca3af;
+  --color-border: #e5e7eb;
+
+  /* Heatmap colors */
+  --color-unseen: #f3f4f6;
+  --color-weak: #ef4444;
+  --color-learning: #f59e0b;
+  --color-moderate: #84cc16;
+  --color-good: #22c55e;
+  --color-mastered: #16a34a;
+
+  /* Feedback colors */
+  --color-correct-bg: #dcfce7;
+  --color-correct-border: #86efac;
+  --color-correct-text: #166534;
+  --color-incorrect-bg: #fee2e2;
+  --color-incorrect-border: #fca5a5;
+  --color-incorrect-text: #991b1b;
+
+  /* Accent */
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  /* Border radius - Sharp square design */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-button: 4px;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Glass-ready variables (future use) */
+  --glass-bg: rgba(255, 255, 255, 0.8);
+  --glass-blur: blur(10px);
+  --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --color-bg-primary: #0f0f0f;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-card: #252525;
+  --color-text-primary: #f3f4f6;
+  --color-text-secondary: #d1d5db;
+  --color-text-muted: #9ca3af;
+  --color-border: #404040;
+
+  /* Heatmap colors (adjusted for dark) */
+  --color-unseen: #374151;
+  --color-weak: #dc2626;
+  --color-learning: #d97706;
+  --color-moderate: #65a30d;
+  --color-good: #16a34a;
+  --color-mastered: #15803d;
+
+  /* Feedback colors (dark mode) */
+  --color-correct-bg: #14532d;
+  --color-correct-border: #22c55e;
+  --color-correct-text: #bbf7d0;
+  --color-incorrect-bg: #7f1d1d;
+  --color-incorrect-border: #ef4444;
+  --color-incorrect-text: #fecaca;
+
+  /* Glass-ready variables (future use) */
+  --glass-bg: rgba(0, 0, 0, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.1);
+}
+
+/* Base typography styles */
+body {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+h1, h2, h3 {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+h4, h5, h6 {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}
+
+/* Form elements dark mode fix */
+input, select, textarea {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  border-color: var(--color-border);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+/* Button base styles */
+button {
+  color: var(--color-text-primary);
+}
+
+/* Card/panel backgrounds */
+.bg-white {
+  background-color: var(--color-bg-card) !important;
+}
+
+.bg-gray-50 {
+  background-color: var(--color-bg-secondary) !important;
+}
+
+.bg-gray-100 {
+  background-color: var(--color-bg-secondary) !important;
+}
+
+/* Text color overrides */
+.text-gray-900 {
+  color: var(--color-text-primary) !important;
+}
+
+.text-gray-700 {
+  color: var(--color-text-primary) !important;
+}
+
+.text-gray-600 {
+  color: var(--color-text-secondary) !important;
+}
+
+.text-gray-500 {
+  color: var(--color-text-secondary) !important;
+}
+
+/* Border color overrides */
+.border-gray-300 {
+  border-color: var(--color-border) !important;
+}
+
+.border-gray-200 {
+  border-color: var(--color-border) !important;
+}

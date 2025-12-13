@@ -17,7 +17,7 @@ export function QuestionCard({
   onSubmit,
   isSubmitting = false,
   questionNumber,
-  totalQuestions,
+  totalQuestions: _totalQuestions,
 }: QuestionCardProps) {
   const [answer, setAnswer] = useState('');
   const inputRef = useRef<HTMLInputElement>(null);
@@ -39,20 +39,24 @@ export function QuestionCard({
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="w-full max-w-2xl mx-auto p-8 bg-white rounded-2xl shadow-lg border border-gray-100"
+      className="w-full max-w-2xl mx-auto p-8 bg-[var(--color-bg-card)] shadow-lg border border-[var(--color-border)]"
+      style={{ borderRadius: 'var(--radius-sm)' }}
     >
       {/* Question counter */}
       <div className="flex items-center justify-between mb-6">
-        <div className="text-sm font-medium text-gray-500">
+        <div className="text-sm font-medium text-[var(--color-text-secondary)]">
           Question {questionNumber}
         </div>
-        <div className="inline-flex items-center px-3 py-1 text-xs font-semibold text-blue-700 bg-blue-50 rounded-full border border-blue-200">
+        <div
+          className="inline-flex items-center px-3 py-1 text-xs font-semibold text-[var(--color-primary)] bg-[var(--color-bg-secondary)] border border-[var(--color-border)]"
+          style={{ borderRadius: 'var(--radius-sm)' }}
+        >
           {exercise.type}
         </div>
       </div>
 
       {/* Question text */}
-      <h2 className="text-3xl font-bold text-gray-900 mb-8 leading-tight">
+      <h2 className="text-3xl font-bold text-[var(--color-text-primary)] mb-8 leading-tight">
         {exercise.question}
       </h2>
 
@@ -70,7 +74,8 @@ export function QuestionCard({
             onChange={(e) => setAnswer(e.target.value)}
             disabled={isSubmitting}
             placeholder="Type your answer..."
-            className="w-full px-5 py-4 text-xl border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-blue-500 disabled:bg-gray-50 disabled:cursor-not-allowed transition-all"
+            className="w-full px-5 py-4 text-xl border-2 border-[var(--color-border)] bg-[var(--color-bg-card)] text-[var(--color-text-primary)] focus:ring-2 focus:ring-[var(--color-primary)] focus:border-[var(--color-primary)] disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+            style={{ borderRadius: 'var(--radius-sm)' }}
             aria-label="Answer input"
           />
         </div>
@@ -80,15 +85,16 @@ export function QuestionCard({
           disabled={!answer.trim() || isSubmitting}
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
-          className="w-full px-6 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl hover:from-blue-700 hover:to-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 disabled:from-gray-300 disabled:to-gray-300 disabled:cursor-not-allowed transition-all shadow-md disabled:shadow-none"
+          className="w-full px-6 py-4 text-lg font-semibold text-white bg-[var(--color-primary)] hover:bg-[var(--color-primary-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-md disabled:shadow-none"
+          style={{ borderRadius: 'var(--radius-button)' }}
         >
           {isSubmitting ? 'Checking...' : 'Submit Answer'}
         </motion.button>
       </form>
 
       {/* Keyboard hint */}
-      <p className="mt-6 text-sm text-gray-400 text-center">
-        Press <kbd className="px-2 py-1 text-xs font-semibold text-gray-700 bg-gray-100 border border-gray-200 rounded shadow-sm">Enter</kbd> to submit
+      <p className="mt-6 text-sm text-[var(--color-text-secondary)] text-center">
+        Press <kbd className="px-2 py-1 text-xs font-semibold text-[var(--color-text-primary)] bg-[var(--color-bg-secondary)] border border-[var(--color-border)] shadow-sm" style={{ borderRadius: 'var(--radius-sm)' }}>Enter</kbd> to submit
       </p>
     </motion.div>
   );

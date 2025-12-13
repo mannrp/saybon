@@ -2,6 +2,8 @@
 
 export type CEFRLevel = 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
 
+export type ThemePreference = 'light' | 'dark' | 'system';
+
 export type ExerciseType = 
   | 'conjugation'
   | 'fill-blank'
@@ -73,6 +75,7 @@ export interface AppSettings {
   privacy: {
     shareAnonymousData: boolean;
   };
+  theme: ThemePreference;
 }
 
 export interface GenerationParams {
@@ -87,4 +90,28 @@ export interface AIProvider {
   testConnection(): Promise<boolean>;
   generateExercises(params: GenerationParams): Promise<Exercise[]>;
   analyzeBatch(answers: UserAnswer[]): Promise<AIFeedback>;
+}
+
+// Vocabulary word progress tracking
+export interface WordProgress {
+  wordId: string;
+  timesCorrect: number;
+  timesWrong: number;
+  attempts: number;
+  lastSeen: string;
+  masteryLevel: number;
+  streak: number;
+}
+
+// Vocabulary word from word bank
+export interface VocabWord {
+  id: string;
+  french: string;
+  english: string;
+  alternativeTranslations?: string[];
+  gender?: 'le' | 'la' | "l'";
+  partOfSpeech: 'noun' | 'verb' | 'adjective' | 'adverb' | 'other';
+  exampleFr: string;
+  exampleEn: string;
+  level: 'A1' | 'A2';
 }

@@ -1,10 +1,11 @@
 @import "tailwindcss";
+@import "./styles/theme.css";
 
 @layer base {
   body {
     min-height: 100vh;
-    background-color: white;
-    color: rgb(17 24 39);
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    font-family: var(--font-family);
   }
 }

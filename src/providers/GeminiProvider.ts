@@ -131,13 +131,7 @@ export class GeminiProvider implements AIProvider {
 
   // Parse JSON response from Gemini (handles markdown code blocks)
   private parseExerciseResponse(text: string): { exercises: Exercise[] } {
-    // Remove markdown code blocks if present
-    let cleanText = text.trim();
-    if (cleanText.startsWith('```json')) {
-      cleanText = cleanText.replace(/^```json\n/, '').replace(/\n```$/, '');
-    } else if (cleanText.startsWith('```')) {
-      cleanText = cleanText.replace(/^```\n/, '').replace(/\n```$/, '');
-    }
+    const cleanText = this.extractJSON(text);
 
     try {
       return JSON.parse(cleanText);
@@ -145,6 +139,33 @@ export class GeminiProvider implements AIProvider {
       console.error('Failed to parse Gemini response:', cleanText);
       throw new Error('Invalid JSON response from Gemini');
     }
+  }
+
+  // Extract JSON from text that may contain markdown or other content
+  private extractJSON(text: string): string {
+    let cleanText = text.trim();
+    
+    // Remove markdown code blocks
+    if (cleanText.startsWith('```json')) {
+      cleanText = cleanText.slice(7);
+    } else if (cleanText.startsWith('```')) {
+      cleanText = cleanText.slice(3);
+    }
+    
+    // Remove trailing code block markers
+    if (cleanText.endsWith('```')) {
+      cleanText = cleanText.slice(0, -3);
+    }
+    
+    cleanText = cleanText.trim();
+    
+    // Try to find JSON object or array in the text
+    const jsonMatch = cleanText.match(/(\{[\s\S]*\}|\[[\s\S]*\])/);
+    if (jsonMatch) {
+      return jsonMatch[1];
+    }
+    
+    return cleanText;
   }
 
   // Analyze batch of answers with exercise details
@@ -206,29 +227,32 @@ export class GeminiProvider implements AIProvider {
 
   // Parse analysis response
   private parseAnalysisResponse(text: string): AIFeedback {
-    let cleanText = text.trim();
-    if (cleanText.startsWith('```json')) {
-      cleanText = cleanText.replace(/^```json\n/, '').replace(/\n```$/, '');
-    } else if (cleanText.startsWith('```')) {
-      cleanText = cleanText.replace(/^```\n/, '').replace(/\n```$/, '');
-    }
+    const cleanText = this.extractJSON(text);
 
     try {
-      return JSON.parse(cleanText);
+      const parsed = JSON.parse(cleanText);
+      // Ensure all required fields exist with defaults
+      return {
+        strengths: parsed.strengths || [],
+        weaknesses: parsed.weaknesses || [],
+        recommendations: parsed.recommendations || [],
+        detailedAnalysis: parsed.detailedAnalysis || '',
+      };
     } catch (error) {
       console.error('Failed to parse analysis response:', cleanText);
-      throw new Error('Invalid JSON response from Gemini');
+      // Return a fallback response instead of throwing
+      return {
+        strengths: [],
+        weaknesses: [],
+        recommendations: ['Unable to parse AI feedback. Please try again.'],
+        detailedAnalysis: 'Analysis could not be completed.',
+      };
     }
   }
 
   // Parse vocabulary bulk data and convert to exercises
   private parseVocabularyResponse(text: string, params: GenerationParams): Exercise[] {
-    let cleanText = text.trim();
-    if (cleanText.startsWith('```json')) {
-      cleanText = cleanText.replace(/^```json\n/, '').replace(/\n```$/, '');
-    } else if (cleanText.startsWith('```')) {
-      cleanText = cleanText.replace(/^```\n/, '').replace(/\n```$/, '');
-    }
+    const cleanText = this.extractJSON(text);
 
     try {
       const data = JSON.parse(cleanText);
@@ -251,19 +275,14 @@ export class GeminiProvider implements AIProvider {
         },
       }));
     } catch (error) {
-      console.error('Failed to parse vocabulary response');
+      console.error('Failed to parse vocabulary response:', cleanText);
       throw new Error('Invalid JSON response from Gemini');
     }
   }
 
   // Parse conjugation bulk data and convert to exercises
   private parseConjugationResponse(text: string, params: GenerationParams): Exercise[] {
-    let cleanText = text.trim();
-    if (cleanText.startsWith('```json')) {
-      cleanText = cleanText.replace(/^```json\n/, '').replace(/\n```$/, '');
-    } else if (cleanText.startsWith('```')) {
-      cleanText = cleanText.replace(/^```\n/, '').replace(/\n```$/, '');
-    }
+    const cleanText = this.extractJSON(text);
 
     try {
       const data = JSON.parse(cleanText);
@@ -295,7 +314,7 @@ export class GeminiProvider implements AIProvider {
         },
       }));
     } catch (error) {
-      console.error('Failed to parse conjugation response');
+      console.error('Failed to parse conjugation response:', cleanText);
       throw new Error('Invalid JSON response from Gemini');
     }
   }

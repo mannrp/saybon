@@ -1,7 +1,7 @@
 // Minimal IndexedDB storage layer for MVP
 import { openDB } from 'idb';
 import type { DBSchema, IDBPDatabase } from 'idb';
-import type { Exercise, AppSettings, CEFRLevel, ExerciseType } from '../types';
+import type { Exercise, AppSettings, CEFRLevel, ExerciseType, WordProgress } from '../types';
 
 // Database schema definition
 interface RapideDB extends DBSchema {
@@ -14,10 +14,15 @@ interface RapideDB extends DBSchema {
     key: 'app-settings';
     value: AppSettings;
   };
+  wordProgress: {
+    key: string;
+    value: WordProgress;
+    indexes: { 'by-mastery': number; 'by-lastSeen': string };
+  };
 }
 
 const DB_NAME = 'rapide-db';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 
 let dbInstance: IDBPDatabase<RapideDB> | null = null;
 
@@ -28,7 +33,7 @@ async function getDB(): Promise<IDBPDatabase<RapideDB>> {
   }
 
   dbInstance = await openDB<RapideDB>(DB_NAME, DB_VERSION, {
-    upgrade(db) {
+    upgrade(db, oldVersion) {
       // Create exercises store
       if (!db.objectStoreNames.contains('exercises')) {
         const exerciseStore = db.createObjectStore('exercises', {
@@ -41,6 +46,17 @@ async function getDB(): Promise<IDBPDatabase<RapideDB>> {
       // Create settings store
       if (!db.objectStoreNames.contains('settings')) {
         db.createObjectStore('settings');
+      }
+
+      // Create wordProgress store (added in version 2)
+      if (oldVersion < 2) {
+        if (!db.objectStoreNames.contains('wordProgress')) {
+          const wordProgressStore = db.createObjectStore('wordProgress', {
+            keyPath: 'wordId',
+          });
+          wordProgressStore.createIndex('by-mastery', 'masteryLevel');
+          wordProgressStore.createIndex('by-lastSeen', 'lastSeen');
+        }
       }
     },
   });
@@ -131,6 +147,52 @@ export const settingsStorage = {
   async delete(): Promise<void> {
     const db = await getDB();
     await db.delete('settings', 'app-settings');
+  },
+};
+
+// Word progress storage operations
+export const wordProgressStorage = {
+  // Get progress for a single word
+  async get(wordId: string): Promise<WordProgress | undefined> {
+    const db = await getDB();
+    return db.get('wordProgress', wordId);
+  },
+
+  // Get all word progress records
+  async getAll(): Promise<WordProgress[]> {
+    const db = await getDB();
+    return db.getAll('wordProgress');
+  },
+
+  // Store/update word progress
+  async update(progress: WordProgress): Promise<void> {
+    const db = await getDB();
+    await db.put('wordProgress', progress);
+  },
+
+  // Get words by mastery level
+  async getByMastery(masteryLevel: number): Promise<WordProgress[]> {
+    const db = await getDB();
+    return db.getAllFromIndex('wordProgress', 'by-mastery', masteryLevel);
+  },
+
+  // Get weak words (mastery <= 2)
+  async getWeakWords(): Promise<WordProgress[]> {
+    const db = await getDB();
+    const all = await db.getAll('wordProgress');
+    return all.filter(p => p.masteryLevel <= 2);
+  },
+
+  // Delete progress for a word
+  async delete(wordId: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('wordProgress', wordId);
+  },
+
+  // Clear all progress
+  async clear(): Promise<void> {
+    const db = await getDB();
+    await db.clear('wordProgress');
   },
 };
 

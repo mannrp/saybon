@@ -2,6 +2,7 @@
 import type { AIProvider } from './AIProvider.interface';
 import type { Exercise, GenerationParams, AIFeedback, UserAnswer } from '../types';
 import { buildExerciseGenerationPrompt, buildBatchAnalysisPrompt } from '../utils/prompts';
+import { safeParseExercises, safeParseVocabulary, safeParseConjugation, safeParseAnalysis } from '../utils/validationSchemas';
 
 interface GeminiConfig {
   apiKey: string;
@@ -36,11 +37,12 @@ export class GeminiProvider implements AIProvider {
   // Test connection to Gemini API
   async testConnection(): Promise<boolean> {
     try {
-      const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
+      const url = `${this.baseUrl}/${this.model}:generateContent`;
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           contents: [
@@ -67,12 +69,13 @@ export class GeminiProvider implements AIProvider {
   async generateExercises(params: GenerationParams): Promise<Exercise[]> {
     try {
       const prompt = buildExerciseGenerationPrompt(params);
-      const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
+      const url = `${this.baseUrl}/${this.model}:generateContent`;
 
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           contents: [
@@ -132,13 +135,7 @@ export class GeminiProvider implements AIProvider {
   // Parse JSON response from Gemini (handles markdown code blocks)
   private parseExerciseResponse(text: string): { exercises: Exercise[] } {
     const cleanText = this.extractJSON(text);
-
-    try {
-      return JSON.parse(cleanText);
-    } catch (error) {
-      console.error('Failed to parse Gemini response:', cleanText);
-      throw new Error('Invalid JSON response from Gemini');
-    }
+    return safeParseExercises(cleanText);
   }
 
   // Extract JSON from text that may contain markdown or other content
@@ -187,12 +184,13 @@ export class GeminiProvider implements AIProvider {
       });
 
       const prompt = buildBatchAnalysisPrompt(answerData);
-      const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
+      const url = `${this.baseUrl}/${this.model}:generateContent`;
 
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           contents: [
@@ -228,26 +226,7 @@ export class GeminiProvider implements AIProvider {
   // Parse analysis response
   private parseAnalysisResponse(text: string): AIFeedback {
     const cleanText = this.extractJSON(text);
-
-    try {
-      const parsed = JSON.parse(cleanText);
-      // Ensure all required fields exist with defaults
-      return {
-        strengths: parsed.strengths || [],
-        weaknesses: parsed.weaknesses || [],
-        recommendations: parsed.recommendations || [],
-        detailedAnalysis: parsed.detailedAnalysis || '',
-      };
-    } catch (error) {
-      console.error('Failed to parse analysis response:', cleanText);
-      // Return a fallback response instead of throwing
-      return {
-        strengths: [],
-        weaknesses: [],
-        recommendations: ['Unable to parse AI feedback. Please try again.'],
-        detailedAnalysis: 'Analysis could not be completed.',
-      };
-    }
+    return safeParseAnalysis(cleanText);
   }
 
   // Parse vocabulary bulk data and convert to exercises
@@ -255,10 +234,10 @@ export class GeminiProvider implements AIProvider {
     const cleanText = this.extractJSON(text);
 
     try {
-      const data = JSON.parse(cleanText);
+      const data = safeParseVocabulary(cleanText);
       const vocabulary = data.vocabulary || [];
 
-      return vocabulary.map((item: any) => ({
+      return vocabulary.map((item) => ({
         id: crypto.randomUUID(),
         type: 'vocabulary',
         level: params.level,
@@ -271,7 +250,7 @@ export class GeminiProvider implements AIProvider {
           topic: item.topic || 'vocabulary',
           difficulty: item.difficulty || 3,
           createdAt: new Date().toISOString(),
-          source: 'ai-generated',
+          source: 'ai-generated' as const,
         },
       }));
     } catch (error) {
@@ -285,7 +264,7 @@ export class GeminiProvider implements AIProvider {
     const cleanText = this.extractJSON(text);
 
     try {
-      const data = JSON.parse(cleanText);
+      const data = safeParseConjugation(cleanText);
       const conjugations = data.conjugations || [];
 
       const personMap: Record<string, string> = {
@@ -297,7 +276,7 @@ export class GeminiProvider implements AIProvider {
         'ils/elles': 'they',
       };
 
-      return conjugations.map((item: any) => ({
+      return conjugations.map((item) => ({
         id: crypto.randomUUID(),
         type: 'conjugation',
         level: params.level,
@@ -310,7 +289,7 @@ export class GeminiProvider implements AIProvider {
           topic: item.topic || 'conjugation',
           difficulty: item.difficulty || 3,
           createdAt: new Date().toISOString(),
-          source: 'ai-generated',
+          source: 'ai-generated' as const,
         },
       }));
     } catch (error) {

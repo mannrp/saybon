@@ -3,24 +3,8 @@ import { useState, useEffect, useCallback } from 'react';
 import type { AppSettings } from '../types';
 import { settingsStorage } from '../utils/storage';
 
-// Default settings for MVP (Gemini only)
-const DEFAULT_SETTINGS: AppSettings = {
-  aiProvider: 'gemini',
-  gemini: {
-    apiKey: '',
-    model: 'gemini-2.5-flash-lite',
-  },
-  preferences: {
-    questionsPerBatch: 10,
-    showExplanations: true,
-    autoAdvance: false,
-    soundEffects: true,
-  },
-  privacy: {
-    shareAnonymousData: false,
-  },
-  theme: 'system',
-};
+import { DEFAULT_SETTINGS } from '../utils/config';
+
 
 export function useSettings() {
   const [settings, setSettings] = useState<AppSettings>(DEFAULT_SETTINGS);

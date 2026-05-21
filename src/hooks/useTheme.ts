@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { settingsStorage } from '../utils/storage';
 import type { ThemePreference } from '../types';
+import { DEFAULT_SETTINGS } from '../utils/config';
 
 type ResolvedTheme = 'light' | 'dark';
 
@@ -97,7 +98,7 @@ export function useTheme(): UseThemeReturn {
     try {
       const currentSettings = await settingsStorage.get();
       await settingsStorage.update({
-        ...getDefaultSettings(),
+        ...DEFAULT_SETTINGS,
         ...currentSettings,
         theme: newTheme,
       });
@@ -119,28 +120,7 @@ export function useTheme(): UseThemeReturn {
   };
 }
 
-/**
- * Returns default app settings
- */
-function getDefaultSettings() {
-  return {
-    aiProvider: 'gemini' as const,
-    gemini: {
-      apiKey: '',
-      model: 'gemini-2.0-flash',
-    },
-    preferences: {
-      questionsPerBatch: 5,
-      showExplanations: true,
-      autoAdvance: false,
-      soundEffects: true,
-    },
-    privacy: {
-      shareAnonymousData: false,
-    },
-    theme: 'system' as ThemePreference,
-  };
-}
+
 
 /**
  * Standalone function to get theme from storage (for use outside React)
@@ -160,7 +140,7 @@ export async function getStoredTheme(): Promise<ThemePreference> {
 export async function saveTheme(theme: ThemePreference): Promise<void> {
   const currentSettings = await settingsStorage.get();
   await settingsStorage.update({
-    ...getDefaultSettings(),
+    ...DEFAULT_SETTINGS,
     ...currentSettings,
     theme,
   });

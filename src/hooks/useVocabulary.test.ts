@@ -338,14 +338,57 @@ describe('Answer Validation Properties', () => {
         vocabWordArb,
         fc.string({ minLength: 1, maxLength: 20 }).filter(s => s.trim().length > 0),
         (word, randomAnswer) => {
-          // Only test if randomAnswer is not a valid answer
-          const isValidFrEn = 
-            randomAnswer.toLowerCase().trim() === word.english.toLowerCase() ||
-            (word.alternativeTranslations?.some(
-              alt => alt.toLowerCase() === randomAnswer.toLowerCase().trim()
-            ) ?? false);
+          // Helper normalization matching actual validator behavior
+          const testRemoveDiacritics = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+          const testStripArticles = (s: string) => s.replace(/^(le |la |l'|les |un |une |des |the |a |an |to )/i, '').trim();
+          const testNormalize = (s: string) => testRemoveDiacritics(s.toLowerCase().trim());
           
-          const isValidEnFr = randomAnswer.toLowerCase().trim() === word.french.toLowerCase();
+          const testLevenshtein = (a: string, b: string): number => {
+            const matrix: number[][] = [];
+            for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+            for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+            for (let i = 1; i <= b.length; i++) {
+              for (let j = 1; j <= a.length; j++) {
+                if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                  matrix[i][j] = matrix[i - 1][j - 1];
+                } else {
+                  matrix[i][j] = Math.min(
+                    matrix[i - 1][j - 1] + 1,
+                    matrix[i][j - 1] + 1,
+                    matrix[i - 1][j] + 1
+                  );
+                }
+              }
+            }
+            return matrix[b.length][a.length];
+          };
+
+          const testIsSimilar = (input: string, target: string): boolean => {
+            const normInput = testNormalize(input);
+            const normTarget = testNormalize(target);
+            if (normInput === normTarget) return true;
+            if (normTarget.length <= 2 || normInput.length <= 2) return false;
+            const maxDistance = normTarget.length <= 4 ? 1 : 2;
+            return testLevenshtein(normInput, normTarget) <= maxDistance;
+          };
+
+          const isMatch = (input: string, target: string): boolean => {
+            const normInput = testNormalize(input);
+            const normTarget = testNormalize(target);
+            if (normInput === normTarget) return true;
+            
+            const strippedInput = testStripArticles(normInput);
+            const strippedTarget = testStripArticles(normTarget);
+            if (strippedInput === strippedTarget) return true;
+            
+            return testIsSimilar(strippedInput, strippedTarget);
+          };
+
+          const isValidFrEn = 
+            isMatch(randomAnswer, word.english) ||
+            (word.alternativeTranslations?.some(alt => isMatch(randomAnswer, alt)) ?? false);
+          
+          const isValidEnFr = isMatch(randomAnswer, word.french);
 
           if (!isValidFrEn) {
             const frEnResult = validateAnswer(word, randomAnswer, 'fr-en');

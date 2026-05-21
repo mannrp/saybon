@@ -213,13 +213,13 @@ export async function getAllConcepts(): Promise<ConceptNode[]> {
       const row = result.rows[i];
       concepts.push({
         id: row.id as string,
-        type: row.type as any,
+        type: row.type as ConceptNode['type'],
         difficulty: row.difficulty as number,
         level: row.level as CEFRLevel,
         frequency: row.frequency as number,
         french: row.french as string,
         english: row.english as string,
-        gender: (row.gender as any) || undefined,
+        gender: (row.gender as ConceptNode['gender']) || undefined,
         morphology: row.morphology ? JSON.parse(row.morphology as string) : undefined,
         examples: JSON.parse(row.examples as string),
         culturalContext: (row.culturalContext as string) || undefined,
@@ -248,7 +248,7 @@ export async function getAllRelationships(): Promise<ConceptRelationship[]> {
       relationships.push({
         sourceId: row.sourceId as string,
         targetId: row.targetId as string,
-        type: row.type as any,
+        type: row.type as ConceptRelationship['type'],
         weight: row.weight as number,
       });
     }
@@ -271,7 +271,7 @@ export async function getAllProgress(): Promise<ConceptProgress[]> {
         conceptId: row.conceptId as string,
         mastery: row.mastery as number,
         seenState: row.seenState === 1,
-        reviewState: row.reviewState as any,
+        reviewState: row.reviewState as ConceptProgress['reviewState'],
         familiarityScore: row.familiarityScore as number,
         streak: row.streak as number,
         attempts: row.attempts as number,

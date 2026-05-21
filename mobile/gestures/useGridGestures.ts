@@ -18,6 +18,7 @@ import { screenToWorld, layoutToIndexed } from '../core/canvas/gridLayout';
 import { useGridStore } from '../core/store/useGridStore';
 import { buildQuadtree } from '../core/content/quadtree';
 import type { LayoutNode } from '../core/canvas/gridLayout';
+import type { GridViewport } from '../core/store/useGridStore';
 
 // ── Zoom Bounds ────────────────────────────────────────────────────────────────
 const SCALE_MIN = 0.25;   // Galaxy heatmap view
@@ -57,7 +58,7 @@ export function useGridGestures({
   onEmptyTap,
 }: UseGridGesturesOptions): GridGestureState {
   const selectNode = (id: string | null) => useGridStore.getState().selectNode(id);
-  const setViewport = (vp: any) => useGridStore.getState().setViewport(vp);
+  const setViewport = (vp: GridViewport) => useGridStore.getState().setViewport(vp);
 
   // ── Animated SharedValues (UI thread) ────────────────────────────────────────
   const translateX = useSharedValue(0);

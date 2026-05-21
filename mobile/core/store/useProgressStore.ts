@@ -73,10 +73,11 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
         isInitialized: true,
         isLoading: false,
       });
-    } catch (err: any) {
-      console.error('Failed to initialize progress store:', err);
+    } catch (err: unknown) {
+      const error = err instanceof Error ? err : new Error(String(err));
+      console.error('Failed to initialize progress store:', error);
       set({
-        error: err.message || 'Database initialization failed.',
+        error: error.message || 'Database initialization failed.',
         isLoading: false,
       });
     }
@@ -143,10 +144,11 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
         progress: progressRecord,
         isLoading: false,
       });
-    } catch (err: any) {
-      console.error('Failed to reset progress:', err);
+    } catch (err: unknown) {
+      const error = err instanceof Error ? err : new Error(String(err));
+      console.error('Failed to reset progress:', error);
       set({
-        error: err.message || 'Failed to reset progress state.',
+        error: error.message || 'Failed to reset progress state.',
         isLoading: false,
       });
     }

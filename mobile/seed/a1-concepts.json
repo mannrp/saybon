@@ -1,0 +1,6779 @@
+[
+  {
+    "id": "a1-001",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bonjour",
+    "english": "hello",
+    "examples": [
+      {
+        "french": "Bonjour, comment allez-vous?",
+        "english": "Hello, how are you?"
+      }
+    ],
+    "coordinates": {
+      "x": 55,
+      "y": -1,
+      "z": 123
+    }
+  },
+  {
+    "id": "a1-002",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "au revoir",
+    "english": "goodbye",
+    "morphology": {
+      "root": "au rev",
+      "suffix": "oir",
+      "decomposition": [
+        "au rev",
+        "oir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Au revoir, à demain!",
+        "english": "Goodbye, see you tomorrow!"
+      }
+    ],
+    "coordinates": {
+      "x": 62,
+      "y": -5,
+      "z": 133
+    }
+  },
+  {
+    "id": "a1-003",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "merci",
+    "english": "thank you",
+    "examples": [
+      {
+        "french": "Merci beaucoup pour votre aide.",
+        "english": "Thank you very much for your help."
+      }
+    ],
+    "coordinates": {
+      "x": 92,
+      "y": 3,
+      "z": 124
+    }
+  },
+  {
+    "id": "a1-004",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "s'il vous plaît",
+    "english": "please",
+    "examples": [
+      {
+        "french": "Un café, s'il vous plaît.",
+        "english": "A coffee, please."
+      }
+    ],
+    "coordinates": {
+      "x": 60,
+      "y": -4,
+      "z": 130
+    }
+  },
+  {
+    "id": "a1-005",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "oui",
+    "english": "yes",
+    "examples": [
+      {
+        "french": "Oui, je comprends.",
+        "english": "Yes, I understand."
+      }
+    ],
+    "coordinates": {
+      "x": 82,
+      "y": 3,
+      "z": 125
+    }
+  },
+  {
+    "id": "a1-006",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "non",
+    "english": "no",
+    "examples": [
+      {
+        "french": "Non, je ne suis pas d'accord.",
+        "english": "No, I don't agree."
+      }
+    ],
+    "coordinates": {
+      "x": 73,
+      "y": 7,
+      "z": 128
+    }
+  },
+  {
+    "id": "a1-007",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "excusez-moi",
+    "english": "excuse me",
+    "examples": [
+      {
+        "french": "Excusez-moi, où est la gare?",
+        "english": "Excuse me, where is the train station?"
+      }
+    ],
+    "coordinates": {
+      "x": 68,
+      "y": 25,
+      "z": 124
+    }
+  },
+  {
+    "id": "a1-008",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pardon",
+    "english": "sorry",
+    "morphology": {
+      "root": "pard",
+      "suffix": "on",
+      "decomposition": [
+        "pard",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Pardon, je n'ai pas compris.",
+        "english": "Sorry, I didn't understand."
+      }
+    ],
+    "coordinates": {
+      "x": 73,
+      "y": 3,
+      "z": 144
+    }
+  },
+  {
+    "id": "a1-009",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bonsoir",
+    "english": "good evening",
+    "morphology": {
+      "root": "bons",
+      "suffix": "oir",
+      "decomposition": [
+        "bons",
+        "oir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Bonsoir, bienvenue au restaurant.",
+        "english": "Good evening, welcome to the restaurant."
+      }
+    ],
+    "coordinates": {
+      "x": 66,
+      "y": 17,
+      "z": 133
+    }
+  },
+  {
+    "id": "a1-010",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bonne nuit",
+    "english": "good night",
+    "examples": [
+      {
+        "french": "Bonne nuit, dormez bien!",
+        "english": "Good night, sleep well!"
+      }
+    ],
+    "coordinates": {
+      "x": 77,
+      "y": 10,
+      "z": 129
+    }
+  },
+  {
+    "id": "a1-011",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "salut",
+    "english": "hi",
+    "examples": [
+      {
+        "french": "Salut, ça va?",
+        "english": "Hi, how's it going?"
+      }
+    ],
+    "coordinates": {
+      "x": 76,
+      "y": 24,
+      "z": 131
+    }
+  },
+  {
+    "id": "a1-012",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bienvenue",
+    "english": "welcome",
+    "examples": [
+      {
+        "french": "Bienvenue en France!",
+        "english": "Welcome to France!"
+      }
+    ],
+    "coordinates": {
+      "x": 87,
+      "y": 5,
+      "z": 132
+    }
+  },
+  {
+    "id": "a1-013",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "maison",
+    "english": "house",
+    "gender": "F",
+    "morphology": {
+      "root": "mais",
+      "suffix": "on",
+      "decomposition": [
+        "mais",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La maison est grande.",
+        "english": "The house is big."
+      }
+    ],
+    "coordinates": {
+      "x": 101,
+      "y": 21,
+      "z": 123
+    }
+  },
+  {
+    "id": "a1-014",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "appartement",
+    "english": "apartment",
+    "morphology": {
+      "root": "appart",
+      "suffix": "ement",
+      "decomposition": [
+        "appart",
+        "ement"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'appartement a trois chambres.",
+        "english": "The apartment has three bedrooms."
+      }
+    ],
+    "coordinates": {
+      "x": 105,
+      "y": 44,
+      "z": 89
+    }
+  },
+  {
+    "id": "a1-015",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "chambre",
+    "english": "bedroom",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma chambre est au premier étage.",
+        "english": "My bedroom is on the first floor."
+      }
+    ],
+    "coordinates": {
+      "x": 111,
+      "y": 25,
+      "z": 87
+    }
+  },
+  {
+    "id": "a1-016",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cuisine",
+    "english": "kitchen",
+    "gender": "F",
+    "morphology": {
+      "root": "cuis",
+      "suffix": "ine",
+      "decomposition": [
+        "cuis",
+        "ine"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je prépare le dîner dans la cuisine.",
+        "english": "I prepare dinner in the kitchen."
+      }
+    ],
+    "coordinates": {
+      "x": 86,
+      "y": 48,
+      "z": 122
+    }
+  },
+  {
+    "id": "a1-017",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "salle de bain",
+    "english": "bathroom",
+    "gender": "F",
+    "morphology": {
+      "root": "salle de b",
+      "suffix": "ain",
+      "decomposition": [
+        "salle de b",
+        "ain"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La salle de bain est propre.",
+        "english": "The bathroom is clean."
+      }
+    ],
+    "coordinates": {
+      "x": 112,
+      "y": 49,
+      "z": 90
+    }
+  },
+  {
+    "id": "a1-018",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "salon",
+    "english": "living room",
+    "gender": "M",
+    "morphology": {
+      "root": "sal",
+      "suffix": "on",
+      "decomposition": [
+        "sal",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Nous regardons la télé dans le salon.",
+        "english": "We watch TV in the living room."
+      }
+    ],
+    "coordinates": {
+      "x": 84,
+      "y": 23,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-019",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jardin",
+    "english": "garden",
+    "gender": "M",
+    "morphology": {
+      "root": "jard",
+      "suffix": "in",
+      "decomposition": [
+        "jard",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les enfants jouent dans le jardin.",
+        "english": "The children play in the garden."
+      }
+    ],
+    "coordinates": {
+      "x": 96,
+      "y": 37,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-020",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "porte",
+    "english": "door",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Fermez la porte, s'il vous plaît.",
+        "english": "Close the door, please."
+      }
+    ],
+    "coordinates": {
+      "x": 105,
+      "y": 54,
+      "z": 98
+    }
+  },
+  {
+    "id": "a1-021",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fenêtre",
+    "english": "window",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ouvrez la fenêtre, il fait chaud.",
+        "english": "Open the window, it's hot."
+      }
+    ],
+    "coordinates": {
+      "x": 97,
+      "y": 31,
+      "z": 95
+    }
+  },
+  {
+    "id": "a1-022",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "table",
+    "english": "table",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Le livre est sur la table.",
+        "english": "The book is on the table."
+      }
+    ],
+    "coordinates": {
+      "x": 102,
+      "y": 50,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-023",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "chaise",
+    "english": "chair",
+    "gender": "F",
+    "morphology": {
+      "root": "cha",
+      "suffix": "ise",
+      "decomposition": [
+        "cha",
+        "ise"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Asseyez-vous sur la chaise.",
+        "english": "Sit on the chair."
+      }
+    ],
+    "coordinates": {
+      "x": 83,
+      "y": 55,
+      "z": 103
+    }
+  },
+  {
+    "id": "a1-024",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "lit",
+    "english": "bed",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je dors dans mon lit.",
+        "english": "I sleep in my bed."
+      }
+    ],
+    "coordinates": {
+      "x": 105,
+      "y": 57,
+      "z": 100
+    }
+  },
+  {
+    "id": "a1-025",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "père",
+    "english": "father",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mon père travaille à Paris.",
+        "english": "My father works in Paris."
+      }
+    ],
+    "coordinates": {
+      "x": 102,
+      "y": 54,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-026",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mère",
+    "english": "mother",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma mère cuisine très bien.",
+        "english": "My mother cooks very well."
+      }
+    ],
+    "coordinates": {
+      "x": 108,
+      "y": 71,
+      "z": 91
+    }
+  },
+  {
+    "id": "a1-027",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "frère",
+    "english": "brother",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mon frère a dix ans.",
+        "english": "My brother is ten years old."
+      }
+    ],
+    "coordinates": {
+      "x": 95,
+      "y": 46,
+      "z": 118
+    }
+  },
+  {
+    "id": "a1-028",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sœur",
+    "english": "sister",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma sœur habite à Lyon.",
+        "english": "My sister lives in Lyon."
+      }
+    ],
+    "coordinates": {
+      "x": 78,
+      "y": 48,
+      "z": 126
+    }
+  },
+  {
+    "id": "a1-029",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fils",
+    "english": "son",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mon fils va à l'école.",
+        "english": "My son goes to school."
+      }
+    ],
+    "coordinates": {
+      "x": 94,
+      "y": 74,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-030",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fille",
+    "english": "daughter",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma fille aime la musique.",
+        "english": "My daughter loves music."
+      }
+    ],
+    "coordinates": {
+      "x": 79,
+      "y": 61,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-031",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "grand-père",
+    "english": "grandfather",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mon grand-père a quatre-vingts ans.",
+        "english": "My grandfather is eighty years old."
+      }
+    ],
+    "coordinates": {
+      "x": 107,
+      "y": 73,
+      "z": 90
+    }
+  },
+  {
+    "id": "a1-032",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "grand-mère",
+    "english": "grandmother",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma grand-mère fait des gâteaux.",
+        "english": "My grandmother makes cakes."
+      }
+    ],
+    "coordinates": {
+      "x": 81,
+      "y": 68,
+      "z": 112
+    }
+  },
+  {
+    "id": "a1-033",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "oncle",
+    "english": "uncle",
+    "examples": [
+      {
+        "french": "Mon oncle habite en Belgique.",
+        "english": "My uncle lives in Belgium."
+      }
+    ],
+    "coordinates": {
+      "x": 87,
+      "y": 50,
+      "z": 124
+    }
+  },
+  {
+    "id": "a1-034",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "tante",
+    "english": "aunt",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma tante vient nous voir dimanche.",
+        "english": "My aunt is coming to see us on Sunday."
+      }
+    ],
+    "coordinates": {
+      "x": 74,
+      "y": 49,
+      "z": 115
+    }
+  },
+  {
+    "id": "a1-035",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cousin",
+    "english": "cousin",
+    "gender": "M",
+    "morphology": {
+      "root": "cous",
+      "suffix": "in",
+      "decomposition": [
+        "cous",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Mon cousin joue au football.",
+        "english": "My cousin plays football."
+      }
+    ],
+    "coordinates": {
+      "x": 89,
+      "y": 78,
+      "z": 93
+    }
+  },
+  {
+    "id": "a1-036",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cousine",
+    "english": "cousin",
+    "gender": "F",
+    "morphology": {
+      "root": "cous",
+      "suffix": "ine",
+      "decomposition": [
+        "cous",
+        "ine"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Ma cousine étudie la médecine.",
+        "english": "My cousin studies medicine."
+      }
+    ],
+    "coordinates": {
+      "x": 76,
+      "y": 61,
+      "z": 100
+    }
+  },
+  {
+    "id": "a1-037",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mari",
+    "english": "husband",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mon mari travaille à la banque.",
+        "english": "My husband works at the bank."
+      }
+    ],
+    "coordinates": {
+      "x": 65,
+      "y": 74,
+      "z": 111
+    }
+  },
+  {
+    "id": "a1-038",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "femme",
+    "english": "wife",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ma femme est médecin.",
+        "english": "My wife is a doctor."
+      }
+    ],
+    "coordinates": {
+      "x": 85,
+      "y": 72,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-039",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "enfant",
+    "english": "child",
+    "morphology": {
+      "root": "enf",
+      "suffix": "ant",
+      "decomposition": [
+        "enf",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'enfant joue dans le parc.",
+        "english": "The child plays in the park."
+      }
+    ],
+    "coordinates": {
+      "x": 64,
+      "y": 70,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-040",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bébé",
+    "english": "baby",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le bébé dort dans son lit.",
+        "english": "The baby sleeps in his bed."
+      }
+    ],
+    "coordinates": {
+      "x": 65,
+      "y": 81,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-041",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ami",
+    "english": "friend",
+    "examples": [
+      {
+        "french": "Mon ami vient dîner ce soir.",
+        "english": "My friend is coming for dinner tonight."
+      }
+    ],
+    "coordinates": {
+      "x": 66,
+      "y": 65,
+      "z": 106
+    }
+  },
+  {
+    "id": "a1-042",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "amie",
+    "english": "friend",
+    "examples": [
+      {
+        "french": "Mon amie habite près de chez moi.",
+        "english": "My friend lives near my place."
+      }
+    ],
+    "coordinates": {
+      "x": 78,
+      "y": 79,
+      "z": 94
+    }
+  },
+  {
+    "id": "a1-043",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "homme",
+    "english": "man",
+    "examples": [
+      {
+        "french": "L'homme porte un chapeau.",
+        "english": "The man wears a hat."
+      }
+    ],
+    "coordinates": {
+      "x": 72,
+      "y": 83,
+      "z": 102
+    }
+  },
+  {
+    "id": "a1-044",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "garçon",
+    "english": "boy",
+    "gender": "M",
+    "morphology": {
+      "root": "garç",
+      "suffix": "on",
+      "decomposition": [
+        "garç",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le garçon mange une pomme.",
+        "english": "The boy eats an apple."
+      }
+    ],
+    "coordinates": {
+      "x": 70,
+      "y": 98,
+      "z": 102
+    }
+  },
+  {
+    "id": "a1-045",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "personne",
+    "english": "person",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Cette personne est très gentille.",
+        "english": "This person is very kind."
+      }
+    ],
+    "coordinates": {
+      "x": 80,
+      "y": 78,
+      "z": 96
+    }
+  },
+  {
+    "id": "a1-046",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "rouge",
+    "english": "red",
+    "examples": [
+      {
+        "french": "La voiture rouge est rapide.",
+        "english": "The red car is fast."
+      }
+    ],
+    "coordinates": {
+      "x": 54,
+      "y": 80,
+      "z": -114
+    }
+  },
+  {
+    "id": "a1-047",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bleu",
+    "english": "blue",
+    "morphology": {
+      "root": "ble",
+      "suffix": "u",
+      "decomposition": [
+        "ble",
+        "u"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le ciel est bleu aujourd'hui.",
+        "english": "The sky is blue today."
+      }
+    ],
+    "coordinates": {
+      "x": 60,
+      "y": 88,
+      "z": -111
+    }
+  },
+  {
+    "id": "a1-048",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vert",
+    "english": "green",
+    "examples": [
+      {
+        "french": "L'herbe est verte au printemps.",
+        "english": "The grass is green in spring."
+      }
+    ],
+    "coordinates": {
+      "x": 50,
+      "y": 100,
+      "z": -93
+    }
+  },
+  {
+    "id": "a1-049",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jaune",
+    "english": "yellow",
+    "examples": [
+      {
+        "french": "Le soleil est jaune.",
+        "english": "The sun is yellow."
+      }
+    ],
+    "coordinates": {
+      "x": 57,
+      "y": 87,
+      "z": -109
+    }
+  },
+  {
+    "id": "a1-050",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "orange",
+    "english": "orange",
+    "examples": [
+      {
+        "french": "J'aime les fleurs orange.",
+        "english": "I like orange flowers."
+      }
+    ],
+    "coordinates": {
+      "x": 62,
+      "y": 105,
+      "z": -106
+    }
+  },
+  {
+    "id": "a1-051",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "violet",
+    "english": "purple",
+    "morphology": {
+      "root": "viol",
+      "suffix": "et",
+      "decomposition": [
+        "viol",
+        "et"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Elle porte une robe violette.",
+        "english": "She wears a purple dress."
+      }
+    ],
+    "coordinates": {
+      "x": 50,
+      "y": 90,
+      "z": -92
+    }
+  },
+  {
+    "id": "a1-052",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "rose",
+    "english": "pink",
+    "examples": [
+      {
+        "french": "Les fleurs roses sont belles.",
+        "english": "The pink flowers are beautiful."
+      }
+    ],
+    "coordinates": {
+      "x": 59,
+      "y": 89,
+      "z": -91
+    }
+  },
+  {
+    "id": "a1-053",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "noir",
+    "english": "black",
+    "examples": [
+      {
+        "french": "Le chat noir dort.",
+        "english": "The black cat sleeps."
+      }
+    ],
+    "coordinates": {
+      "x": 49,
+      "y": 86,
+      "z": -95
+    }
+  },
+  {
+    "id": "a1-054",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "blanc",
+    "english": "white",
+    "examples": [
+      {
+        "french": "La neige est blanche.",
+        "english": "The snow is white."
+      }
+    ],
+    "coordinates": {
+      "x": 43,
+      "y": 76,
+      "z": -120
+    }
+  },
+  {
+    "id": "a1-055",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "gris",
+    "english": "gray",
+    "examples": [
+      {
+        "french": "Le ciel est gris aujourd'hui.",
+        "english": "The sky is gray today."
+      }
+    ],
+    "coordinates": {
+      "x": 35,
+      "y": 95,
+      "z": -108
+    }
+  },
+  {
+    "id": "a1-056",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "marron",
+    "english": "brown",
+    "morphology": {
+      "root": "marr",
+      "suffix": "on",
+      "decomposition": [
+        "marr",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Ses yeux sont marron.",
+        "english": "His eyes are brown."
+      }
+    ],
+    "coordinates": {
+      "x": 60,
+      "y": 101,
+      "z": -108
+    }
+  },
+  {
+    "id": "a1-057",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "un",
+    "english": "one",
+    "examples": [
+      {
+        "french": "J'ai un frère.",
+        "english": "I have one brother."
+      }
+    ],
+    "coordinates": {
+      "x": 37,
+      "y": 54,
+      "z": 137
+    }
+  },
+  {
+    "id": "a1-058",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "deux",
+    "english": "two",
+    "examples": [
+      {
+        "french": "J'ai deux sœurs.",
+        "english": "I have two sisters."
+      }
+    ],
+    "coordinates": {
+      "x": 28,
+      "y": 80,
+      "z": 130
+    }
+  },
+  {
+    "id": "a1-059",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "trois",
+    "english": "three",
+    "examples": [
+      {
+        "french": "Il y a trois pommes.",
+        "english": "There are three apples."
+      }
+    ],
+    "coordinates": {
+      "x": 32,
+      "y": 65,
+      "z": 127
+    }
+  },
+  {
+    "id": "a1-060",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "quatre",
+    "english": "four",
+    "examples": [
+      {
+        "french": "La table a quatre pieds.",
+        "english": "The table has four legs."
+      }
+    ],
+    "coordinates": {
+      "x": 29,
+      "y": 61,
+      "z": 128
+    }
+  },
+  {
+    "id": "a1-061",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cinq",
+    "english": "five",
+    "examples": [
+      {
+        "french": "J'ai cinq doigts.",
+        "english": "I have five fingers."
+      }
+    ],
+    "coordinates": {
+      "x": 28,
+      "y": 54,
+      "z": 120
+    }
+  },
+  {
+    "id": "a1-062",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "six",
+    "english": "six",
+    "examples": [
+      {
+        "french": "Il y a six œufs dans la boîte.",
+        "english": "There are six eggs in the box."
+      }
+    ],
+    "coordinates": {
+      "x": 31,
+      "y": 67,
+      "z": 132
+    }
+  },
+  {
+    "id": "a1-063",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sept",
+    "english": "seven",
+    "examples": [
+      {
+        "french": "Il y a sept jours dans une semaine.",
+        "english": "There are seven days in a week."
+      }
+    ],
+    "coordinates": {
+      "x": 20,
+      "y": 66,
+      "z": 138
+    }
+  },
+  {
+    "id": "a1-064",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "huit",
+    "english": "eight",
+    "examples": [
+      {
+        "french": "Le cours commence à huit heures.",
+        "english": "The class starts at eight o'clock."
+      }
+    ],
+    "coordinates": {
+      "x": 33,
+      "y": 75,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-065",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "neuf",
+    "english": "nine",
+    "examples": [
+      {
+        "french": "J'ai neuf ans.",
+        "english": "I am nine years old."
+      }
+    ],
+    "coordinates": {
+      "x": 6,
+      "y": 69,
+      "z": 135
+    }
+  },
+  {
+    "id": "a1-066",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "dix",
+    "english": "ten",
+    "examples": [
+      {
+        "french": "Il y a dix élèves dans la classe.",
+        "english": "There are ten students in the class."
+      }
+    ],
+    "coordinates": {
+      "x": 29,
+      "y": 89,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-067",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "onze",
+    "english": "eleven",
+    "examples": [
+      {
+        "french": "Le match commence à onze heures.",
+        "english": "The match starts at eleven o'clock."
+      }
+    ],
+    "coordinates": {
+      "x": 9,
+      "y": 54,
+      "z": 133
+    }
+  },
+  {
+    "id": "a1-068",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "douze",
+    "english": "twelve",
+    "examples": [
+      {
+        "french": "Il y a douze mois dans une année.",
+        "english": "There are twelve months in a year."
+      }
+    ],
+    "coordinates": {
+      "x": 7,
+      "y": 71,
+      "z": 127
+    }
+  },
+  {
+    "id": "a1-069",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "treize",
+    "english": "thirteen",
+    "examples": [
+      {
+        "french": "Elle a treize ans.",
+        "english": "She is thirteen years old."
+      }
+    ],
+    "coordinates": {
+      "x": 3,
+      "y": 68,
+      "z": 120
+    }
+  },
+  {
+    "id": "a1-070",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "quatorze",
+    "english": "fourteen",
+    "examples": [
+      {
+        "french": "Le quatorze juillet est la fête nationale.",
+        "english": "July fourteenth is the national holiday."
+      }
+    ],
+    "coordinates": {
+      "x": 2,
+      "y": 63,
+      "z": 143
+    }
+  },
+  {
+    "id": "a1-071",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "quinze",
+    "english": "fifteen",
+    "examples": [
+      {
+        "french": "J'arrive dans quinze minutes.",
+        "english": "I arrive in fifteen minutes."
+      }
+    ],
+    "coordinates": {
+      "x": 2,
+      "y": 77,
+      "z": 127
+    }
+  },
+  {
+    "id": "a1-072",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "seize",
+    "english": "sixteen",
+    "examples": [
+      {
+        "french": "Mon frère a seize ans.",
+        "english": "My brother is sixteen years old."
+      }
+    ],
+    "coordinates": {
+      "x": 17,
+      "y": 64,
+      "z": 140
+    }
+  },
+  {
+    "id": "a1-073",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vingt",
+    "english": "twenty",
+    "examples": [
+      {
+        "french": "Il y a vingt étudiants.",
+        "english": "There are twenty students."
+      }
+    ],
+    "coordinates": {
+      "x": -1,
+      "y": 83,
+      "z": 131
+    }
+  },
+  {
+    "id": "a1-074",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "trente",
+    "english": "thirty",
+    "examples": [
+      {
+        "french": "Le mois a trente jours.",
+        "english": "The month has thirty days."
+      }
+    ],
+    "coordinates": {
+      "x": 8,
+      "y": 74,
+      "z": 126
+    }
+  },
+  {
+    "id": "a1-075",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "quarante",
+    "english": "forty",
+    "examples": [
+      {
+        "french": "Mon père a quarante ans.",
+        "english": "My father is forty years old."
+      }
+    ],
+    "coordinates": {
+      "x": -3,
+      "y": 65,
+      "z": 125
+    }
+  },
+  {
+    "id": "a1-076",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cinquante",
+    "english": "fifty",
+    "examples": [
+      {
+        "french": "Il y a cinquante personnes.",
+        "english": "There are fifty people."
+      }
+    ],
+    "coordinates": {
+      "x": -1,
+      "y": 78,
+      "z": 144
+    }
+  },
+  {
+    "id": "a1-077",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "soixante",
+    "english": "sixty",
+    "examples": [
+      {
+        "french": "Une heure a soixante minutes.",
+        "english": "An hour has sixty minutes."
+      }
+    ],
+    "coordinates": {
+      "x": 6,
+      "y": 93,
+      "z": 121
+    }
+  },
+  {
+    "id": "a1-078",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cent",
+    "english": "hundred",
+    "examples": [
+      {
+        "french": "J'ai cent euros.",
+        "english": "I have one hundred euros."
+      }
+    ],
+    "coordinates": {
+      "x": -1,
+      "y": 75,
+      "z": 130
+    }
+  },
+  {
+    "id": "a1-079",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mille",
+    "english": "thousand",
+    "examples": [
+      {
+        "french": "La ville a mille habitants.",
+        "english": "The town has one thousand inhabitants."
+      }
+    ],
+    "coordinates": {
+      "x": 7,
+      "y": 100,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-080",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "premier",
+    "english": "first",
+    "morphology": {
+      "root": "prem",
+      "suffix": "ier",
+      "decomposition": [
+        "prem",
+        "ier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "C'est mon premier jour.",
+        "english": "It's my first day."
+      }
+    ],
+    "coordinates": {
+      "x": -8,
+      "y": 127,
+      "z": -106
+    }
+  },
+  {
+    "id": "a1-081",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "deuxième",
+    "english": "second",
+    "morphology": {
+      "prefix": "de",
+      "root": "uxième",
+      "decomposition": [
+        "de",
+        "uxième"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'habite au deuxième étage.",
+        "english": "I live on the second floor."
+      }
+    ],
+    "coordinates": {
+      "x": -28,
+      "y": 94,
+      "z": -120
+    }
+  },
+  {
+    "id": "a1-082",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "dernier",
+    "english": "last",
+    "morphology": {
+      "root": "dern",
+      "suffix": "ier",
+      "decomposition": [
+        "dern",
+        "ier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "C'est le dernier jour.",
+        "english": "It's the last day."
+      }
+    ],
+    "coordinates": {
+      "x": -34,
+      "y": 106,
+      "z": -98
+    }
+  },
+  {
+    "id": "a1-083",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pain",
+    "english": "bread",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "J'achète du pain tous les jours.",
+        "english": "I buy bread every day."
+      }
+    ],
+    "coordinates": {
+      "x": -14,
+      "y": 110,
+      "z": 97
+    }
+  },
+  {
+    "id": "a1-084",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "eau",
+    "english": "water",
+    "examples": [
+      {
+        "french": "Je bois de l'eau.",
+        "english": "I drink water."
+      }
+    ],
+    "coordinates": {
+      "x": -15,
+      "y": 110,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-085",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "café",
+    "english": "coffee",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je prends un café le matin.",
+        "english": "I have a coffee in the morning."
+      }
+    ],
+    "coordinates": {
+      "x": -21,
+      "y": 88,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-086",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "thé",
+    "english": "tea",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Elle préfère le thé.",
+        "english": "She prefers tea."
+      }
+    ],
+    "coordinates": {
+      "x": -33,
+      "y": 108,
+      "z": 104
+    }
+  },
+  {
+    "id": "a1-087",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "lait",
+    "english": "milk",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Les enfants boivent du lait.",
+        "english": "The children drink milk."
+      }
+    ],
+    "coordinates": {
+      "x": -41,
+      "y": 103,
+      "z": 93
+    }
+  },
+  {
+    "id": "a1-088",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jus",
+    "english": "juice",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je voudrais un jus d'orange.",
+        "english": "I would like an orange juice."
+      }
+    ],
+    "coordinates": {
+      "x": -27,
+      "y": 114,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-089",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vin",
+    "english": "wine",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le vin rouge est bon.",
+        "english": "The red wine is good."
+      }
+    ],
+    "coordinates": {
+      "x": -32,
+      "y": 88,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-090",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bière",
+    "english": "beer",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Une bière, s'il vous plaît.",
+        "english": "A beer, please."
+      }
+    ],
+    "coordinates": {
+      "x": -33,
+      "y": 106,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-091",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pomme",
+    "english": "apple",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Je mange une pomme.",
+        "english": "I eat an apple."
+      }
+    ],
+    "coordinates": {
+      "x": -31,
+      "y": 85,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-092",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "banane",
+    "english": "banana",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La banane est jaune.",
+        "english": "The banana is yellow."
+      }
+    ],
+    "coordinates": {
+      "x": -37,
+      "y": 108,
+      "z": 89
+    }
+  },
+  {
+    "id": "a1-093",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fraise",
+    "english": "strawberry",
+    "gender": "F",
+    "morphology": {
+      "root": "fra",
+      "suffix": "ise",
+      "decomposition": [
+        "fra",
+        "ise"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'aime les fraises.",
+        "english": "I like strawberries."
+      }
+    ],
+    "coordinates": {
+      "x": -50,
+      "y": 105,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-094",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "raisin",
+    "english": "grape",
+    "gender": "M",
+    "morphology": {
+      "root": "rais",
+      "suffix": "in",
+      "decomposition": [
+        "rais",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les raisins sont délicieux.",
+        "english": "The grapes are delicious."
+      }
+    ],
+    "coordinates": {
+      "x": -37,
+      "y": 95,
+      "z": 102
+    }
+  },
+  {
+    "id": "a1-095",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "citron",
+    "english": "lemon",
+    "gender": "M",
+    "morphology": {
+      "root": "citr",
+      "suffix": "on",
+      "decomposition": [
+        "citr",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le citron est acide.",
+        "english": "The lemon is sour."
+      }
+    ],
+    "coordinates": {
+      "x": -40,
+      "y": 105,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-096",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "tomate",
+    "english": "tomato",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La tomate est rouge.",
+        "english": "The tomato is red."
+      }
+    ],
+    "coordinates": {
+      "x": -42,
+      "y": 114,
+      "z": 112
+    }
+  },
+  {
+    "id": "a1-097",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "carotte",
+    "english": "carrot",
+    "gender": "F",
+    "morphology": {
+      "root": "car",
+      "suffix": "otte",
+      "decomposition": [
+        "car",
+        "otte"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les carottes sont bonnes pour la santé.",
+        "english": "Carrots are good for health."
+      }
+    ],
+    "coordinates": {
+      "x": -53,
+      "y": 112,
+      "z": 93
+    }
+  },
+  {
+    "id": "a1-098",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "salade",
+    "english": "salad",
+    "gender": "F",
+    "morphology": {
+      "root": "sal",
+      "suffix": "ade",
+      "decomposition": [
+        "sal",
+        "ade"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je prends une salade.",
+        "english": "I'll have a salad."
+      }
+    ],
+    "coordinates": {
+      "x": -44,
+      "y": 95,
+      "z": 120
+    }
+  },
+  {
+    "id": "a1-099",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "légume",
+    "english": "vegetable",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Les légumes sont importants.",
+        "english": "Vegetables are important."
+      }
+    ],
+    "coordinates": {
+      "x": -43,
+      "y": 101,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-100",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fruit",
+    "english": "fruit",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je mange des fruits chaque jour.",
+        "english": "I eat fruit every day."
+      }
+    ],
+    "coordinates": {
+      "x": -54,
+      "y": 89,
+      "z": 119
+    }
+  },
+  {
+    "id": "a1-101",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "viande",
+    "english": "meat",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Je ne mange pas de viande.",
+        "english": "I don't eat meat."
+      }
+    ],
+    "coordinates": {
+      "x": -70,
+      "y": 89,
+      "z": 103
+    }
+  },
+  {
+    "id": "a1-102",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "poulet",
+    "english": "chicken",
+    "gender": "M",
+    "morphology": {
+      "root": "poul",
+      "suffix": "et",
+      "decomposition": [
+        "poul",
+        "et"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le poulet est cuit.",
+        "english": "The chicken is cooked."
+      }
+    ],
+    "coordinates": {
+      "x": -54,
+      "y": 91,
+      "z": 112
+    }
+  },
+  {
+    "id": "a1-103",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "poisson",
+    "english": "fish",
+    "gender": "M",
+    "morphology": {
+      "root": "poiss",
+      "suffix": "on",
+      "decomposition": [
+        "poiss",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'aime le poisson frais.",
+        "english": "I like fresh fish."
+      }
+    ],
+    "coordinates": {
+      "x": -70,
+      "y": 93,
+      "z": 89
+    }
+  },
+  {
+    "id": "a1-104",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "œuf",
+    "english": "egg",
+    "examples": [
+      {
+        "french": "Je mange un œuf au petit-déjeuner.",
+        "english": "I eat an egg for breakfast."
+      }
+    ],
+    "coordinates": {
+      "x": -64,
+      "y": 105,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-105",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fromage",
+    "english": "cheese",
+    "gender": "M",
+    "morphology": {
+      "root": "from",
+      "suffix": "age",
+      "decomposition": [
+        "from",
+        "age"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le fromage français est délicieux.",
+        "english": "French cheese is delicious."
+      }
+    ],
+    "coordinates": {
+      "x": -75,
+      "y": 87,
+      "z": 106
+    }
+  },
+  {
+    "id": "a1-106",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "beurre",
+    "english": "butter",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je mets du beurre sur le pain.",
+        "english": "I put butter on the bread."
+      }
+    ],
+    "coordinates": {
+      "x": -57,
+      "y": 106,
+      "z": 97
+    }
+  },
+  {
+    "id": "a1-107",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sucre",
+    "english": "sugar",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je prends mon café sans sucre.",
+        "english": "I take my coffee without sugar."
+      }
+    ],
+    "coordinates": {
+      "x": -54,
+      "y": 80,
+      "z": 104
+    }
+  },
+  {
+    "id": "a1-108",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sel",
+    "english": "salt",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Passez-moi le sel, s'il vous plaît.",
+        "english": "Pass me the salt, please."
+      }
+    ],
+    "coordinates": {
+      "x": -65,
+      "y": 79,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-109",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "riz",
+    "english": "rice",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je mange du riz avec le poulet.",
+        "english": "I eat rice with chicken."
+      }
+    ],
+    "coordinates": {
+      "x": -72,
+      "y": 71,
+      "z": 101
+    }
+  },
+  {
+    "id": "a1-110",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pâtes",
+    "english": "pasta",
+    "examples": [
+      {
+        "french": "Les pâtes sont prêtes.",
+        "english": "The pasta is ready."
+      }
+    ],
+    "coordinates": {
+      "x": -76,
+      "y": 64,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-111",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "soupe",
+    "english": "soup",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La soupe est chaude.",
+        "english": "The soup is hot."
+      }
+    ],
+    "coordinates": {
+      "x": -80,
+      "y": 84,
+      "z": 88
+    }
+  },
+  {
+    "id": "a1-112",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "gâteau",
+    "english": "cake",
+    "gender": "M",
+    "morphology": {
+      "root": "gât",
+      "suffix": "eau",
+      "decomposition": [
+        "gât",
+        "eau"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le gâteau au chocolat est délicieux.",
+        "english": "The chocolate cake is delicious."
+      }
+    ],
+    "coordinates": {
+      "x": -75,
+      "y": 93,
+      "z": 104
+    }
+  },
+  {
+    "id": "a1-113",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "glace",
+    "english": "ice cream",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Je voudrais une glace à la vanille.",
+        "english": "I would like a vanilla ice cream."
+      }
+    ],
+    "coordinates": {
+      "x": -59,
+      "y": 65,
+      "z": 121
+    }
+  },
+  {
+    "id": "a1-114",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "chocolat",
+    "english": "chocolate",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "J'adore le chocolat.",
+        "english": "I love chocolate."
+      }
+    ],
+    "coordinates": {
+      "x": -73,
+      "y": 91,
+      "z": 106
+    }
+  },
+  {
+    "id": "a1-115",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "petit-déjeuner",
+    "english": "breakfast",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le petit-déjeuner est servi.",
+        "english": "Breakfast is served."
+      }
+    ],
+    "coordinates": {
+      "x": -77,
+      "y": 62,
+      "z": 106
+    }
+  },
+  {
+    "id": "a1-116",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "déjeuner",
+    "english": "lunch",
+    "gender": "M",
+    "morphology": {
+      "prefix": "dé",
+      "root": "jeuner",
+      "decomposition": [
+        "dé",
+        "jeuner"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le déjeuner est à midi.",
+        "english": "Lunch is at noon."
+      }
+    ],
+    "coordinates": {
+      "x": -87,
+      "y": 57,
+      "z": 101
+    }
+  },
+  {
+    "id": "a1-117",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "dîner",
+    "english": "dinner",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le dîner est prêt.",
+        "english": "Dinner is ready."
+      }
+    ],
+    "coordinates": {
+      "x": -98,
+      "y": 60,
+      "z": 103
+    }
+  },
+  {
+    "id": "a1-118",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "repas",
+    "english": "meal",
+    "gender": "M",
+    "morphology": {
+      "prefix": "re",
+      "root": "pas",
+      "decomposition": [
+        "re",
+        "pas"
+      ]
+    },
+    "examples": [
+      {
+        "french": "C'est un bon repas.",
+        "english": "It's a good meal."
+      }
+    ],
+    "coordinates": {
+      "x": -94,
+      "y": 72,
+      "z": 97
+    }
+  },
+  {
+    "id": "a1-119",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "restaurant",
+    "english": "restaurant",
+    "gender": "M",
+    "morphology": {
+      "prefix": "re",
+      "root": "staur",
+      "suffix": "ant",
+      "decomposition": [
+        "re",
+        "staur",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Nous allons au restaurant ce soir.",
+        "english": "We're going to the restaurant tonight."
+      }
+    ],
+    "coordinates": {
+      "x": -68,
+      "y": 77,
+      "z": 119
+    }
+  },
+  {
+    "id": "a1-120",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "être",
+    "english": "to be",
+    "examples": [
+      {
+        "french": "Je suis français.",
+        "english": "I am French."
+      }
+    ],
+    "coordinates": {
+      "x": -114,
+      "y": 80,
+      "z": 10
+    }
+  },
+  {
+    "id": "a1-121",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "avoir",
+    "english": "to have",
+    "examples": [
+      {
+        "french": "J'ai une voiture.",
+        "english": "I have a car."
+      }
+    ],
+    "coordinates": {
+      "x": -111,
+      "y": 105,
+      "z": 7
+    }
+  },
+  {
+    "id": "a1-122",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "faire",
+    "english": "to do",
+    "examples": [
+      {
+        "french": "Je fais mes devoirs.",
+        "english": "I do my homework."
+      }
+    ],
+    "coordinates": {
+      "x": -122,
+      "y": 75,
+      "z": 4
+    }
+  },
+  {
+    "id": "a1-123",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "aller",
+    "english": "to go",
+    "examples": [
+      {
+        "french": "Je vais à l'école.",
+        "english": "I go to school."
+      }
+    ],
+    "coordinates": {
+      "x": -123,
+      "y": 85,
+      "z": -11
+    }
+  },
+  {
+    "id": "a1-124",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "venir",
+    "english": "to come",
+    "examples": [
+      {
+        "french": "Tu viens avec moi?",
+        "english": "Are you coming with me?"
+      }
+    ],
+    "coordinates": {
+      "x": -139,
+      "y": 86,
+      "z": -3
+    }
+  },
+  {
+    "id": "a1-125",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "voir",
+    "english": "to see",
+    "examples": [
+      {
+        "french": "Je vois la mer.",
+        "english": "I see the sea."
+      }
+    ],
+    "coordinates": {
+      "x": -125,
+      "y": 83,
+      "z": -10
+    }
+  },
+  {
+    "id": "a1-126",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "savoir",
+    "english": "to know",
+    "morphology": {
+      "root": "sav",
+      "suffix": "oir",
+      "decomposition": [
+        "sav",
+        "oir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je sais parler français.",
+        "english": "I know how to speak French."
+      }
+    ],
+    "coordinates": {
+      "x": -134,
+      "y": 51,
+      "z": 20
+    }
+  },
+  {
+    "id": "a1-127",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pouvoir",
+    "english": "to be able to",
+    "morphology": {
+      "root": "pouv",
+      "suffix": "oir",
+      "decomposition": [
+        "pouv",
+        "oir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je peux vous aider.",
+        "english": "I can help you."
+      }
+    ],
+    "coordinates": {
+      "x": -128,
+      "y": 78,
+      "z": 19
+    }
+  },
+  {
+    "id": "a1-128",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vouloir",
+    "english": "to want",
+    "morphology": {
+      "root": "voul",
+      "suffix": "oir",
+      "decomposition": [
+        "voul",
+        "oir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je veux un café.",
+        "english": "I want a coffee."
+      }
+    ],
+    "coordinates": {
+      "x": -125,
+      "y": 94,
+      "z": 19
+    }
+  },
+  {
+    "id": "a1-129",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "devoir",
+    "english": "to have to",
+    "morphology": {
+      "root": "dev",
+      "suffix": "oir",
+      "decomposition": [
+        "dev",
+        "oir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je dois partir.",
+        "english": "I have to leave."
+      }
+    ],
+    "coordinates": {
+      "x": -135,
+      "y": 53,
+      "z": -18
+    }
+  },
+  {
+    "id": "a1-130",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "dire",
+    "english": "to say",
+    "examples": [
+      {
+        "french": "Il dit la vérité.",
+        "english": "He tells the truth."
+      }
+    ],
+    "coordinates": {
+      "x": -132,
+      "y": 52,
+      "z": -5
+    }
+  },
+  {
+    "id": "a1-131",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "parler",
+    "english": "to speak",
+    "examples": [
+      {
+        "french": "Je parle français.",
+        "english": "I speak French."
+      }
+    ],
+    "coordinates": {
+      "x": -140,
+      "y": 58,
+      "z": 3
+    }
+  },
+  {
+    "id": "a1-132",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "manger",
+    "english": "to eat",
+    "examples": [
+      {
+        "french": "Je mange une pomme.",
+        "english": "I eat an apple."
+      }
+    ],
+    "coordinates": {
+      "x": -126,
+      "y": 62,
+      "z": 3
+    }
+  },
+  {
+    "id": "a1-133",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "boire",
+    "english": "to drink",
+    "examples": [
+      {
+        "french": "Je bois de l'eau.",
+        "english": "I drink water."
+      }
+    ],
+    "coordinates": {
+      "x": -141,
+      "y": 63,
+      "z": -1
+    }
+  },
+  {
+    "id": "a1-134",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "dormir",
+    "english": "to sleep",
+    "examples": [
+      {
+        "french": "Je dors huit heures.",
+        "english": "I sleep eight hours."
+      }
+    ],
+    "coordinates": {
+      "x": -131,
+      "y": 45,
+      "z": 21
+    }
+  },
+  {
+    "id": "a1-135",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "travailler",
+    "english": "to work",
+    "examples": [
+      {
+        "french": "Je travaille à Paris.",
+        "english": "I work in Paris."
+      }
+    ],
+    "coordinates": {
+      "x": -152,
+      "y": 52,
+      "z": 5
+    }
+  },
+  {
+    "id": "a1-136",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "habiter",
+    "english": "to live",
+    "examples": [
+      {
+        "french": "J'habite en France.",
+        "english": "I live in France."
+      }
+    ],
+    "coordinates": {
+      "x": -151,
+      "y": 52,
+      "z": 17
+    }
+  },
+  {
+    "id": "a1-137",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "aimer",
+    "english": "to like",
+    "examples": [
+      {
+        "french": "J'aime le chocolat.",
+        "english": "I like chocolate."
+      }
+    ],
+    "coordinates": {
+      "x": -138,
+      "y": 42,
+      "z": -25
+    }
+  },
+  {
+    "id": "a1-138",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "acheter",
+    "english": "to buy",
+    "examples": [
+      {
+        "french": "J'achète du pain.",
+        "english": "I buy bread."
+      }
+    ],
+    "coordinates": {
+      "x": -146,
+      "y": 37,
+      "z": -9
+    }
+  },
+  {
+    "id": "a1-139",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "prendre",
+    "english": "to take",
+    "morphology": {
+      "prefix": "pre",
+      "root": "ndre",
+      "decomposition": [
+        "pre",
+        "ndre"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je prends le bus.",
+        "english": "I take the bus."
+      }
+    ],
+    "coordinates": {
+      "x": -156,
+      "y": 26,
+      "z": 3
+    }
+  },
+  {
+    "id": "a1-140",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "donner",
+    "english": "to give",
+    "examples": [
+      {
+        "french": "Je donne un cadeau.",
+        "english": "I give a gift."
+      }
+    ],
+    "coordinates": {
+      "x": -144,
+      "y": 48,
+      "z": 8
+    }
+  },
+  {
+    "id": "a1-141",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "regarder",
+    "english": "to watch",
+    "morphology": {
+      "prefix": "re",
+      "root": "garder",
+      "decomposition": [
+        "re",
+        "garder"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je regarde la télévision.",
+        "english": "I watch television."
+      }
+    ],
+    "coordinates": {
+      "x": -143,
+      "y": 53,
+      "z": -4
+    }
+  },
+  {
+    "id": "a1-142",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "écouter",
+    "english": "to listen",
+    "examples": [
+      {
+        "french": "J'écoute de la musique.",
+        "english": "I listen to music."
+      }
+    ],
+    "coordinates": {
+      "x": -149,
+      "y": 11,
+      "z": -8
+    }
+  },
+  {
+    "id": "a1-143",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "lire",
+    "english": "to read",
+    "examples": [
+      {
+        "french": "Je lis un livre.",
+        "english": "I read a book."
+      }
+    ],
+    "coordinates": {
+      "x": -135,
+      "y": 39,
+      "z": 4
+    }
+  },
+  {
+    "id": "a1-144",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "écrire",
+    "english": "to write",
+    "examples": [
+      {
+        "french": "J'écris une lettre.",
+        "english": "I write a letter."
+      }
+    ],
+    "coordinates": {
+      "x": -153,
+      "y": 20,
+      "z": 0
+    }
+  },
+  {
+    "id": "a1-145",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jouer",
+    "english": "to play",
+    "examples": [
+      {
+        "french": "Les enfants jouent dehors.",
+        "english": "The children play outside."
+      }
+    ],
+    "coordinates": {
+      "x": -137,
+      "y": 31,
+      "z": -19
+    }
+  },
+  {
+    "id": "a1-146",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "marcher",
+    "english": "to walk",
+    "examples": [
+      {
+        "french": "Je marche dans le parc.",
+        "english": "I walk in the park."
+      }
+    ],
+    "coordinates": {
+      "x": -156,
+      "y": -7,
+      "z": -8
+    }
+  },
+  {
+    "id": "a1-147",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "courir",
+    "english": "to run",
+    "morphology": {
+      "prefix": "co",
+      "root": "urir",
+      "decomposition": [
+        "co",
+        "urir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Il court très vite.",
+        "english": "He runs very fast."
+      }
+    ],
+    "coordinates": {
+      "x": -137,
+      "y": 18,
+      "z": 26
+    }
+  },
+  {
+    "id": "a1-148",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "nager",
+    "english": "to swim",
+    "examples": [
+      {
+        "french": "Je nage dans la piscine.",
+        "english": "I swim in the pool."
+      }
+    ],
+    "coordinates": {
+      "x": -149,
+      "y": 18,
+      "z": 13
+    }
+  },
+  {
+    "id": "a1-149",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "chanter",
+    "english": "to sing",
+    "examples": [
+      {
+        "french": "Elle chante bien.",
+        "english": "She sings well."
+      }
+    ],
+    "coordinates": {
+      "x": -137,
+      "y": -4,
+      "z": -7
+    }
+  },
+  {
+    "id": "a1-150",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "danser",
+    "english": "to dance",
+    "examples": [
+      {
+        "french": "Nous dansons ensemble.",
+        "english": "We dance together."
+      }
+    ],
+    "coordinates": {
+      "x": -140,
+      "y": -5,
+      "z": -2
+    }
+  },
+  {
+    "id": "a1-151",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "apprendre",
+    "english": "to learn",
+    "examples": [
+      {
+        "french": "J'apprends le français.",
+        "english": "I learn French."
+      }
+    ],
+    "coordinates": {
+      "x": -151,
+      "y": -19,
+      "z": 11
+    }
+  },
+  {
+    "id": "a1-152",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "comprendre",
+    "english": "to understand",
+    "morphology": {
+      "prefix": "co",
+      "root": "mprendre",
+      "decomposition": [
+        "co",
+        "mprendre"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je comprends la question.",
+        "english": "I understand the question."
+      }
+    ],
+    "coordinates": {
+      "x": -162,
+      "y": 6,
+      "z": -11
+    }
+  },
+  {
+    "id": "a1-153",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "attendre",
+    "english": "to wait",
+    "examples": [
+      {
+        "french": "J'attends le bus.",
+        "english": "I wait for the bus."
+      }
+    ],
+    "coordinates": {
+      "x": -154,
+      "y": -22,
+      "z": 5
+    }
+  },
+  {
+    "id": "a1-154",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "chercher",
+    "english": "to look for",
+    "examples": [
+      {
+        "french": "Je cherche mes clés.",
+        "english": "I look for my keys."
+      }
+    ],
+    "coordinates": {
+      "x": -137,
+      "y": -10,
+      "z": 15
+    }
+  },
+  {
+    "id": "a1-155",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "trouver",
+    "english": "to find",
+    "examples": [
+      {
+        "french": "J'ai trouvé mon livre.",
+        "english": "I found my book."
+      }
+    ],
+    "coordinates": {
+      "x": -147,
+      "y": 5,
+      "z": 7
+    }
+  },
+  {
+    "id": "a1-156",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ouvrir",
+    "english": "to open",
+    "examples": [
+      {
+        "french": "J'ouvre la fenêtre.",
+        "english": "I open the window."
+      }
+    ],
+    "coordinates": {
+      "x": -157,
+      "y": -39,
+      "z": -10
+    }
+  },
+  {
+    "id": "a1-157",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fermer",
+    "english": "to close",
+    "examples": [
+      {
+        "french": "Fermez la porte.",
+        "english": "Close the door."
+      }
+    ],
+    "coordinates": {
+      "x": -138,
+      "y": -27,
+      "z": 1
+    }
+  },
+  {
+    "id": "a1-158",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "commencer",
+    "english": "to start",
+    "morphology": {
+      "prefix": "co",
+      "root": "mmencer",
+      "decomposition": [
+        "co",
+        "mmencer"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le film commence à huit heures.",
+        "english": "The movie starts at eight o'clock."
+      }
+    ],
+    "coordinates": {
+      "x": -154,
+      "y": -14,
+      "z": 4
+    }
+  },
+  {
+    "id": "a1-159",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "finir",
+    "english": "to finish",
+    "examples": [
+      {
+        "french": "Je finis mon travail.",
+        "english": "I finish my work."
+      }
+    ],
+    "coordinates": {
+      "x": -152,
+      "y": -39,
+      "z": 9
+    }
+  },
+  {
+    "id": "a1-160",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "arriver",
+    "english": "to arrive",
+    "examples": [
+      {
+        "french": "Le train arrive à midi.",
+        "english": "The train arrives at noon."
+      }
+    ],
+    "coordinates": {
+      "x": -155,
+      "y": -34,
+      "z": 7
+    }
+  },
+  {
+    "id": "a1-161",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "partir",
+    "english": "to leave",
+    "examples": [
+      {
+        "french": "Je pars demain.",
+        "english": "I leave tomorrow."
+      }
+    ],
+    "coordinates": {
+      "x": -144,
+      "y": -14,
+      "z": -1
+    }
+  },
+  {
+    "id": "a1-162",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "entrer",
+    "english": "to enter",
+    "examples": [
+      {
+        "french": "Entrez, s'il vous plaît.",
+        "english": "Enter, please."
+      }
+    ],
+    "coordinates": {
+      "x": -143,
+      "y": -60,
+      "z": -6
+    }
+  },
+  {
+    "id": "a1-163",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sortir",
+    "english": "to go out",
+    "examples": [
+      {
+        "french": "Je sors ce soir.",
+        "english": "I'm going out tonight."
+      }
+    ],
+    "coordinates": {
+      "x": -138,
+      "y": -55,
+      "z": -2
+    }
+  },
+  {
+    "id": "a1-164",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "rester",
+    "english": "to stay",
+    "morphology": {
+      "prefix": "re",
+      "root": "ster",
+      "decomposition": [
+        "re",
+        "ster"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je reste à la maison.",
+        "english": "I stay at home."
+      }
+    ],
+    "coordinates": {
+      "x": -137,
+      "y": -49,
+      "z": -2
+    }
+  },
+  {
+    "id": "a1-165",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "penser",
+    "english": "to think",
+    "examples": [
+      {
+        "french": "Je pense à toi.",
+        "english": "I think of you."
+      }
+    ],
+    "coordinates": {
+      "x": -140,
+      "y": -64,
+      "z": 9
+    }
+  },
+  {
+    "id": "a1-166",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "croire",
+    "english": "to believe",
+    "examples": [
+      {
+        "french": "Je crois que c'est vrai.",
+        "english": "I believe it's true."
+      }
+    ],
+    "coordinates": {
+      "x": -144,
+      "y": -32,
+      "z": 2
+    }
+  },
+  {
+    "id": "a1-167",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "demander",
+    "english": "to ask",
+    "morphology": {
+      "prefix": "de",
+      "root": "mander",
+      "decomposition": [
+        "de",
+        "mander"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je demande de l'aide.",
+        "english": "I ask for help."
+      }
+    ],
+    "coordinates": {
+      "x": -144,
+      "y": -39,
+      "z": 18
+    }
+  },
+  {
+    "id": "a1-168",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "répondre",
+    "english": "to answer",
+    "morphology": {
+      "prefix": "ré",
+      "root": "pondre",
+      "decomposition": [
+        "ré",
+        "pondre"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je réponds à la question.",
+        "english": "I answer the question."
+      }
+    ],
+    "coordinates": {
+      "x": -128,
+      "y": -67,
+      "z": -1
+    }
+  },
+  {
+    "id": "a1-169",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "appeler",
+    "english": "to call",
+    "examples": [
+      {
+        "french": "J'appelle ma mère.",
+        "english": "I call my mother."
+      }
+    ],
+    "coordinates": {
+      "x": -136,
+      "y": -54,
+      "z": 6
+    }
+  },
+  {
+    "id": "a1-170",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "grand",
+    "english": "big",
+    "examples": [
+      {
+        "french": "La maison est grande.",
+        "english": "The house is big."
+      }
+    ],
+    "coordinates": {
+      "x": -84,
+      "y": -33,
+      "z": -105
+    }
+  },
+  {
+    "id": "a1-171",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "petit",
+    "english": "small",
+    "examples": [
+      {
+        "french": "Le chat est petit.",
+        "english": "The cat is small."
+      }
+    ],
+    "coordinates": {
+      "x": -111,
+      "y": -29,
+      "z": -113
+    }
+  },
+  {
+    "id": "a1-172",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bon",
+    "english": "good",
+    "examples": [
+      {
+        "french": "Le repas est bon.",
+        "english": "The meal is good."
+      }
+    ],
+    "coordinates": {
+      "x": -91,
+      "y": -46,
+      "z": -92
+    }
+  },
+  {
+    "id": "a1-173",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mauvais",
+    "english": "bad",
+    "examples": [
+      {
+        "french": "Le temps est mauvais.",
+        "english": "The weather is bad."
+      }
+    ],
+    "coordinates": {
+      "x": -100,
+      "y": -50,
+      "z": -107
+    }
+  },
+  {
+    "id": "a1-174",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "beau",
+    "english": "beautiful",
+    "morphology": {
+      "root": "bea",
+      "suffix": "u",
+      "decomposition": [
+        "bea",
+        "u"
+      ]
+    },
+    "examples": [
+      {
+        "french": "C'est un beau jour.",
+        "english": "It's a beautiful day."
+      }
+    ],
+    "coordinates": {
+      "x": -95,
+      "y": -41,
+      "z": -126
+    }
+  },
+  {
+    "id": "a1-175",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "joli",
+    "english": "pretty",
+    "examples": [
+      {
+        "french": "Elle porte une jolie robe.",
+        "english": "She wears a pretty dress."
+      }
+    ],
+    "coordinates": {
+      "x": -88,
+      "y": -48,
+      "z": -120
+    }
+  },
+  {
+    "id": "a1-176",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "nouveau",
+    "english": "new",
+    "morphology": {
+      "root": "nouv",
+      "suffix": "eau",
+      "decomposition": [
+        "nouv",
+        "eau"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'ai une nouvelle voiture.",
+        "english": "I have a new car."
+      }
+    ],
+    "coordinates": {
+      "x": -89,
+      "y": -59,
+      "z": -101
+    }
+  },
+  {
+    "id": "a1-177",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vieux",
+    "english": "old",
+    "examples": [
+      {
+        "french": "C'est un vieux livre.",
+        "english": "It's an old book."
+      }
+    ],
+    "coordinates": {
+      "x": -93,
+      "y": -63,
+      "z": -107
+    }
+  },
+  {
+    "id": "a1-178",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jeune",
+    "english": "young",
+    "examples": [
+      {
+        "french": "Elle est très jeune.",
+        "english": "She is very young."
+      }
+    ],
+    "coordinates": {
+      "x": -80,
+      "y": -63,
+      "z": -112
+    }
+  },
+  {
+    "id": "a1-179",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "chaud",
+    "english": "hot",
+    "examples": [
+      {
+        "french": "Le café est chaud.",
+        "english": "The coffee is hot."
+      }
+    ],
+    "coordinates": {
+      "x": -94,
+      "y": -68,
+      "z": -95
+    }
+  },
+  {
+    "id": "a1-180",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "froid",
+    "english": "cold",
+    "examples": [
+      {
+        "french": "L'eau est froide.",
+        "english": "The water is cold."
+      }
+    ],
+    "coordinates": {
+      "x": -102,
+      "y": -49,
+      "z": -113
+    }
+  },
+  {
+    "id": "a1-181",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "facile",
+    "english": "easy",
+    "examples": [
+      {
+        "french": "L'exercice est facile.",
+        "english": "The exercise is easy."
+      }
+    ],
+    "coordinates": {
+      "x": -62,
+      "y": -69,
+      "z": -117
+    }
+  },
+  {
+    "id": "a1-182",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "difficile",
+    "english": "difficult",
+    "examples": [
+      {
+        "french": "La question est difficile.",
+        "english": "The question is difficult."
+      }
+    ],
+    "coordinates": {
+      "x": -92,
+      "y": -68,
+      "z": -94
+    }
+  },
+  {
+    "id": "a1-183",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "content",
+    "english": "happy",
+    "morphology": {
+      "prefix": "co",
+      "root": "ntent",
+      "decomposition": [
+        "co",
+        "ntent"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je suis content de te voir.",
+        "english": "I'm happy to see you."
+      }
+    ],
+    "coordinates": {
+      "x": -72,
+      "y": -85,
+      "z": -106
+    }
+  },
+  {
+    "id": "a1-184",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "triste",
+    "english": "sad",
+    "morphology": {
+      "prefix": "tri",
+      "root": "ste",
+      "decomposition": [
+        "tri",
+        "ste"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Elle est triste aujourd'hui.",
+        "english": "She is sad today."
+      }
+    ],
+    "coordinates": {
+      "x": -87,
+      "y": -79,
+      "z": -90
+    }
+  },
+  {
+    "id": "a1-185",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fatigué",
+    "english": "tired",
+    "examples": [
+      {
+        "french": "Je suis fatigué.",
+        "english": "I am tired."
+      }
+    ],
+    "coordinates": {
+      "x": -65,
+      "y": -88,
+      "z": -108
+    }
+  },
+  {
+    "id": "a1-186",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "gentil",
+    "english": "kind",
+    "examples": [
+      {
+        "french": "Il est très gentil.",
+        "english": "He is very kind."
+      }
+    ],
+    "coordinates": {
+      "x": -86,
+      "y": -72,
+      "z": -113
+    }
+  },
+  {
+    "id": "a1-187",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "important",
+    "english": "important",
+    "morphology": {
+      "prefix": "im",
+      "root": "port",
+      "suffix": "ant",
+      "decomposition": [
+        "im",
+        "port",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "C'est très important.",
+        "english": "It's very important."
+      }
+    ],
+    "coordinates": {
+      "x": -77,
+      "y": -59,
+      "z": -122
+    }
+  },
+  {
+    "id": "a1-188",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "intéressant",
+    "english": "interesting",
+    "morphology": {
+      "prefix": "in",
+      "root": "téress",
+      "suffix": "ant",
+      "decomposition": [
+        "in",
+        "téress",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le livre est intéressant.",
+        "english": "The book is interesting."
+      }
+    ],
+    "coordinates": {
+      "x": -81,
+      "y": -57,
+      "z": -102
+    }
+  },
+  {
+    "id": "a1-189",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "différent",
+    "english": "different",
+    "examples": [
+      {
+        "french": "C'est différent.",
+        "english": "It's different."
+      }
+    ],
+    "coordinates": {
+      "x": -75,
+      "y": -68,
+      "z": -111
+    }
+  },
+  {
+    "id": "a1-190",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "même",
+    "english": "same",
+    "examples": [
+      {
+        "french": "C'est la même chose.",
+        "english": "It's the same thing."
+      }
+    ],
+    "coordinates": {
+      "x": -71,
+      "y": -60,
+      "z": -120
+    }
+  },
+  {
+    "id": "a1-191",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "autre",
+    "english": "other",
+    "examples": [
+      {
+        "french": "Je veux un autre café.",
+        "english": "I want another coffee."
+      }
+    ],
+    "coordinates": {
+      "x": -60,
+      "y": -89,
+      "z": -120
+    }
+  },
+  {
+    "id": "a1-192",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "seul",
+    "english": "alone",
+    "examples": [
+      {
+        "french": "Je suis seul à la maison.",
+        "english": "I am alone at home."
+      }
+    ],
+    "coordinates": {
+      "x": -75,
+      "y": -69,
+      "z": -113
+    }
+  },
+  {
+    "id": "a1-193",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "libre",
+    "english": "free",
+    "examples": [
+      {
+        "french": "Je suis libre demain.",
+        "english": "I am free tomorrow."
+      }
+    ],
+    "coordinates": {
+      "x": -73,
+      "y": -69,
+      "z": -119
+    }
+  },
+  {
+    "id": "a1-194",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "prêt",
+    "english": "ready",
+    "examples": [
+      {
+        "french": "Je suis prêt à partir.",
+        "english": "I am ready to leave."
+      }
+    ],
+    "coordinates": {
+      "x": -50,
+      "y": -75,
+      "z": -117
+    }
+  },
+  {
+    "id": "a1-195",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ouvert",
+    "english": "open",
+    "examples": [
+      {
+        "french": "Le magasin est ouvert.",
+        "english": "The store is open."
+      }
+    ],
+    "coordinates": {
+      "x": -78,
+      "y": -68,
+      "z": -107
+    }
+  },
+  {
+    "id": "a1-196",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "fermé",
+    "english": "closed",
+    "examples": [
+      {
+        "french": "Le restaurant est fermé.",
+        "english": "The restaurant is closed."
+      }
+    ],
+    "coordinates": {
+      "x": -58,
+      "y": -92,
+      "z": -109
+    }
+  },
+  {
+    "id": "a1-197",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "propre",
+    "english": "clean",
+    "examples": [
+      {
+        "french": "La chambre est propre.",
+        "english": "The room is clean."
+      }
+    ],
+    "coordinates": {
+      "x": -49,
+      "y": -83,
+      "z": -122
+    }
+  },
+  {
+    "id": "a1-198",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sale",
+    "english": "dirty",
+    "examples": [
+      {
+        "french": "Les mains sont sales.",
+        "english": "The hands are dirty."
+      }
+    ],
+    "coordinates": {
+      "x": -51,
+      "y": -81,
+      "z": -125
+    }
+  },
+  {
+    "id": "a1-199",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "plein",
+    "english": "full",
+    "morphology": {
+      "root": "ple",
+      "suffix": "in",
+      "decomposition": [
+        "ple",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le verre est plein.",
+        "english": "The glass is full."
+      }
+    ],
+    "coordinates": {
+      "x": -59,
+      "y": -82,
+      "z": -102
+    }
+  },
+  {
+    "id": "a1-200",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vide",
+    "english": "empty",
+    "examples": [
+      {
+        "french": "La bouteille est vide.",
+        "english": "The bottle is empty."
+      }
+    ],
+    "coordinates": {
+      "x": -60,
+      "y": -89,
+      "z": -93
+    }
+  },
+  {
+    "id": "a1-201",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "lundi",
+    "english": "Monday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je travaille lundi.",
+        "english": "I work on Monday."
+      }
+    ],
+    "coordinates": {
+      "x": -66,
+      "y": -100,
+      "z": 106
+    }
+  },
+  {
+    "id": "a1-202",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mardi",
+    "english": "Tuesday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le cours est mardi.",
+        "english": "The class is on Tuesday."
+      }
+    ],
+    "coordinates": {
+      "x": -50,
+      "y": -87,
+      "z": 111
+    }
+  },
+  {
+    "id": "a1-203",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mercredi",
+    "english": "Wednesday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mercredi, je suis libre.",
+        "english": "Wednesday, I am free."
+      }
+    ],
+    "coordinates": {
+      "x": -43,
+      "y": -99,
+      "z": 89
+    }
+  },
+  {
+    "id": "a1-204",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jeudi",
+    "english": "Thursday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Jeudi prochain, nous partons.",
+        "english": "Next Thursday, we leave."
+      }
+    ],
+    "coordinates": {
+      "x": -49,
+      "y": -93,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-205",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vendredi",
+    "english": "Friday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Vendredi soir, je sors.",
+        "english": "Friday evening, I go out."
+      }
+    ],
+    "coordinates": {
+      "x": -34,
+      "y": -108,
+      "z": 114
+    }
+  },
+  {
+    "id": "a1-206",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "samedi",
+    "english": "Saturday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Samedi, je fais les courses.",
+        "english": "Saturday, I do the shopping."
+      }
+    ],
+    "coordinates": {
+      "x": -41,
+      "y": -101,
+      "z": 119
+    }
+  },
+  {
+    "id": "a1-207",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "dimanche",
+    "english": "Sunday",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Dimanche, je me repose.",
+        "english": "Sunday, I rest."
+      }
+    ],
+    "coordinates": {
+      "x": -31,
+      "y": -111,
+      "z": 102
+    }
+  },
+  {
+    "id": "a1-208",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "janvier",
+    "english": "January",
+    "gender": "M",
+    "morphology": {
+      "root": "janv",
+      "suffix": "ier",
+      "decomposition": [
+        "janv",
+        "ier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Janvier est le premier mois.",
+        "english": "January is the first month."
+      }
+    ],
+    "coordinates": {
+      "x": -42,
+      "y": -104,
+      "z": 90
+    }
+  },
+  {
+    "id": "a1-209",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "février",
+    "english": "February",
+    "gender": "M",
+    "morphology": {
+      "root": "févr",
+      "suffix": "ier",
+      "decomposition": [
+        "févr",
+        "ier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Février est court.",
+        "english": "February is short."
+      }
+    ],
+    "coordinates": {
+      "x": -39,
+      "y": -92,
+      "z": 119
+    }
+  },
+  {
+    "id": "a1-210",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mars",
+    "english": "March",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le printemps commence en mars.",
+        "english": "Spring begins in March."
+      }
+    ],
+    "coordinates": {
+      "x": -28,
+      "y": -98,
+      "z": 115
+    }
+  },
+  {
+    "id": "a1-211",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "avril",
+    "english": "April",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Il pleut souvent en avril.",
+        "english": "It often rains in April."
+      }
+    ],
+    "coordinates": {
+      "x": -36,
+      "y": -115,
+      "z": 98
+    }
+  },
+  {
+    "id": "a1-212",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mai",
+    "english": "May",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mai est un beau mois.",
+        "english": "May is a beautiful month."
+      }
+    ],
+    "coordinates": {
+      "x": -8,
+      "y": -90,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-213",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "juin",
+    "english": "June",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "L'été commence en juin.",
+        "english": "Summer begins in June."
+      }
+    ],
+    "coordinates": {
+      "x": -38,
+      "y": -98,
+      "z": 124
+    }
+  },
+  {
+    "id": "a1-214",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "juillet",
+    "english": "July",
+    "gender": "M",
+    "morphology": {
+      "root": "juill",
+      "suffix": "et",
+      "decomposition": [
+        "juill",
+        "et"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Juillet est chaud.",
+        "english": "July is hot."
+      }
+    ],
+    "coordinates": {
+      "x": -26,
+      "y": -105,
+      "z": 126
+    }
+  },
+  {
+    "id": "a1-215",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "août",
+    "english": "August",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "En août, je suis en vacances.",
+        "english": "In August, I am on vacation."
+      }
+    ],
+    "coordinates": {
+      "x": -41,
+      "y": -92,
+      "z": 106
+    }
+  },
+  {
+    "id": "a1-216",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "septembre",
+    "english": "September",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "L'école commence en septembre.",
+        "english": "School starts in September."
+      }
+    ],
+    "coordinates": {
+      "x": -16,
+      "y": -111,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-217",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "octobre",
+    "english": "October",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "L'automne est en octobre.",
+        "english": "Autumn is in October."
+      }
+    ],
+    "coordinates": {
+      "x": -33,
+      "y": -87,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-218",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "novembre",
+    "english": "November",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Novembre est gris.",
+        "english": "November is gray."
+      }
+    ],
+    "coordinates": {
+      "x": -22,
+      "y": -103,
+      "z": 91
+    }
+  },
+  {
+    "id": "a1-219",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "décembre",
+    "english": "December",
+    "gender": "M",
+    "morphology": {
+      "prefix": "dé",
+      "root": "cembre",
+      "decomposition": [
+        "dé",
+        "cembre"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Noël est en décembre.",
+        "english": "Christmas is in December."
+      }
+    ],
+    "coordinates": {
+      "x": -13,
+      "y": -116,
+      "z": 96
+    }
+  },
+  {
+    "id": "a1-220",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "aujourd'hui",
+    "english": "today",
+    "examples": [
+      {
+        "french": "Aujourd'hui, il fait beau.",
+        "english": "Today, the weather is nice."
+      }
+    ],
+    "coordinates": {
+      "x": -11,
+      "y": -78,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-221",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "demain",
+    "english": "tomorrow",
+    "morphology": {
+      "root": "dem",
+      "suffix": "ain",
+      "decomposition": [
+        "dem",
+        "ain"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je pars demain.",
+        "english": "I leave tomorrow."
+      }
+    ],
+    "coordinates": {
+      "x": -11,
+      "y": -87,
+      "z": 121
+    }
+  },
+  {
+    "id": "a1-222",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "hier",
+    "english": "yesterday",
+    "examples": [
+      {
+        "french": "Hier, j'ai travaillé.",
+        "english": "Yesterday, I worked."
+      }
+    ],
+    "coordinates": {
+      "x": 3,
+      "y": -64,
+      "z": 120
+    }
+  },
+  {
+    "id": "a1-223",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "maintenant",
+    "english": "now",
+    "morphology": {
+      "root": "mainten",
+      "suffix": "ant",
+      "decomposition": [
+        "mainten",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je mange maintenant.",
+        "english": "I eat now."
+      }
+    ],
+    "coordinates": {
+      "x": -3,
+      "y": -74,
+      "z": 131
+    }
+  },
+  {
+    "id": "a1-224",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "toujours",
+    "english": "always",
+    "examples": [
+      {
+        "french": "Il est toujours en retard.",
+        "english": "He is always late."
+      }
+    ],
+    "coordinates": {
+      "x": 1,
+      "y": -91,
+      "z": 111
+    }
+  },
+  {
+    "id": "a1-225",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jamais",
+    "english": "never",
+    "examples": [
+      {
+        "french": "Je ne mange jamais de viande.",
+        "english": "I never eat meat."
+      }
+    ],
+    "coordinates": {
+      "x": 6,
+      "y": -77,
+      "z": 126
+    }
+  },
+  {
+    "id": "a1-226",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "souvent",
+    "english": "often",
+    "examples": [
+      {
+        "french": "Je vais souvent au cinéma.",
+        "english": "I often go to the cinema."
+      }
+    ],
+    "coordinates": {
+      "x": -11,
+      "y": -88,
+      "z": 127
+    }
+  },
+  {
+    "id": "a1-227",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "parfois",
+    "english": "sometimes",
+    "examples": [
+      {
+        "french": "Parfois, je lis le soir.",
+        "english": "Sometimes, I read in the evening."
+      }
+    ],
+    "coordinates": {
+      "x": 18,
+      "y": -77,
+      "z": 145
+    }
+  },
+  {
+    "id": "a1-228",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "déjà",
+    "english": "already",
+    "examples": [
+      {
+        "french": "J'ai déjà mangé.",
+        "english": "I have already eaten."
+      }
+    ],
+    "coordinates": {
+      "x": -4,
+      "y": -73,
+      "z": 115
+    }
+  },
+  {
+    "id": "a1-229",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "encore",
+    "english": "again",
+    "examples": [
+      {
+        "french": "Je veux encore du pain.",
+        "english": "I want more bread."
+      }
+    ],
+    "coordinates": {
+      "x": 6,
+      "y": -55,
+      "z": 143
+    }
+  },
+  {
+    "id": "a1-230",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "très",
+    "english": "very",
+    "examples": [
+      {
+        "french": "C'est très bon.",
+        "english": "It's very good."
+      }
+    ],
+    "coordinates": {
+      "x": -6,
+      "y": -83,
+      "z": 127
+    }
+  },
+  {
+    "id": "a1-231",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bien",
+    "english": "well",
+    "examples": [
+      {
+        "french": "Je vais bien.",
+        "english": "I am well."
+      }
+    ],
+    "coordinates": {
+      "x": 7,
+      "y": -76,
+      "z": 125
+    }
+  },
+  {
+    "id": "a1-232",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mal",
+    "english": "badly",
+    "examples": [
+      {
+        "french": "J'ai mal à la tête.",
+        "english": "I have a headache."
+      }
+    ],
+    "coordinates": {
+      "x": -5,
+      "y": -74,
+      "z": 142
+    }
+  },
+  {
+    "id": "a1-233",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vite",
+    "english": "fast",
+    "examples": [
+      {
+        "french": "Il court vite.",
+        "english": "He runs fast."
+      }
+    ],
+    "coordinates": {
+      "x": 6,
+      "y": -80,
+      "z": 128
+    }
+  },
+  {
+    "id": "a1-234",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "lentement",
+    "english": "slowly",
+    "morphology": {
+      "root": "lent",
+      "suffix": "ement",
+      "decomposition": [
+        "lent",
+        "ement"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Parlez lentement, s'il vous plaît.",
+        "english": "Speak slowly, please."
+      }
+    ],
+    "coordinates": {
+      "x": 23,
+      "y": -71,
+      "z": 135
+    }
+  },
+  {
+    "id": "a1-235",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "beaucoup",
+    "english": "a lot",
+    "examples": [
+      {
+        "french": "J'aime beaucoup le chocolat.",
+        "english": "I like chocolate a lot."
+      }
+    ],
+    "coordinates": {
+      "x": 20,
+      "y": -66,
+      "z": 140
+    }
+  },
+  {
+    "id": "a1-236",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "peu",
+    "english": "little",
+    "examples": [
+      {
+        "french": "Je mange peu le soir.",
+        "english": "I eat little in the evening."
+      }
+    ],
+    "coordinates": {
+      "x": 17,
+      "y": -65,
+      "z": 143
+    }
+  },
+  {
+    "id": "a1-237",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "trop",
+    "english": "too much",
+    "examples": [
+      {
+        "french": "C'est trop cher.",
+        "english": "It's too expensive."
+      }
+    ],
+    "coordinates": {
+      "x": 12,
+      "y": -54,
+      "z": 135
+    }
+  },
+  {
+    "id": "a1-238",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "assez",
+    "english": "enough",
+    "examples": [
+      {
+        "french": "J'ai assez mangé.",
+        "english": "I have eaten enough."
+      }
+    ],
+    "coordinates": {
+      "x": 12,
+      "y": -62,
+      "z": 134
+    }
+  },
+  {
+    "id": "a1-239",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ici",
+    "english": "here",
+    "examples": [
+      {
+        "french": "Je suis ici.",
+        "english": "I am here."
+      }
+    ],
+    "coordinates": {
+      "x": 28,
+      "y": -66,
+      "z": 124
+    }
+  },
+  {
+    "id": "a1-240",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "là",
+    "english": "there",
+    "examples": [
+      {
+        "french": "Le livre est là.",
+        "english": "The book is there."
+      }
+    ],
+    "coordinates": {
+      "x": 3,
+      "y": -74,
+      "z": 144
+    }
+  },
+  {
+    "id": "a1-241",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "heure",
+    "english": "hour",
+    "examples": [
+      {
+        "french": "Quelle heure est-il?",
+        "english": "What time is it?"
+      }
+    ],
+    "coordinates": {
+      "x": 34,
+      "y": -95,
+      "z": 107
+    }
+  },
+  {
+    "id": "a1-242",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "minute",
+    "english": "minute",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Attendez une minute.",
+        "english": "Wait a minute."
+      }
+    ],
+    "coordinates": {
+      "x": 32,
+      "y": -95,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-243",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "seconde",
+    "english": "second",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Une seconde, s'il vous plaît.",
+        "english": "One second, please."
+      }
+    ],
+    "coordinates": {
+      "x": 35,
+      "y": -106,
+      "z": 94
+    }
+  },
+  {
+    "id": "a1-244",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "jour",
+    "english": "day",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "C'est un beau jour.",
+        "english": "It's a beautiful day."
+      }
+    ],
+    "coordinates": {
+      "x": 35,
+      "y": -115,
+      "z": 97
+    }
+  },
+  {
+    "id": "a1-245",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "semaine",
+    "english": "week",
+    "gender": "F",
+    "morphology": {
+      "root": "sem",
+      "suffix": "aine",
+      "decomposition": [
+        "sem",
+        "aine"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La semaine prochaine, je pars.",
+        "english": "Next week, I leave."
+      }
+    ],
+    "coordinates": {
+      "x": 42,
+      "y": -84,
+      "z": 110
+    }
+  },
+  {
+    "id": "a1-246",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mois",
+    "english": "month",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le mois de mai est agréable.",
+        "english": "The month of May is pleasant."
+      }
+    ],
+    "coordinates": {
+      "x": 36,
+      "y": -99,
+      "z": 96
+    }
+  },
+  {
+    "id": "a1-247",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "année",
+    "english": "year",
+    "morphology": {
+      "root": "ann",
+      "suffix": "ée",
+      "decomposition": [
+        "ann",
+        "ée"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Bonne année!",
+        "english": "Happy New Year!"
+      }
+    ],
+    "coordinates": {
+      "x": 52,
+      "y": -94,
+      "z": 94
+    }
+  },
+  {
+    "id": "a1-248",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "matin",
+    "english": "morning",
+    "gender": "M",
+    "morphology": {
+      "root": "mat",
+      "suffix": "in",
+      "decomposition": [
+        "mat",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je me lève le matin.",
+        "english": "I get up in the morning."
+      }
+    ],
+    "coordinates": {
+      "x": 41,
+      "y": -100,
+      "z": 113
+    }
+  },
+  {
+    "id": "a1-249",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "après-midi",
+    "english": "afternoon",
+    "examples": [
+      {
+        "french": "Je travaille l'après-midi.",
+        "english": "I work in the afternoon."
+      }
+    ],
+    "coordinates": {
+      "x": 45,
+      "y": -106,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-250",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "soir",
+    "english": "evening",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je lis le soir.",
+        "english": "I read in the evening."
+      }
+    ],
+    "coordinates": {
+      "x": 59,
+      "y": -105,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-251",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "nuit",
+    "english": "night",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La nuit est calme.",
+        "english": "The night is calm."
+      }
+    ],
+    "coordinates": {
+      "x": 62,
+      "y": -72,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-252",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "temps",
+    "english": "time",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je n'ai pas le temps.",
+        "english": "I don't have time."
+      }
+    ],
+    "coordinates": {
+      "x": 47,
+      "y": -94,
+      "z": 96
+    }
+  },
+  {
+    "id": "a1-253",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "voiture",
+    "english": "car",
+    "gender": "F",
+    "morphology": {
+      "root": "voit",
+      "suffix": "ure",
+      "decomposition": [
+        "voit",
+        "ure"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Ma voiture est bleue.",
+        "english": "My car is blue."
+      }
+    ],
+    "coordinates": {
+      "x": 62,
+      "y": -100,
+      "z": 95
+    }
+  },
+  {
+    "id": "a1-254",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bus",
+    "english": "bus",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je prends le bus.",
+        "english": "I take the bus."
+      }
+    ],
+    "coordinates": {
+      "x": 57,
+      "y": -80,
+      "z": 119
+    }
+  },
+  {
+    "id": "a1-255",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "train",
+    "english": "train",
+    "gender": "M",
+    "morphology": {
+      "root": "tra",
+      "suffix": "in",
+      "decomposition": [
+        "tra",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le train arrive à midi.",
+        "english": "The train arrives at noon."
+      }
+    ],
+    "coordinates": {
+      "x": 77,
+      "y": -96,
+      "z": 98
+    }
+  },
+  {
+    "id": "a1-256",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "avion",
+    "english": "airplane",
+    "morphology": {
+      "root": "avi",
+      "suffix": "on",
+      "decomposition": [
+        "avi",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'avion décolle à huit heures.",
+        "english": "The plane takes off at eight o'clock."
+      }
+    ],
+    "coordinates": {
+      "x": 61,
+      "y": -77,
+      "z": 111
+    }
+  },
+  {
+    "id": "a1-257",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vélo",
+    "english": "bicycle",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je vais au travail à vélo.",
+        "english": "I go to work by bike."
+      }
+    ],
+    "coordinates": {
+      "x": 54,
+      "y": -86,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-258",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "métro",
+    "english": "subway",
+    "gender": "M",
+    "morphology": {
+      "prefix": "mé",
+      "root": "tro",
+      "decomposition": [
+        "mé",
+        "tro"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je prends le métro tous les jours.",
+        "english": "I take the subway every day."
+      }
+    ],
+    "coordinates": {
+      "x": 77,
+      "y": -77,
+      "z": 97
+    }
+  },
+  {
+    "id": "a1-259",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "rue",
+    "english": "street",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La rue est calme.",
+        "english": "The street is quiet."
+      }
+    ],
+    "coordinates": {
+      "x": 67,
+      "y": -91,
+      "z": 92
+    }
+  },
+  {
+    "id": "a1-260",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ville",
+    "english": "city",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Paris est une grande ville.",
+        "english": "Paris is a big city."
+      }
+    ],
+    "coordinates": {
+      "x": 63,
+      "y": -92,
+      "z": 113
+    }
+  },
+  {
+    "id": "a1-261",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pays",
+    "english": "country",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "La France est un beau pays.",
+        "english": "France is a beautiful country."
+      }
+    ],
+    "coordinates": {
+      "x": 71,
+      "y": -68,
+      "z": 96
+    }
+  },
+  {
+    "id": "a1-262",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "école",
+    "english": "school",
+    "examples": [
+      {
+        "french": "Les enfants vont à l'école.",
+        "english": "The children go to school."
+      }
+    ],
+    "coordinates": {
+      "x": 79,
+      "y": -75,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-263",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "université",
+    "english": "university",
+    "morphology": {
+      "root": "univers",
+      "suffix": "ité",
+      "decomposition": [
+        "univers",
+        "ité"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'étudie à l'université.",
+        "english": "I study at the university."
+      }
+    ],
+    "coordinates": {
+      "x": 82,
+      "y": -81,
+      "z": 95
+    }
+  },
+  {
+    "id": "a1-264",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "bureau",
+    "english": "office",
+    "gender": "M",
+    "morphology": {
+      "root": "bur",
+      "suffix": "eau",
+      "decomposition": [
+        "bur",
+        "eau"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je travaille au bureau.",
+        "english": "I work at the office."
+      }
+    ],
+    "coordinates": {
+      "x": 75,
+      "y": -74,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-265",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "magasin",
+    "english": "store",
+    "gender": "M",
+    "morphology": {
+      "root": "magas",
+      "suffix": "in",
+      "decomposition": [
+        "magas",
+        "in"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le magasin ferme à sept heures.",
+        "english": "The store closes at seven o'clock."
+      }
+    ],
+    "coordinates": {
+      "x": 67,
+      "y": -66,
+      "z": 116
+    }
+  },
+  {
+    "id": "a1-266",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "hôpital",
+    "english": "hospital",
+    "morphology": {
+      "root": "hôpit",
+      "suffix": "al",
+      "decomposition": [
+        "hôpit",
+        "al"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'hôpital est près d'ici.",
+        "english": "The hospital is near here."
+      }
+    ],
+    "coordinates": {
+      "x": 64,
+      "y": -63,
+      "z": 112
+    }
+  },
+  {
+    "id": "a1-267",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "banque",
+    "english": "bank",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La banque ouvre à neuf heures.",
+        "english": "The bank opens at nine o'clock."
+      }
+    ],
+    "coordinates": {
+      "x": 83,
+      "y": -58,
+      "z": 125
+    }
+  },
+  {
+    "id": "a1-268",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "poste",
+    "english": "post office",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Je vais à la poste.",
+        "english": "I go to the post office."
+      }
+    ],
+    "coordinates": {
+      "x": 101,
+      "y": -66,
+      "z": 100
+    }
+  },
+  {
+    "id": "a1-269",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "gare",
+    "english": "train station",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La gare est au centre-ville.",
+        "english": "The train station is downtown."
+      }
+    ],
+    "coordinates": {
+      "x": 95,
+      "y": -50,
+      "z": 94
+    }
+  },
+  {
+    "id": "a1-270",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "aéroport",
+    "english": "airport",
+    "examples": [
+      {
+        "french": "L'aéroport est loin.",
+        "english": "The airport is far."
+      }
+    ],
+    "coordinates": {
+      "x": 83,
+      "y": -57,
+      "z": 115
+    }
+  },
+  {
+    "id": "a1-271",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "hôtel",
+    "english": "hotel",
+    "morphology": {
+      "root": "hôt",
+      "suffix": "el",
+      "decomposition": [
+        "hôt",
+        "el"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'hôtel est confortable.",
+        "english": "The hotel is comfortable."
+      }
+    ],
+    "coordinates": {
+      "x": 97,
+      "y": -64,
+      "z": 103
+    }
+  },
+  {
+    "id": "a1-272",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cinéma",
+    "english": "cinema",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je vais au cinéma ce soir.",
+        "english": "I'm going to the cinema tonight."
+      }
+    ],
+    "coordinates": {
+      "x": 88,
+      "y": -55,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-273",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "musée",
+    "english": "museum",
+    "gender": "M",
+    "morphology": {
+      "root": "mus",
+      "suffix": "ée",
+      "decomposition": [
+        "mus",
+        "ée"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le musée est fermé le lundi.",
+        "english": "The museum is closed on Monday."
+      }
+    ],
+    "coordinates": {
+      "x": 89,
+      "y": -56,
+      "z": 111
+    }
+  },
+  {
+    "id": "a1-274",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "parc",
+    "english": "park",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je me promène dans le parc.",
+        "english": "I walk in the park."
+      }
+    ],
+    "coordinates": {
+      "x": 84,
+      "y": -70,
+      "z": 89
+    }
+  },
+  {
+    "id": "a1-275",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "plage",
+    "english": "beach",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La plage est belle.",
+        "english": "The beach is beautiful."
+      }
+    ],
+    "coordinates": {
+      "x": 76,
+      "y": -46,
+      "z": 103
+    }
+  },
+  {
+    "id": "a1-276",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "mer",
+    "english": "sea",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La mer est bleue.",
+        "english": "The sea is blue."
+      }
+    ],
+    "coordinates": {
+      "x": 88,
+      "y": -72,
+      "z": 93
+    }
+  },
+  {
+    "id": "a1-277",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "montagne",
+    "english": "mountain",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La montagne est haute.",
+        "english": "The mountain is high."
+      }
+    ],
+    "coordinates": {
+      "x": 89,
+      "y": -56,
+      "z": 89
+    }
+  },
+  {
+    "id": "a1-278",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "forêt",
+    "english": "forest",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La forêt est grande.",
+        "english": "The forest is big."
+      }
+    ],
+    "coordinates": {
+      "x": 100,
+      "y": -58,
+      "z": 113
+    }
+  },
+  {
+    "id": "a1-279",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "rivière",
+    "english": "river",
+    "gender": "F",
+    "morphology": {
+      "root": "riv",
+      "suffix": "ière",
+      "decomposition": [
+        "riv",
+        "ière"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La rivière coule doucement.",
+        "english": "The river flows gently."
+      }
+    ],
+    "coordinates": {
+      "x": 97,
+      "y": -51,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-280",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "soleil",
+    "english": "sun",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le soleil brille.",
+        "english": "The sun shines."
+      }
+    ],
+    "coordinates": {
+      "x": 94,
+      "y": -36,
+      "z": 100
+    }
+  },
+  {
+    "id": "a1-281",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "lune",
+    "english": "moon",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La lune est pleine ce soir.",
+        "english": "The moon is full tonight."
+      }
+    ],
+    "coordinates": {
+      "x": 110,
+      "y": -52,
+      "z": 97
+    }
+  },
+  {
+    "id": "a1-282",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "étoile",
+    "english": "star",
+    "examples": [
+      {
+        "french": "Les étoiles brillent la nuit.",
+        "english": "The stars shine at night."
+      }
+    ],
+    "coordinates": {
+      "x": 98,
+      "y": -48,
+      "z": 112
+    }
+  },
+  {
+    "id": "a1-283",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ciel",
+    "english": "sky",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le ciel est bleu.",
+        "english": "The sky is blue."
+      }
+    ],
+    "coordinates": {
+      "x": 113,
+      "y": -41,
+      "z": 96
+    }
+  },
+  {
+    "id": "a1-284",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "pluie",
+    "english": "rain",
+    "gender": "F",
+    "morphology": {
+      "root": "plu",
+      "suffix": "ie",
+      "decomposition": [
+        "plu",
+        "ie"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La pluie tombe.",
+        "english": "The rain falls."
+      }
+    ],
+    "coordinates": {
+      "x": 101,
+      "y": -55,
+      "z": 120
+    }
+  },
+  {
+    "id": "a1-285",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "neige",
+    "english": "snow",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La neige est blanche.",
+        "english": "The snow is white."
+      }
+    ],
+    "coordinates": {
+      "x": 105,
+      "y": -35,
+      "z": 104
+    }
+  },
+  {
+    "id": "a1-286",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "vent",
+    "english": "wind",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le vent souffle fort.",
+        "english": "The wind blows hard."
+      }
+    ],
+    "coordinates": {
+      "x": 87,
+      "y": -18,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-287",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "nuage",
+    "english": "cloud",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Il y a des nuages.",
+        "english": "There are clouds."
+      }
+    ],
+    "coordinates": {
+      "x": 98,
+      "y": -27,
+      "z": 104
+    }
+  },
+  {
+    "id": "a1-288",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "livre",
+    "english": "book",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je lis un livre.",
+        "english": "I read a book."
+      }
+    ],
+    "coordinates": {
+      "x": 105,
+      "y": -26,
+      "z": 104
+    }
+  },
+  {
+    "id": "a1-289",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "stylo",
+    "english": "pen",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "J'écris avec un stylo.",
+        "english": "I write with a pen."
+      }
+    ],
+    "coordinates": {
+      "x": 100,
+      "y": -24,
+      "z": 123
+    }
+  },
+  {
+    "id": "a1-290",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "crayon",
+    "english": "pencil",
+    "gender": "M",
+    "morphology": {
+      "root": "cray",
+      "suffix": "on",
+      "decomposition": [
+        "cray",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le crayon est sur la table.",
+        "english": "The pencil is on the table."
+      }
+    ],
+    "coordinates": {
+      "x": 96,
+      "y": -40,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-291",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "papier",
+    "english": "paper",
+    "gender": "M",
+    "morphology": {
+      "root": "pap",
+      "suffix": "ier",
+      "decomposition": [
+        "pap",
+        "ier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'ai besoin de papier.",
+        "english": "I need paper."
+      }
+    ],
+    "coordinates": {
+      "x": 118,
+      "y": -6,
+      "z": 90
+    }
+  },
+  {
+    "id": "a1-292",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "cahier",
+    "english": "notebook",
+    "gender": "M",
+    "morphology": {
+      "root": "cah",
+      "suffix": "ier",
+      "decomposition": [
+        "cah",
+        "ier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'écris dans mon cahier.",
+        "english": "I write in my notebook."
+      }
+    ],
+    "coordinates": {
+      "x": 109,
+      "y": -29,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-293",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "sac",
+    "english": "bag",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mon sac est lourd.",
+        "english": "My bag is heavy."
+      }
+    ],
+    "coordinates": {
+      "x": 86,
+      "y": -6,
+      "z": 113
+    }
+  },
+  {
+    "id": "a1-294",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "clé",
+    "english": "key",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "J'ai perdu ma clé.",
+        "english": "I lost my key."
+      }
+    ],
+    "coordinates": {
+      "x": 103,
+      "y": -19,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-295",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "téléphone",
+    "english": "phone",
+    "gender": "M",
+    "morphology": {
+      "prefix": "télé",
+      "root": "phone",
+      "decomposition": [
+        "télé",
+        "phone"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Mon téléphone sonne.",
+        "english": "My phone is ringing."
+      }
+    ],
+    "coordinates": {
+      "x": 93,
+      "y": -9,
+      "z": 109
+    }
+  },
+  {
+    "id": "a1-296",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "ordinateur",
+    "english": "computer",
+    "morphology": {
+      "root": "ordin",
+      "suffix": "ateur",
+      "decomposition": [
+        "ordin",
+        "ateur"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je travaille sur l'ordinateur.",
+        "english": "I work on the computer."
+      }
+    ],
+    "coordinates": {
+      "x": 107,
+      "y": -18,
+      "z": 105
+    }
+  },
+  {
+    "id": "a1-297",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "télévision",
+    "english": "television",
+    "gender": "F",
+    "morphology": {
+      "prefix": "télé",
+      "root": "visi",
+      "suffix": "on",
+      "decomposition": [
+        "télé",
+        "visi",
+        "on"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Je regarde la télévision.",
+        "english": "I watch television."
+      }
+    ],
+    "coordinates": {
+      "x": 104,
+      "y": -16,
+      "z": 101
+    }
+  },
+  {
+    "id": "a1-298",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "radio",
+    "english": "radio",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "J'écoute la radio.",
+        "english": "I listen to the radio."
+      }
+    ],
+    "coordinates": {
+      "x": 90,
+      "y": -14,
+      "z": 99
+    }
+  },
+  {
+    "id": "a1-299",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "musique",
+    "english": "music",
+    "gender": "F",
+    "morphology": {
+      "root": "mus",
+      "suffix": "ique",
+      "decomposition": [
+        "mus",
+        "ique"
+      ]
+    },
+    "examples": [
+      {
+        "french": "J'aime la musique.",
+        "english": "I like music."
+      }
+    ],
+    "coordinates": {
+      "x": 93,
+      "y": -1,
+      "z": 110
+    }
+  },
+  {
+    "id": "a1-300",
+    "type": "word",
+    "difficulty": 0.2,
+    "level": "A1",
+    "frequency": 60,
+    "french": "film",
+    "english": "movie",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le film est intéressant.",
+        "english": "The movie is interesting."
+      }
+    ],
+    "coordinates": {
+      "x": 105,
+      "y": 9,
+      "z": 99
+    }
+  }
+]

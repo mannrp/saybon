@@ -30,6 +30,9 @@ dist-ssr
 # Kiro IDE files
 .kiro/
 
+# Local planning documents
+planning/
+
 # Python flashcard generator (local tooling only)
 scripts/flashcard_generator/
 scripts/tests/

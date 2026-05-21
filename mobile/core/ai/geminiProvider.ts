@@ -42,11 +42,12 @@ export class GeminiProvider implements AIProvider {
   // Test connection to Gemini API
   async testConnection(): Promise<boolean> {
     try {
-      const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
+      const url = `${this.baseUrl}/${this.model}:generateContent`;
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           contents: [
@@ -73,12 +74,13 @@ export class GeminiProvider implements AIProvider {
   async generateExercises(params: GenerationParams): Promise<Exercise[]> {
     try {
       const prompt = buildExerciseGenerationPrompt(params);
-      const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
+      const url = `${this.baseUrl}/${this.model}:generateContent`;
 
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           contents: [
@@ -193,12 +195,13 @@ export class GeminiProvider implements AIProvider {
       });
 
       const prompt = buildBatchAnalysisPrompt(answerData);
-      const url = `${this.baseUrl}/${this.model}:generateContent?key=${this.apiKey}`;
+      const url = `${this.baseUrl}/${this.model}:generateContent`;
 
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'x-goog-api-key': this.apiKey,
         },
         body: JSON.stringify({
           contents: [

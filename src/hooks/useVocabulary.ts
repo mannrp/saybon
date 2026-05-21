@@ -243,6 +243,11 @@ function isSimilar(input: string, target: string): boolean {
   
   if (normalizedInput === normalizedTarget) return true;
   
+  // For extremely short words (<= 2 characters), do not allow fuzzy matching
+  if (normalizedTarget.length <= 2 || normalizedInput.length <= 2) {
+    return false;
+  }
+  
   // For short words (<=4 chars), allow 1 edit distance
   // For longer words, allow up to 2 edit distance
   const maxDistance = normalizedTarget.length <= 4 ? 1 : 2;

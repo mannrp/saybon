@@ -23,6 +23,11 @@ function fuzzyMatch(userAnswer: string, correctAnswer: string): boolean {
   const normalizedUser = normalizeAnswer(userAnswer);
   const normalizedCorrect = normalizeAnswer(correctAnswer);
 
+  // For extremely short words (<= 2 characters), do not allow fuzzy matching
+  if (normalizedCorrect.length <= 2 || normalizedUser.length <= 2) {
+    return false;
+  }
+
   // For single words, allow distance of 1
   // For phrases, allow distance of 2
   const maxDistance = normalizedUser.includes(' ') || normalizedCorrect.includes(' ') ? 2 : 1;

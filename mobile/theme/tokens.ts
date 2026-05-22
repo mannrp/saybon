@@ -1,53 +1,68 @@
+import { Platform } from 'react-native';
+
 export const COLORS = {
   light: {
-    background: '#FAFAF9', // Warm off-white (breathable background)
-    surface: '#FFFFFF', // Clean white card surfaces
-    surfaceMuted: '#F5F5F4', // Slightly darker stone grey for inset areas
-    border: '#E7E5E4', // Soft grey borders
-    text: '#1C1917', // Dark charcoal/stone for premium readability
-    textMuted: '#78716C', // Muted stone grey for secondary text
-    primary: '#0F172A', // Slate 900 for Swiss editorial accents
-    accent: '#2563EB', // Electric blue for interactive highlights (rare, deliberate)
+    background: '#f9f9f7', // Warm Cream background
+    surface: '#ffffff', // Clean white paper surfaces
+    surfaceMuted: '#f4f4f2', // surface-container-low
+    surfaceContainer: '#eeeeec', // surface-container
+    border: 'rgba(117, 120, 112, 0.15)', // Soft outline/15% border
+    outline: '#757870', // Solid outline
+    text: '#1a1c1b', // Charcoal for premium readability (on-surface)
+    textMuted: '#615e56', // Warm Stone Gray (secondary)
+    primary: '#54624c', // Sage Green primary
+    onPrimary: '#ffffff',
+    primaryContainer: '#8c9b82',
+    secondary: '#615e56',
+    secondaryContainer: '#e7e2d7', // Pale gray-sand (secondary-container)
+    tertiary: '#6a5c47',
+    tertiaryFixed: '#f3e0c4', // Pale Golden Sand (tertiary-fixed)
+    accent: '#54624c', // Sage Green for highlights
     
-    // Heatmap / Mastery Levels (0 to 5)
+    // Mastery levels (0 to 5) corresponding to Sage green tones
     mastery: {
-      0: '#E7E5E4', // Level 0 (Unseen): Light stone grey
-      1: '#FECACA', // Level 1 (Familiarity low): Soft pastel pink-red
-      2: '#FDE68A', // Level 2 (Familiarity low-medium): Soft pastel amber-yellow
-      3: '#A7F3D0', // Level 3 (Familiarity medium): Soft pastel mint-green
-      4: '#34D399', // Level 4 (Familiarity high): Medium emerald green
-      5: '#059669', // Level 5 (Mastered): Rich glowing emerald green
+      0: '#eeeeec', // Unseen
+      1: '#e7e2d7', // Low familiar (pale warm sand)
+      2: '#bccbb0', // Light sage
+      3: '#8c9b82', // Medium sage
+      4: '#54624c', // High sage
+      5: '#26321f', // Deep dark sage
     },
     
-    // Feedback
-    success: '#10B981',
-    error: '#EF4444',
-    warning: '#F59E0B',
+    success: '#54624c',
+    error: '#ba1a1a',
+    warning: '#6a5c47',
   },
   dark: {
-    background: '#0C0A09', // Deep warm charcoal/black
-    surface: '#1C1917', // Soft warm stone dark grey surfaces
-    surfaceMuted: '#292524', // Medium stone grey for inset areas
-    border: '#44403C', // Warm border grey
-    text: '#F5F5F4', // Warm off-white text
-    textMuted: '#A8A29E', // Muted stone grey
-    primary: '#F5F5F4', // Warm white accents
-    accent: '#3B82F6', // Accent blue
+    background: '#121210', // Deep soft charcoal paper
+    surface: '#1c1c1a', // Soft warm dark charcoal cards
+    surfaceMuted: '#252522', // Darker container low
+    surfaceContainer: '#2a2a27', // Dark container
+    border: 'rgba(197, 200, 190, 0.15)', // Light outline variant border
+    outline: '#c5c8be',
+    text: '#f9f9f7', // Warm Ivory text
+    textMuted: '#cbc6bc', // Muted fixed dim gray
+    primary: '#bccbb0', // Sage Green fixed dim accent
+    onPrimary: '#131f0d',
+    primaryContainer: '#3d4b36',
+    secondary: '#cbc6bc',
+    secondaryContainer: '#49473f', // Dark warm sand
+    tertiary: '#d6c4aa',
+    tertiaryFixed: '#d6c4aa',
+    accent: '#bccbb0',
     
-    // Heatmap / Mastery Levels (0 to 5)
     mastery: {
-      0: '#292524', // Level 0 (Unseen): Dark stone grey
-      1: '#7F1D1D', // Level 1: Deep crimson
-      2: '#78350F', // Level 2: Deep amber
-      3: '#064E3B', // Level 3: Deep mint/emerald
-      4: '#047857', // Level 4: Medium forest green
-      5: '#10B981', // Level 5: Vibrant glowing emerald green
+      0: '#252522',
+      1: '#49473f',
+      2: '#3d4b36',
+      3: '#8c9b82',
+      4: '#bccbb0',
+      5: '#d8e7cb',
     },
     
-    // Feedback
-    success: '#34D399',
-    error: '#F87171',
-    warning: '#FBBF24',
+    success: '#bccbb0',
+    error: '#ffdad6',
+    warning: '#f3e0c4',
   }
 };
 
@@ -61,17 +76,18 @@ export const SPACING = {
 };
 
 export const BORDER_RADIUS = {
-  xs: 4,
-  sm: 8,
-  md: 12,
-  lg: 16,
-  xl: 24,
+  xs: 2,
+  sm: 4, // 4px (0.25rem) radius for cards/inputs as per L'Atelier spec
+  md: 6,
+  lg: 8,
+  xl: 12,
   full: 9999,
 };
 
 export const TYPOGRAPHY = {
   fontFamily: {
-    sans: 'System', // System-default sans-serif, standard premium mobile typography
+    sans: Platform.OS === 'ios' ? 'System' : 'sans-serif', // DM Sans equivalent
+    serif: Platform.OS === 'ios' ? 'Georgia' : 'serif', // EB Garamond equivalent
   },
   fontSize: {
     xs: 12,
@@ -79,7 +95,8 @@ export const TYPOGRAPHY = {
     md: 16,
     lg: 18,
     xl: 24,
-    xxl: 36,
+    xxl: 28, // headline-lg-mobile (28px)
+    display: 48, // display-lg (48px)
   },
   fontWeight: {
     regular: '400' as const,
@@ -113,3 +130,4 @@ export const ANIMATION = {
     slow: 400,
   }
 };
+

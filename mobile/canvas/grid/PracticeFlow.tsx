@@ -34,11 +34,12 @@ import { useSessionStore } from '../../core/store/useSessionStore';
 import { useProgressStore } from '../../core/store/useProgressStore';
 
 interface PracticeFlowProps {
-  conceptId: string;
+  conceptId?: string | null;
+  conceptIds?: string[];
   onClose: () => void;
 }
 
-export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
+export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowProps) {
   const isDarkMode = useColorScheme() === 'dark';
   const theme = isDarkMode ? COLORS.dark : COLORS.light;
 
@@ -46,10 +47,16 @@ export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
   const { concepts } = useProgressStore();
   const { startSession, recordAnswer, activeSession, clearSession } = useSessionStore();
 
-  const concept = useMemo(
-    () => concepts.find((c) => c.id === conceptId),
-    [concepts, conceptId]
-  );
+  const activeConcepts = useMemo(() => {
+    if (conceptIds && conceptIds.length > 0) {
+      return concepts.filter((c) => conceptIds.includes(c.id));
+    }
+    if (conceptId) {
+      const c = concepts.find((c) => c.id === conceptId);
+      return c ? [c] : [];
+    }
+    return [];
+  }, [concepts, conceptId, conceptIds]);
 
   // ── Exercises State ──────────────────────────────────────────────────────────
   const [exercises, setExercises] = useState<Exercise[]>([]);
@@ -67,19 +74,27 @@ export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
 
   // ── Initialize Session & Exercises ──────────────────────────────────────────
   useEffect(() => {
-    if (concept) {
-      const generated = generateOfflineExercises(concept);
-      setExercises(generated);
+    if (activeConcepts.length > 0) {
+      const generated = activeConcepts.flatMap((c) => generateOfflineExercises(c));
+      const shuffled = generated.sort(() => Math.random() - 0.5);
+      setExercises(shuffled);
       setCurrentIndex(0);
-      startSession(concept.level);
+      
+      const baseLevel = activeConcepts[0]?.level || 'A1';
+      startSession(baseLevel);
       exerciseStartTime.current = Date.now();
     }
     return () => {
       clearSession();
     };
-  }, [concept]);
+  }, [activeConcepts]);
 
   const currentExercise = exercises[currentIndex];
+
+  const concept = useMemo(() => {
+    if (!currentExercise) return activeConcepts[0] || null;
+    return activeConcepts.find((c) => c.id === currentExercise.conceptId) || null;
+  }, [activeConcepts, currentExercise]);
 
   // ── Dynamic Offline Distractor Generation ───────────────────────────────────
   // Pick random distractors for multiple choice or fill-blank options
@@ -143,7 +158,7 @@ export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
     const timeSpent = Date.now() - exerciseStartTime.current;
     recordAnswer({
       exerciseId: currentExercise.id,
-      conceptId: concept.id,
+      conceptId: concept?.id,
       userAnswerText: finalAnswer,
       isCorrect: result.isCorrect,
       timeSpentMs: timeSpent,
@@ -196,7 +211,7 @@ export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
           </Text>
         </View>
         <Text style={[styles.levelBadge, { color: theme.textMuted, borderColor: theme.border }]}>
-          {concept.level}
+          {concept?.level}
         </Text>
       </View>
 
@@ -215,7 +230,7 @@ export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
                 Aide : {currentExercise.hint}
               </Text>
             )}
-            {isAnswered && concept.morphology?.decomposition && (
+            {isAnswered && concept?.morphology?.decomposition && (
               <Animated.View entering={FadeIn.duration(400)} style={styles.morphologyContainer}>
                 <Text style={[styles.morphologyTitle, { color: theme.textMuted }]}>
                   DÉCOMPOSITION DU MOT
@@ -431,7 +446,9 @@ export function PracticeFlow({ conceptId, onClose }: PracticeFlowProps) {
           <Text style={[styles.completeEmoji, { color: theme.accent }]}>✨</Text>
           <Text style={[styles.completeTitle, { color: theme.text }]}>Entraînement Terminé !</Text>
           <Text style={[styles.completeSubtitle, { color: theme.textMuted }]}>
-            Votre esprit se renforce avec « {concept.french} »
+            {activeConcepts.length > 1
+              ? `Votre esprit se renforce avec ${activeConcepts.length} concepts`
+              : `Votre esprit se renforce avec « ${concept?.french} »`}
           </Text>
 
           <View style={styles.metricsRow}>

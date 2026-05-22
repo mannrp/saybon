@@ -172,9 +172,7 @@ export function useGridGestures({
         radius: n.radius,
       }));
 
-      const { Quadtree } = require('../content/quadtree');
-      const tree = new Quadtree({ x: 0, y: 0, halfW: 2000, halfH: 2000 });
-      for (const n of indexed) tree.insert(n);
+      const tree = buildQuadtree(indexed);
 
       // Search radius in world units — scale-adjusted so small zoom still works
       const hitRadius = 36 / scale.value;

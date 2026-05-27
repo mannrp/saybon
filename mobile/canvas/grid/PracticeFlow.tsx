@@ -33,15 +33,18 @@ import { triggerHaptic } from '../../core/validation/haptics';
 import { useSessionStore } from '../../core/store/useSessionStore';
 import { useProgressStore } from '../../core/store/useProgressStore';
 
-interface PracticeFlowProps {
-  conceptId?: string | null;
-  conceptIds?: string[];
-  onClose: () => void;
-}
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { RootStackParamList } from '../../navigation/types';
 
-export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowProps) {
+type PracticeFlowProps = NativeStackScreenProps<RootStackParamList, 'PracticeSession'>;
+
+export function PracticeFlow({ navigation, route }: PracticeFlowProps) {
   const isDarkMode = useColorScheme() === 'dark';
   const theme = isDarkMode ? COLORS.dark : COLORS.light;
+  const insets = useSafeAreaInsets();
+
+  const { conceptIds } = route.params || { conceptIds: [] };
 
   // ── Database Access ─────────────────────────────────────────────────────────
   const { concepts } = useProgressStore();
@@ -51,12 +54,8 @@ export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowPro
     if (conceptIds && conceptIds.length > 0) {
       return concepts.filter((c) => conceptIds.includes(c.id));
     }
-    if (conceptId) {
-      const c = concepts.find((c) => c.id === conceptId);
-      return c ? [c] : [];
-    }
     return [];
-  }, [concepts, conceptId, conceptIds]);
+  }, [concepts, conceptIds]);
 
   // ── Exercises State ──────────────────────────────────────────────────────────
   const [exercises, setExercises] = useState<Exercise[]>([]);
@@ -174,8 +173,21 @@ export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowPro
       setIsAnswered(false);
       exerciseStartTime.current = Date.now();
     } else {
-      setShowComplete(true);
-      triggerHaptic('success');
+      if (route.params?.isEndless) {
+        // Replenish exercises from active pool
+        const generated = activeConcepts.flatMap((c) => generateOfflineExercises(c));
+        const shuffled = generated.sort(() => Math.random() - 0.5);
+        setExercises((prev) => [...prev, ...shuffled]);
+        setCurrentIndex((i) => i + 1);
+        setUserAnswerText('');
+        setSelectedOption(null);
+        setIsAnswered(false);
+        exerciseStartTime.current = Date.now();
+        triggerHaptic('success');
+      } else {
+        setShowComplete(true);
+        triggerHaptic('success');
+      }
     }
   };
 
@@ -185,13 +197,16 @@ export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowPro
   const accuracy = totalCount > 0 ? Math.round((correctCount / totalCount) * 100) : 0;
   const avgTime = activeSession?.stats.averageTime ? (activeSession.stats.averageTime / 1000).toFixed(1) : '0';
 
+  const isEndless = route.params?.isEndless;
+  const isSubjunctive = (currentExercise.metadata as any)?.isSubjunctive;
+
   return (
     <KeyboardAvoidingView
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-      style={[StyleSheet.absoluteFill, { backgroundColor: theme.background }]}
+      style={[styles.root, { backgroundColor: theme.background }]}
     >
-      <View style={styles.header}>
-        <Pressable style={styles.closeButton} onPress={onClose}>
+      <View style={[styles.header, { paddingTop: Math.max(insets.top, SPACING.md) }]}>
+        <Pressable style={styles.closeButton} onPress={() => navigation.goBack()}>
           <Text style={[styles.closeIcon, { color: theme.text }]}>✕</Text>
         </Pressable>
         <View style={styles.progressContainer}>
@@ -201,13 +216,15 @@ export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowPro
                 styles.progressBarFill,
                 {
                   backgroundColor: theme.accent,
-                  width: `${((currentIndex + (isAnswered ? 1 : 0)) / exercises.length) * 100}%`,
+                  width: isEndless
+                    ? `${(((currentIndex + (isAnswered ? 1 : 0)) % 10) / 10) * 100}%`
+                    : `${((currentIndex + (isAnswered ? 1 : 0)) / exercises.length) * 100}%`,
                 },
               ]}
             />
           </View>
           <Text style={[styles.progressText, { color: theme.textMuted }]}>
-            {currentIndex + 1} / {exercises.length}
+            {isEndless ? `${currentIndex + 1} / ∞` : `${currentIndex + 1} / ${exercises.length}`}
           </Text>
         </View>
         <Text style={[styles.levelBadge, { color: theme.textMuted, borderColor: theme.border }]}>
@@ -218,7 +235,22 @@ export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowPro
       {!showComplete ? (
         <View style={styles.workspace}>
           {/* Exercise card */}
-          <Animated.View entering={FadeIn.duration(300)} style={styles.card}>
+          <Animated.View
+            entering={FadeIn.duration(300)}
+            style={[
+              styles.card,
+              isSubjunctive && {
+                borderColor: '#C084FC',
+                borderWidth: 2,
+                backgroundColor: isDarkMode ? '#1E1B4B' : '#FAF5FF',
+              },
+            ]}
+          >
+            {isSubjunctive && (
+              <View style={[styles.subjonctifBadge, { backgroundColor: '#F3E8FF', borderColor: '#C084FC' }]}>
+                <Text style={styles.subjonctifBadgeText}>✨ MODE SUBJONCTIF ✨</Text>
+              </View>
+            )}
             <Text style={[styles.exerciseCategory, { color: theme.textMuted }]}>
               {currentExercise.type.replace('-', ' ').toUpperCase()}
             </Text>
@@ -462,7 +494,7 @@ export function PracticeFlow({ conceptId, conceptIds, onClose }: PracticeFlowPro
             </View>
           </View>
 
-          <Pressable style={[styles.doneButton, { backgroundColor: theme.text }]} onPress={onClose}>
+          <Pressable style={[styles.doneButton, { backgroundColor: theme.text }]} onPress={() => navigation.goBack()}>
             <Text style={[styles.doneButtonText, { color: theme.background }]}>
               Retourner à l'univers
             </Text>
@@ -723,5 +755,22 @@ const styles = StyleSheet.create({
     fontWeight: TYPOGRAPHY.fontWeight.semibold,
     fontFamily: TYPOGRAPHY.fontFamily.sans,
     letterSpacing: 0.5,
+  },
+  root: {
+    flex: 1,
+  },
+  subjonctifBadge: {
+    alignSelf: 'flex-start',
+    borderWidth: 1,
+    borderRadius: BORDER_RADIUS.sm,
+    paddingHorizontal: SPACING.sm,
+    paddingVertical: 2,
+    marginBottom: SPACING.md,
+  },
+  subjonctifBadgeText: {
+    fontSize: 9,
+    fontWeight: TYPOGRAPHY.fontWeight.bold,
+    color: '#8B5CF6',
+    letterSpacing: 1.0,
   },
 });

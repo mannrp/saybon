@@ -2,21 +2,25 @@
 // Generates diverse practice exercises dynamically from a ConceptNode
 // strictly offline using database dictionary metadata.
 
-import type { ConceptNode, Exercise, ExerciseType } from './schema';
+import type { ConceptNode, Exercise } from './schema';
+import { conjugationDb } from './conjugationDb';
 
 /**
  * Generate a list of exercises for a given ConceptNode.
- * Typically returns 1-3 exercises testing different aspects:
+ * Typically returns 1-5 exercises testing different aspects:
  * - Translation (English to French)
  * - Vocabulary (French to English)
  * - Gender Recognition (if noun)
  * - Fill-in-the-blank (if examples exist)
+ * - Conjugation & Tense practice (if recognized verb)
  */
 export function generateOfflineExercises(node: ConceptNode): Exercise[] {
   const exercises: Exercise[] = [];
 
   // Helper to generate a unique exercise ID
   const makeId = (type: string) => `${node.id}-${type}-${Math.random().toString(36).substr(2, 5)}`;
+
+  const cleanFrench = node.french.toLowerCase().trim();
 
   // 1. Vocabulary Exercise (French -> English meaning)
   exercises.push({
@@ -104,6 +108,58 @@ export function generateOfflineExercises(node: ConceptNode): Exercise[] {
           },
         });
       }
+    });
+  }
+
+  // 5. Verb Conjugation & Tense Exercises
+  // Check if the French word is a recognized verb in our database
+  const verbEntry = conjugationDb.find((v) => v.verb === cleanFrench);
+  if (verbEntry) {
+    Object.entries(verbEntry.tenses).forEach(([tense, forms]) => {
+      forms.forEach((formEntry, idx) => {
+        // A. Tactile Fill-in-the-blank Conjugation
+        const blankedSentence = formEntry.sentence.replace(new RegExp(`\\b${formEntry.form}\\b`, 'i'), '_________');
+        exercises.push({
+          id: makeId(`conjugation-${tense}-${idx}`),
+          conceptId: node.id,
+          type: 'conjugation',
+          level: node.level,
+          question: `Complétez : « ${blankedSentence} »\n(${node.french}, ${tense.toUpperCase()})`,
+          correctAnswer: formEntry.form,
+          acceptableAnswers: [formEntry.form.toLowerCase().trim()],
+          hint: `Sujet : ${formEntry.subject} | Traduction : ${formEntry.english}`,
+          explanation: `Forme conjuguée : ${formEntry.subject} ${formEntry.form}\nPhrase complète : ${formEntry.sentence}`,
+          metadata: {
+            topic: `conjugation-${tense}`,
+            difficulty: node.difficulty * 1.1,
+            createdAt: new Date().toISOString(),
+            source: 'curated',
+            isSubjunctive: tense.toLowerCase().includes('subjonctif'),
+            tense: tense,
+          } as any,
+        });
+
+        // B. Tense Translation (Subject + Verb)
+        const subjLabel = formEntry.subject.charAt(0).toUpperCase() + formEntry.subject.slice(1);
+        exercises.push({
+          id: makeId(`tense-translation-${tense}-${idx}`),
+          conceptId: node.id,
+          type: 'tense-correction',
+          level: node.level,
+          question: `Traduisez en français : « ${subjLabel} ${verbEntry.english.replace('to ', '')} »\n(Verbe: ${node.french}, Temps: ${tense.toUpperCase()})`,
+          correctAnswer: `${formEntry.subject} ${formEntry.form}`,
+          acceptableAnswers: [`${formEntry.subject} ${formEntry.form}`.toLowerCase().trim()],
+          explanation: `La traduction correcte au ${tense} est : ${formEntry.subject} ${formEntry.form}`,
+          metadata: {
+            topic: `tense-translation-${tense}`,
+            difficulty: node.difficulty * 1.2,
+            createdAt: new Date().toISOString(),
+            source: 'curated',
+            isSubjunctive: tense.toLowerCase().includes('subjonctif'),
+            tense: tense,
+          } as any,
+        });
+      });
     });
   }
 

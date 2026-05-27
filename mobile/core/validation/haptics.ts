@@ -30,14 +30,10 @@ const PATTERNS = {
 };
 
 /**
- * Triggers a custom vibration sequence if haptics are enabled in preferences
+ * Triggers a custom haptic vibration sequence if enabled.
+ * Note: Temporarily bypassed to resolve Android haptic/vibration permission issues.
  */
 export function triggerHaptic(type: keyof typeof PATTERNS) {
-  const preferences = useSettingsStore.getState().preferences;
-  const isEnabled = preferences?.hapticsEnabled ?? true;
-
-  if (isEnabled) {
-    const pattern = PATTERNS[type];
-    Vibration.vibrate(pattern, false);
-  }
+  // Bypassed for now due to Android hardware vibration permission issues
+  return;
 }

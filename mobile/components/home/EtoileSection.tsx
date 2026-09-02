@@ -4,7 +4,7 @@ import { useAppTheme } from '../../theme/useAppTheme';
 import { SPACING, TYPOGRAPHY } from '../../theme/tokens';
 import { EtoileCluster } from '../EtoileCluster';
 
-export function EtoileSection() {
+export const EtoileSection = React.memo(function EtoileSection() {
   const { isDarkMode, theme } = useAppTheme();
 
   return (
@@ -18,7 +18,7 @@ export function EtoileSection() {
       </Text>
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   etoileSection: {

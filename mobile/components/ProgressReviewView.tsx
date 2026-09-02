@@ -12,18 +12,135 @@ import Animated, {
   useSharedValue,
   useAnimatedStyle,
   withRepeat,
-  useAnimatedStyle as useAnimatedStyleRe,
   withTiming,
-  withSequence,
-  withDelay,
   Easing,
+  SharedValue,
 } from 'react-native-reanimated';
 import { COLORS, TYPOGRAPHY, SPACING, BORDER_RADIUS } from '../theme/tokens';
 import { useProgressStore } from '../core/store/useProgressStore';
 import { useAppTheme } from '../theme/useAppTheme';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { categories, getConceptCategory } from '../core/content/categoryMap';
+import type { ConceptNode, ConceptProgress } from '../core/content/schema';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
+
+// ── Real-data derivation helpers ─────────────────────────────────────────────
+// Everything below reads from the actual progress/concepts store. No fixed
+// numbers, no decorative placeholder content — see
+// planning/SAYBON_TECHNICAL_AUDIT.md §14 for why that was a problem here.
+
+const WEEKDAY_LABELS_FR = ['dim', 'lun', 'mar', 'mer', 'jeu', 'ven', 'sam'];
+
+/** Whole calendar days between an ISO timestamp and today (0 = today). */
+function daysAgo(isoDate: string): number {
+  const now = new Date();
+  const startOfToday = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const then = new Date(isoDate);
+  if (Number.isNaN(then.getTime())) return Infinity;
+  const startOfThen = new Date(then.getFullYear(), then.getMonth(), then.getDate());
+  return Math.round((startOfToday.getTime() - startOfThen.getTime()) / 86400000);
+}
+
+function useProgressMetrics(
+  progress: Record<string, ConceptProgress>,
+  concepts: ConceptNode[]
+) {
+  return useMemo(() => {
+    const progressList = Object.values(progress);
+    const seenList = progressList.filter((p) => p.seenState);
+    const totalSeen = seenList.length;
+    const mastered = seenList.filter((p) => p.mastery >= 4).length;
+    const masteryPercent = totalSeen > 0 ? Math.round((mastered / totalSeen) * 100) : 0;
+
+    // Mastery distribution (0-5) — replaces the old fixed 7-bar decoration
+    // with a real histogram of where the learner's seen vocabulary sits.
+    const masteryBuckets = [0, 0, 0, 0, 0, 0];
+    for (const p of seenList) {
+      const idx = Math.min(5, Math.max(0, p.mastery));
+      masteryBuckets[idx]++;
+    }
+    const maxBucket = Math.max(1, ...masteryBuckets);
+
+    // Weakest categories the learner has actually attempted — replaces the
+    // hardcoded "Subjonctif / Genre des noms / ..." grammar tags, which
+    // named things the app has no per-concept data to actually measure.
+    // Categorization and thresholds noted inline below.
+    const categoryStats: Record<string, { totalMastery: number; count: number; name: string }> = {};
+    for (const concept of concepts) {
+      const p = progress[concept.id];
+      if (!p || p.attempts < 1) continue;
+      const catId = getConceptCategory(concept.french, concept.english, concept.id);
+      if (!catId) continue;
+      const meta = categories.find((c) => c.id === catId);
+      if (!meta) continue;
+      if (!categoryStats[catId]) {
+        categoryStats[catId] = { totalMastery: 0, count: 0, name: meta.name };
+      }
+      categoryStats[catId].totalMastery += p.mastery;
+      categoryStats[catId].count += 1;
+    }
+    // Require at least 2 attempted concepts in a category before it's
+    // reported as a weak spot — one lucky/unlucky answer isn't a pattern.
+    const weakestCategories = Object.values(categoryStats)
+      .filter((c) => c.count >= 2)
+      .map((c) => ({ name: c.name, avgMastery: c.totalMastery / c.count }))
+      .sort((a, b) => a.avgMastery - b.avgMastery)
+      .slice(0, 5);
+
+    // Top categories by seen-concept count — feeds the constellation nodes
+    // below in place of fixed "Grammaire/Syntaxe/Prononciation" labels the
+    // corpus has no data to back (every seed concept is type: "word").
+    const seenCategoryCounts: Record<string, number> = {};
+    for (const concept of concepts) {
+      if (!progress[concept.id]?.seenState) continue;
+      const catId = getConceptCategory(concept.french, concept.english, concept.id);
+      if (!catId) continue;
+      seenCategoryCounts[catId] = (seenCategoryCounts[catId] || 0) + 1;
+    }
+    const topCategories = Object.entries(seenCategoryCounts)
+      .map(([id, count]) => ({
+        id,
+        count,
+        name: categories.find((c) => c.id === id)?.name ?? id,
+      }))
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 6);
+
+    // This week's activity, from each concept's lastSeen date. This counts
+    // distinct concepts last touched per day, not total review actions —
+    // the schema only stores a concept's most recent review, not a full
+    // history, so that's the honest ceiling on what this can represent.
+    const weekCounts = new Array(7).fill(0); // index 6 = today, 0 = 6 days ago
+    for (const p of seenList) {
+      if (!p.lastSeen) continue;
+      const d = daysAgo(p.lastSeen);
+      if (d >= 0 && d < 7) weekCounts[6 - d]++;
+    }
+    const today = new Date();
+    const weekLabels = weekCounts.map((_, i) => {
+      const date = new Date(today);
+      date.setDate(today.getDate() - (6 - i));
+      return WEEKDAY_LABELS_FR[date.getDay()];
+    });
+    const weekTotal = weekCounts.reduce((a, b) => a + b, 0);
+    const weekMax = Math.max(1, ...weekCounts);
+
+    return {
+      totalSeen,
+      mastered,
+      masteryPercent,
+      masteryBuckets,
+      maxBucket,
+      weakestCategories,
+      topCategories,
+      weekCounts,
+      weekLabels,
+      weekTotal,
+      weekMax,
+    };
+  }, [progress, concepts]);
+}
 
 // ── Floating Concept Node Component ──────────────────────────────────────────
 interface FloatingNodeProps {
@@ -32,89 +149,38 @@ interface FloatingNodeProps {
   initialY: number;
   size: number;
   color: string;
-  delay: number;
+  phase: number;
+  clock: SharedValue<number>;
   isGlow?: boolean;
 }
 
-function FloatingNode({
+const FloatingNode = React.memo(function FloatingNode({
   label,
   initialX,
   initialY,
   size,
   color,
-  delay,
+  phase,
+  clock,
   isGlow = false,
 }: FloatingNodeProps) {
-  const translateX = useSharedValue(initialX);
-  const translateY = useSharedValue(initialY);
-  const scale = useSharedValue(1);
-  const opacity = useSharedValue(isGlow ? 0.35 : 0.7);
-
-  useEffect(() => {
-    // Drifting motion
-    translateX.value = withDelay(
-      delay,
-      withRepeat(
-        withSequence(
-          withTiming(initialX + 5, {
-            duration: 5000 + delay % 1000,
-            easing: Easing.inOut(Easing.sin),
-          }),
-          withTiming(initialX, {
-            duration: 5000 + delay % 1000,
-            easing: Easing.inOut(Easing.sin),
-          })
-        ),
-        -1,
-        false
-      )
-    );
-
-    translateY.value = withDelay(
-      delay,
-      withRepeat(
-        withSequence(
-          withTiming(initialY - 8, {
-            duration: 6000 + delay % 1000,
-            easing: Easing.inOut(Easing.sin),
-          }),
-          withTiming(initialY, {
-            duration: 6000 + delay % 1000,
-            easing: Easing.inOut(Easing.sin),
-          })
-        ),
-        -1,
-        false
-      )
-    );
-
-    // Pulse node scale
-    scale.value = withDelay(
-      delay,
-      withRepeat(
-        withTiming(1.12, {
-          duration: 3500,
-          easing: Easing.inOut(Easing.sin),
-        }),
-        -1,
-        true
-      )
-    );
-  }, []);
-
   const animatedStyle = useAnimatedStyle(() => {
+    'worklet';
+    const t = clock.value + phase;
+    const tx = initialX + Math.sin(t) * 5;
+    const ty = initialY + Math.cos(t * 2) * 6;
+    const s = 1 + Math.sin(t * 3) * 0.06;
     return {
       transform: [
-        { translateX: translateX.value },
-        { translateY: translateY.value },
-        { scale: scale.value },
+        { translateX: tx },
+        { translateY: ty },
+        { scale: s },
       ],
     };
   });
 
   return (
     <Animated.View style={[styles.floatingTag, animatedStyle]}>
-      {/* Node Circle */}
       <View
         style={[
           styles.nodeCircle,
@@ -128,10 +194,27 @@ function FloatingNode({
           isGlow && styles.glowStyle,
         ]}
       />
-      {/* Floating text label under the node */}
       <Text style={styles.nodeText}>{label}</Text>
     </Animated.View>
   );
+});
+
+// Fixed layout slots (position/phase/glow) the top real categories are
+// mapped onto, by index — purely spatial, not data.
+const NODE_SLOTS = [
+  { initialX: 40, initialY: 40, phase: 0, isGlow: true },
+  { initialX: 180, initialY: 25, phase: 1.2, isGlow: false },
+  { initialX: 270, initialY: 60, phase: 2.4, isGlow: false },
+  { initialX: 130, initialY: 140, phase: 3.6, isGlow: true },
+  { initialX: 250, initialY: 190, phase: 4.8, isGlow: false },
+  { initialX: 50, initialY: 180, phase: 5.5, isGlow: false },
+];
+
+function nodeSize(count: number, maxCount: number): number {
+  const minSize = 16;
+  const maxSize = 44;
+  if (maxCount <= 0) return minSize;
+  return Math.round(minSize + (maxSize - minSize) * (count / maxCount));
 }
 
 // ── Main Progress View Component ─────────────────────────────────────────────
@@ -147,57 +230,48 @@ export function ProgressReviewView({
 }: ProgressReviewViewProps) {
   const { isDarkMode, theme } = useAppTheme();
   const insets = useSafeAreaInsets();
-  const { progress, concepts } = useProgressStore();
+  const progress = useProgressStore((s) => s.progress);
+  const concepts = useProgressStore((s) => s.concepts);
 
-  const metrics = useMemo(() => {
-    const progressList = Object.values(progress);
-    const seenList = progressList.filter((p) => p.seenState);
-    const totalSeen = seenList.length;
-    const mastered = seenList.filter((p) => p.mastery >= 4).length;
+  const floatClock = useSharedValue(0);
 
-    // A1 and A2 details
-    const a1Concepts = concepts.filter((c) => c.level === 'A1');
-    const a2Concepts = concepts.filter((c) => c.level === 'A2');
-    
-    const a1Seen = a1Concepts.filter((c) => progress[c.id]?.seenState).length;
-    const a2Seen = a2Concepts.filter((c) => progress[c.id]?.seenState).length;
+  useEffect(() => {
+    floatClock.value = withRepeat(
+      withTiming(2 * Math.PI, {
+        duration: 7000,
+        easing: Easing.linear,
+      }),
+      -1,
+      false
+    );
+  }, [floatClock]);
 
-    // Dynamic Mastery percentage formula
-    const masteryPercent = totalSeen > 0 ? Math.round((mastered / totalSeen) * 100) : 84;
+  const metrics = useProgressMetrics(progress, concepts);
+  const maxNodeCount = metrics.topCategories[0]?.count ?? 0;
 
-    return {
-      totalSeen: totalSeen > 0 ? totalSeen : 482,
-      mastered: mastered > 0 ? mastered : 24,
-      a1Seen,
-      a1Total: a1Concepts.length > 0 ? a1Concepts.length : 15,
-      a2Seen,
-      a2Total: a2Concepts.length > 0 ? a2Concepts.length : 15,
-      masteryPercent,
-    };
-  }, [progress, concepts]);
-
-  // Launch a custom review practice flow using all concepts that have been seen
   const handleLaunchReview = () => {
     const seenIds = Object.values(progress)
       .filter((p) => p.seenState)
       .map((p) => p.conceptId);
 
     if (seenIds.length === 0) {
-      // Fallback: use 10 standard concepts
-      const shuffled = [...concepts].sort(() => Math.random() - 0.5).slice(0, 10);
-      navigation.navigate('PracticeSession', { conceptIds: shuffled.map((c) => c.id) });
-    } else {
-      const shuffled = seenIds.sort(() => Math.random() - 0.5).slice(0, 10);
-      navigation.navigate('PracticeSession', { conceptIds: shuffled });
+      const fallbackConcepts = concepts.slice(0, 10);
+      navigation.navigate('PracticeSession', {
+        conceptIds: fallbackConcepts.map((c) => c.id),
+      });
+      return;
     }
+
+    navigation.navigate('PracticeSession', {
+      conceptIds: seenIds.slice(0, 20),
+    });
   };
 
   return (
     <View style={[styles.root, { backgroundColor: theme.background }]}>
-
       <ScrollView
         style={styles.container}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={[styles.scrollContent, { paddingBottom: insets.bottom + 80 }]}
         showsVerticalScrollIndicator={false}
       >
         {/* Title Section */}
@@ -208,76 +282,42 @@ export function ProgressReviewView({
           </Text>
         </View>
 
-        {/* 2D Animated Constellation Box */}
+        {/* 2D Animated Constellation Box — nodes are the learner's real top categories */}
         <View style={[styles.constellationCard, { backgroundColor: theme.surfaceMuted, borderColor: theme.border }]}>
-          {/* Subtle background gradient glow overlay representation */}
           <View style={[styles.constellationGlow, { backgroundColor: theme.primary, opacity: isDarkMode ? 0.05 : 0.02 }]} />
-          
+
           <View style={styles.constellationWrapper}>
-            {/* Mastered Node (Sage Green Glow) */}
-            <FloatingNode
-              label="Grammaire"
-              initialX={40}
-              initialY={40}
-              size={24}
-              color={theme.primary}
-              delay={0}
-              isGlow={true}
-            />
-
-            {/* Syntaxe Node (Sage Green) */}
-            <FloatingNode
-              label="Syntaxe"
-              initialX={180}
-              initialY={25}
-              size={32}
-              color={isDarkMode ? '#8c9b82' : '#54624c'}
-              delay={1500}
-            />
-
-            {/* Lexique Node (Sand/Brownish) */}
-            <FloatingNode
-              label="Lexique"
-              initialX={270}
-              initialY={60}
-              size={20}
-              color={isDarkMode ? '#cbc6bc' : '#615e56'}
-              delay={800}
-            />
-
-            {/* Prononciation Node (Main Big Sage) */}
-            <FloatingNode
-              label="Prononciation"
-              initialX={130}
-              initialY={140}
-              size={44}
-              color={theme.primary}
-              delay={2200}
-              isGlow={true}
-            />
-
-            {/* Idiomes Node (Minor Sand) */}
-            <FloatingNode
-              label="Idiomes"
-              initialX={250}
-              initialY={190}
-              size={12}
-              color={isDarkMode ? '#d6c4aa' : '#a4947c'}
-              delay={3000}
-            />
-
-            {/* Argot Node (Minor Warm Gray) */}
-            <FloatingNode
-              label="Argot"
-              initialX={50}
-              initialY={180}
-              size={16}
-              color={isDarkMode ? '#cbc6bc' : '#615e56'}
-              delay={1200}
-            />
+            {metrics.topCategories.length === 0 ? (
+              <View style={styles.emptyConstellation}>
+                <Text style={[styles.emptyConstellationText, { color: theme.textMuted }]}>
+                  Pratiquez quelques concepts pour voir apparaître votre constellation.
+                </Text>
+              </View>
+            ) : (
+              metrics.topCategories.map((cat, i) => {
+                const slot = NODE_SLOTS[i % NODE_SLOTS.length];
+                const color = slot.isGlow
+                  ? theme.primary
+                  : i % 2 === 0
+                  ? (isDarkMode ? '#8c9b82' : '#54624c')
+                  : (isDarkMode ? '#cbc6bc' : '#615e56');
+                return (
+                  <FloatingNode
+                    key={cat.id}
+                    label={cat.name}
+                    initialX={slot.initialX}
+                    initialY={slot.initialY}
+                    size={nodeSize(cat.count, maxNodeCount)}
+                    color={color}
+                    phase={slot.phase}
+                    clock={floatClock}
+                    isGlow={slot.isGlow}
+                  />
+                );
+              })
+            )}
           </View>
 
-          {/* Floating Indicator Badge */}
           <View style={[styles.constellationIndicator, { backgroundColor: theme.surface, borderColor: theme.border }]}>
             <View style={[styles.pulseIndicatorDot, { backgroundColor: theme.primary }]} />
             <Text style={[styles.indicatorText, { color: theme.text }]}>Constellation de Concept</Text>
@@ -287,7 +327,15 @@ export function ProgressReviewView({
         {/* Constellation Description Panel */}
         <View style={styles.constellationFooter}>
           <Text style={[styles.constellationDesc, { color: theme.textMuted }]}>
-            Votre maîtrise s'étend vers la <Text style={styles.italicText}>Syntaxe complexe</Text>. Les zones lumineuses indiquent une rétention profonde.
+            {metrics.topCategories[0] ? (
+              <>
+                Votre exploration s'oriente vers{' '}
+                <Text style={styles.italicText}>{metrics.topCategories[0].name}</Text>. Les zones
+                lumineuses indiquent une pratique plus fréquente.
+              </>
+            ) : (
+              'Votre constellation se dessinera au fil de vos pratiques.'
+            )}
           </Text>
           <View style={styles.masteryPanel}>
             <Text style={[styles.masteryLabel, { color: theme.primary }]}>MAÎTRISE</Text>
@@ -297,7 +345,7 @@ export function ProgressReviewView({
 
         {/* Bento Box Grid Row 1 */}
         <View style={styles.bentoRow}>
-          {/* Explorations Bento Card */}
+          {/* Explorations Bento Card — real mastery-level distribution */}
           <View style={[styles.bentoCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
             <View>
               <Text style={[styles.bentoLabel, { color: theme.textMuted }]}>EXPLORATIONS</Text>
@@ -305,70 +353,95 @@ export function ProgressReviewView({
                 {metrics.totalSeen} Mots & expressions
               </Text>
             </View>
-            
-            {/* Custom Bar Graph */}
+
             <View style={styles.barGraphContainer}>
-              <View style={[styles.graphBar, { height: 12, backgroundColor: theme.primary, opacity: 0.2 }]} />
-              <View style={[styles.graphBar, { height: 20, backgroundColor: theme.primary, opacity: 0.3 }]} />
-              <View style={[styles.graphBar, { height: 16, backgroundColor: theme.primary, opacity: 0.2 }]} />
-              <View style={[styles.graphBar, { height: 32, backgroundColor: theme.primary, opacity: 0.5 }]} />
-              <View style={[styles.graphBar, { height: 40, backgroundColor: theme.primary }]} />
-              <View style={[styles.graphBar, { height: 28, backgroundColor: theme.primary, opacity: 0.6 }]} />
-              <View style={[styles.graphBar, { height: 48, backgroundColor: theme.primary }]} />
+              {metrics.masteryBuckets.map((count, i) => (
+                <View
+                  key={i}
+                  style={[
+                    styles.graphBar,
+                    {
+                      height: Math.max(2, (count / metrics.maxBucket) * 48),
+                      backgroundColor: theme.primary,
+                      opacity: 0.25 + (i / 5) * 0.75,
+                    },
+                  ]}
+                />
+              ))}
             </View>
           </View>
 
-          {/* Zones de Vigilance Bento Card */}
+          {/* Zones de Vigilance Bento Card — real weakest attempted categories */}
           <View style={[styles.bentoCard, { backgroundColor: theme.secondaryContainer, borderColor: theme.border, position: 'relative', overflow: 'hidden' }]}>
             <Text style={[styles.bentoLabel, { color: theme.textMuted }]}>ZONES DE VIGILANCE</Text>
-            <View style={styles.tagsContainer}>
-              <View style={[styles.tagBadge, { backgroundColor: theme.background + '88', borderColor: theme.border }]}>
-                <Text style={[styles.tagBadgeText, { color: theme.text }]}>Subjonctif</Text>
+            {metrics.weakestCategories.length === 0 ? (
+              <Text style={[styles.emptyZonesText, { color: theme.textMuted }]}>
+                Pas encore assez de données — continuez à pratiquer.
+              </Text>
+            ) : (
+              <View style={styles.tagsContainer}>
+                {metrics.weakestCategories.map((cat, i) => (
+                  <View
+                    key={cat.name}
+                    style={[
+                      styles.tagBadge,
+                      {
+                        backgroundColor: i === 0 ? theme.background + 'cc' : theme.background + '88',
+                        borderColor: i === 0 ? theme.primary : theme.border,
+                      },
+                    ]}
+                  >
+                    <Text
+                      style={[
+                        styles.tagBadgeText,
+                        { color: theme.text, fontWeight: i === 0 ? TYPOGRAPHY.fontWeight.bold : TYPOGRAPHY.fontWeight.regular },
+                      ]}
+                    >
+                      {cat.name}
+                    </Text>
+                  </View>
+                ))}
               </View>
-              <View style={[styles.tagBadge, { backgroundColor: theme.background + '88', borderColor: theme.border }]}>
-                <Text style={[styles.tagBadgeText, { color: theme.text }]}>Genre des noms</Text>
-              </View>
-              <View style={[styles.tagBadge, { backgroundColor: theme.background + 'cc', borderColor: theme.primary }]}>
-                <Text style={[styles.tagBadgeText, { color: theme.text, fontWeight: TYPOGRAPHY.fontWeight.bold }]}>Passé Composé</Text>
-              </View>
-              <View style={[styles.tagBadge, { backgroundColor: theme.background + '88', borderColor: theme.border }]}>
-                <Text style={[styles.tagBadgeText, { color: theme.text }]}>Liaisons</Text>
-              </View>
-              <View style={[styles.tagBadge, { backgroundColor: theme.background + '88', borderColor: theme.border }]}>
-                <Text style={[styles.tagBadgeText, { color: theme.text }]}>Pronoms</Text>
-              </View>
-            </View>
-            
-            {/* Subtle alert highlight glow in corner */}
+            )}
+
             <View style={[styles.decorativeAlertGlow, { backgroundColor: theme.error, opacity: 0.08 }]} />
           </View>
         </View>
 
-        {/* Growth over time Bento Card (Spans across both columns) */}
+        {/* This-week activity Bento Card (spans both columns) — real, from lastSeen */}
         <View style={[styles.growthCard, { backgroundColor: theme.surface, borderColor: theme.border }]}>
           <View style={styles.growthHeader}>
-            <Text style={[styles.growthTitle, { color: theme.text }]}>Croissance Mensuelle</Text>
-            <Text style={[styles.growthSub, { color: theme.textMuted }]}>+12% vs le mois dernier</Text>
+            <Text style={[styles.growthTitle, { color: theme.text }]}>Cette semaine</Text>
+            <Text style={[styles.growthSub, { color: theme.textMuted }]}>
+              {metrics.weekTotal > 0
+                ? `${metrics.weekTotal} mot${metrics.weekTotal > 1 ? 's' : ''} revu${metrics.weekTotal > 1 ? 's' : ''}`
+                : 'Aucune révision cette semaine'}
+            </Text>
           </View>
-          
+
           <View style={[styles.growthChart, { borderBottomColor: theme.border }]}>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '40%', backgroundColor: theme.border }]} /></View>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '35%', backgroundColor: theme.border }]} /></View>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '55%', backgroundColor: theme.border }]} /></View>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '45%', backgroundColor: theme.border }]} /></View>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '70%', backgroundColor: theme.border }]} /></View>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '85%', backgroundColor: theme.primary }]} /></View>
-            <View style={styles.chartColWrapper}><View style={[styles.chartBar, { height: '95%', backgroundColor: theme.primary, opacity: 0.8 }]} /></View>
+            {metrics.weekCounts.map((count, i) => (
+              <View key={i} style={styles.chartColWrapper}>
+                <View
+                  style={[
+                    styles.chartBar,
+                    {
+                      height: `${Math.max(4, (count / metrics.weekMax) * 100)}%`,
+                      backgroundColor: i === 6 ? theme.primary : theme.border,
+                      opacity: i === 6 ? 1 : 0.6,
+                    },
+                  ]}
+                />
+              </View>
+            ))}
           </View>
-          
+
           <View style={styles.chartLabels}>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Jan</Text>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Fév</Text>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Mar</Text>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Avr</Text>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Mai</Text>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Juin</Text>
-            <Text style={[styles.chartLabelText, { color: theme.textMuted }]}>Juil</Text>
+            {metrics.weekLabels.map((label, i) => (
+              <Text key={i} style={[styles.chartLabelText, { color: theme.textMuted }]}>
+                {label}
+              </Text>
+            ))}
           </View>
         </View>
 
@@ -378,7 +451,7 @@ export function ProgressReviewView({
             « La langue est une ville pour l'édification de laquelle chaque être humain a apporté une pierre. »
           </Text>
           <Text style={[styles.quoteAuthor, { color: theme.textMuted }]}>Ralph Waldo Emerson</Text>
-          
+
           <Pressable
             style={[styles.actionBtn, { backgroundColor: isDarkMode ? theme.surfaceContainer : theme.primary }]}
             onPress={handleLaunchReview}
@@ -467,6 +540,18 @@ const styles = StyleSheet.create({
     width: 320,
     height: 240,
     position: 'relative',
+  },
+  emptyConstellation: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: SPACING.xl,
+  },
+  emptyConstellationText: {
+    fontFamily: TYPOGRAPHY.fontFamily.sans,
+    fontSize: 13,
+    textAlign: 'center',
+    lineHeight: 18,
   },
   floatingTag: {
     position: 'absolute',
@@ -600,6 +685,11 @@ const styles = StyleSheet.create({
   tagBadgeText: {
     fontFamily: TYPOGRAPHY.fontFamily.sans,
     fontSize: 10,
+  },
+  emptyZonesText: {
+    fontFamily: TYPOGRAPHY.fontFamily.sans,
+    fontSize: 12,
+    lineHeight: 17,
   },
   decorativeAlertGlow: {
     position: 'absolute',

@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { View, Text, StyleSheet, ScrollView, Dimensions } from 'react-native';
 import { useAppTheme } from '../../theme/useAppTheme';
 import { SPACING, TYPOGRAPHY, BORDER_RADIUS } from '../../theme/tokens';
+import { useProgressStore } from '../../core/store/useProgressStore';
+import type { ConceptNode } from '../../core/content/schema';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
 
@@ -12,41 +14,74 @@ interface TILItem {
   body: string;
   frenchExample?: string;
   englishExample?: string;
-  bgOverride?: string;
 }
 
-const DISCOVERY_ITEMS: TILItem[] = [
-  {
-    id: 'ce-dont',
-    category: 'DEEP GRAMMAR',
-    title: 'Why ‘ce dont’ exists',
-    body: 'Discover why "dont" replaces objects of "de", and how it handles neutral antecedents.',
-    frenchExample: 'C\'est ce dont j\'ai besoin.',
-    englishExample: 'That is what I need.',
-    bgOverride: '#f3e0c4', // Pale Golden Sand
-  },
-  {
-    id: 'quebec-office',
-    category: 'CULTURAL INSIGHT',
-    title: 'Québec office vocabulary',
-    body: 'Master corporate terminology like "fin de semaine" and formal Quebecois business greetings.',
-    frenchExample: 'Bonne fin de semaine !',
-    englishExample: 'Have a good weekend!',
-    bgOverride: '#e7e2d7', // Pale Grey-Sand
-  },
-  {
-    id: 'anatomy-morph',
-    category: 'WORD ANATOMY',
-    title: 'Anatomy of Bienveillance',
-    body: 'Trace the Latin roots of care from courtly virtue to modern social ethics.',
-    frenchExample: 'Bien + veillance',
-    englishExample: 'Well-wishing / Care',
-    bgOverride: '#8c9b82', // Medium Sage
-  }
-];
+const CARD_BACKGROUNDS = ['#f3e0c4', '#e7e2d7', '#8c9b82'];
 
-export function DiscoveryStrip() {
+/**
+ * Builds real "Today I Learned" cards from the actual concept corpus —
+ * word-anatomy cards from concepts with morphology data, and cultural-insight
+ * cards from concepts with culturalContext (currently 0/800 — see
+ * .relay/tasks/0008-quebec-cultural-context.md, not yet integrated — this
+ * category appears automatically once that content lands, no code change
+ * needed). No fabricated copy: a category with nothing real behind it is
+ * simply absent from the rotation rather than filled with placeholder text.
+ */
+function buildDiscoveryItems(concepts: ConceptNode[]): TILItem[] {
+  const withCulture = concepts.filter((c) => c.culturalContext);
+  const withMorphology = concepts.filter(
+    (c) => c.morphology?.decomposition && c.morphology.decomposition.length > 0
+  );
+
+  // Deterministic per-day pick so the strip feels like "today's discoveries"
+  // rather than reshuffling on every render — same spirit as the Dashboard's
+  // daily concept hero.
+  const dayOfYear = Math.floor(
+    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000
+  );
+
+  const items: TILItem[] = [];
+
+  if (withCulture.length > 0) {
+    const pick = withCulture[dayOfYear % withCulture.length];
+    items.push({
+      id: `culture-${pick.id}`,
+      category: 'CULTURAL INSIGHT',
+      title: `À propos de « ${pick.french} »`,
+      body: pick.culturalContext!,
+      frenchExample: pick.examples[0]?.french,
+      englishExample: pick.examples[0]?.english,
+    });
+  }
+
+  const morphPicks: ConceptNode[] = [];
+  for (let i = 0; i < Math.min(2, withMorphology.length); i++) {
+    const idx = (dayOfYear + i * 7) % withMorphology.length;
+    const candidate = withMorphology[idx];
+    if (!morphPicks.find((c) => c.id === candidate.id)) morphPicks.push(candidate);
+  }
+  for (const concept of morphPicks) {
+    const parts = concept.morphology!.decomposition!;
+    items.push({
+      id: `morph-${concept.id}`,
+      category: 'WORD ANATOMY',
+      title: `Anatomy of "${concept.french}"`,
+      body: `Break "${concept.french}" (${concept.english}) into ${parts.join(' + ')} to see how the word is built.`,
+      frenchExample: concept.examples[0]?.french,
+      englishExample: concept.examples[0]?.english,
+    });
+  }
+
+  return items;
+}
+
+export const DiscoveryStrip = React.memo(function DiscoveryStrip() {
   const { isDarkMode, theme } = useAppTheme();
+  const concepts = useProgressStore((s) => s.concepts);
+
+  const items = useMemo(() => buildDiscoveryItems(concepts), [concepts]);
+
+  if (items.length === 0) return null;
 
   return (
     <View style={styles.discoverySection}>
@@ -61,22 +96,26 @@ export function DiscoveryStrip() {
         snapToAlignment="start"
         contentContainerStyle={styles.discoveryStrip}
       >
-        {DISCOVERY_ITEMS.map((item) => {
+        {items.map((item, i) => {
           const itemBg = isDarkMode ? '#181816' : '#fcfbfa';
           return (
-            <View 
-              key={item.id} 
+            <View
+              key={item.id}
               style={[
-                styles.tilCard, 
-                { 
-                  backgroundColor: itemBg, 
+                styles.tilCard,
+                {
+                  backgroundColor: itemBg,
                   borderWidth: 1,
                   borderColor: isDarkMode ? '#252522' : '#111111',
-                }
+                },
               ]}
             >
-              {/* Glowing Antique Gold Accent Top Bar */}
-              <View style={styles.tilGoldTopBar} />
+              <View
+                style={[
+                  styles.tilGoldTopBar,
+                  { backgroundColor: CARD_BACKGROUNDS[i % CARD_BACKGROUNDS.length] },
+                ]}
+              />
 
               <View style={styles.tilHeader}>
                 <Text style={[styles.tilCategory, { color: isDarkMode ? '#d6c4aa' : '#cfac62' }]}>
@@ -109,7 +148,7 @@ export function DiscoveryStrip() {
       </ScrollView>
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   discoverySection: {
@@ -182,7 +221,6 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     height: 3.5,
-    backgroundColor: '#cfac62',
     shadowColor: '#cfac62',
     shadowOffset: { width: 0, height: 1 },
     shadowOpacity: 0.8,

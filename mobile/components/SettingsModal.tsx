@@ -24,19 +24,26 @@ type SettingsModalProps = NativeStackScreenProps<RootStackParamList, 'Settings'>
 export function SettingsModal({ navigation }: SettingsModalProps) {
   const { isDarkMode, theme } = useAppTheme();
 
-  // Store variables
-  const store = useSettingsStore();
+  // Store variables via granular selectors
+  const storeTheme = useSettingsStore((s) => s.theme);
+  const setTheme = useSettingsStore((s) => s.setTheme);
+  const preferences = useSettingsStore((s) => s.preferences);
+  const updatePreference = useSettingsStore((s) => s.updatePreference);
+  const gemini = useSettingsStore((s) => s.gemini);
+  const setGeminiApiKey = useSettingsStore((s) => s.setGeminiApiKey);
+  const setGeminiModel = useSettingsStore((s) => s.setGeminiModel);
+  const resetSettings = useSettingsStore((s) => s.resetSettings);
 
   // Local state for api key to avoid writing on every keystroke
-  const [apiKeyLocal, setApiKeyLocal] = useState(store.gemini.apiKey);
+  const [apiKeyLocal, setApiKeyLocal] = useState(gemini.apiKey);
 
   useEffect(() => {
-    setApiKeyLocal(store.gemini.apiKey);
-  }, [store.gemini.apiKey]);
+    setApiKeyLocal(gemini.apiKey);
+  }, [gemini.apiKey]);
 
   // Save local API key on blur
   const handleApiKeyBlur = () => {
-    store.setGeminiApiKey(apiKeyLocal);
+    setGeminiApiKey(apiKeyLocal);
   };
 
   const batchSizes = [5, 10, 15, 20];
@@ -62,7 +69,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
           <Text style={[styles.sectionHeading, { color: theme.textMuted }]}>THÈME DE L'ATELIER</Text>
           <View style={styles.buttonGroup}>
             {themes.map((t) => {
-              const isActive = store.theme === t;
+              const isActive = storeTheme === t;
               return (
                 <Pressable
                   key={t}
@@ -71,7 +78,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
                     { backgroundColor: theme.surfaceMuted, borderColor: theme.border },
                     isActive && { backgroundColor: theme.primary, borderColor: theme.primary },
                   ]}
-                  onPress={() => store.setTheme(t)}
+                  onPress={() => setTheme(t)}
                 >
                   <Text
                     style={[
@@ -99,7 +106,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
             </View>
             <View style={styles.miniGroup}>
               {batchSizes.map((size) => {
-                const isActive = store.preferences.questionsPerBatch === size;
+                const isActive = preferences.questionsPerBatch === size;
                 return (
                   <Pressable
                     key={size}
@@ -108,7 +115,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
                       { backgroundColor: theme.surfaceMuted, borderColor: theme.border },
                       isActive && { backgroundColor: theme.primary, borderColor: theme.primary },
                     ]}
-                    onPress={() => store.updatePreference('questionsPerBatch', size)}
+                    onPress={() => updatePreference('questionsPerBatch', size)}
                   >
                     <Text
                       style={[
@@ -133,8 +140,8 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
             <Switch
               trackColor={{ false: theme.border, true: theme.primary }}
               thumbColor={Platform.OS === 'ios' ? undefined : theme.background}
-              value={store.preferences.showExplanations}
-              onValueChange={(val) => store.updatePreference('showExplanations', val)}
+              value={preferences.showExplanations}
+              onValueChange={(val) => updatePreference('showExplanations', val)}
             />
           </View>
 
@@ -147,8 +154,8 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
             <Switch
               trackColor={{ false: theme.border, true: theme.primary }}
               thumbColor={Platform.OS === 'ios' ? undefined : theme.background}
-              value={store.preferences.autoAdvance}
-              onValueChange={(val) => store.updatePreference('autoAdvance', val)}
+              value={preferences.autoAdvance}
+              onValueChange={(val) => updatePreference('autoAdvance', val)}
             />
           </View>
 
@@ -161,8 +168,8 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
             <Switch
               trackColor={{ false: theme.border, true: theme.primary }}
               thumbColor={Platform.OS === 'ios' ? undefined : theme.background}
-              value={store.preferences.hapticsEnabled}
-              onValueChange={(val) => store.updatePreference('hapticsEnabled', val)}
+              value={preferences.hapticsEnabled}
+              onValueChange={(val) => updatePreference('hapticsEnabled', val)}
             />
           </View>
         </View>
@@ -202,7 +209,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
             <Text style={[styles.inputLabel, { color: theme.text }]}>Modèle</Text>
             <View style={styles.buttonGroup}>
               {['gemini-1.5-flash', 'gemini-1.5-pro'].map((m) => {
-                const isActive = store.gemini.model === m;
+                const isActive = gemini.model === m;
                 return (
                   <Pressable
                     key={m}
@@ -211,7 +218,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
                       { backgroundColor: theme.surfaceMuted, borderColor: theme.border },
                       isActive && { backgroundColor: theme.primary, borderColor: theme.primary },
                     ]}
-                    onPress={() => store.setGeminiModel(m)}
+                    onPress={() => setGeminiModel(m)}
                   >
                     <Text
                       style={[
@@ -232,7 +239,7 @@ export function SettingsModal({ navigation }: SettingsModalProps) {
         <Pressable
           style={[styles.resetBtn, { borderColor: theme.error }]}
           onPress={() => {
-            store.resetSettings();
+            resetSettings();
             setApiKeyLocal('');
           }}
         >

@@ -3,6 +3,7 @@ import { open } from '@op-engineering/op-sqlite';
 import { createMMKV } from 'react-native-mmkv';
 import { buildRelationships } from '../content/relationships';
 import type { ConceptNode, ConceptRelationship, ConceptProgress, CEFRLevel } from '../content/schema';
+import { initTefTables, seedTefContent } from '../../tef/data/tefDb';
 
 // 1. Initialize MMKV Storage Instance
 export const mmkvStorage = createMMKV({
@@ -79,12 +80,19 @@ export async function initDatabase(): Promise<void> {
       FOREIGN KEY (conceptId) REFERENCES concepts(id) ON DELETE CASCADE
     );
   `);
+
+  // 4. Create TEF Canada mode tables (self-contained, see tef/data/tefDb.ts)
+  await initTefTables();
 }
 
 /**
  * Seed Database with migrated A1 and A2 assets on first launch
  */
 export async function seedDatabase(): Promise<void> {
+  // TEF content has its own seed flag and is independent of the L'Atelier
+  // concept corpus below — see tef/data/tefDb.ts#seedTefContent.
+  await seedTefContent();
+
   if (mmkvStorage.getBoolean(SEEDED_KEY)) {
     console.log('Database already seeded.');
     return;
@@ -96,7 +104,8 @@ export async function seedDatabase(): Promise<void> {
     // Metro bundler static JSON imports
     const a1Concepts = require('../../seed/a1-concepts.json') as ConceptNode[];
     const a2Concepts = require('../../seed/a2-concepts.json') as ConceptNode[];
-    const allNodes = [...a1Concepts, ...a2Concepts];
+    const b1Concepts = require('../../seed/b1-concepts.json') as ConceptNode[];
+    const allNodes = [...a1Concepts, ...a2Concepts, ...b1Concepts];
 
     console.log(`Loading ${allNodes.length} concept nodes...`);
 

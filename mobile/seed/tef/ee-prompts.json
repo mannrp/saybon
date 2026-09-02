@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ee-prompt-0001",
+    "section": "A",
+    "brief": "Vous lisez le début d'un fait divers dans un journal local. Continuez l'article en au moins 80 mots. Racontez le déroulement des faits, décrivez les réactions des témoins et expliquez les conséquences immédiates de cet événement.",
+    "leadIn": "Hier matin, vers 8 heures, un jeune lama échappé d'une ferme pédagogique voisine a été aperçu en train de brouter paisiblement les pelouses du square central, sous le regard médusé des passants et des automobilistes à l'heure de pointe.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0002",
+    "section": "A",
+    "brief": "Continuez ce fait divers paru dans un quotidien régional en au moins 80 mots. Racontez comment l'incident s'est produit, comment les organisateurs ont réagi et quelle a été la suite de la soirée.",
+    "leadIn": "Alors que la représentation de la pièce de théâtre annuelle de l'école secondaire venait à peine de débuter devant une salle comble, une panne générale d'électricité a plongé l'auditorium dans l'obscurité la plus totale.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0003",
+    "section": "A",
+    "brief": "Vous lisez cet extrait dans la rubrique des faits divers d'un journal de quartier. Poursuivez le récit en au moins 80 mots en précisant l'origine du don, la réaction des responsables et l'usage qui sera fait de cette somme.",
+    "leadIn": "Un don anonyme de dix mille dollars en billets usagés, soigneusement rangés dans une boîte de biscuits métallisée avec un court mot de remerciement, a été découvert hier matin devant la porte du centre communautaire de quartier.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0004",
+    "section": "A",
+    "brief": "Poursuivez la rédaction de ce court article de presse en au moins 80 mots. Expliquez comment cette méprise s'est transformée en succès populaire et quelle a été l'attitude des clients et du commerçant.",
+    "leadIn": "En mélangeant par mégarde deux pâtes différentes au petit matin, un artisan boulanger de la rue Centrale a conçu une viennoiserie inédite qui a provoqué une file d'attente inattendue de plus de cinquante mètres devant sa boutique.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0005",
+    "section": "A",
+    "brief": "Continuez cet article d'information régionale en au moins 80 mots. Expliquez les répercussions sur les travaux municipaux, les démarches entreprises par les spécialistes du patrimoine et les mesures prises pour la circulation des résidents.",
+    "leadIn": "Des ouvriers de voirie procédant à la réfection de canalisations d'aqueduc sous une rue résidentielle du vieux quartier ont mis au jour une section remarquablement préservée d'un pavage en bois datant du dix-neuvième siècle, forçant l'arrêt immédiat du chantier.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0006",
+    "section": "A",
+    "brief": "Poursuivez le récit de cet événement insolite en au moins 80 mots. Décrivez les solutions temporaires imaginées par les organisateurs, l'intervention des services animaliers et la manière dont la compétition a pu reprendre.",
+    "leadIn": "À moins d'une heure du coup d'envoi de la finale régionale de soccer amateur, plusieurs centaines d'oies sauvages en pleine migration automnale se sont posées en masse sur le terrain principal, refusant obstinément de quitter la pelouse.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0007",
+    "section": "A",
+    "brief": "Continuez cet article de faits divers en au moins 80 mots. Relatez la mobilisation des citoyens, la participation inattendue des enfants et la réaction de l'entreprise responsable de l'appareil automatisé.",
+    "leadIn": "Pris au piège dans un imposant banc de neige lors d'une violente tempête nocturne, un petit robot expérimental de déneigement de trottoir a été secouru et joyeusement transformé en bonhomme de neige par les enfants du voisinage.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0008",
+    "section": "A",
+    "brief": "Poursuivez cet article journalistique en au moins 80 mots. Détaillez l'engouement populaire suscité par le projet, les défis logistiques rencontrés dès le premier mois et l'élargissement prévu des services.",
+    "leadIn": "Lancée à titre expérimental par un collectif de résidents bénévoles, la toute première outilthèque de prêt d'outils de bricolage du quartier a vu l'ensemble de son inventaire emprunté en moins de quarante-huit heures après son inauguration.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0009",
+    "section": "A",
+    "brief": "Poursuivez cet article de presse en au moins 80 mots. Analysez les étapes de la mobilisation citoyenne, le compromis financier trouvé avec le promoteur immobilier et le futur projet culturel envisagé pour le bâtiment.",
+    "leadIn": "Voué à une démolition imminente pour laisser place à un complexe résidentiel privé, le mythique cinéma Le Régent a finalement été racheté in extremis par une coopérative citoyenne locale grâce à une campagne de financement participatif historique.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 7
+  },
+  {
+    "id": "ee-prompt-0010",
+    "section": "A",
+    "brief": "Continuez cette chronique locale en au moins 80 mots. Exposez les tensions apparues entre les commerçants nocturnes et le comité des résidents, les premières constatations des patrouilleurs municipaux et l'avenir de l'expérimentation.",
+    "leadIn": "L'instauration expérimentale par l'arrondissement d'une zone de silence nocturne strict dès 23 heures dans le secteur festif de la rue Principale a suscité de vives contestations lors de la première fin de semaine d'application.",
+    "minWords": 80,
+    "suggestedMinutes": 20,
+    "targetBand": 7
+  },
+  {
+    "id": "ee-prompt-0011",
+    "section": "B",
+    "brief": "Le télétravail s'est imposé dans de nombreux secteurs professionnels. Certaines personnes considèrent qu'il offre un équilibre de vie incomparable et réduit le stress des déplacements quotidiens. D'autres craignent qu'il n'affaiblisse l'esprit d'équipe et n'isole les salariés. Dans un texte argumenté d'au moins 200 mots destiné à une revue d'actualité, exprimez votre opinion sur les avantages et les limites du télétravail en illustrant vos propos d'exemples précis.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0012",
+    "section": "B",
+    "brief": "Pour encourager la transition écologique et réduire la circulation automobile, plusieurs municipalités envisagent la gratuité totale des transports collectifs (autobus, tramway, métro). Cependant, certains estiment que la gratuité dégrade la qualité du service et qu'il vaudrait mieux investir dans la modernisation et l'extension du réseau. Dans un article d'opinion d'au moins 200 mots pour un journal local, prenez position sur cette proposition en présentant des arguments clairs et nuancés.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0013",
+    "section": "B",
+    "brief": "L'essor des liseuses numériques et des livres audio transforme profondément les habitudes des lecteurs. Pour certains, ces formats électroniques pratiques et écologiques vont inévitablement faire disparaître le livre papier traditionnel. Pour d'autres, le support physique offre un plaisir tactile et une concentration intellectuelle irremplaçables. Dans un essai d'au moins 200 mots destiné à un magazine culturel, donnez votre avis personnel sur l'avenir du livre papier face au numérique.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0014",
+    "section": "B",
+    "brief": "Les achats en ligne ne cessent de croître en raison de leur rapidité et des prix concurrentiels qu'ils proposent. En contrepartie, ce mode de consommation fragilise les petits commerces de quartier qui animent le centre-ville et tissent du lien social. Dans une contribution d'au moins 200 mots pour une tribune citoyenne, exposez votre point de vue sur l'importance de soutenir le commerce de proximité face aux géants de la vente sur Internet.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 5
+  },
+  {
+    "id": "ee-prompt-0015",
+    "section": "B",
+    "brief": "La semaine de travail de quatre jours (32 heures sans réduction de salaire) est actuellement testée dans plusieurs entreprises et pays. Ses défenseurs affirment qu'elle stimule la productivité, améliore la santé mentale et favorise la vie de famille. Ses détracteurs soulignent les coûts excessifs pour les petites entreprises et les difficultés d'organisation dans les services continus. Dans un article d'au moins 200 mots pour un mensuel économique, défendez votre position sur la généralisation de la semaine de quatre jours.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0016",
+    "section": "B",
+    "brief": "De nombreux établissements scolaires choisissent d'interdire totalement les téléphones intelligents dans les classes et les cours de récréation afin de favoriser l'attention des élèves et de freiner le cyberharcèlement. D'autres éducateurs pensent plutôt qu'il faut intégrer le numérique dans la pédagogie et apprendre aux jeunes à s'en servir avec discernement. Dans un texte de réflexion d'au moins 200 mots adressé à une revue d'éducation, présentez votre opinion argumentée sur l'interdiction des téléphones à l'école.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0017",
+    "section": "B",
+    "brief": "L'engouement pour les produits d'occasion (vêtements vintage, appareils reconditionnés, meubles usagés) connaît une croissance spectaculaire. Alors que certains n'y voient qu'une mode passagère liée à la baisse du pouvoir d'achat, d'autres y perçoivent une remise en question durable de la société de surconsommation et un geste citoyen fort pour l'environnement. Dans un article d'au moins 200 mots rédigé pour une publication de société, développez votre analyse sur cette nouvelle manière de consommer.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0018",
+    "section": "B",
+    "brief": "Dans de nombreuses villes touristiques, la multiplication des locations de logements de courte durée (type hébergement temporaire en ligne) engendre une raréfaction des appartements à louer pour la population locale et fait grimper les loyers. Face à cela, certains réclament un encadrement très strict ou une interdiction de ces plateformes, tandis que d'autres défendent la liberté des propriétaires et les retombées économiques du tourisme. Dans une lettre d'opinion d'au moins 200 mots pour une publication municipale, prenez position sur ce débat.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 6
+  },
+  {
+    "id": "ee-prompt-0019",
+    "section": "B",
+    "brief": "L'arrivée rapide des systèmes d'intelligence artificielle capables de générer des textes, des synthèses et du code informatique suscite des inquiétudes majeures dans le monde éducatif. Faut-il bannir ou encadrer sévèrement ces outils dans les universités pour préserver l'effort intellectuel et l'esprit critique des étudiants, ou doit-on au contraire les former dès maintenant à collaborer avec l'intelligence artificielle pour préparer leur avenir professionnel ? Dans un texte argumentatif d'au moins 200 mots destiné à une revue universitaire, développez votre avis sur cette question.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 7
+  },
+  {
+    "id": "ee-prompt-0020",
+    "section": "B",
+    "brief": "Avec la connectivité permanente permise par les téléphones intelligents et les messageries professionnelles instantanées, la frontière entre travail et vie personnelle est de plus en plus poreuse. Selon certains, la loi devrait instaurer un droit à la déconnexion contraignant qui coupe l'accès aux courriels professionnels en dehors des heures de bureau. Selon d'autres, une telle mesure rigide réduirait l'autonomie et la flexibilité que recherchent les travailleurs modernes. Dans un essai d'au moins 200 mots destiné à un forum de discussion sociologique, défendez votre point de vue sur la régulation de la déconnexion professionnelle.",
+    "leadIn": null,
+    "minWords": 200,
+    "suggestedMinutes": 40,
+    "targetBand": 7
+  }
+]

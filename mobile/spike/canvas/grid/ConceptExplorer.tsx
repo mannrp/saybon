@@ -38,7 +38,8 @@ export function ConceptExplorer({
   const theme = isDarkMode ? COLORS.dark : COLORS.light;
   const insets = useSafeAreaInsets();
 
-  const { concepts, progress } = useProgressStore();
+  const concepts = useProgressStore((s) => s.concepts);
+  const progress = useProgressStore((s) => s.progress);
 
   const concept = useMemo(
     () => concepts.find((c) => c.id === conceptId),

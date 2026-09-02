@@ -1,173 +1,143 @@
 // Saybon v2 — L'Étoile Progress Visualization Particle Cluster
-// Renders an organic cluster of drifting and pulsing dots representing mastery.
-// Powered by hardware-accelerated Reanimated loop configurations for perfect 60fps.
+// High-performance Skia GPU particle cluster driven by a single unified clock.
+// Replaces 96 concurrent Reanimated loops with one 60fps clock driving 24 dots.
 
-import React, { useEffect } from 'react';
-import { View, StyleSheet } from 'react-native';
-import Animated, {
+import React, { useEffect, useMemo } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { Canvas, Circle, Group } from '@shopify/react-native-skia';
+import {
   useSharedValue,
-  useAnimatedStyle,
+  useDerivedValue,
   withRepeat,
   withTiming,
-  withSequence,
-  withDelay,
   Easing,
+  SharedValue,
 } from 'react-native-reanimated';
 import { COLORS } from '../theme/tokens';
 
 const DOT_COUNT = 24;
+const CANVAS_SIZE = 192;
+const CENTER = CANVAS_SIZE / 2;
 
-interface DriftingDotProps {
-  index: number;
-  theme: typeof COLORS.light;
-  isDarkMode: boolean;
+interface DotConfig {
+  initialX: number;
+  initialY: number;
+  size: number;
+  color: string;
+  driftRange: number;
+  speed: number;
+  phase: number;
 }
 
-function DriftingDot({ index, theme, isDarkMode }: DriftingDotProps) {
-  // Generate deterministic but random-looking coordinates inside a circle
-  const radius = 20 + (index * 53.7) % 60; // radius between 20 and 80
-  const angle = (index * 137.5 * Math.PI) / 180; // golden angle spiral distribution
-  
-  const initialX = Math.cos(angle) * radius;
-  const initialY = Math.sin(angle) * radius;
+interface SkiaDotProps {
+  config: DotConfig;
+  clock: SharedValue<number>;
+}
 
-  // Dot characteristics
-  const size = 3 + (index % 5); // size between 3 and 7
-  const isSage = index % 3 !== 0; // 66% Sage Green, 33% Warm Stone Gray
-  const dotColor = isSage 
-    ? theme.primary 
-    : (isDarkMode ? '#cbc6bc' : '#615e56');
+const SkiaDot = React.memo(function SkiaDot({ config, clock }: SkiaDotProps) {
+  const cx = useDerivedValue(() => {
+    'worklet';
+    const t = clock.value * config.speed + config.phase;
+    return CENTER + config.initialX + Math.sin(t) * config.driftRange;
+  });
 
-  // Reanimated shared values for float/drift and scale/opacity pulsing
-  const translateX = useSharedValue(initialX);
-  const translateY = useSharedValue(initialY);
-  const opacity = useSharedValue(0.1 + (index % 4) * 0.1); // initial opacity 0.1 - 0.4
-  const scale = useSharedValue(0.9 + (index % 3) * 0.05); // initial scale 0.9 - 1.0
+  const cy = useDerivedValue(() => {
+    'worklet';
+    const t = clock.value * config.speed + config.phase;
+    return CENTER + config.initialY + Math.cos(t * 2) * config.driftRange;
+  });
 
-  useEffect(() => {
-    // Drifting float loop
-    const driftRange = 5 + (index % 6);
-    const driftDuration = 4000 + (index % 5) * 1200;
-    const delay = index * 80;
+  const r = useDerivedValue(() => {
+    'worklet';
+    const t = clock.value * config.speed + config.phase;
+    return (config.size / 2) * (0.9 + 0.2 * Math.sin(t * 3));
+  });
 
-    translateX.value = withDelay(
-      delay,
-      withRepeat(
-        withSequence(
-          withTiming(initialX + (index % 2 === 0 ? driftRange : -driftRange), {
-            duration: driftDuration,
-            easing: Easing.inOut(Easing.sin),
-          }),
-          withTiming(initialX, {
-            duration: driftDuration,
-            easing: Easing.inOut(Easing.sin),
-          })
-        ),
-        -1,
-        false
-      )
-    );
-
-    translateY.value = withDelay(
-      delay,
-      withRepeat(
-        withSequence(
-          withTiming(initialY + (index % 2 === 0 ? -driftRange : driftRange), {
-            duration: driftDuration + 500,
-            easing: Easing.inOut(Easing.sin),
-          }),
-          withTiming(initialY, {
-            duration: driftDuration + 500,
-            easing: Easing.inOut(Easing.sin),
-          })
-        ),
-        -1,
-        false
-      )
-    );
-
-    // Subtle scale and opacity pulse loop
-    opacity.value = withDelay(
-      delay,
-      withRepeat(
-        withTiming(0.4 + (index % 3) * 0.15, {
-          duration: 2500 + (index % 4) * 500,
-          easing: Easing.inOut(Easing.sin),
-        }),
-        -1,
-        true
-      )
-    );
-
-    scale.value = withDelay(
-      delay,
-      withRepeat(
-        withTiming(1.15, {
-          duration: 3000 + (index % 3) * 600,
-          easing: Easing.inOut(Easing.sin),
-        }),
-        -1,
-        true
-      )
-    );
-  }, []);
-
-  const animatedStyle = useAnimatedStyle(() => {
-    return {
-      transform: [
-        { translateX: translateX.value },
-        { translateY: translateY.value },
-        { scale: scale.value },
-      ],
-      opacity: opacity.value,
-    };
+  const opacity = useDerivedValue(() => {
+    'worklet';
+    const t = clock.value * config.speed + config.phase;
+    return 0.25 + 0.35 * (0.5 + 0.5 * Math.sin(t * 2));
   });
 
   return (
-    <Animated.View
-      style={[
-        styles.dot,
-        animatedStyle,
-        {
-          width: size,
-          height: size,
-          borderRadius: size / 2,
-          backgroundColor: dotColor,
-        },
-      ]}
-    />
+    <Group opacity={opacity}>
+      <Circle cx={cx} cy={cy} r={r} color={config.color} />
+    </Group>
   );
-}
+});
 
 interface EtoileClusterProps {
   theme: typeof COLORS.light;
   isDarkMode: boolean;
 }
 
-export function EtoileCluster({ theme, isDarkMode }: EtoileClusterProps) {
+export const EtoileCluster = React.memo(function EtoileCluster({
+  theme,
+  isDarkMode,
+}: EtoileClusterProps) {
+  // Single master clock for all 24 dots (0 to 2*PI cycle)
+  const clock = useSharedValue(0);
+
+  useEffect(() => {
+    clock.value = withRepeat(
+      withTiming(2 * Math.PI, {
+        duration: 8000,
+        easing: Easing.linear,
+      }),
+      -1,
+      false
+    );
+  }, [clock]);
+
+  // Precompute deterministic dot properties
+  const dots = useMemo<DotConfig[]>(() => {
+    const items: DotConfig[] = [];
+    for (let index = 0; index < DOT_COUNT; index++) {
+      const radius = 20 + ((index * 53.7) % 60); // 20 to 80
+      const angle = (index * 137.5 * Math.PI) / 180; // golden angle spiral
+      const initialX = Math.cos(angle) * radius;
+      const initialY = Math.sin(angle) * radius;
+      const size = 3 + (index % 5);
+      const isSage = index % 3 !== 0;
+      const color = isSage
+        ? theme.primary
+        : isDarkMode
+        ? '#cbc6bc'
+        : '#615e56';
+
+      items.push({
+        initialX,
+        initialY,
+        size,
+        color,
+        driftRange: 5 + (index % 6),
+        speed: 1 + (index % 3),
+        phase: (index * Math.PI) / 6,
+      });
+    }
+    return items;
+  }, [theme.primary, isDarkMode]);
+
   return (
     <View style={styles.container}>
-      {Array.from({ length: DOT_COUNT }).map((_, i) => (
-        <DriftingDot 
-          key={i} 
-          index={i} 
-          theme={theme} 
-          isDarkMode={isDarkMode} 
-        />
-      ))}
+      <Canvas style={styles.canvas}>
+        {dots.map((dot, i) => (
+          <SkiaDot key={i} config={dot} clock={clock} />
+        ))}
+      </Canvas>
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   container: {
-    width: 192,
-    height: 192,
-    position: 'relative',
+    width: CANVAS_SIZE,
+    height: CANVAS_SIZE,
     alignItems: 'center',
     justifyContent: 'center',
   },
-  dot: {
-    position: 'absolute',
+  canvas: {
+    width: CANVAS_SIZE,
+    height: CANVAS_SIZE,
   },
 });

@@ -13,7 +13,8 @@ import { useAppTheme } from './theme/useAppTheme';
 
 function AppContent() {
   const { isDarkMode, theme } = useAppTheme();
-  const { initialize, isInitialized } = useProgressStore();
+  const isInitialized = useProgressStore((s) => s.isInitialized);
+  const initialize = useProgressStore((s) => s.initialize);
 
   // ── Root Database Initialization ───────────────────────────────────────────
   useEffect(() => {

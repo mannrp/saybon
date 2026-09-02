@@ -28,7 +28,8 @@ interface PracticeHubViewProps {
 export function PracticeHubView({ navigation }: PracticeHubViewProps) {
   const { isDarkMode, theme } = useAppTheme();
   const insets = useSafeAreaInsets();
-  const { concepts, progress } = useProgressStore();
+  const concepts = useProgressStore((s) => s.concepts);
+  const progress = useProgressStore((s) => s.progress);
 
   // ── Stateful Selectors ──────────────────────────────────────────────────────
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);

@@ -8,7 +8,10 @@ interface WorkflowCardsProps {
   onStartWeak: () => void;
 }
 
-export function WorkflowCards({ onStartStandard, onStartWeak }: WorkflowCardsProps) {
+export const WorkflowCards = React.memo(function WorkflowCards({
+  onStartStandard,
+  onStartWeak,
+}: WorkflowCardsProps) {
   const { isDarkMode, theme } = useAppTheme();
 
   return (
@@ -88,7 +91,7 @@ export function WorkflowCards({ onStartStandard, onStartWeak }: WorkflowCardsPro
       </Pressable>
     </View>
   );
-}
+});
 
 const styles = StyleSheet.create({
   workflowSection: {

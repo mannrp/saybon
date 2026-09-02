@@ -17,7 +17,8 @@
       "x": 301,
       "y": 8,
       "z": 29
-    }
+    },
+    "culturalContext": "In winter, Quebecers who travel ('voyager') south to Florida or the Caribbean are playfully referred to as 'snowbirds'."
   },
   {
     "id": "a2-002",
@@ -86,7 +87,8 @@
       "x": 217,
       "y": 39,
       "z": 198
-    }
+    },
+    "culturalContext": "Canadian passports ('passeport') are issued bilingually in French and English, featuring historical symbols and watermarks under ultraviolet light."
   },
   {
     "id": "a2-005",
@@ -115,7 +117,8 @@
       "x": 218,
       "y": 2,
       "z": 207
-    }
+    },
+    "culturalContext": "Luggage ('valise') on Canadian winter flights often packs bulky parkas, heavy snow boots, and thermal undergarments."
   },
   {
     "id": "a2-006",
@@ -146,7 +149,8 @@
       "x": 183,
       "y": 29,
       "z": 224
-    }
+    },
+    "culturalContext": "In Québec vacation regions, booking a chalet ('réservation') during the holiday season or construction holidays requires months of advance planning."
   },
   {
     "id": "a2-007",
@@ -236,7 +240,8 @@
       "x": 215,
       "y": 29,
       "z": 214
-    }
+    },
+    "culturalContext": "In late July, hundreds of thousands of Quebecers take annual vacation ('vacances') during the province-wide 'vacances de la construction'."
   },
   {
     "id": "a2-011",
@@ -265,7 +270,8 @@
       "x": 206,
       "y": 13,
       "z": 213
-    }
+    },
+    "culturalContext": "In Montréal, public transit fares and tickets ('billet') are stored electronically on the rechargeable smart card called the 'carte OPUS'."
   },
   {
     "id": "a2-012",
@@ -286,7 +292,8 @@
       "x": 237,
       "y": 52,
       "z": 190
-    }
+    },
+    "culturalContext": "Canadians use the Interac debit card ('carte de débit') for almost all daily in-person transactions."
   },
   {
     "id": "a2-013",
@@ -307,7 +314,8 @@
       "x": 206,
       "y": 32,
       "z": 221
-    }
+    },
+    "culturalContext": "Tour guides ('guide') in Old Québec share rich narratives of 17th-century New France, military sieges, and surviving stone fortifications."
   },
   {
     "id": "a2-014",
@@ -336,7 +344,8 @@
       "x": 222,
       "y": 15,
       "z": 202
-    }
+    },
+    "culturalContext": "Tourists ('touriste') visiting Québec City's historic Old Town explore North America's only preserved fortified city walls north of Mexico."
   },
   {
     "id": "a2-015",
@@ -365,7 +374,8 @@
       "x": 205,
       "y": 35,
       "z": 203
-    }
+    },
+    "culturalContext": "Historical monuments ('monument') in Québec celebrate early French explorers and figures, including Samuel de Champlain and Paul de Chomedey."
   },
   {
     "id": "a2-016",
@@ -423,7 +433,8 @@
       "x": 195,
       "y": 61,
       "z": 209
-    }
+    },
+    "culturalContext": "The iconic Château Frontenac in Québec City holds the Guinness World Record as the most photographed hotel ('château') in the world."
   },
   {
     "id": "a2-018",
@@ -451,7 +462,8 @@
       "x": 190,
       "y": 48,
       "z": 223
-    }
+    },
+    "culturalContext": "Historic Catholic churches ('église') and basilicas, such as Saint Joseph's Oratory and Notre-Dame Basilica, are defining landmarks of Québec."
   },
   {
     "id": "a2-019",
@@ -472,7 +484,8 @@
       "x": 205,
       "y": 46,
       "z": 205
-    }
+    },
+    "culturalContext": "The iconic Jacques-Cartier Bridge ('pont') connects Montréal to the South Shore, illuminated each evening by a dynamic interactive light show."
   },
   {
     "id": "a2-020",
@@ -530,7 +543,8 @@
       "x": 200,
       "y": 42,
       "z": 194
-    }
+    },
+    "culturalContext": "Labor standards and worker safety in Québec ('travail') are administered provincially by the CNESST."
   },
   {
     "id": "a2-022",
@@ -636,7 +650,8 @@
       "x": 197,
       "y": 68,
       "z": 209
-    }
+    },
+    "culturalContext": "A manager or boss ('patron') in Québec is often informally called 'le boss' (pronounced 'bôsse') in blue-collar and conversational settings."
   },
   {
     "id": "a2-026",
@@ -665,7 +680,8 @@
       "x": 202,
       "y": 64,
       "z": 200
-    }
+    },
+    "culturalContext": "Relationships with colleagues ('collègue') in Québec workplaces are characterized by early adoption of first-name address and egalitarian teamwork."
   },
   {
     "id": "a2-027",
@@ -725,7 +741,8 @@
       "x": 182,
       "y": 61,
       "z": 235
-    }
+    },
+    "culturalContext": "The minimum wage ('salaire') in Québec is reviewed and adjusted annually by the provincial government on May 1st."
   },
   {
     "id": "a2-029",
@@ -754,7 +771,8 @@
       "x": 191,
       "y": 83,
       "z": 215
-    }
+    },
+    "culturalContext": "Employment contracts ('contrat') in Québec are subject to provincial civil law and statutory notice requirements established under the Act Respecting Labour Standards."
   },
   {
     "id": "a2-030",
@@ -860,7 +878,8 @@
       "x": 201,
       "y": 91,
       "z": 215
-    }
+    },
+    "culturalContext": "Job interviews ('entretien') in Québec evaluate both technical competencies and language skills suited to bilingual or francophone work environments."
   },
   {
     "id": "a2-034",
@@ -1045,7 +1064,8 @@
       "x": 202,
       "y": 89,
       "z": 211
-    }
+    },
+    "culturalContext": "Residents access free public healthcare ('santé') through the provincial health insurance board (RAMQ) using the iconic 'carte soleil'."
   },
   {
     "id": "a2-041",
@@ -1076,7 +1096,8 @@
       "x": 196,
       "y": 96,
       "z": 214
-    }
+    },
+    "culturalContext": "In Québec, a family physician ('médecin de famille') is assigned through a centralized provincial registry known as the GAMF."
   },
   {
     "id": "a2-042",
@@ -1133,7 +1154,8 @@
       "x": 167,
       "y": 102,
       "z": 231
-    }
+    },
+    "culturalContext": "Community pharmacies in Québec (such as Jean Coutu and Pharmaprix) provide clinical consultations and prescribe medications for minor ailments."
   },
   {
     "id": "a2-044",
@@ -1164,7 +1186,8 @@
       "x": 182,
       "y": 132,
       "z": 202
-    }
+    },
+    "culturalContext": "Prescription medications ('médicament') in Québec are covered under a mandatory public or private drug insurance framework."
   },
   {
     "id": "a2-045",
@@ -1371,7 +1394,8 @@
       "x": 184,
       "y": 129,
       "z": 190
-    }
+    },
+    "culturalContext": "Scheduling medical appointments ('rendez-vous') in Québec is centralized through online platforms like Rendez-vous santé Québec (RVSQ)."
   },
   {
     "id": "a2-053",
@@ -1399,7 +1423,8 @@
       "x": 148,
       "y": 132,
       "z": 220
-    }
+    },
+    "culturalContext": "Emergency hospital departments in Québec are known as 'l'urgence', where arrivals are evaluated by a triage nurse."
   },
   {
     "id": "a2-054",
@@ -1429,7 +1454,8 @@
       "x": 184,
       "y": 143,
       "z": 204
-    }
+    },
+    "culturalContext": "Registered nurses ('infirmier' / 'infirmière') in Québec belong to the OIIQ and play an expanded clinical role in community health clinics."
   },
   {
     "id": "a2-055",
@@ -3534,7 +3560,8 @@
       "x": -42,
       "y": 195,
       "z": 234
-    }
+    },
+    "culturalContext": "Driver's licenses ('permis de conduire') in Québec are issued by the SAAQ and renewed annually during the driver's birth month."
   },
   {
     "id": "a2-144",
@@ -3562,7 +3589,8 @@
       "x": -19,
       "y": 198,
       "z": 229
-    }
+    },
+    "culturalContext": "Gasoline ('essence') prices in Québec are posted and measured in cents per liter, subject to provincial and federal fuel taxes."
   },
   {
     "id": "a2-145",
@@ -3619,7 +3647,8 @@
       "x": -28,
       "y": 188,
       "z": 230
-    }
+    },
+    "culturalContext": "Provincial highways in Québec are called 'autoroutes' (e.g. l'autoroute 20), with speed limits generally posted at 100 km/h."
   },
   {
     "id": "a2-147",
@@ -3648,7 +3677,8 @@
       "x": -75,
       "y": 201,
       "z": 222
-    }
+    },
+    "culturalContext": "Traffic congestion ('circulation' or 'le trafic') in Montréal is concentrated during rush hours on bridge corridors crossing the St. Lawrence River."
   },
   {
     "id": "a2-148",
@@ -3767,7 +3797,8 @@
       "x": -92,
       "y": 183,
       "z": 208
-    }
+    },
+    "culturalContext": "Québec City is developing a major municipal tramway ('tramway') network to modernize urban transit across the provincial capital."
   },
   {
     "id": "a2-153",
@@ -3787,7 +3818,8 @@
       "x": -98,
       "y": 212,
       "z": 216
-    }
+    },
+    "culturalContext": "City bus stops ('arrêt') display unique digital stop codes allowing riders to check real-time arrival estimates by text message."
   },
   {
     "id": "a2-154",
@@ -3808,7 +3840,8 @@
       "x": -80,
       "y": 208,
       "z": 193
-    }
+    },
+    "culturalContext": "Railway and ferry platforms ('quai') in Québec feature automated passenger announcements and clear boarding indicators."
   },
   {
     "id": "a2-155",
@@ -3868,7 +3901,8 @@
       "x": -60,
       "y": 189,
       "z": 222
-    }
+    },
+    "culturalContext": "During winter storms, public transit delays ('retard') occur while specialized plows clear snow from rights-of-way."
   },
   {
     "id": "a2-157",
@@ -3896,7 +3930,8 @@
       "x": -84,
       "y": 181,
       "z": 213
-    }
+    },
+    "culturalContext": "Transit schedules ('horaire') in Québec switch between school season frequencies and lighter summer holiday timetables."
   },
   {
     "id": "a2-158",
@@ -4042,7 +4077,8 @@
       "x": -156,
       "y": 246,
       "z": -7
-    }
+    },
+    "culturalContext": "When renting an apartment ('louer'), Québec tenants sign a standard mandatory lease form issued by the Tribunal administratif du logement (TAL)."
   },
   {
     "id": "a2-164",
@@ -4082,7 +4118,8 @@
       "x": -146,
       "y": 258,
       "z": 5
-    }
+    },
+    "culturalContext": "Garage sales ('vendre') in Québec neighborhoods in spring are called 'ventes de garage' (yard sales), a popular community tradition."
   },
   {
     "id": "a2-166",
@@ -4102,7 +4139,8 @@
       "x": -136,
       "y": 275,
       "z": 3
-    }
+    },
+    "culturalContext": "In restaurants and bars, paying ('payer') is usually done at the table with portable wireless debit terminals ('Interac') allowing custom tipping."
   },
   {
     "id": "a2-167",
@@ -4130,7 +4168,8 @@
       "x": -131,
       "y": 284,
       "z": -4
-    }
+    },
+    "culturalContext": "Consumers in Québec are protected against unfair retail markups and hidden fees by the Consumer Protection Act ('dépenser')."
   },
   {
     "id": "a2-168",
@@ -4150,7 +4189,8 @@
       "x": -128,
       "y": 272,
       "z": 14
-    }
+    },
+    "culturalContext": "Residents look to save money ('économiser') during annual promotional events like Boxing Day ('les soldes de l'Après-Noël') on December 26th."
   },
   {
     "id": "a2-169",
@@ -4210,7 +4250,8 @@
       "x": -112,
       "y": 172,
       "z": 231
-    }
+    },
+    "culturalContext": "In informal Québec French, cash money ('argent') is referred to as 'du cash' or historically 'des piastres' (pronounced 'piasses')."
   },
   {
     "id": "a2-172",
@@ -4318,7 +4359,8 @@
       "x": -149,
       "y": 176,
       "z": 199
-    }
+    },
+    "culturalContext": "In Québec restaurants, customers always ask for 'la facture' (bill), never 'l'addition' which is strictly European French usage."
   },
   {
     "id": "a2-176",
@@ -4339,7 +4381,8 @@
       "x": -125,
       "y": 177,
       "z": 205
-    }
+    },
+    "culturalContext": "Prices ('prix') displayed in Québec stores do not include sales taxes; roughly 15% in federal (TPS) and provincial (TVQ) taxes are added at the register."
   },
   {
     "id": "a2-177",
@@ -4518,7 +4561,8 @@
       "x": -142,
       "y": 175,
       "z": 210
-    }
+    },
+    "culturalContext": "Environmental protection ('environnement') in Québec emphasizes preserving freshwater reserves, wetlands, and the boreal forest."
   },
   {
     "id": "a2-185",
@@ -4575,7 +4619,8 @@
       "x": -212,
       "y": 223,
       "z": 6
-    }
+    },
+    "culturalContext": "Beverage cans and bottles carry a refundable deposit ('recycler' / 'consigne'), redeemed at grocery stores and automated return centers."
   },
   {
     "id": "a2-187",
@@ -4603,7 +4648,8 @@
       "x": -141,
       "y": 151,
       "z": 215
-    }
+    },
+    "culturalContext": "Nearly 100% of Québec's electricity ('énergie') is clean hydropower generated by the provincial crown utility Hydro-Québec."
   },
   {
     "id": "a2-188",
@@ -4632,7 +4678,8 @@
       "x": -140,
       "y": 153,
       "z": 205
-    }
+    },
+    "culturalContext": "Outdoor nature lovers ('nature') in Québec explore vast trail networks managed by Sépaq and national park reserves."
   },
   {
     "id": "a2-189",
@@ -4893,7 +4940,8 @@
       "x": -175,
       "y": 116,
       "z": 236
-    }
+    },
+    "culturalContext": "Québec's continental climate ('climat') brings dramatic seasonal temperature swings exceeding 50 degrees Celsius between summer and winter."
   },
   {
     "id": "a2-200",
@@ -4942,7 +4990,8 @@
       "x": -169,
       "y": 130,
       "z": 186
-    }
+    },
+    "culturalContext": "Summer thunderstorms ('orage') in the St. Lawrence Valley can produce intense downpours and lightning, tracked by Environment Canada radar."
   },
   {
     "id": "a2-202",
@@ -4992,7 +5041,8 @@
       "x": -193,
       "y": 125,
       "z": 195
-    }
+    },
+    "culturalContext": "Dense fog ('brouillard') often rolls off the St. Lawrence River during spring thaw and autumn temperature drops, reducing bridge visibility."
   },
   {
     "id": "a2-204",
@@ -5012,7 +5062,8 @@
       "x": -189,
       "y": 104,
       "z": -200
-    }
+    },
+    "culturalContext": "High humidity ('humide') in southern Québec summers creates muggy conditions measured by the humidex index."
   },
   {
     "id": "a2-205",
@@ -5205,7 +5256,8 @@
       "x": -184,
       "y": 96,
       "z": 221
-    }
+    },
+    "culturalContext": "In Québec, a mobile phone is called a 'téléphone cellulaire' or 'cellulaire', while 'portable' refers to a laptop computer ('ordinateur portable')."
   },
   {
     "id": "a2-213",
@@ -5824,7 +5876,8 @@
       "x": -212,
       "y": 54,
       "z": 200
-    }
+    },
+    "culturalContext": "Voicemail messages ('message vocal') and text messages ('texto') in Québec are commonly exchanged between colleagues and friends."
   },
   {
     "id": "a2-238",
@@ -6166,7 +6219,8 @@
       "x": -189,
       "y": -11,
       "z": 238
-    }
+    },
+    "culturalContext": "In ice hockey, scoring a goal ('but') triggers sirens and flashing red lights in arenas ('arénas') across Québec."
   },
   {
     "id": "a2-252",
@@ -6384,7 +6438,8 @@
       "x": -206,
       "y": -24,
       "z": 229
-    }
+    },
+    "culturalContext": "Public municipal swimming pools ('piscine municipale') across Québec offer free open swim times and swimming lessons to residents."
   },
   {
     "id": "a2-262",
@@ -6405,7 +6460,8 @@
       "x": -228,
       "y": -8,
       "z": 214
-    }
+    },
+    "culturalContext": "Montréal's Olympic Stadium ('stade') was constructed for the 1976 Summer Olympic Games, featuring a distinctive inclined tower."
   },
   {
     "id": "a2-263",
@@ -6682,7 +6738,8 @@
       "x": -181,
       "y": -49,
       "z": 219
-    }
+    },
+    "culturalContext": "Actors ('acteur' / 'comédien') in Québec are represented by the Union des artistes (UDA), a strong professional cultural union."
   },
   {
     "id": "a2-274",
@@ -6783,7 +6840,8 @@
       "x": -197,
       "y": -47,
       "z": 241
-    }
+    },
+    "culturalContext": "The annual Just for Laughs festival and the Quartier des spectacles make Montréal a premier global capital for comedy and performing arts ('spectacle')."
   },
   {
     "id": "a2-278",
@@ -6812,7 +6870,8 @@
       "x": -197,
       "y": -85,
       "z": 201
-    }
+    },
+    "culturalContext": "Outdoor summer concerts ('concert') in Montréal draw hundreds of thousands of spectators to the pedestrianized Quartier des spectacles."
   },
   {
     "id": "a2-279",
@@ -6841,7 +6900,8 @@
       "x": -185,
       "y": -60,
       "z": 229
-    }
+    },
+    "culturalContext": "Montréal's historic Saint-Denis and Monument-National theaters host local plays ('théâtre') by celebrated Québec playwrights like Michel Tremblay."
   },
   {
     "id": "a2-280",
@@ -6891,7 +6951,8 @@
       "x": -180,
       "y": -79,
       "z": 226
-    }
+    },
+    "culturalContext": "Traditional Québec folk songs ('chanson à répondre') feature call-and-response vocals accompanied by foot-tapping rhythms."
   },
   {
     "id": "a2-282",
@@ -7294,7 +7355,8 @@
       "x": -201,
       "y": -124,
       "z": 202
-    }
+    },
+    "culturalContext": "Québec visual art exhibitions ('exposition') celebrate both historic Canadian painters and contemporary indigenous artists."
   },
   {
     "id": "a2-298",
@@ -7559,7 +7621,8 @@
       "x": -139,
       "y": -114,
       "z": 223
-    }
+    },
+    "culturalContext": "Public libraries ('bibliothèque') in Québec provide free borrowing of books, digital media, board games, and tool libraries ('outilthèques')."
   },
   {
     "id": "a2-309",
@@ -7588,7 +7651,8 @@
       "x": -150,
       "y": -119,
       "z": 231
-    }
+    },
+    "culturalContext": "Independent accredited bookstores ('librairie agréée') in Québec benefit from cultural protection policies regulating book pricing."
   },
   {
     "id": "a2-310",
@@ -7646,7 +7710,8 @@
       "x": -170,
       "y": -148,
       "z": 188
-    }
+    },
+    "culturalContext": "Prominent French-language daily newspapers ('journal') in Québec include Le Devoir, La Presse (digital), and Le Journal de Montréal."
   },
   {
     "id": "a2-312",
@@ -7666,7 +7731,8 @@
       "x": -166,
       "y": -130,
       "z": 213
-    }
+    },
+    "culturalContext": "News articles ('article') in Québec media closely follow provincial politics, healthcare debates, and cultural sovereignty."
   },
   {
     "id": "a2-313",
@@ -7746,7 +7812,8 @@
       "x": -160,
       "y": -152,
       "z": 199
-    }
+    },
+    "culturalContext": "Advertising ('publicité') targeting children under 13 is strictly prohibited in Québec under the province's pioneering Consumer Protection Act."
   },
   {
     "id": "a2-316",
@@ -8204,7 +8271,8 @@
       "x": -139,
       "y": -255,
       "z": 7
-    }
+    },
+    "culturalContext": "Students studying ('étudier') in Québec transition from secondary school to CEGEP before proceeding to university."
   },
   {
     "id": "a2-334",
@@ -8349,7 +8417,8 @@
       "x": -92,
       "y": -211,
       "z": 196
-    }
+    },
+    "culturalContext": "University and college instructors in Québec are universally called 'professeur' or informally 'prof' by their students."
   },
   {
     "id": "a2-340",
@@ -8377,7 +8446,8 @@
       "x": -114,
       "y": -197,
       "z": 201
-    }
+    },
+    "culturalContext": "Full-time post-secondary students ('étudiant') in Québec benefit from subsidized public transit passes with reduced student fares."
   },
   {
     "id": "a2-341",
@@ -8688,7 +8758,8 @@
       "x": -87,
       "y": -212,
       "z": 191
-    }
+    },
+    "culturalContext": "Hydro-Québec, natural resources, aerospace, and video game development form key pillars of the Québec provincial economy ('économie')."
   },
   {
     "id": "a2-352",
@@ -8717,7 +8788,8 @@
       "x": -62,
       "y": -188,
       "z": 228
-    }
+    },
+    "culturalContext": "Politics ('politique') in Québec has historically revolved around questions of national identity, provincial autonomy, and language preservation."
   },
   {
     "id": "a2-353",
@@ -8746,7 +8818,8 @@
       "x": -52,
       "y": -225,
       "z": 214
-    }
+    },
+    "culturalContext": "Québec's provincial government ('gouvernement') operates under a parliamentary Westminster system, led by the Premier of Québec."
   },
   {
     "id": "a2-354",
@@ -8796,7 +8869,8 @@
       "x": -72,
       "y": -228,
       "z": 181
-    }
+    },
+    "culturalContext": "Provincial cabinet ministers ('ministre') oversee key portfolios like education, health, and the French language in Québec."
   },
   {
     "id": "a2-356",
@@ -8824,7 +8898,8 @@
       "x": -41,
       "y": -223,
       "z": 212
-    }
+    },
+    "culturalContext": "Provincial elections ('élection') in Québec are supervised by Élections Québec, operating under fixed-date election legislation."
   },
   {
     "id": "a2-357",
@@ -8844,7 +8919,8 @@
       "x": -69,
       "y": -282,
       "z": 13
-    }
+    },
+    "culturalContext": "Citizens voting ('voter') in Québec elections must be Canadian citizens aged 18 or older domiciled in Québec for at least six months."
   },
   {
     "id": "a2-358",
@@ -8865,7 +8941,8 @@
       "x": -56,
       "y": -204,
       "z": 203
-    }
+    },
+    "culturalContext": "The French language in Québec is protected by the Charter of the French Language, commonly known as 'Loi 101'."
   },
   {
     "id": "a2-359",
@@ -8886,7 +8963,8 @@
       "x": -56,
       "y": -193,
       "z": 241
-    }
+    },
+    "culturalContext": "Private law in Québec is governed by civil law ('Code civil du Québec'), unlike other Canadian provinces which follow common law ('droit')."
   },
   {
     "id": "a2-360",
@@ -8965,7 +9043,8 @@
       "x": -31,
       "y": -200,
       "z": 233
-    }
+    },
+    "culturalContext": "Civic participation among citizens ('citoyen') in Québec includes active neighborhood public consultations and municipal assemblies."
   },
   {
     "id": "a2-363",
@@ -9045,7 +9124,8 @@
       "x": -39,
       "y": -240,
       "z": 199
-    }
+    },
+    "culturalContext": "Volunteerism ('bénévole') is widespread in Québec, supporting community centers, food banks, and youth sporting leagues."
   },
   {
     "id": "a2-366",
@@ -11173,7 +11253,8 @@
       "x": 176,
       "y": -125,
       "z": 198
-    }
+    },
+    "culturalContext": "Montréal is world-renowned for its winding exterior staircases ('escalier extérieur'), designed in the early 20th century to maximize indoor living space."
   },
   {
     "id": "a2-454",
@@ -11202,7 +11283,8 @@
       "x": 184,
       "y": -125,
       "z": 194
-    }
+    },
+    "culturalContext": "Apartment balconies ('balcon') in Montréal are iconic social hubs in summer, where residents sit and chat above tree-lined streets."
   },
   {
     "id": "a2-455",
@@ -11223,7 +11305,8 @@
       "x": 161,
       "y": -137,
       "z": 204
-    }
+    },
+    "culturalContext": "Outdoor restaurant and café patios ('terrasse') are an essential feature of Québec summer life as soon as warm weather arrives."
   },
   {
     "id": "a2-456",
@@ -11244,7 +11327,8 @@
       "x": 161,
       "y": -98,
       "z": 238
-    }
+    },
+    "culturalContext": "The basement of a house in Québec is usually called the 'sous-sol', while 'cave' or 'cave à vin' is reserved for an unheated cellar or wine storage."
   },
   {
     "id": "a2-457",
@@ -11273,7 +11357,8 @@
       "x": 179,
       "y": -111,
       "z": 207
-    }
+    },
+    "culturalContext": "In older rural and suburban Québec homes, the attic ('grenier') is historically used for seasonal storage and winter insulation."
   },
   {
     "id": "a2-458",
@@ -11302,7 +11387,8 @@
       "x": 198,
       "y": -95,
       "z": 198
-    }
+    },
+    "culturalContext": "In suburban Québec homes, the garage ('garage') is essential for sheltering vehicles from heavy snowstorms and freezing rain."
   },
   {
     "id": "a2-459",
@@ -11331,7 +11417,8 @@
       "x": 167,
       "y": -117,
       "z": 201
-    }
+    },
+    "culturalContext": "Neighbors in Québec ('voisin') routinely display solidarity during winter storms by helping each other shovel driveways and push out stuck cars."
   },
   {
     "id": "a2-460",
@@ -11360,7 +11447,8 @@
       "x": 179,
       "y": -82,
       "z": 220
-    }
+    },
+    "culturalContext": "Montréal neighborhoods ('quartier') such as the Plateau-Mont-Royal, Mile End, and Rosemont boast vibrant independent shops and distinctive architecture."
   },
   {
     "id": "a2-461",
@@ -11381,7 +11469,8 @@
       "x": 198,
       "y": -91,
       "z": 211
-    }
+    },
+    "culturalContext": "Suburban rings surrounding Montréal and Québec City ('banlieue') are connected to city centers by commuter rail and express bus networks."
   },
   {
     "id": "a2-462",
@@ -11402,7 +11491,8 @@
       "x": 187,
       "y": -72,
       "z": 234
-    }
+    },
+    "culturalContext": "Montréal's downtown ('centre-ville') features bustling commercial boulevards, university campuses, and access to the underground pedestrian network."
   },
   {
     "id": "a2-463",
@@ -11501,7 +11591,8 @@
       "x": 195,
       "y": -99,
       "z": 220
-    }
+    },
+    "culturalContext": "Sidewalks ('trottoir') in Québec are cleared of ice and snow throughout winter by specialized miniature tracked plows called 'chenillettes'."
   },
   {
     "id": "a2-467",
@@ -11543,7 +11634,8 @@
       "x": 204,
       "y": -84,
       "z": 202
-    }
+    },
+    "culturalContext": "Traffic lights are officially 'feux de circulation', but colloquially referred to as 'les lumières'; turning right on red is permitted except on Montréal Island."
   },
   {
     "id": "a2-469",
@@ -11659,7 +11751,8 @@
       "x": 176,
       "y": -78,
       "z": 220
-    }
+    },
+    "culturalContext": "Municipal street parking ('stationnement') in Québec avoids the anglicism 'parking', and street cleaning requires checking street schedule signs."
   },
   {
     "id": "a2-473",

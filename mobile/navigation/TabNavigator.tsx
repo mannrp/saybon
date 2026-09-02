@@ -7,12 +7,39 @@ import { TabParamList } from './types';
 
 import { DashboardView } from '../components/DashboardView';
 import { PracticeHubView } from '../components/PracticeHubView';
-import { ExploreView } from '../components/ExploreView';
+import { TefNavigator } from '../tef/navigation/TefNavigator';
 import { ProgressReviewView } from '../components/ProgressReviewView';
 
 const Tab = createBottomTabNavigator<TabParamList>();
 
-function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
+const HeaderLeft = React.memo(function HeaderLeft({ color }: { color: string }) {
+  return (
+    <Text style={[styles.wordmark, { color }]}>
+      SayBon
+    </Text>
+  );
+});
+
+const HeaderRight = React.memo(function HeaderRight({
+  color,
+  onPress,
+}: {
+  color: string;
+  onPress: () => void;
+}) {
+  return (
+    <Pressable
+      onPress={onPress}
+      style={styles.headerRightButton}
+      accessibilityRole="button"
+      accessibilityLabel="Settings"
+    >
+      <Text style={[styles.iconText, { color }]}>⚙</Text>
+    </Pressable>
+  );
+});
+
+const CustomTabBar = React.memo(function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
   const { theme } = useAppTheme();
 
   return (
@@ -58,9 +85,9 @@ function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
         } else if (route.name === 'Practice') {
           icon = '□';
           label = 'Pratique';
-        } else if (route.name === 'Explore') {
+        } else if (route.name === 'Tef') {
           icon = '△';
-          label = 'Explorer';
+          label = 'TEF';
         } else if (route.name === 'Progress') {
           icon = '○';
           label = 'Progrès';
@@ -101,14 +128,19 @@ function CustomTabBar({ state, descriptors, navigation }: BottomTabBarProps) {
       })}
     </View>
   );
-}
+});
 
 export function TabNavigator() {
   const { theme } = useAppTheme();
 
+  const renderTabBar = React.useCallback(
+    (props: BottomTabBarProps) => <CustomTabBar {...props} />,
+    []
+  );
+
   return (
     <Tab.Navigator
-      tabBar={(props) => <CustomTabBar {...props} />}
+      tabBar={renderTabBar}
       screenOptions={({ navigation }) => ({
         headerShown: true,
         headerStyle: {
@@ -126,24 +158,18 @@ export function TabNavigator() {
           fontWeight: TYPOGRAPHY.fontWeight.bold,
           color: theme.text,
         },
-        headerLeft: () => (
-          <Text style={[styles.wordmark, { color: theme.primary }]}>
-            SayBon
-          </Text>
-        ),
+        headerLeft: () => <HeaderLeft color={theme.primary} />,
         headerRight: () => (
-          <Pressable
+          <HeaderRight
+            color={theme.textMuted}
             onPress={() => navigation.getParent()?.navigate('Settings')}
-            style={styles.headerRightButton}
-          >
-            <Text style={[styles.iconText, { color: theme.textMuted }]}>⚙</Text>
-          </Pressable>
+          />
         ),
       })}
     >
       <Tab.Screen name="Home" component={DashboardView} />
       <Tab.Screen name="Practice" component={PracticeHubView} />
-      <Tab.Screen name="Explore" component={ExploreView} />
+      <Tab.Screen name="Tef" component={TefNavigator} />
       <Tab.Screen name="Progress" component={ProgressReviewView} />
     </Tab.Navigator>
   );

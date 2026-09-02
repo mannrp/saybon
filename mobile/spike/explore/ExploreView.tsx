@@ -24,21 +24,38 @@ interface ExploreViewProps {
 
 export function ExploreView({ navigation }: ExploreViewProps) {
   const { theme } = useAppTheme();
-  const { concepts } = useProgressStore();
+  const concepts = useProgressStore((s) => s.concepts);
   const [searchQuery, setSearchQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
 
-  // ── Filtered search for convenience ────────────────────────────────────────
+  // 1. Precompute normalized lowercase search strings once
+  const searchIndex = useMemo(() => {
+    return concepts.map((c) => ({
+      concept: c,
+      normalized: `${c.french} ${c.english} ${c.culturalContext || ''} ${c.morphology?.root || ''}`.toLowerCase(),
+    }));
+  }, [concepts]);
+
+  // 2. Debounce search query by 150ms
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedQuery(searchQuery.trim().toLowerCase());
+    }, 150);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // 3. Fast substring search over precomputed index, capped at 50 results
   const filteredConcepts = useMemo(() => {
-    if (!searchQuery.trim()) return [];
-    const query = searchQuery.toLowerCase().trim();
-    return concepts.filter(
-      (c) =>
-        c.french.toLowerCase().includes(query) ||
-        c.english.toLowerCase().includes(query) ||
-        (c.culturalContext && c.culturalContext.toLowerCase().includes(query)) ||
-        (c.morphology?.root && c.morphology.root.toLowerCase().includes(query))
-    );
-  }, [searchQuery, concepts]);
+    if (!debouncedQuery) return [];
+    const matches: typeof concepts = [];
+    for (let i = 0; i < searchIndex.length; i++) {
+      if (searchIndex[i].normalized.includes(debouncedQuery)) {
+        matches.push(searchIndex[i].concept);
+        if (matches.length >= 50) break;
+      }
+    }
+    return matches;
+  }, [debouncedQuery, searchIndex]);
 
   return (
     <View style={[styles.root, { backgroundColor: theme.background }]}>

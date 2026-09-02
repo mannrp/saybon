@@ -1,0 +1,3676 @@
+[
+  {
+    "id": "b1-001",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "envisager",
+    "english": "to consider / to envisage",
+    "morphology": {
+      "prefix": "en",
+      "root": "visag",
+      "suffix": "er",
+      "decomposition": [
+        "en",
+        "visag",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Nous envisageons de nous installer à Québec dès l'automne prochain.",
+        "english": "We are considering settling in Québec starting next autumn."
+      }
+    ],
+    "coordinates": {
+      "x": 40,
+      "y": 0,
+      "z": 100
+    }
+  },
+  {
+    "id": "b1-002",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "souligner",
+    "english": "to underline / to emphasize",
+    "morphology": {
+      "prefix": "sous",
+      "root": "lign",
+      "suffix": "er",
+      "decomposition": [
+        "sou",
+        "lign",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le rapport d'audit prend soin de souligner les progrès accomplis par l'équipe.",
+        "english": "The audit report takes care to emphasize the progress made by the team."
+      }
+    ],
+    "coordinates": {
+      "x": -69,
+      "y": 63,
+      "z": 104
+    }
+  },
+  {
+    "id": "b1-003",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 45,
+    "french": "constater",
+    "english": "to note / to observe",
+    "examples": [
+      {
+        "french": "Les médecins ont pu constater une nette amélioration de son état de santé.",
+        "english": "The doctors were able to observe a clear improvement in her health condition."
+      }
+    ],
+    "coordinates": {
+      "x": 13,
+      "y": -147,
+      "z": 108
+    }
+  },
+  {
+    "id": "b1-004",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 28,
+    "french": "éprouver",
+    "english": "to feel / to experience (an emotion)",
+    "examples": [
+      {
+        "french": "Elle a éprouvé une vive émotion en recevant son certificat de citoyenneté.",
+        "english": "She felt a deep emotion upon receiving her citizenship certificate."
+      }
+    ],
+    "coordinates": {
+      "x": 122,
+      "y": 160,
+      "z": 112
+    }
+  },
+  {
+    "id": "b1-005",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "revendiquer",
+    "english": "to claim / to demand",
+    "morphology": {
+      "root": "revendiqu",
+      "suffix": "er",
+      "decomposition": [
+        "revendiqu",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les travailleurs syndiqués se réunissent pour revendiquer de meilleures conditions salariales.",
+        "english": "Unionized workers are gathering to demand better wage conditions."
+      }
+    ],
+    "coordinates": {
+      "x": -251,
+      "y": -44,
+      "z": 116
+    }
+  },
+  {
+    "id": "b1-006",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "contester",
+    "english": "to dispute / to challenge",
+    "morphology": {
+      "root": "contest",
+      "suffix": "er",
+      "decomposition": [
+        "contest",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le candidat a décidé de contester les résultats du scrutin devant le tribunal.",
+        "english": "The candidate decided to challenge the election results in court."
+      }
+    ],
+    "coordinates": {
+      "x": 260,
+      "y": -166,
+      "z": 120
+    }
+  },
+  {
+    "id": "b1-007",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "reprocher",
+    "english": "to reproach / to blame",
+    "examples": [
+      {
+        "french": "On lui a reproché son manque de ponctualité lors des réunions d'équipe.",
+        "english": "He was blamed for his lack of punctuality during team meetings."
+      }
+    ],
+    "coordinates": {
+      "x": -16,
+      "y": 60,
+      "z": 124
+    }
+  },
+  {
+    "id": "b1-008",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 38,
+    "french": "prétendre",
+    "english": "to claim / to pretend",
+    "examples": [
+      {
+        "french": "Il prétend avoir rédigé l'ensemble de l'étude statistique sans aide extérieure.",
+        "english": "He claims to have written the entire statistical study without external help."
+      }
+    ],
+    "coordinates": {
+      "x": -54,
+      "y": -103,
+      "z": 128
+    }
+  },
+  {
+    "id": "b1-009",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 40,
+    "french": "supposer",
+    "english": "to assume / to suppose",
+    "morphology": {
+      "prefix": "sup",
+      "root": "pos",
+      "suffix": "er",
+      "decomposition": [
+        "sup",
+        "pos",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Nous supposons que le vol aura un léger retard en raison de la tempête de neige.",
+        "english": "We assume the flight will be slightly delayed due to the snowstorm."
+      }
+    ],
+    "coordinates": {
+      "x": 159,
+      "y": 58,
+      "z": 132
+    }
+  },
+  {
+    "id": "b1-010",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "anticiper",
+    "english": "to anticipate / to foresee",
+    "examples": [
+      {
+        "french": "Les gestionnaires cherchent à anticiper les fluctuations du marché immobilier.",
+        "english": "Managers are seeking to anticipate fluctuations in the real estate market."
+      }
+    ],
+    "coordinates": {
+      "x": -206,
+      "y": 85,
+      "z": 136
+    }
+  },
+  {
+    "id": "b1-011",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 36,
+    "french": "approuver",
+    "english": "to approve",
+    "morphology": {
+      "prefix": "ap",
+      "root": "prouv",
+      "suffix": "er",
+      "decomposition": [
+        "ap",
+        "prouv",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le conseil d'administration a approuvé à l'unanimité le nouveau plan stratégique.",
+        "english": "The board of directors unanimously approved the new strategic plan."
+      }
+    ],
+    "coordinates": {
+      "x": 117,
+      "y": -251,
+      "z": 140
+    }
+  },
+  {
+    "id": "b1-012",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 22,
+    "french": "désapprouver",
+    "english": "to disapprove",
+    "morphology": {
+      "prefix": "dés",
+      "root": "approuv",
+      "suffix": "er",
+      "decomposition": [
+        "dés",
+        "ap",
+        "prouv",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Plusieurs citoyens désapprouvent la hausse des taxes municipales votée hier.",
+        "english": "Several citizens disapprove of the municipal tax increase voted yesterday."
+      }
+    ],
+    "coordinates": {
+      "x": 99,
+      "y": 315,
+      "z": 144
+    }
+  },
+  {
+    "id": "b1-013",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 30,
+    "french": "privilégier",
+    "english": "to favor / to give priority to",
+    "examples": [
+      {
+        "french": "Pour leurs déplacements urbains, ils préfèrent privilégier le transport collectif.",
+        "english": "For their urban travel, they prefer to prioritize public transit."
+      }
+    ],
+    "coordinates": {
+      "x": -73,
+      "y": -42,
+      "z": 148
+    }
+  },
+  {
+    "id": "b1-014",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 28,
+    "french": "négliger",
+    "english": "to neglect / to overlook",
+    "examples": [
+      {
+        "french": "Il ne faut jamais négliger les consignes de sécurité en milieu industriel.",
+        "english": "One must never overlook safety regulations in an industrial setting."
+      }
+    ],
+    "coordinates": {
+      "x": 135,
+      "y": -30,
+      "z": 152
+    }
+  },
+  {
+    "id": "b1-015",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 27,
+    "french": "se méfier",
+    "english": "to beware / to mistrust",
+    "morphology": {
+      "prefix": "mé",
+      "root": "fi",
+      "suffix": "er",
+      "decomposition": [
+        "se",
+        "mé",
+        "fi",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Il convient de se méfier des offres promotionnelles trop alléchantes sur Internet.",
+        "english": "One should be wary of promotional offers that are too good to be true on the Internet."
+      }
+    ],
+    "coordinates": {
+      "x": -110,
+      "y": 157,
+      "z": 156
+    }
+  },
+  {
+    "id": "b1-016",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 29,
+    "french": "inciter",
+    "english": "to encourage / to prompt",
+    "examples": [
+      {
+        "french": "La municipalité offre des subventions pour inciter les propriétaires à isoler leur maison.",
+        "english": "The municipality offers subsidies to encourage homeowners to insulate their houses."
+      }
+    ],
+    "coordinates": {
+      "x": -32,
+      "y": -243,
+      "z": 160
+    }
+  },
+  {
+    "id": "b1-017",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "persuader",
+    "english": "to persuade / to convince",
+    "examples": [
+      {
+        "french": "Elle a réussi à persuader ses collègues d'adopter une formule de travail hybride.",
+        "english": "She managed to persuade her colleagues to adopt a hybrid work arrangement."
+      }
+    ],
+    "coordinates": {
+      "x": 229,
+      "y": 192,
+      "z": 164
+    }
+  },
+  {
+    "id": "b1-018",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "convaincre",
+    "english": "to convince",
+    "examples": [
+      {
+        "french": "Ses arguments solides ont fini par convaincre les membres du comité d'évaluation.",
+        "english": "Her solid arguments eventually convinced the members of the evaluation committee."
+      }
+    ],
+    "coordinates": {
+      "x": -53,
+      "y": 2,
+      "z": 168
+    }
+  },
+  {
+    "id": "b1-019",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 30,
+    "french": "tolérer",
+    "english": "to tolerate",
+    "examples": [
+      {
+        "french": "L'établissement ne tolère aucun comportement irrespectueux envers le personnel.",
+        "english": "The institution does not tolerate any disrespectful behavior toward staff."
+      }
+    ],
+    "coordinates": {
+      "x": 75,
+      "y": -75,
+      "z": 172
+    }
+  },
+  {
+    "id": "b1-020",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "céder",
+    "english": "to give in / to yield",
+    "examples": [
+      {
+        "french": "Après de longues négociations, la direction a accepté de céder sur plusieurs revendications.",
+        "english": "After lengthy negotiations, management agreed to yield on several demands."
+      }
+    ],
+    "coordinates": {
+      "x": -7,
+      "y": 160,
+      "z": 176
+    }
+  },
+  {
+    "id": "b1-021",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 24,
+    "french": "compromettre",
+    "english": "to compromise / to jeopardize",
+    "morphology": {
+      "prefix": "com",
+      "root": "mett",
+      "suffix": "re",
+      "decomposition": [
+        "com",
+        "promet",
+        "tre"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Une panne informatique majeure risque de compromettre le calendrier de livraison.",
+        "english": "A major computer outage risks jeopardizing the delivery schedule."
+      }
+    ],
+    "coordinates": {
+      "x": -138,
+      "y": -164,
+      "z": 180
+    }
+  },
+  {
+    "id": "b1-022",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 38,
+    "french": "négocier",
+    "english": "to negotiate",
+    "morphology": {
+      "root": "négoci",
+      "suffix": "er",
+      "decomposition": [
+        "négoci",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les représentants syndicaux continuent de négocier la nouvelle convention collective.",
+        "english": "Union representatives continue to negotiate the new collective agreement."
+      }
+    ],
+    "coordinates": {
+      "x": 265,
+      "y": 35,
+      "z": 184
+    }
+  },
+  {
+    "id": "b1-023",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 23,
+    "french": "persévérer",
+    "english": "to persevere",
+    "examples": [
+      {
+        "french": "Malgré les obstacles initiaux, elle a persévéré jusqu'à obtenir son permis d'exercice.",
+        "english": "Despite initial obstacles, she persevered until she obtained her professional license."
+      }
+    ],
+    "coordinates": {
+      "x": -263,
+      "y": 184,
+      "z": 188
+    }
+  },
+  {
+    "id": "b1-024",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 31,
+    "french": "renoncer",
+    "english": "to give up / to renounce",
+    "examples": [
+      {
+        "french": "Face aux coûts prohibitifs, le promoteur a dû renoncer à son projet de tour résidentielle.",
+        "english": "Faced with prohibitive costs, the developer had to give up his residential tower project."
+      }
+    ],
+    "coordinates": {
+      "x": 16,
+      "y": -73,
+      "z": 192
+    }
+  },
+  {
+    "id": "b1-025",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 36,
+    "french": "collaborer",
+    "english": "to collaborate",
+    "morphology": {
+      "prefix": "col",
+      "root": "labor",
+      "suffix": "er",
+      "decomposition": [
+        "col",
+        "labor",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Deux centres de recherche ont décidé de collaborer sur la transition énergétique.",
+        "english": "Two research centers decided to collaborate on the energy transition."
+      }
+    ],
+    "coordinates": {
+      "x": 64,
+      "y": 112,
+      "z": 196
+    }
+  },
+  {
+    "id": "b1-026",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 22,
+    "french": "se réconcilier",
+    "english": "to reconcile / to make up",
+    "morphology": {
+      "prefix": "re",
+      "root": "concili",
+      "suffix": "er",
+      "decomposition": [
+        "se",
+        "ré",
+        "concili",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Après des semaines de tension, les deux partenaires d'affaires ont réussi à se réconcilier.",
+        "english": "After weeks of tension, the two business partners managed to make up."
+      }
+    ],
+    "coordinates": {
+      "x": -174,
+      "y": -55,
+      "z": 200
+    }
+  },
+  {
+    "id": "b1-027",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "fréquenter",
+    "english": "to frequent / to associate with",
+    "examples": [
+      {
+        "french": "Il fréquente régulièrement la bibliothèque municipale pour préparer ses examens.",
+        "english": "He regularly frequents the municipal library to prepare for his exams."
+      }
+    ],
+    "coordinates": {
+      "x": 214,
+      "y": -100,
+      "z": 204
+    }
+  },
+  {
+    "id": "b1-028",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 25,
+    "french": "sympathiser",
+    "english": "to hit it off / to get along with",
+    "morphology": {
+      "root": "sympath",
+      "suffix": "iser",
+      "decomposition": [
+        "sympath",
+        "iser"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Elle a rapidement sympathisé avec ses nouveaux voisins lors de la fête de quartier.",
+        "english": "She quickly hit it off with her new neighbors during the block party."
+      }
+    ],
+    "coordinates": {
+      "x": -111,
+      "y": 268,
+      "z": 208
+    }
+  },
+  {
+    "id": "b1-029",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 29,
+    "french": "décevoir",
+    "english": "to disappoint",
+    "examples": [
+      {
+        "french": "Le résultat final de l'étude risque de décevoir certains observateurs enthousiastes.",
+        "english": "The final result of the study risks disappointing certain enthusiastic observers."
+      }
+    ],
+    "coordinates": {
+      "x": -15,
+      "y": -41,
+      "z": 212
+    }
+  },
+  {
+    "id": "b1-030",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 37,
+    "french": "rassurer",
+    "english": "to reassure",
+    "morphology": {
+      "prefix": "r",
+      "root": "assur",
+      "suffix": "er",
+      "decomposition": [
+        "r",
+        "assur",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le porte-parole a tenu une conférence de presse pour rassurer la population inquiète.",
+        "english": "The spokesperson held a press conference to reassure the worried public."
+      }
+    ],
+    "coordinates": {
+      "x": 86,
+      "y": 45,
+      "z": 216
+    }
+  },
+  {
+    "id": "b1-031",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 24,
+    "french": "bouleverser",
+    "english": "to disrupt / to deeply move",
+    "examples": [
+      {
+        "french": "L'avènement de l'intelligence artificielle commence à bouleverser le marché du travail.",
+        "english": "The rise of artificial intelligence is beginning to disrupt the job market."
+      }
+    ],
+    "coordinates": {
+      "x": -146,
+      "y": 39,
+      "z": 220
+    }
+  },
+  {
+    "id": "b1-032",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 22,
+    "french": "déstabiliser",
+    "english": "to destabilize",
+    "morphology": {
+      "prefix": "dé",
+      "root": "stabil",
+      "suffix": "iser",
+      "decomposition": [
+        "dé",
+        "stabil",
+        "iser"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Cette question inattendue du journaliste a paru déstabiliser le ministre.",
+        "english": "This unexpected question from the journalist seemed to destabilize the minister."
+      }
+    ],
+    "coordinates": {
+      "x": 110,
+      "y": -173,
+      "z": 224
+    }
+  },
+  {
+    "id": "b1-033",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "rivaliser",
+    "english": "to compete with / to rival",
+    "morphology": {
+      "root": "rival",
+      "suffix": "iser",
+      "decomposition": [
+        "rival",
+        "iser"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les petites entreprises locales peinent à rivaliser avec les géants du commerce en ligne.",
+        "english": "Small local businesses struggle to compete with online retail giants."
+      }
+    ],
+    "coordinates": {
+      "x": 45,
+      "y": 254,
+      "z": 228
+    }
+  },
+  {
+    "id": "b1-034",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 26,
+    "french": "cohabiter",
+    "english": "to cohabit / to live together",
+    "morphology": {
+      "prefix": "co",
+      "root": "habit",
+      "suffix": "er",
+      "decomposition": [
+        "co",
+        "habit",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Dans les grands centres urbains, cyclistes et automobilistes doivent apprendre à cohabiter.",
+        "english": "In major urban centers, cyclists and drivers must learn to share the road."
+      }
+    ],
+    "coordinates": {
+      "x": -248,
+      "y": -190,
+      "z": 232
+    }
+  },
+  {
+    "id": "b1-035",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 33,
+    "french": "s'investir",
+    "english": "to commit oneself / to invest time and energy",
+    "examples": [
+      {
+        "french": "De nombreux bénévoles choisissent de s'investir dans les banques alimentaires de quartier.",
+        "english": "Many volunteers choose to invest their time in local neighborhood food banks."
+      }
+    ],
+    "coordinates": {
+      "x": 66,
+      "y": -6,
+      "z": 236
+    }
+  },
+  {
+    "id": "b1-036",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "s'intégrer",
+    "english": "to integrate / to fit in",
+    "examples": [
+      {
+        "french": "Participer aux activités communautaires aide grandement les nouveaux arrivants à s'intégrer.",
+        "english": "Participating in community activities greatly helps newcomers integrate."
+      }
+    ],
+    "coordinates": {
+      "x": -81,
+      "y": 88,
+      "z": 240
+    }
+  },
+  {
+    "id": "b1-037",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "s'adapter",
+    "english": "to adapt oneself",
+    "morphology": {
+      "prefix": "ad",
+      "root": "apt",
+      "suffix": "er",
+      "decomposition": [
+        "s'",
+        "ad",
+        "apt",
+        "er"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les employés ont su s'adapter rapidement aux nouveaux logiciels de gestion.",
+        "english": "Employees were able to adapt quickly to the new management software."
+      }
+    ],
+    "coordinates": {
+      "x": 0,
+      "y": -173,
+      "z": 244
+    }
+  },
+  {
+    "id": "b1-038",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 31,
+    "french": "débattre",
+    "english": "to debate",
+    "examples": [
+      {
+        "french": "Les députés réunis à l'Assemblée ont passé l'après-midi à débattre du projet de loi.",
+        "english": "Lawmakers gathered at the Assembly spent the afternoon debating the bill."
+      }
+    ],
+    "coordinates": {
+      "x": 153,
+      "y": 167,
+      "z": 248
+    }
+  },
+  {
+    "id": "b1-039",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 28,
+    "french": "approfondir",
+    "english": "to deepen / to study in depth",
+    "morphology": {
+      "prefix": "ap",
+      "root": "profond",
+      "suffix": "ir",
+      "decomposition": [
+        "ap",
+        "profond",
+        "ir"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'étudiant souhaite approfondir ses connaissances en droit de l'environnement.",
+        "english": "The student wishes to deepen his knowledge of environmental law."
+      }
+    ],
+    "coordinates": {
+      "x": -280,
+      "y": -24,
+      "z": 252
+    }
+  },
+  {
+    "id": "b1-040",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 34,
+    "french": "clarifier",
+    "english": "to clarify",
+    "morphology": {
+      "root": "clar",
+      "suffix": "ifier",
+      "decomposition": [
+        "clar",
+        "ifier"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La direction a publié une note explicative pour clarifier les nouvelles consignes sanitaires.",
+        "english": "Management published an explanatory memo to clarify the new health guidelines."
+      }
+    ],
+    "coordinates": {
+      "x": 265,
+      "y": -204,
+      "z": 256
+    }
+  },
+  {
+    "id": "b1-041",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "le compromis",
+    "english": "compromise",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Après des heures de négociation, les deux parties sont parvenues à un compromis équitable.",
+        "english": "After hours of negotiation, both parties reached a fair compromise."
+      }
+    ],
+    "coordinates": {
+      "x": -15,
+      "y": 87,
+      "z": 260
+    }
+  },
+  {
+    "id": "b1-042",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "l'ambiance",
+    "english": "atmosphere / ambiance",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Une ambiance chaleureuse régnait lors du festival d'hiver de la rue Saint-Denis.",
+        "english": "A warm atmosphere prevailed during the winter festival on Saint-Denis Street."
+      }
+    ],
+    "coordinates": {
+      "x": -76,
+      "y": -120,
+      "z": 264
+    }
+  },
+  {
+    "id": "b1-043",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 40,
+    "french": "la conséquence",
+    "english": "consequence",
+    "gender": "F",
+    "morphology": {
+      "root": "conséqu",
+      "suffix": "ence",
+      "decomposition": [
+        "conséqu",
+        "ence"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La hausse des taux d'intérêt a eu une conséquence directe sur l'accès au logement.",
+        "english": "The interest rate hike had a direct consequence on housing accessibility."
+      }
+    ],
+    "coordinates": {
+      "x": 189,
+      "y": 51,
+      "z": 268
+    }
+  },
+  {
+    "id": "b1-044",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 38,
+    "french": "la tendance",
+    "english": "trend / tendency",
+    "gender": "F",
+    "morphology": {
+      "root": "tend",
+      "suffix": "ance",
+      "decomposition": [
+        "tend",
+        "ance"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le télétravail s'inscrit dans une tendance durable qui transforme les habitudes de vie.",
+        "english": "Remote work is part of a lasting trend transforming lifestyle habits."
+      }
+    ],
+    "coordinates": {
+      "x": -221,
+      "y": 115,
+      "z": 272
+    }
+  },
+  {
+    "id": "b1-045",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 36,
+    "french": "l'enjeu",
+    "english": "stake / issue",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "La préservation des espaces verts constitue un enjeu majeur pour les urbanistes.",
+        "english": "Preserving green spaces constitutes a major issue for urban planners."
+      }
+    ],
+    "coordinates": {
+      "x": 104,
+      "y": -285,
+      "z": 276
+    }
+  },
+  {
+    "id": "b1-046",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 35,
+    "french": "l'obstacle",
+    "english": "obstacle / hurdle",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "La barrière linguistique peut être un obstacle temporaire pour les nouveaux arrivants.",
+        "english": "The language barrier can be a temporary obstacle for newcomers."
+      }
+    ],
+    "coordinates": {
+      "x": 22,
+      "y": 52,
+      "z": 280
+    }
+  },
+  {
+    "id": "b1-047",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 28,
+    "french": "le malentendu",
+    "english": "misunderstanding",
+    "gender": "M",
+    "morphology": {
+      "prefix": "mal",
+      "root": "entend",
+      "suffix": "u",
+      "decomposition": [
+        "mal",
+        "entend",
+        "u"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Une discussion franche a permis de dissiper le malentendu entre les deux partenaires.",
+        "english": "A frank discussion helped clear up the misunderstanding between the two partners."
+      }
+    ],
+    "coordinates": {
+      "x": -100,
+      "y": -47,
+      "z": 284
+    }
+  },
+  {
+    "id": "b1-048",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "l'inconvénient",
+    "english": "drawback / disadvantage",
+    "gender": "M",
+    "morphology": {
+      "prefix": "in",
+      "root": "convéni",
+      "suffix": "ent",
+      "decomposition": [
+        "in",
+        "convéni",
+        "ent"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le principal inconvénient de vivre en banlieue éloignée reste le temps de transport.",
+        "english": "The main drawback of living in distant suburbs remains the commute time."
+      }
+    ],
+    "coordinates": {
+      "x": 156,
+      "y": -49,
+      "z": 288
+    }
+  },
+  {
+    "id": "b1-049",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "la certitude",
+    "english": "certainty",
+    "gender": "F",
+    "morphology": {
+      "root": "cert",
+      "suffix": "itude",
+      "decomposition": [
+        "cert",
+        "itude"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Nous n'avons pour l'instant aucune certitude quant à la date d'ouverture du pont.",
+        "english": "For now, we have no certainty regarding the bridge opening date."
+      }
+    ],
+    "coordinates": {
+      "x": -109,
+      "y": 188,
+      "z": 292
+    }
+  },
+  {
+    "id": "b1-050",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 33,
+    "french": "l'hypothèse",
+    "english": "hypothesis / assumption",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Les chercheurs examinent une nouvelle hypothèse pour expliquer la fonte accélérée des glaciers.",
+        "english": "Researchers are examining a new hypothesis to explain accelerated glacier melting."
+      }
+    ],
+    "coordinates": {
+      "x": -59,
+      "y": -265,
+      "z": 296
+    }
+  },
+  {
+    "id": "b1-051",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 27,
+    "french": "le dilemme",
+    "english": "dilemma",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le gouvernement est confronté à un dilemme entre rigueur budgétaire et investissement social.",
+        "english": "The government faces a dilemma between fiscal discipline and social investment."
+      }
+    ],
+    "coordinates": {
+      "x": 266,
+      "y": 186,
+      "z": 100
+    }
+  },
+  {
+    "id": "b1-052",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 25,
+    "french": "le paradoxe",
+    "english": "paradox",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "C'est un curieux paradoxe que de voir la consommation d'énergie augmenter malgré les progrès technologiques.",
+        "english": "It is a curious paradox to see energy consumption rise despite technological progress."
+      }
+    ],
+    "coordinates": {
+      "x": -78,
+      "y": 10,
+      "z": 104
+    }
+  },
+  {
+    "id": "b1-053",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 40,
+    "french": "la démarche",
+    "english": "approach / procedure / step",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "L'obtention de la résidence permanente exige une démarche rigoureuse auprès des autorités d'immigration.",
+        "english": "Obtaining permanent residency requires a thorough procedure with immigration authorities."
+      }
+    ],
+    "coordinates": {
+      "x": 85,
+      "y": -101,
+      "z": 108
+    }
+  },
+  {
+    "id": "b1-054",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 36,
+    "french": "la transition",
+    "english": "transition",
+    "gender": "F",
+    "morphology": {
+      "root": "transit",
+      "suffix": "ion",
+      "decomposition": [
+        "transit",
+        "ion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La transition écologique impose de repenser nos modes de transport et de consommation.",
+        "english": "The ecological transition requires rethinking our modes of transit and consumption."
+      }
+    ],
+    "coordinates": {
+      "x": 8,
+      "y": 186,
+      "z": 112
+    }
+  },
+  {
+    "id": "b1-055",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 38,
+    "french": "l'initiative",
+    "english": "initiative",
+    "gender": "F",
+    "morphology": {
+      "root": "initiat",
+      "suffix": "ive",
+      "decomposition": [
+        "initiat",
+        "ive"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le nettoyage des berges du fleuve est une initiative citoyenne très appréciée.",
+        "english": "Cleaning the riverbanks is a highly appreciated citizen initiative."
+      }
+    ],
+    "coordinates": {
+      "x": -170,
+      "y": -170,
+      "z": 116
+    }
+  },
+  {
+    "id": "b1-056",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 30,
+    "french": "la déception",
+    "english": "disappointment",
+    "gender": "F",
+    "morphology": {
+      "root": "décep",
+      "suffix": "tion",
+      "decomposition": [
+        "décep",
+        "tion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Son absence imprévue a été une grande déception pour toute l'équipe de projet.",
+        "english": "Her unexpected absence was a great disappointment for the whole project team."
+      }
+    ],
+    "coordinates": {
+      "x": 293,
+      "y": 13,
+      "z": 120
+    }
+  },
+  {
+    "id": "b1-057",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 24,
+    "french": "la complicité",
+    "english": "connection / bond / complicity",
+    "gender": "F",
+    "morphology": {
+      "root": "complic",
+      "suffix": "ité",
+      "decomposition": [
+        "complic",
+        "ité"
+      ]
+    },
+    "examples": [
+      {
+        "french": "On sentait une belle complicité entre les deux comédiens sur la scène du théâtre.",
+        "english": "One could feel a genuine bond between the two actors on the theater stage."
+      }
+    ],
+    "coordinates": {
+      "x": -36,
+      "y": 30,
+      "z": 124
+    }
+  },
+  {
+    "id": "b1-058",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "la polémique",
+    "english": "controversy / dispute",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "L'abattage d'arbres centenaires a déclenché une vive polémique dans le quartier.",
+        "english": "The cutting down of century-old trees triggered a fierce controversy in the neighborhood."
+      }
+    ],
+    "coordinates": {
+      "x": 13,
+      "y": -100,
+      "z": 128
+    }
+  },
+  {
+    "id": "b1-059",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 28,
+    "french": "le soulagement",
+    "english": "relief",
+    "gender": "M",
+    "morphology": {
+      "root": "soulage",
+      "suffix": "ment",
+      "decomposition": [
+        "soulage",
+        "ment"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'annonce de la fin de la grève a suscité un grand soulagement parmi les usagers du métro.",
+        "english": "The announcement of the strike's end brought great relief among subway commuters."
+      }
+    ],
+    "coordinates": {
+      "x": 89,
+      "y": 127,
+      "z": 132
+    }
+  },
+  {
+    "id": "b1-060",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 31,
+    "french": "la frustration",
+    "english": "frustration",
+    "gender": "F",
+    "morphology": {
+      "root": "frustrat",
+      "suffix": "ion",
+      "decomposition": [
+        "frustrat",
+        "ion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les retards répétés des autobus engendrent une réelle frustration chez les banlieusards.",
+        "english": "Repeated bus delays generate real frustration among suburban commuters."
+      }
+    ],
+    "coordinates": {
+      "x": -203,
+      "y": -45,
+      "z": 136
+    }
+  },
+  {
+    "id": "b1-061",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 33,
+    "french": "la précaution",
+    "english": "precaution",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Par précaution, il est fortement conseillé de vérifier l'état des freins avant l'hiver.",
+        "english": "As a precaution, it is strongly advised to check brake condition before winter."
+      }
+    ],
+    "coordinates": {
+      "x": 227,
+      "y": -131,
+      "z": 140
+    }
+  },
+  {
+    "id": "b1-062",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 27,
+    "french": "le repère",
+    "english": "reference point / landmark",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "La croix illuminée du mont Royal sert de repère visuel familier pour les Montréalais.",
+        "english": "The illuminated cross on Mount Royal serves as a familiar visual landmark for Montrealers."
+      }
+    ],
+    "coordinates": {
+      "x": -95,
+      "y": 301,
+      "z": 144
+    }
+  },
+  {
+    "id": "b1-063",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 29,
+    "french": "la nuance",
+    "english": "nuance / shade of meaning",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Il est important de saisir chaque nuance linguistique lors d'un examen de français.",
+        "english": "It is important to grasp every linguistic nuance during a French examination."
+      }
+    ],
+    "coordinates": {
+      "x": -29,
+      "y": -63,
+      "z": 148
+    }
+  },
+  {
+    "id": "b1-064",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 26,
+    "french": "le prétexte",
+    "english": "pretext / excuse",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Il a invoqué un mal de tête passager comme prétexte pour quitter la réunion plus tôt.",
+        "english": "He cited a temporary headache as an excuse to leave the meeting early."
+      }
+    ],
+    "coordinates": {
+      "x": 114,
+      "y": 47,
+      "z": 152
+    }
+  },
+  {
+    "id": "b1-065",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "le témoignage",
+    "english": "testimony / personal account",
+    "gender": "M",
+    "morphology": {
+      "root": "témoign",
+      "suffix": "age",
+      "decomposition": [
+        "témoign",
+        "age"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Son témoignage poignant sur son parcours d'intégration a ému toute l'assemblée.",
+        "english": "Her moving account of her integration journey touched the entire audience."
+      }
+    ],
+    "coordinates": {
+      "x": -166,
+      "y": 60,
+      "z": 156
+    }
+  },
+  {
+    "id": "b1-066",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 32,
+    "french": "la pénurie",
+    "english": "shortage / scarcity",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La pénurie de main-d'œuvre qualifiée frappe particulièrement le secteur des soins de santé.",
+        "english": "The skilled labor shortage particularly affects the healthcare sector."
+      }
+    ],
+    "coordinates": {
+      "x": 106,
+      "y": -204,
+      "z": 160
+    }
+  },
+  {
+    "id": "b1-067",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "la compétence",
+    "english": "skill / competency",
+    "gender": "F",
+    "morphology": {
+      "root": "compét",
+      "suffix": "ence",
+      "decomposition": [
+        "compét",
+        "ence"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La maîtrise des outils numériques est désormais une compétence indispensable sur le marché du travail.",
+        "english": "Mastery of digital tools is now an essential skill in the job market."
+      }
+    ],
+    "coordinates": {
+      "x": 74,
+      "y": 275,
+      "z": 164
+    }
+  },
+  {
+    "id": "b1-068",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 45,
+    "french": "la gestion",
+    "english": "management",
+    "gender": "F",
+    "morphology": {
+      "root": "gest",
+      "suffix": "ion",
+      "decomposition": [
+        "gest",
+        "ion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Une bonne gestion des ressources hydriques est essentielle pour prévenir les pénuries estivales.",
+        "english": "Sound management of water resources is essential to prevent summer shortages."
+      }
+    ],
+    "coordinates": {
+      "x": -285,
+      "y": -182,
+      "z": 168
+    }
+  },
+  {
+    "id": "b1-069",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 30,
+    "french": "l'échéance",
+    "english": "deadline / maturity date",
+    "gender": "F",
+    "morphology": {
+      "root": "éché",
+      "suffix": "ance",
+      "decomposition": [
+        "éché",
+        "ance"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'échéance pour la soumission des dossiers de bourse est fixée au 15 novembre.",
+        "english": "The deadline for scholarship application submissions is set for November 15."
+      }
+    ],
+    "coordinates": {
+      "x": 90,
+      "y": -16,
+      "z": 172
+    }
+  },
+  {
+    "id": "b1-070",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 28,
+    "french": "la rentabilité",
+    "english": "profitability / cost-effectiveness",
+    "gender": "F",
+    "morphology": {
+      "root": "rentabl",
+      "suffix": "ité",
+      "decomposition": [
+        "rent",
+        "abl",
+        "ité"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'entreprise évalue la rentabilité d'installer des panneaux solaires sur le toit de son usine.",
+        "english": "The company is assessing the profitability of installing solar panels on its factory roof."
+      }
+    ],
+    "coordinates": {
+      "x": -88,
+      "y": 115,
+      "z": 176
+    }
+  },
+  {
+    "id": "b1-071",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 27,
+    "french": "l'adhésion",
+    "english": "membership / broad support",
+    "gender": "F",
+    "morphology": {
+      "root": "adhés",
+      "suffix": "ion",
+      "decomposition": [
+        "adhés",
+        "ion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le projet de revitalisation du parc a recueilli l'adhésion enthousiaste des riverains.",
+        "english": "The park revitalization project garnered enthusiastic support from local residents."
+      }
+    ],
+    "coordinates": {
+      "x": -17,
+      "y": -198,
+      "z": 180
+    }
+  },
+  {
+    "id": "b1-072",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 24,
+    "french": "la controverse",
+    "english": "controversy",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Le financement public du nouveau complexe sportif a suscité une vive controverse politique.",
+        "english": "Public funding for the new sports complex stirred up intense political controversy."
+      }
+    ],
+    "coordinates": {
+      "x": 186,
+      "y": 171,
+      "z": 184
+    }
+  },
+  {
+    "id": "b1-073",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 36,
+    "french": "le critère",
+    "english": "criterion",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "L'expérience professionnelle reste le critère prépondérant lors du processus de sélection.",
+        "english": "Professional experience remains the primary criterion during the selection process."
+      }
+    ],
+    "coordinates": {
+      "x": -306,
+      "y": 0,
+      "z": 188
+    }
+  },
+  {
+    "id": "b1-074",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "la priorité",
+    "english": "priority",
+    "gender": "F",
+    "morphology": {
+      "root": "prior",
+      "suffix": "ité",
+      "decomposition": [
+        "prior",
+        "ité"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La modernisation des hôpitaux publics figure au premier rang des priorités gouvernementales.",
+        "english": "Modernizing public hospitals ranks first among government priorities."
+      }
+    ],
+    "coordinates": {
+      "x": 44,
+      "y": -41,
+      "z": 192
+    }
+  },
+  {
+    "id": "b1-075",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "la perspective",
+    "english": "outlook / perspective",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Les perspectives d'embauche dans le secteur des technologies de pointe sont excellentes.",
+        "english": "Hiring prospects in the advanced technology sector are excellent."
+      }
+    ],
+    "coordinates": {
+      "x": -10,
+      "y": 113,
+      "z": 196
+    }
+  },
+  {
+    "id": "b1-076",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "la perception",
+    "english": "perception",
+    "gender": "F",
+    "morphology": {
+      "root": "percep",
+      "suffix": "tion",
+      "decomposition": [
+        "percep",
+        "tion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les campagnes de sensibilisation ont fait évoluer la perception publique du recyclage.",
+        "english": "Awareness campaigns have changed the public perception of recycling."
+      }
+    ],
+    "coordinates": {
+      "x": -102,
+      "y": -133,
+      "z": 200
+    }
+  },
+  {
+    "id": "b1-077",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "l'incertitude",
+    "english": "uncertainty",
+    "gender": "F",
+    "morphology": {
+      "prefix": "in",
+      "root": "cert",
+      "suffix": "itude",
+      "decomposition": [
+        "in",
+        "cert",
+        "itude"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La crise économique mondiale engendre un climat d'incertitude pour les investisseurs.",
+        "english": "The global economic crisis generates a climate of uncertainty for investors."
+      }
+    ],
+    "coordinates": {
+      "x": 218,
+      "y": 38,
+      "z": 204
+    }
+  },
+  {
+    "id": "b1-078",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 33,
+    "french": "la préoccupation",
+    "english": "concern / worry",
+    "gender": "F",
+    "morphology": {
+      "prefix": "pré",
+      "root": "occupat",
+      "suffix": "ion",
+      "decomposition": [
+        "pré",
+        "occupat",
+        "ion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'accès à un logement abordable demeure la principale préoccupation des jeunes familles.",
+        "english": "Access to affordable housing remains the primary concern of young families."
+      }
+    ],
+    "coordinates": {
+      "x": -232,
+      "y": 148,
+      "z": 208
+    }
+  },
+  {
+    "id": "b1-079",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 22,
+    "french": "la concertation",
+    "english": "consultation / coordinated dialogue",
+    "gender": "F",
+    "morphology": {
+      "root": "concertat",
+      "suffix": "ion",
+      "decomposition": [
+        "concertat",
+        "ion"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le réaménagement urbain s'est fait en étroite concertation avec les associations de résidents.",
+        "english": "The urban redevelopment was conducted in close consultation with resident associations."
+      }
+    ],
+    "coordinates": {
+      "x": 85,
+      "y": -317,
+      "z": 212
+    }
+  },
+  {
+    "id": "b1-080",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "la rigueur",
+    "english": "rigor / strictness",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La rédaction d'un mémoire universitaire exige une grande rigueur méthodologique.",
+        "english": "Writing a university thesis demands great methodological rigor."
+      }
+    ],
+    "coordinates": {
+      "x": 38,
+      "y": 73,
+      "z": 216
+    }
+  },
+  {
+    "id": "b1-081",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 23,
+    "french": "l'incohérence",
+    "english": "inconsistency / incoherence",
+    "gender": "F",
+    "morphology": {
+      "prefix": "in",
+      "root": "cohéren",
+      "suffix": "ce",
+      "decomposition": [
+        "in",
+        "cohéren",
+        "ce"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le vérificateur a relevé plusieurs incohérences dans les déclarations financières de la compagnie.",
+        "english": "The auditor pointed out several inconsistencies in the company's financial statements."
+      }
+    ],
+    "coordinates": {
+      "x": -128,
+      "y": -47,
+      "z": 220
+    }
+  },
+  {
+    "id": "b1-082",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 38,
+    "french": "l'autonomie",
+    "english": "autonomy / independence",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Ce nouveau poste offre une large autonomie dans l'organisation de son emploi du temps.",
+        "english": "This new position offers broad autonomy in organizing one's schedule."
+      }
+    ],
+    "coordinates": {
+      "x": 175,
+      "y": -73,
+      "z": 224
+    }
+  },
+  {
+    "id": "b1-083",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "la divergence",
+    "english": "divergence / disagreement",
+    "gender": "F",
+    "morphology": {
+      "root": "diverg",
+      "suffix": "ence",
+      "decomposition": [
+        "diverg",
+        "ence"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Malgré quelques divergences d'opinion, les deux délégations ont signé l'accord commercial.",
+        "english": "Despite some divergence of opinion, both delegations signed the trade agreement."
+      }
+    ],
+    "coordinates": {
+      "x": -103,
+      "y": 221,
+      "z": 228
+    }
+  },
+  {
+    "id": "b1-084",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "la valorisation",
+    "english": "enhancement / appreciation / development",
+    "gender": "F",
+    "morphology": {
+      "root": "valoris",
+      "suffix": "ation",
+      "decomposition": [
+        "valor",
+        "is",
+        "ation"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La valorisation des matières recyclables contribue directement à la réduction des déchets municipaux.",
+        "english": "The recovery and enhancement of recyclable materials directly helps reduce municipal waste."
+      }
+    ],
+    "coordinates": {
+      "x": -89,
+      "y": -283,
+      "z": 232
+    }
+  },
+  {
+    "id": "b1-085",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 35,
+    "french": "le dynamisme",
+    "english": "dynamism / vitality",
+    "gender": "M",
+    "morphology": {
+      "root": "dynam",
+      "suffix": "isme",
+      "decomposition": [
+        "dynam",
+        "isme"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le dynamisme économique de la métropole attire de nombreux créateurs d'entreprises innovantes.",
+        "english": "The economic dynamism of the metropolis attracts many innovative entrepreneurs."
+      }
+    ],
+    "coordinates": {
+      "x": 44,
+      "y": 25,
+      "z": 236
+    }
+  },
+  {
+    "id": "b1-086",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "polyvalent",
+    "english": "versatile / multipurpose",
+    "morphology": {
+      "prefix": "poly",
+      "root": "val",
+      "suffix": "ent",
+      "decomposition": [
+        "poly",
+        "val",
+        "ent"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'entreprise recrute un technicien polyvalent capable d'intervenir sur plusieurs équipements.",
+        "english": "The company is recruiting a versatile technician capable of servicing multiple pieces of equipment."
+      }
+    ],
+    "coordinates": {
+      "x": -102,
+      "y": 23,
+      "z": 240
+    }
+  },
+  {
+    "id": "b1-087",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 28,
+    "french": "méfiant",
+    "english": "mistrustful / suspicious",
+    "morphology": {
+      "prefix": "mé",
+      "root": "fi",
+      "suffix": "ant",
+      "decomposition": [
+        "mé",
+        "fi",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les investisseurs restent méfiants face à la volatilité soudaine des marchés financiers.",
+        "english": "Investors remain cautious facing the sudden volatility of financial markets."
+      }
+    ],
+    "coordinates": {
+      "x": 91,
+      "y": -130,
+      "z": 244
+    }
+  },
+  {
+    "id": "b1-088",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "ambigu",
+    "english": "ambiguous",
+    "examples": [
+      {
+        "french": "La formulation de cette clause contractuelle est trop ambiguë et mérite d'être précisée.",
+        "english": "The phrasing of this contractual clause is too ambiguous and needs clarification."
+      }
+    ],
+    "coordinates": {
+      "x": 28,
+      "y": 210,
+      "z": 248
+    }
+  },
+  {
+    "id": "b1-089",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "indispensable",
+    "english": "essential / indispensable",
+    "morphology": {
+      "prefix": "in",
+      "root": "dispens",
+      "suffix": "able",
+      "decomposition": [
+        "in",
+        "dispens",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Une bonne connexion internet est devenue indispensable pour télétravailler efficacement.",
+        "english": "A good internet connection has become indispensable for working remotely effectively."
+      }
+    ],
+    "coordinates": {
+      "x": -203,
+      "y": -171,
+      "z": 252
+    }
+  },
+  {
+    "id": "b1-090",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 27,
+    "french": "primordial",
+    "english": "vital / paramount",
+    "examples": [
+      {
+        "french": "Le respect des normes de salubrité est un élément primordial dans la restauration collective.",
+        "english": "Compliance with sanitary standards is of paramount importance in food service."
+      }
+    ],
+    "coordinates": {
+      "x": 319,
+      "y": -14,
+      "z": 256
+    }
+  },
+  {
+    "id": "b1-091",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 33,
+    "french": "vulnérable",
+    "english": "vulnerable",
+    "morphology": {
+      "root": "vulnér",
+      "suffix": "able",
+      "decomposition": [
+        "vulnér",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les aînés vivant seuls sont particulièrement vulnérables lors des épisodes de canicule estivale.",
+        "english": "Seniors living alone are particularly vulnerable during summer heatwaves."
+      }
+    ],
+    "coordinates": {
+      "x": -52,
+      "y": 52,
+      "z": 260
+    }
+  },
+  {
+    "id": "b1-092",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 38,
+    "french": "temporaire",
+    "english": "temporary",
+    "examples": [
+      {
+        "french": "La fermeture temporaire de cette voie permettra d'effectuer des réparations d'aqueduc.",
+        "english": "The temporary closure of this lane will allow water main repairs to be carried out."
+      }
+    ],
+    "coordinates": {
+      "x": 6,
+      "y": -127,
+      "z": 264
+    }
+  },
+  {
+    "id": "b1-093",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 40,
+    "french": "permanent",
+    "english": "permanent / ongoing",
+    "examples": [
+      {
+        "french": "Après sa période d'essai probatoire, il a obtenu un poste permanent au sein du ministère.",
+        "english": "After his probationary trial period, he obtained a permanent position within the ministry."
+      }
+    ],
+    "coordinates": {
+      "x": 116,
+      "y": 138,
+      "z": 268
+    }
+  },
+  {
+    "id": "b1-094",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "contradictoire",
+    "english": "contradictory",
+    "morphology": {
+      "prefix": "contra",
+      "root": "dic",
+      "suffix": "toire",
+      "decomposition": [
+        "contra",
+        "dic",
+        "toire"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Les témoins de l'accident ont livré des versions contradictoires aux enquêteurs policiers.",
+        "english": "Witnesses to the accident gave contradictory accounts to police investigators."
+      }
+    ],
+    "coordinates": {
+      "x": -232,
+      "y": -31,
+      "z": 272
+    }
+  },
+  {
+    "id": "b1-095",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 28,
+    "french": "nuancé",
+    "english": "nuanced / balanced",
+    "examples": [
+      {
+        "french": "La journaliste a rédigé une analyse nuancée exposant les arguments des deux camps.",
+        "english": "The journalist wrote a nuanced analysis presenting the arguments of both sides."
+      }
+    ],
+    "coordinates": {
+      "x": 236,
+      "y": -165,
+      "z": 276
+    }
+  },
+  {
+    "id": "b1-096",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "rigoureux",
+    "english": "rigorous / thorough",
+    "morphology": {
+      "root": "rigueur",
+      "suffix": "eux",
+      "decomposition": [
+        "rigour",
+        "eux"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Un suivi scientifique rigoureux est nécessaire pour mesurer l'impact de ce nouveau traitement.",
+        "english": "Rigorous scientific monitoring is necessary to measure the impact of this new treatment."
+      }
+    ],
+    "coordinates": {
+      "x": -9,
+      "y": 41,
+      "z": 280
+    }
+  },
+  {
+    "id": "b1-097",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 35,
+    "french": "prévisible",
+    "english": "predictable / foreseeable",
+    "morphology": {
+      "prefix": "pré",
+      "root": "vis",
+      "suffix": "ible",
+      "decomposition": [
+        "pré",
+        "vis",
+        "ible"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'engorgement de la circulation à l'heure de pointe était tout à fait prévisible.",
+        "english": "Traffic congestion during rush hour was completely predictable."
+      }
+    ],
+    "coordinates": {
+      "x": -48,
+      "y": -82,
+      "z": 284
+    }
+  },
+  {
+    "id": "b1-098",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 31,
+    "french": "imprévisible",
+    "english": "unpredictable",
+    "morphology": {
+      "prefix": "im",
+      "root": "prévis",
+      "suffix": "ible",
+      "decomposition": [
+        "im",
+        "pré",
+        "vis",
+        "ible"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La météo de montagne peut être imprévisible et changer en l'espace d'une demi-heure.",
+        "english": "Mountain weather can be unpredictable and change within half an hour."
+      }
+    ],
+    "coordinates": {
+      "x": 142,
+      "y": 45,
+      "z": 288
+    }
+  },
+  {
+    "id": "b1-099",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 36,
+    "french": "souple",
+    "english": "flexible / supple",
+    "examples": [
+      {
+        "french": "L'entreprise propose un horaire de travail souple qui permet de concilier travail et vie familiale.",
+        "english": "The company offers a flexible work schedule allowing work and family life to be balanced."
+      }
+    ],
+    "coordinates": {
+      "x": -184,
+      "y": 86,
+      "z": 292
+    }
+  },
+  {
+    "id": "b1-100",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "exigeant",
+    "english": "demanding / exacting",
+    "examples": [
+      {
+        "french": "Ce programme de formation en soins infirmiers est particulièrement exigeant sur le plan pratique.",
+        "english": "This nursing training program is particularly demanding on a practical level."
+      }
+    ],
+    "coordinates": {
+      "x": 98,
+      "y": -237,
+      "z": 296
+    }
+  },
+  {
+    "id": "b1-101",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 24,
+    "french": "réticent",
+    "english": "reluctant / hesitant",
+    "examples": [
+      {
+        "french": "Le comité de quartier s'est montré réticent à l'idée d'accueillir un nouveau centre commercial.",
+        "english": "The neighborhood committee proved reluctant about hosting a new shopping center."
+      }
+    ],
+    "coordinates": {
+      "x": 106,
+      "y": 291,
+      "z": 100
+    }
+  },
+  {
+    "id": "b1-102",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "perplexe",
+    "english": "perplexed / puzzled",
+    "examples": [
+      {
+        "french": "Les instructions contradictoires du formulaire ont laissé les demandeurs perplexes.",
+        "english": "The contradictory instructions on the form left applicants perplexed."
+      }
+    ],
+    "coordinates": {
+      "x": -57,
+      "y": -29,
+      "z": 104
+    }
+  },
+  {
+    "id": "b1-103",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 40,
+    "french": "compétent",
+    "english": "competent / qualified",
+    "examples": [
+      {
+        "french": "Nous avons fait appel à un juriste compétent pour rédiger les clauses de confidentialité.",
+        "english": "We called upon a competent lawyer to draft the confidentiality clauses."
+      }
+    ],
+    "coordinates": {
+      "x": 113,
+      "y": -30,
+      "z": 108
+    }
+  },
+  {
+    "id": "b1-104",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 38,
+    "french": "autonome",
+    "english": "autonomous / self-reliant",
+    "examples": [
+      {
+        "french": "L'employeur recherche un gestionnaire de projet autonome capable de prendre des initiatives.",
+        "english": "The employer seeks an autonomous project manager capable of taking initiative."
+      }
+    ],
+    "coordinates": {
+      "x": -92,
+      "y": 144,
+      "z": 112
+    }
+  },
+  {
+    "id": "b1-105",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "rentable",
+    "english": "profitable / cost-effective",
+    "morphology": {
+      "root": "rent",
+      "suffix": "able",
+      "decomposition": [
+        "rent",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le remplacement des vieilles fenêtres par du triple vitrage s'avère très rentable à long terme.",
+        "english": "Replacing old windows with triple glazing proves very cost-effective in the long run."
+      }
+    ],
+    "coordinates": {
+      "x": -39,
+      "y": -221,
+      "z": 116
+    }
+  },
+  {
+    "id": "b1-106",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 31,
+    "french": "équitable",
+    "english": "fair / equitable",
+    "morphology": {
+      "root": "équit",
+      "suffix": "able",
+      "decomposition": [
+        "équit",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'achat de café certifié équitable garantit une rémunération décente aux producteurs agricoles.",
+        "english": "Purchasing certified fair-trade coffee guarantees decent pay for agricultural producers."
+      }
+    ],
+    "coordinates": {
+      "x": 221,
+      "y": 170,
+      "z": 120
+    }
+  },
+  {
+    "id": "b1-107",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "solidaire",
+    "english": "supportive / standing in solidarity",
+    "examples": [
+      {
+        "french": "Les résidents se sont montrés très solidaires pour déneiger les trottoirs des personnes âgées.",
+        "english": "Residents showed great solidarity in clearing snow from the sidewalks of elderly neighbors."
+      }
+    ],
+    "coordinates": {
+      "x": -331,
+      "y": 29,
+      "z": 124
+    }
+  },
+  {
+    "id": "b1-108",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "cohérent",
+    "english": "coherent / consistent",
+    "examples": [
+      {
+        "french": "Le plan d'action présente une stratégie globale et cohérente pour réduire la pollution urbaine.",
+        "english": "The action plan presents an overall, consistent strategy to reduce urban pollution."
+      }
+    ],
+    "coordinates": {
+      "x": 58,
+      "y": -63,
+      "z": 128
+    }
+  },
+  {
+    "id": "b1-109",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "percutant",
+    "english": "impactful / hard-hitting",
+    "morphology": {
+      "root": "percut",
+      "suffix": "ant",
+      "decomposition": [
+        "percut",
+        "ant"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La campagne publicitaire contre le texto au volant utilise un slogan court et percutant.",
+        "english": "The public campaign against texting while driving uses a short and impactful slogan."
+      }
+    ],
+    "coordinates": {
+      "x": 0,
+      "y": 140,
+      "z": 132
+    }
+  },
+  {
+    "id": "b1-110",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "contestable",
+    "english": "questionable / disputable",
+    "morphology": {
+      "root": "contest",
+      "suffix": "able",
+      "decomposition": [
+        "contest",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La décision d'annuler les cours de soir paraît contestable selon les associations étudiantes.",
+        "english": "The decision to cancel evening classes seems questionable according to student associations."
+      }
+    ],
+    "coordinates": {
+      "x": -131,
+      "y": -143,
+      "z": 136
+    }
+  },
+  {
+    "id": "b1-111",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 33,
+    "french": "significatif",
+    "english": "significant / meaningful",
+    "morphology": {
+      "root": "signifi",
+      "suffix": "atif",
+      "decomposition": [
+        "signifi",
+        "c",
+        "atif"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'ouverture de la nouvelle ligne d'autobus a entraîné une hausse significative de l'achalandage.",
+        "english": "The opening of the new bus route led to a significant increase in ridership."
+      }
+    ],
+    "coordinates": {
+      "x": 246,
+      "y": 22,
+      "z": 140
+    }
+  },
+  {
+    "id": "b1-112",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 42,
+    "french": "accessible",
+    "english": "accessible / affordable",
+    "morphology": {
+      "root": "access",
+      "suffix": "ible",
+      "decomposition": [
+        "access",
+        "ible"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Toutes les nouvelles stations de métro sont conçues pour être accessibles aux fauteuils roulants.",
+        "english": "All new subway stations are designed to be accessible to wheelchairs."
+      }
+    ],
+    "coordinates": {
+      "x": -239,
+      "y": 183,
+      "z": 144
+    }
+  },
+  {
+    "id": "b1-113",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 30,
+    "french": "vigilant",
+    "english": "vigilant / watchful",
+    "examples": [
+      {
+        "french": "Les conducteurs doivent rester particulièrement vigilants lorsque la chaussée est glacée.",
+        "english": "Drivers must remain especially vigilant when the road surface is icy."
+      }
+    ],
+    "coordinates": {
+      "x": 9,
+      "y": -54,
+      "z": 148
+    }
+  },
+  {
+    "id": "b1-114",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 40,
+    "french": "favorable",
+    "english": "favorable / supportive",
+    "morphology": {
+      "root": "favor",
+      "suffix": "able",
+      "decomposition": [
+        "favor",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "La majorité des membres du conseil municipal s'est dite favorable au projet de tramway.",
+        "english": "The majority of city council members declared themselves in favor of the tramway project."
+      }
+    ],
+    "coordinates": {
+      "x": 58,
+      "y": 91,
+      "z": 152
+    }
+  },
+  {
+    "id": "b1-115",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 28,
+    "french": "défavorable",
+    "english": "unfavorable / adverse",
+    "morphology": {
+      "prefix": "dé",
+      "root": "favor",
+      "suffix": "able",
+      "decomposition": [
+        "dé",
+        "favor",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Des conditions météorologiques très défavorables ont forcé le report du festival extérieur.",
+        "english": "Very unfavorable weather conditions forced the postponement of the outdoor festival."
+      }
+    ],
+    "coordinates": {
+      "x": -156,
+      "y": -42,
+      "z": 156
+    }
+  },
+  {
+    "id": "b1-116",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 26,
+    "french": "négligeable",
+    "english": "negligible",
+    "morphology": {
+      "root": "néglig",
+      "suffix": "able",
+      "decomposition": [
+        "néglig",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'impact budgétaire de cette petite modification réglementaire est tout à fait négligeable.",
+        "english": "The budgetary impact of this minor regulatory adjustment is completely negligible."
+      }
+    ],
+    "coordinates": {
+      "x": 191,
+      "y": -100,
+      "z": 160
+    }
+  },
+  {
+    "id": "b1-117",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "bénéfique",
+    "english": "beneficial",
+    "examples": [
+      {
+        "french": "Une pratique sportive régulière est hautement bénéfique pour la santé cardiovasculaire.",
+        "english": "Regular physical exercise is highly beneficial for cardiovascular health."
+      }
+    ],
+    "coordinates": {
+      "x": -92,
+      "y": 253,
+      "z": 164
+    }
+  },
+  {
+    "id": "b1-118",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "nuisible",
+    "english": "harmful / detrimental",
+    "morphology": {
+      "root": "nuis",
+      "suffix": "ible",
+      "decomposition": [
+        "nuis",
+        "ible"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'utilisation excessive d'écrans tard le soir peut s'avérer nuisible pour la qualité du sommeil.",
+        "english": "Excessive screen use late in the evening can prove detrimental to sleep quality."
+      }
+    ],
+    "coordinates": {
+      "x": -124,
+      "y": -298,
+      "z": 168
+    }
+  },
+  {
+    "id": "b1-119",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 35,
+    "french": "déterminé",
+    "english": "determined / resolute",
+    "examples": [
+      {
+        "french": "L'athlète s'est montré très déterminé à franchir la ligne d'arrivée malgré la fatigue.",
+        "english": "The athlete proved very determined to cross the finish line despite fatigue."
+      }
+    ],
+    "coordinates": {
+      "x": 69,
+      "y": 32,
+      "z": 172
+    }
+  },
+  {
+    "id": "b1-120",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "inévitable",
+    "english": "inevitable / unavoidable",
+    "morphology": {
+      "prefix": "in",
+      "root": "évit",
+      "suffix": "able",
+      "decomposition": [
+        "in",
+        "évit",
+        "able"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Face à la croissance démographique, l'agrandissement de l'école de quartier est devenu inévitable.",
+        "english": "Faced with population growth, expanding the neighborhood school became inevitable."
+      }
+    ],
+    "coordinates": {
+      "x": -124,
+      "y": 39,
+      "z": 176
+    }
+  },
+  {
+    "id": "b1-121",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 30,
+    "french": "néanmoins",
+    "english": "nevertheless / nonetheless",
+    "examples": [
+      {
+        "french": "Le projet comporte des risques financiers certains ; néanmoins, les retombées potentielles sont majeures.",
+        "english": "The project carries certain financial risks; nevertheless, the potential payoffs are major."
+      }
+    ],
+    "coordinates": {
+      "x": 92,
+      "y": -159,
+      "z": 180
+    }
+  },
+  {
+    "id": "b1-122",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 38,
+    "french": "d'ailleurs",
+    "english": "moreover / besides / as a matter of fact",
+    "examples": [
+      {
+        "french": "Le musée ferme plus tôt aujourd'hui ; d'ailleurs, l'entrée est gratuite pour la dernière heure.",
+        "english": "The museum closes earlier today; moreover, admission is free for the final hour."
+      }
+    ],
+    "coordinates": {
+      "x": 51,
+      "y": 232,
+      "z": 184
+    }
+  },
+  {
+    "id": "b1-123",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 36,
+    "french": "quant à",
+    "english": "as for / regarding",
+    "examples": [
+      {
+        "french": "Quant aux étudiants internationaux, des bourses d'études spécifiques sont disponibles.",
+        "english": "As for international students, specific study scholarships are available."
+      }
+    ],
+    "coordinates": {
+      "x": -239,
+      "y": -167,
+      "z": 188
+    }
+  },
+  {
+    "id": "b1-124",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 37,
+    "french": "toutefois",
+    "english": "however / nonetheless",
+    "examples": [
+      {
+        "french": "La météo annonce du soleil ; toutefois, le vent du nord rendra l'air particulièrement frisquet.",
+        "english": "The forecast calls for sun; however, the northern wind will make the air particularly chilly."
+      }
+    ],
+    "coordinates": {
+      "x": 45,
+      "y": -6,
+      "z": 192
+    }
+  },
+  {
+    "id": "b1-125",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "désormais",
+    "english": "from now on / henceforth",
+    "examples": [
+      {
+        "french": "Les usagers doivent désormais valider leur titre de transport avant d'accéder aux quais.",
+        "english": "Commuters must from now on validate their transit pass before accessing the platforms."
+      }
+    ],
+    "coordinates": {
+      "x": -64,
+      "y": 76,
+      "z": 196
+    }
+  },
+  {
+    "id": "b1-126",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 25,
+    "french": "dorénavant",
+    "english": "from now on",
+    "examples": [
+      {
+        "french": "Dorénavant, toutes les demandes de permis de rénovation doivent être soumises en ligne.",
+        "english": "From now on, all renovation permit applications must be submitted online."
+      }
+    ],
+    "coordinates": {
+      "x": -7,
+      "y": -152,
+      "z": 200
+    }
+  },
+  {
+    "id": "b1-127",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 34,
+    "french": "par conséquent",
+    "english": "consequently / as a result",
+    "examples": [
+      {
+        "french": "La tempête a endommagé le réseau électrique ; par conséquent, les cours sont suspendus pour la journée.",
+        "english": "The storm damaged the power grid; consequently, classes are suspended for the day."
+      }
+    ],
+    "coordinates": {
+      "x": 146,
+      "y": 146,
+      "z": 204
+    }
+  },
+  {
+    "id": "b1-128",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 39,
+    "french": "en revanche",
+    "english": "on the other hand / however",
+    "examples": [
+      {
+        "french": "Le train du matin est complet ; en revanche, il reste de nombreuses places sur celui de midi.",
+        "english": "The morning train is fully booked; on the other hand, plenty of seats remain on the noon train."
+      }
+    ],
+    "coordinates": {
+      "x": -260,
+      "y": -11,
+      "z": 208
+    }
+  },
+  {
+    "id": "b1-129",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 22,
+    "french": "de surcroît",
+    "english": "furthermore / in addition",
+    "examples": [
+      {
+        "french": "L'appartement est très bien situé et, de surcroît, le chauffage est entièrement inclus dans le loyer.",
+        "english": "The apartment is very well located and, furthermore, heating is entirely included in the rent."
+      }
+    ],
+    "coordinates": {
+      "x": 240,
+      "y": -202,
+      "z": 212
+    }
+  },
+  {
+    "id": "b1-130",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 35,
+    "french": "à vrai dire",
+    "english": "truth be told / frankly",
+    "examples": [
+      {
+        "french": "À vrai dire, je ne m'attendais pas à une participation aussi nombreuse pour cette première assemblée.",
+        "english": "Truth be told, I was not expecting such a large turnout for this first assembly."
+      }
+    ],
+    "coordinates": {
+      "x": -9,
+      "y": 67,
+      "z": 216
+    }
+  },
+  {
+    "id": "b1-131",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 28,
+    "french": "à cet égard",
+    "english": "in this regard / in this respect",
+    "examples": [
+      {
+        "french": "La ville a consenti de gros efforts d'aménagement cyclable ; à cet égard, les résultats sont remarquables.",
+        "english": "The city made substantial bike lane development efforts; in this regard, the results are remarkable."
+      }
+    ],
+    "coordinates": {
+      "x": -69,
+      "y": -99,
+      "z": 220
+    }
+  },
+  {
+    "id": "b1-132",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 31,
+    "french": "en matière de",
+    "english": "in terms of / regarding",
+    "examples": [
+      {
+        "french": "Le Québec applique des politiques très avancées en matière de congé parental et de garde d'enfants.",
+        "english": "Québec enforces very advanced policies regarding parental leave and childcare."
+      }
+    ],
+    "coordinates": {
+      "x": 171,
+      "y": 38,
+      "z": 224
+    }
+  },
+  {
+    "id": "b1-133",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 27,
+    "french": "faute de",
+    "english": "for lack of / failing",
+    "examples": [
+      {
+        "french": "Faute de budget suffisant, les travaux de réfection du parc ont dû être reportés à l'an prochain.",
+        "english": "For lack of sufficient budget, park revitalization work had to be postponed to next year."
+      }
+    ],
+    "coordinates": {
+      "x": -198,
+      "y": 114,
+      "z": 228
+    }
+  },
+  {
+    "id": "b1-134",
+    "type": "word",
+    "difficulty": 0.7,
+    "level": "B1",
+    "frequency": 24,
+    "french": "au détriment de",
+    "english": "at the expense of / to the detriment of",
+    "examples": [
+      {
+        "french": "Le développement économique ne doit pas se faire au détriment de la protection de l'environnement.",
+        "english": "Economic development must not occur at the expense of environmental protection."
+      }
+    ],
+    "coordinates": {
+      "x": 85,
+      "y": -269,
+      "z": 232
+    }
+  },
+  {
+    "id": "b1-135",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 29,
+    "french": "au préalable",
+    "english": "beforehand / beforehand in advance",
+    "examples": [
+      {
+        "french": "Il est impératif de prendre rendez-vous au préalable avant de se présenter au comptoir de service.",
+        "english": "It is imperative to book an appointment beforehand prior to showing up at the service counter."
+      }
+    ],
+    "coordinates": {
+      "x": 142,
+      "y": 304,
+      "z": 236
+    }
+  },
+  {
+    "id": "b1-136",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "le chum",
+    "english": "boyfriend (informal) / close buddy",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Elle sort avec son chum depuis deux ans et ils cherchent un logement ensemble.",
+        "english": "She's been dating her boyfriend for two years and they're looking for an apartment together."
+      }
+    ],
+    "culturalContext": "'Chum' (along with its feminine counterpart 'blonde') is the universal, everyday Québécois word for boyfriend/partner, as well as meaning a close male pal among friends.",
+    "coordinates": {
+      "x": -83,
+      "y": -34,
+      "z": 240
+    }
+  },
+  {
+    "id": "b1-137",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 35,
+    "french": "la blonde",
+    "english": "girlfriend (informal)",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Marc a invité sa blonde à souper dans un bon restaurant du Vieux-Port.",
+        "english": "Marc invited his girlfriend to dinner at a nice Old Port restaurant."
+      }
+    ],
+    "culturalContext": "In Québec, 'ma blonde' is the standard informal term for 'my girlfriend', regardless of the woman's actual hair color — whereas Metropolitan French typically says 'ma copine' or 'ma petite amie'.",
+    "coordinates": {
+      "x": 135,
+      "y": -49,
+      "z": 244
+    }
+  },
+  {
+    "id": "b1-138",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 32,
+    "french": "le cégep",
+    "english": "CEGEP (post-secondary general and vocational college)",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Après avoir terminé le secondaire, ma sœur s'est inscrite au cégep en sciences pures.",
+        "english": "After finishing secondary school, my sister enrolled at CEGEP in pure sciences."
+      }
+    ],
+    "culturalContext": "Unique to Québec's public education system, a 'cégep' bridges high school ('école secondaire') and university, offering two-year pre-university diplomas or three-year career technical degrees.",
+    "coordinates": {
+      "x": -91,
+      "y": 175,
+      "z": 248
+    }
+  },
+  {
+    "id": "b1-139",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 36,
+    "french": "magasiner",
+    "english": "to shop / to go shopping",
+    "examples": [
+      {
+        "french": "Nous allons magasiner des vêtements d'hiver sur la rue Sainte-Catherine ce samedi.",
+        "english": "We are going shopping for winter clothes on Sainte-Catherine Street this Saturday."
+      }
+    ],
+    "culturalContext": "Québécois French almost universally uses the verb 'magasiner' for shopping, strictly avoiding the English borrowing 'faire du shopping' ubiquitous in Metropolitan France.",
+    "coordinates": {
+      "x": -65,
+      "y": -242,
+      "z": 252
+    }
+  },
+  {
+    "id": "b1-140",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 40,
+    "french": "le dépanneur",
+    "english": "corner convenience store",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Je descends au dépanneur du coin chercher une pinte de lait et le journal.",
+        "english": "I'm heading down to the corner store to get a carton of milk and the newspaper."
+      }
+    ],
+    "culturalContext": "The 'dépanneur' (or 'dép') is an iconic Québec community institution selling convenience groceries, beer, and wine; in France, 'dépanneur' exclusively means a tow-truck operator or repair technician.",
+    "coordinates": {
+      "x": 257,
+      "y": 164,
+      "z": 256
+    }
+  },
+  {
+    "id": "b1-141",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 33,
+    "french": "le char",
+    "english": "car / automobile (colloquial)",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Il fait trop froid ce matin pour marcher, on va plutôt prendre le char.",
+        "english": "It's too cold this morning to walk, so we'll take the car instead."
+      }
+    ],
+    "culturalContext": "In everyday Québécois speech, 'char' is the most common informal word for car ('voiture' or 'auto'), whereas in France 'char' means a chariot, army tank, or parade float.",
+    "coordinates": {
+      "x": -57,
+      "y": 10,
+      "z": 260
+    }
+  },
+  {
+    "id": "b1-142",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 22,
+    "french": "la poudrerie",
+    "english": "blowing snow / ground blizzard",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "La poudrerie sur l'autoroute 20 réduit la visibilité des automobilistes à moins de cinquante mètres.",
+        "english": "Blowing snow on Highway 20 reduces drivers' visibility to under fifty meters."
+      }
+    ],
+    "culturalContext": "In Québec weather terminology, 'poudrerie' specifically refers to fine dry snow lifted and swirled by strong winds along the ground, known in Canadian English as blowing snow or ground blizzard.",
+    "coordinates": {
+      "x": 68,
+      "y": -89,
+      "z": 264
+    }
+  },
+  {
+    "id": "b1-143",
+    "type": "word",
+    "difficulty": 0.65,
+    "level": "B1",
+    "frequency": 28,
+    "french": "l'achalandage",
+    "english": "customer traffic / ridership / footfall",
+    "gender": "M",
+    "morphology": {
+      "root": "achaland",
+      "suffix": "age",
+      "decomposition": [
+        "achaland",
+        "age"
+      ]
+    },
+    "examples": [
+      {
+        "french": "L'ouverture de la nouvelle station a entraîné un fort achalandage dès la première semaine.",
+        "english": "The opening of the new station resulted in heavy ridership from the very first week."
+      }
+    ],
+    "culturalContext": "'Achalandage' is widely used in Québec across public transit (STM), media, and retail to denote customer volume or transit ridership, whereas in France it is largely an archaic legal term.",
+    "coordinates": {
+      "x": 14,
+      "y": 165,
+      "z": 268
+    }
+  },
+  {
+    "id": "b1-144",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 32,
+    "french": "le covoiturage",
+    "english": "carpooling / ridesharing",
+    "gender": "M",
+    "morphology": {
+      "prefix": "co",
+      "root": "voitur",
+      "suffix": "age",
+      "decomposition": [
+        "co",
+        "voitur",
+        "age"
+      ]
+    },
+    "examples": [
+      {
+        "french": "Le covoiturage permet de réduire considérablement les frais d'essence et les émissions polluantes.",
+        "english": "Carpooling allows gas expenses and polluting emissions to be considerably reduced."
+      }
+    ],
+    "culturalContext": "Québec strongly encourages 'le covoiturage' through dedicated reserved highway lanes ('voies réservées') and transit incentives.",
+    "coordinates": {
+      "x": -162,
+      "y": -148,
+      "z": 272
+    }
+  },
+  {
+    "id": "b1-145",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 39,
+    "french": "le pourboire",
+    "english": "tip / gratuity",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Il est d'usage au Québec d'ajouter un pourboire de 15 à 20 % sur la facture au restaurant.",
+        "english": "It is customary in Québec to add a 15% to 20% tip to the bill at a restaurant."
+      }
+    ],
+    "culturalContext": "Unlike in France where restaurant service is legally included in the menu price, in Québec a 'pourboire' (tip) is customary and essential, paid on top of taxes for table service and bartenders.",
+    "coordinates": {
+      "x": 273,
+      "y": 0,
+      "z": 276
+    }
+  },
+  {
+    "id": "b1-146",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 45,
+    "french": "le courriel",
+    "english": "email / electronic mail",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Veuillez me confirmer la date de la réunion par courriel avant la fin de la journée.",
+        "english": "Please confirm the meeting date by email before the end of the day."
+      }
+    ],
+    "culturalContext": "The term 'courriel' (a blend of 'courrier électronique') was created in Québec by the OQLF in 1990 and rapidly displaced English 'email' throughout the francophone world.",
+    "coordinates": {
+      "x": -241,
+      "y": 221,
+      "z": 280
+    }
+  },
+  {
+    "id": "b1-147",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 48,
+    "french": "la fin de semaine",
+    "english": "weekend",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "Que prévoyez-vous faire cette fin de semaine avec vos enfants ?",
+        "english": "What are you planning to do this weekend with your children?"
+      }
+    ],
+    "culturalContext": "In Québec, 'fin de semaine' is universally used for weekend, completely shunning the anglicism 'le week-end' that dominates in France.",
+    "coordinates": {
+      "x": 7,
+      "y": -80,
+      "z": 284
+    }
+  },
+  {
+    "id": "b1-148",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 36,
+    "french": "le chandail",
+    "english": "sweater / jersey",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Mets un chandail de laine chaud sous ton manteau pour ne pas avoir froid.",
+        "english": "Put on a warm wool sweater under your coat so you won't be cold."
+      }
+    ],
+    "culturalContext": "In Québec, 'chandail' is the everyday word for a sweater, jumper, or hockey jersey, whereas Metropolitan French almost always uses 'un pull' or 'un tricot'.",
+    "coordinates": {
+      "x": 82,
+      "y": 106,
+      "z": 288
+    }
+  },
+  {
+    "id": "b1-149",
+    "type": "word",
+    "difficulty": 0.55,
+    "level": "B1",
+    "frequency": 33,
+    "french": "la tuque",
+    "english": "beanie / knit winter hat",
+    "gender": "F",
+    "examples": [
+      {
+        "french": "N'oublie pas d'enfiler ta tuque et tes mitaines avant de sortir affronter le blizzard.",
+        "english": "Don't forget to put on your toque and mittens before heading out into the blizzard."
+      }
+    ],
+    "culturalContext": "The 'tuque' is the iconic Canadian knit winter beanie, worn from November to April across Québec; the word has become a cherished symbol of winter culture.",
+    "coordinates": {
+      "x": -185,
+      "y": -33,
+      "z": 292
+    }
+  },
+  {
+    "id": "b1-150",
+    "type": "word",
+    "difficulty": 0.6,
+    "level": "B1",
+    "frequency": 27,
+    "french": "le traversier",
+    "english": "ferry / passenger ferryboat",
+    "gender": "M",
+    "examples": [
+      {
+        "french": "Le traversier relie Québec et Lévis en une dizaine de minutes en traversant le fleuve Saint-Laurent.",
+        "english": "The ferry connects Québec City and Lévis in about ten minutes, crossing the St. Lawrence River."
+      }
+    ],
+    "culturalContext": "Québec consistently uses 'traversier' for public river ferries (operated by the Société des traversiers du Québec), avoiding the anglicism 'le ferry' or 'le bac' used in France.",
+    "coordinates": {
+      "x": 204,
+      "y": -130,
+      "z": 296
+    }
+  }
+]

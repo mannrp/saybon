@@ -17,7 +17,8 @@
       "x": 55,
       "y": -1,
       "z": 123
-    }
+    },
+    "culturalContext": "In Québec, 'bonjour' is also frequently used when taking leave or departing a shop during daytime (serving the function of 'bonne journée'), in addition to being an arrival greeting."
   },
   {
     "id": "a1-002",
@@ -65,7 +66,8 @@
       "x": 92,
       "y": 3,
       "z": 124
-    }
+    },
+    "culturalContext": "When thanked with 'merci' in Québec, locals almost universally respond with 'Bienvenue !' or 'Ça me fait plaisir !', rather than the European French 'De rien !' or 'Je vous en prie !'."
   },
   {
     "id": "a1-004",
@@ -85,7 +87,8 @@
       "x": 60,
       "y": -4,
       "z": 130
-    }
+    },
+    "culturalContext": "In Québec service interactions, 's'il vous plaît' is placed at the end of requests and pronounced warmly, while casual retail between peers frequently shifts to 's'il te plaît'."
   },
   {
     "id": "a1-005",
@@ -145,7 +148,8 @@
       "x": 68,
       "y": 25,
       "z": 124
-    }
+    },
+    "culturalContext": "In Québec, 'excusez-moi' is standard, but you will also frequently hear informal 'excuse-moi' or 'pardon' when squeezing past someone in a grocery aisle or metro car."
   },
   {
     "id": "a1-008",
@@ -173,7 +177,8 @@
       "x": 73,
       "y": 3,
       "z": 144
-    }
+    },
+    "culturalContext": "While 'pardon' is common, everyday Québécois speech frequently uses 'désolé' or the casual contraction 'scusez' (from 'excusez-moi') when bumping into someone."
   },
   {
     "id": "a1-009",
@@ -241,7 +246,8 @@
       "x": 76,
       "y": 24,
       "z": 131
-    }
+    },
+    "culturalContext": "Unlike in Metropolitan France where 'salut' is strictly an arrival greeting, in Québec 'salut' is used equally as 'hi' and as 'bye' when departing."
   },
   {
     "id": "a1-012",
@@ -261,7 +267,8 @@
       "x": 87,
       "y": 5,
       "z": 132
-    }
+    },
+    "culturalContext": "In Québec, 'bienvenue' is used systematically as 'you're welcome' in response to 'merci' (influenced by English 'welcome'), whereas in France it is solely an arrival greeting."
   },
   {
     "id": "a1-013",
@@ -290,7 +297,8 @@
       "x": 101,
       "y": 21,
       "z": 123
-    }
+    },
+    "culturalContext": "In Québec residential parlance, a detached single-family 'maison' is often referred to as a 'bungalow' (single-story) or a 'cottage' (two-story), local borrowings with specific architectural meanings."
   },
   {
     "id": "a1-014",
@@ -318,7 +326,8 @@
       "x": 105,
       "y": 44,
       "z": 89
-    }
+    },
+    "culturalContext": "Apartments ('appartement') in Québec are categorized by room counts like '3½' or '4½', where the half represents the bathroom; July 1st is also Québec's traditional moving day."
   },
   {
     "id": "a1-015",
@@ -339,7 +348,8 @@
       "x": 111,
       "y": 25,
       "z": 87
-    }
+    },
+    "culturalContext": "In Québec apartment listings, a bedroom is specified as a 'chambre fermée' when it has a door and exterior window, distinguishing it from an open-concept alcove."
   },
   {
     "id": "a1-016",
@@ -368,7 +378,8 @@
       "x": 86,
       "y": 48,
       "z": 122
-    }
+    },
+    "culturalContext": "Traditional Québécois culture places the 'cuisine' at the emotional center of the home, famous for the 'party de cuisine' (kitchen party) where guests gather and play music."
   },
   {
     "id": "a1-017",
@@ -397,7 +408,8 @@
       "x": 112,
       "y": 49,
       "z": 90
-    }
+    },
+    "culturalContext": "In Québec, 'salle de bain' refers to a full bathroom, while a half-bath is a 'salle d'eau'; in public venues, people commonly ask for 'les toilettes' or 'les salles de bain'."
   },
   {
     "id": "a1-018",
@@ -426,7 +438,8 @@
       "x": 84,
       "y": 23,
       "z": 107
-    }
+    },
+    "culturalContext": "In older Montréal duplexes and triplexes, the front 'salon' often connects directly to a bedroom without a hallway, an architectural layout known as a 'pièce double'."
   },
   {
     "id": "a1-019",
@@ -455,7 +468,8 @@
       "x": 96,
       "y": 37,
       "z": 116
-    }
+    },
+    "culturalContext": "Behind homes and residential gardens ('jardin') in Montréal lie 'ruelles', many of which have been transformed by residents into green pedestrian alleys ('ruelles vertes')."
   },
   {
     "id": "a1-020",
@@ -476,7 +490,8 @@
       "x": 105,
       "y": 54,
       "z": 98
-    }
+    },
+    "culturalContext": "To withstand winter winds, exterior doors ('porte') in Québec houses often feature an outer glass storm door known as a 'contre-porte'."
   },
   {
     "id": "a1-021",
@@ -497,7 +512,8 @@
       "x": 97,
       "y": 31,
       "z": 95
-    }
+    },
+    "culturalContext": "Montréal triplexes are celebrated for their ornate exterior wrought-iron staircases winding up to balconies and front bay windows ('fenêtre')."
   },
   {
     "id": "a1-022",
@@ -568,7 +584,8 @@
       "x": 105,
       "y": 57,
       "z": 100
-    }
+    },
+    "culturalContext": "Bed sizes in Québec follow North American dimensions rather than European ones: 'lit simple' (twin), 'lit double' (full), 'grand lit' (queen), and 'très grand lit' (king)."
   },
   {
     "id": "a1-025",
@@ -589,7 +606,8 @@
       "x": 102,
       "y": 54,
       "z": 99
-    }
+    },
+    "culturalContext": "In everyday Québécois speech, children affectionately refer to their father ('père') as 'mon père' or 'mon papa', with 'mon vieux' occasionally heard in informal contexts."
   },
   {
     "id": "a1-026",
@@ -610,7 +628,8 @@
       "x": 108,
       "y": 71,
       "z": 91
-    }
+    },
+    "culturalContext": "A mother ('mère') is addressed warmly as 'maman', with 'ma mère' used universally in casual conversation across all social registers."
   },
   {
     "id": "a1-027",
@@ -673,7 +692,8 @@
       "x": 94,
       "y": 74,
       "z": 99
-    }
+    },
+    "culturalContext": "In Québec, parents often refer to their young son ('fils') informally as 'mon gars' or 'mon p'tit gars'."
   },
   {
     "id": "a1-030",
@@ -694,7 +714,8 @@
       "x": 79,
       "y": 61,
       "z": 116
-    }
+    },
+    "culturalContext": "While 'fille' means daughter or girl, Québécois French commonly uses 'ma blonde' rather than 'ma fille' or 'ma copine' to denote a romantic girlfriend."
   },
   {
     "id": "a1-031",
@@ -715,7 +736,8 @@
       "x": 107,
       "y": 73,
       "z": 90
-    }
+    },
+    "culturalContext": "A grandfather ('grand-père') in Québec is lovingly called 'Grand-papa' or 'Papi', with traditional 'Pépère' still heard in rural communities and folklore."
   },
   {
     "id": "a1-032",
@@ -736,7 +758,8 @@
       "x": 81,
       "y": 68,
       "z": 112
-    }
+    },
+    "culturalContext": "Grandmothers ('grand-mère') in Québec are affectionately called 'Grand-maman' or 'Mamie'; the older term 'Mémère' still exists but can sound dated or slightly pejorative."
   },
   {
     "id": "a1-033",
@@ -756,7 +779,8 @@
       "x": 87,
       "y": 50,
       "z": 124
-    }
+    },
+    "culturalContext": "An uncle ('oncle') is colloquially pronounced 'mononcle' in informal Québec speech, a term also used playfully or critically to describe old-fashioned attitudes."
   },
   {
     "id": "a1-034",
@@ -777,7 +801,8 @@
       "x": 74,
       "y": 49,
       "z": 115
-    }
+    },
+    "culturalContext": "An aunt ('tante') is colloquially pronounced 'matante' in Québec, often paired culturally with 'mononcle' in family stories and satire."
   },
   {
     "id": "a1-035",
@@ -856,7 +881,8 @@
       "x": 65,
       "y": 74,
       "z": 111
-    }
+    },
+    "culturalContext": "Québec has one of the world's highest rates of common-law partnership; 'mari' and 'femme' are frequently replaced by 'conjoint' and 'conjointe' in both everyday and official usage."
   },
   {
     "id": "a1-038",
@@ -877,7 +903,8 @@
       "x": 85,
       "y": 72,
       "z": 114
-    }
+    },
+    "culturalContext": "As with 'mari', 'femme' is frequently supplanted by 'conjoint' / 'conjointe' or informal 'blonde' in Québec, reflecting the cultural prevalence of non-marital long-term partnerships."
   },
   {
     "id": "a1-039",
@@ -905,7 +932,8 @@
       "x": 64,
       "y": 70,
       "z": 114
-    }
+    },
+    "culturalContext": "In Québec, 'enfant' is standard, but you should never use the Metropolitan French slang 'gosse' (child), which in Québec is a vulgar word for testicles."
   },
   {
     "id": "a1-040",
@@ -926,7 +954,8 @@
       "x": 65,
       "y": 81,
       "z": 114
-    }
+    },
+    "culturalContext": "Toddlers and infants ('bébé') in Québec are enrolled in subsidized early childhood daycare centers known as CPE (Centres de la petite enfance)."
   },
   {
     "id": "a1-041",
@@ -946,7 +975,8 @@
       "x": 66,
       "y": 65,
       "z": 106
-    }
+    },
+    "culturalContext": "In Québec, a close male friend ('ami') is colloquially called a 'chum' (e.g. 'un bon chum'), a word that also means 'boyfriend' depending on context."
   },
   {
     "id": "a1-042",
@@ -966,7 +996,8 @@
       "x": 78,
       "y": 79,
       "z": 94
-    }
+    },
+    "culturalContext": "A female friend ('amie') in Québec is distinguished from a romantic partner, since 'ma blonde' is the standard term for girlfriend."
   },
   {
     "id": "a1-043",
@@ -1015,7 +1046,8 @@
       "x": 70,
       "y": 98,
       "z": 102
-    }
+    },
+    "culturalContext": "In informal Québec French, a young boy or guy ('garçon') is very commonly called 'un gars' (e.g. 'les gars')."
   },
   {
     "id": "a1-045",
@@ -1845,7 +1877,8 @@
       "x": -14,
       "y": 110,
       "z": 97
-    }
+    },
+    "culturalContext": "Traditional Québécois country bread ('pain de ménage') is a crusty homemade loaf, while Montréal is world-famous for its wood-fired, sesame-seeded bagels."
   },
   {
     "id": "a1-084",
@@ -1865,7 +1898,8 @@
       "x": -15,
       "y": 110,
       "z": 99
-    }
+    },
+    "culturalContext": "Municipal tap water ('eau') in Québec is commonly called 'eau d'aqueduc' or 'eau du robinet', sourced abundantly from freshwater lakes and rivers."
   },
   {
     "id": "a1-085",
@@ -1886,7 +1920,8 @@
       "x": -21,
       "y": 88,
       "z": 107
-    }
+    },
+    "culturalContext": "Ordering coffee ('café') in Québec has local nuances: filter coffee is standard, while ordering espresso is specified as a 'café court' or 'café allongé'."
   },
   {
     "id": "a1-086",
@@ -1907,7 +1942,8 @@
       "x": -33,
       "y": 108,
       "z": 104
-    }
+    },
+    "culturalContext": "Tea ('thé') in Québec includes herbal tisanes brewed from native boreal forest plants, such as Labrador tea ('thé du Labrador')."
   },
   {
     "id": "a1-087",
@@ -1928,7 +1964,8 @@
       "x": -41,
       "y": 103,
       "z": 93
-    }
+    },
+    "culturalContext": "Milk ('lait') in Québec is sold in plastic jugs or four-liter bags containing three individual plastic pouches, a packaging tradition unique to Eastern Canada."
   },
   {
     "id": "a1-088",
@@ -1970,7 +2007,8 @@
       "x": -32,
       "y": 88,
       "z": 107
-    }
+    },
+    "culturalContext": "Wine ('vin') in Québec is primarily distributed through the provincial government crown corporation, the SAQ (Société des alcools du Québec)."
   },
   {
     "id": "a1-090",
@@ -1991,7 +2029,8 @@
       "x": -33,
       "y": 106,
       "z": 107
-    }
+    },
+    "culturalContext": "Beer ('bière') is sold in grocery stores and corner 'dépanneurs' across Québec, commonly bought by the twelve-pack ('caisse de 12') or case of 24."
   },
   {
     "id": "a1-091",
@@ -2012,7 +2051,8 @@
       "x": -31,
       "y": 85,
       "z": 114
-    }
+    },
+    "culturalContext": "Apples ('pomme') are central to Québec autumn culture; visiting orchards in Montérégie for 'la cueillette des pommes' (apple picking) is a cherished family ritual."
   },
   {
     "id": "a1-092",
@@ -2170,7 +2210,8 @@
       "x": -53,
       "y": 112,
       "z": 93
-    }
+    },
+    "culturalContext": "Carrots ('carotte') are a core ingredient in 'bouilli québécois' and traditional yellow split-pea soup, harvested locally into late autumn."
   },
   {
     "id": "a1-098",
@@ -2262,7 +2303,8 @@
       "x": -70,
       "y": 89,
       "z": 103
-    }
+    },
+    "culturalContext": "Traditional Québec meat dishes ('viande') include meat pies like tourtière and cipaille, layered with slow-cooked pork, beef, and game."
   },
   {
     "id": "a1-102",
@@ -2291,7 +2333,8 @@
       "x": -54,
       "y": 91,
       "z": 112
-    }
+    },
+    "culturalContext": "Rotisserie roast chicken ('poulet') is an institution in Québec, popularized across the province by iconic restaurant chains like St-Hubert."
   },
   {
     "id": "a1-103",
@@ -2320,7 +2363,8 @@
       "x": -70,
       "y": 93,
       "z": 89
-    }
+    },
+    "culturalContext": "Freshwater fish ('poisson') in Québec cuisine includes walleye ('doré'), yellow perch ('perchaude'), and brook trout ('omble de fontaine')."
   },
   {
     "id": "a1-104",
@@ -2340,7 +2384,8 @@
       "x": -64,
       "y": 105,
       "z": 109
-    }
+    },
+    "culturalContext": "Eggs ('œuf') are the centerpiece of classic diner breakfasts across Québec, ordered as 'deux œufs tournés' (two over-easy) with cretons, beans, and toast."
   },
   {
     "id": "a1-105",
@@ -2369,7 +2414,8 @@
       "x": -75,
       "y": 87,
       "z": 106
-    }
+    },
+    "culturalContext": "Quebec is famous for its artisanal cheeses ('fromage') and especially 'fromage en grains' (fresh cheddar curds), the squeaky component of authentic poutine."
   },
   {
     "id": "a1-106",
@@ -2390,7 +2436,8 @@
       "x": -57,
       "y": 106,
       "z": 97
-    }
+    },
+    "culturalContext": "In Québec, peanut butter is universally called 'beurre d'arachide' (or 'beurre de peanut'), rather than the Metropolitan French 'beurre de cacahuète'."
   },
   {
     "id": "a1-107",
@@ -2411,7 +2458,8 @@
       "x": -54,
       "y": 80,
       "z": 104
-    }
+    },
+    "culturalContext": "Sugar pie ('tarte au sucre') made with brown sugar or maple sugar ('sucre') is one of Québec's most celebrated heritage desserts."
   },
   {
     "id": "a1-108",
@@ -2432,7 +2480,8 @@
       "x": -65,
       "y": 79,
       "z": 99
-    }
+    },
+    "culturalContext": "In traditional Québec cooking, salted butter and lard have historical roots, while road salt ('sel de déglaçage') is used heavily on icy streets in winter."
   },
   {
     "id": "a1-109",
@@ -2494,7 +2543,8 @@
       "x": -80,
       "y": 84,
       "z": 88
-    }
+    },
+    "culturalContext": "A hot bowl of yellow pea soup ('soupe aux pois') cooked with salted pork hock is a quintessential Québécois winter comfort dish."
   },
   {
     "id": "a1-112",
@@ -2586,7 +2636,8 @@
       "x": -77,
       "y": 62,
       "z": 106
-    }
+    },
+    "culturalContext": "In Québec, breakfast is called 'le déjeuner' (not 'le petit-déjeuner'), preserving the historical French naming tradition."
   },
   {
     "id": "a1-116",
@@ -2615,7 +2666,8 @@
       "x": -87,
       "y": 57,
       "z": 101
-    }
+    },
+    "culturalContext": "In Québec, the midday lunch meal is called 'le dîner' (not 'le déjeuner'), contrary to modern European French terminology."
   },
   {
     "id": "a1-117",
@@ -2636,7 +2688,8 @@
       "x": -98,
       "y": 60,
       "z": 103
-    }
+    },
+    "culturalContext": "In Québec, 'le dîner' is lunch, while the evening meal is called 'le souper' (preserving the classical French meal-naming sequence)."
   },
   {
     "id": "a1-118",
@@ -2665,7 +2718,8 @@
       "x": -94,
       "y": 72,
       "z": 97
-    }
+    },
+    "culturalContext": "A traditional festive meal ('repas') in Québec, particularly the holiday 'réveillon', brings families together around tourtière, pickles, and maple desserts."
   },
   {
     "id": "a1-119",
@@ -2696,7 +2750,8 @@
       "x": -68,
       "y": 77,
       "z": 119
-    }
+    },
+    "culturalContext": "Restaurants in Québec display prices before taxes; customers calculate an additional 15% in provincial and federal sales taxes plus a 15-20% tip."
   },
   {
     "id": "a1-120",
@@ -2968,7 +3023,8 @@
       "x": -140,
       "y": 58,
       "z": 3
-    }
+    },
+    "culturalContext": "In everyday speech, 'parler' in Québec features unique phonetics, such as vowel diphthongization and the affrication of 't' and 'd' before 'i' and 'u'."
   },
   {
     "id": "a1-132",
@@ -2988,7 +3044,8 @@
       "x": -126,
       "y": 62,
       "z": 3
-    }
+    },
+    "culturalContext": "When eating ('manger') out, Québec casual diners often offer 'casse-croûte' fare: poutine, steamies (steamed hot dogs), and smoked meat sandwiches."
   },
   {
     "id": "a1-133",
@@ -3008,7 +3065,8 @@
       "x": -141,
       "y": 63,
       "z": -1
-    }
+    },
+    "culturalContext": "Ordering drinks ('boire') at a Québec bar or pub is accompanied by saying 'Santé !', with local craft microbreweries widely favored."
   },
   {
     "id": "a1-134",
@@ -3048,7 +3106,8 @@
       "x": -152,
       "y": 52,
       "z": 5
-    }
+    },
+    "culturalContext": "Workplace culture ('travailler') in Québec emphasizes consensus, collaboration, and rapid informal address ('tutoiement') between coworkers."
   },
   {
     "id": "a1-136",
@@ -3108,7 +3167,8 @@
       "x": -146,
       "y": 37,
       "z": -9
-    }
+    },
+    "culturalContext": "Shopping for food is referred to as 'faire l'épicerie' rather than 'faire les courses', while general shopping ('acheter') is called 'magasiner'."
   },
   {
     "id": "a1-139",
@@ -3264,7 +3324,8 @@
       "x": -137,
       "y": 31,
       "z": -19
-    }
+    },
+    "culturalContext": "Children in Québec play ('jouer') outdoor ball hockey in summer streets and skate on neighborhood rinks ('patinoires') throughout winter."
   },
   {
     "id": "a1-146",
@@ -3392,7 +3453,8 @@
       "x": -151,
       "y": -19,
       "z": 11
-    }
+    },
+    "culturalContext": "Post-secondary learning ('apprendre') in Québec often begins at a CEGEP, a public college level unique to Québec between high school and university."
   },
   {
     "id": "a1-152",
@@ -3420,7 +3482,8 @@
       "x": -162,
       "y": 6,
       "z": -11
-    }
+    },
+    "culturalContext": "When asking if someone understands ('comprendre') in casual Québec French, you will often hear 'Tu comprends ?' or informally 'Tu catch-tu ?'."
   },
   {
     "id": "a1-153",
@@ -3440,7 +3503,8 @@
       "x": -154,
       "y": -22,
       "z": 5
-    }
+    },
+    "culturalContext": "Waiting ('attendre') for the bus in winter is facilitated by transit apps and heated glass bus shelters ('abribus') installed along major lines."
   },
   {
     "id": "a1-154",
@@ -3460,7 +3524,8 @@
       "x": -137,
       "y": -10,
       "z": 15
-    }
+    },
+    "culturalContext": "Looking for housing ('chercher un logement') in Québec centers around July 1st, the unofficial province-wide moving day."
   },
   {
     "id": "a1-155",
@@ -4008,7 +4073,8 @@
       "x": -94,
       "y": -68,
       "z": -95
-    }
+    },
+    "culturalContext": "Summer heat ('chaud') in Québec is tracked using the humidex factor ('facteur humidex'), measuring perceived mugginess caused by high humidity."
   },
   {
     "id": "a1-180",
@@ -4028,7 +4094,8 @@
       "x": -102,
       "y": -49,
       "z": -113
-    }
+    },
+    "culturalContext": "Winter weather ('froid') in Québec regularly dips below -20°C, requiring insulated boots, thermal layers, and winter-rated outerwear."
   },
   {
     "id": "a1-181",
@@ -4577,7 +4644,8 @@
       "x": -34,
       "y": -108,
       "z": 114
-    }
+    },
+    "culturalContext": "Friday ('vendredi') afternoon marks the start of the 'fin de semaine', when Montrealers often head out to rural chalets in the Laurentians or Eastern Townships."
   },
   {
     "id": "a1-206",
@@ -4598,7 +4666,8 @@
       "x": -41,
       "y": -101,
       "z": 119
-    }
+    },
+    "culturalContext": "Saturday ('samedi') morning in Québec is prime time for visiting public markets like Marché Jean-Talon to stock up on fresh regional goods."
   },
   {
     "id": "a1-207",
@@ -4619,7 +4688,8 @@
       "x": -31,
       "y": -111,
       "z": 102
-    }
+    },
+    "culturalContext": "Sunday ('dimanche') family dinners and Sunday brunch on neighborhood restaurant terraces are popular social rituals across Québec."
   },
   {
     "id": "a1-208",
@@ -4719,7 +4789,8 @@
       "x": -36,
       "y": -115,
       "z": 98
-    }
+    },
+    "culturalContext": "April ('avril') in Québec is the peak of the sugar shack season ('le temps des sucres'), when maple sap runs and families gather for feast meals."
   },
   {
     "id": "a1-212",
@@ -4761,7 +4832,8 @@
       "x": -38,
       "y": -98,
       "z": 124
-    }
+    },
+    "culturalContext": "In Québec, June 24th ('le 24 juin') is celebrated as Saint-Jean-Baptiste Day, Québec's official National Holiday ('Fête nationale'), marked with province-wide concerts, parades, and bonfires."
   },
   {
     "id": "a1-214",
@@ -4790,7 +4862,8 @@
       "x": -26,
       "y": -105,
       "z": 126
-    }
+    },
+    "culturalContext": "July ('juillet') in Québec is marked by July 1st moving day and the last two weeks of the month, known as the 'vacances de la construction'."
   },
   {
     "id": "a1-215",
@@ -4853,7 +4926,8 @@
       "x": -33,
       "y": -87,
       "z": 107
-    }
+    },
+    "culturalContext": "In Québec, Thanksgiving is celebrated in October ('octobre') as 'l'Action de grâce', roughly six weeks earlier than the American holiday."
   },
   {
     "id": "a1-218",
@@ -4903,7 +4977,8 @@
       "x": -13,
       "y": -116,
       "z": 96
-    }
+    },
+    "culturalContext": "December ('décembre') brings the traditional Christmas Eve family feast known as the 'réveillon', centered on tourtière and holiday carols."
   },
   {
     "id": "a1-220",
@@ -5620,7 +5695,8 @@
       "x": 47,
       "y": -94,
       "z": 96
-    }
+    },
+    "culturalContext": "Weather ('temps') in Québec spans four extreme seasons, from humid summer highs above 30°C to biting winter winds dropping below -25°C."
   },
   {
     "id": "a1-253",
@@ -5649,7 +5725,8 @@
       "x": 62,
       "y": -100,
       "z": 95
-    }
+    },
+    "culturalContext": "In colloquial Québec French, a car ('voiture') is very commonly called a 'char' (e.g. 'embarque dans le char'), while 'auto' is the polite term."
   },
   {
     "id": "a1-254",
@@ -5670,7 +5747,8 @@
       "x": 57,
       "y": -80,
       "z": 119
-    }
+    },
+    "culturalContext": "Public city transit in Québec is called 'l'autobus' or 'le bus' (pronounced with a hard 's'), and riders customarily thank the driver upon exiting."
   },
   {
     "id": "a1-255",
@@ -5699,7 +5777,8 @@
       "x": 77,
       "y": -96,
       "z": 98
-    }
+    },
+    "culturalContext": "Passenger train service ('train') between Québec City, Montréal, and Ottawa/Toronto is operated along the busy corridor by VIA Rail."
   },
   {
     "id": "a1-256",
@@ -5727,7 +5806,8 @@
       "x": 61,
       "y": -77,
       "z": 111
-    }
+    },
+    "culturalContext": "International air travel ('avion') in Québec operates primarily through Montréal-Trudeau International Airport (YUL)."
   },
   {
     "id": "a1-257",
@@ -5748,7 +5828,8 @@
       "x": 54,
       "y": -86,
       "z": 99
-    }
+    },
+    "culturalContext": "Cycling ('vélo') is embraced year-round in Montréal, which features North America's premier protected winter bike network (REV)."
   },
   {
     "id": "a1-258",
@@ -5777,7 +5858,8 @@
       "x": 77,
       "y": -77,
       "z": 97
-    }
+    },
+    "culturalContext": "Montréal's subway system ('métro') runs completely underground on rubber tires, shielding trains and stations from heavy snow and sub-zero frost."
   },
   {
     "id": "a1-259",
@@ -5798,7 +5880,8 @@
       "x": 67,
       "y": -91,
       "z": 92
-    }
+    },
+    "culturalContext": "In winter, residential streets ('rue') display temporary orange and yellow signs indicating street-clearing operations and parking bans."
   },
   {
     "id": "a1-260",
@@ -5819,7 +5902,8 @@
       "x": 63,
       "y": -92,
       "z": 113
-    }
+    },
+    "culturalContext": "Montréal is famous for its distinct architectural character: exterior spiral staircases, limestone facades, and vibrant neighborhood street life ('ville')."
   },
   {
     "id": "a1-261",
@@ -5840,7 +5924,8 @@
       "x": 71,
       "y": -68,
       "z": 96
-    }
+    },
+    "culturalContext": "The Canadian federation ('pays') recognizes Québec as a distinct nation within a united Canada, with its own language and legal code."
   },
   {
     "id": "a1-262",
@@ -5860,7 +5945,8 @@
       "x": 79,
       "y": -75,
       "z": 99
-    }
+    },
+    "culturalContext": "Public schools ('école') in Québec operate under regional French-language school service centers ('centres de services scolaires')."
   },
   {
     "id": "a1-263",
@@ -5888,7 +5974,8 @@
       "x": 82,
       "y": -81,
       "z": 95
-    }
+    },
+    "culturalContext": "At university ('université') in Québec, an undergraduate bachelor's degree is called a 'baccalauréat' (or 'bac'), whereas in France the 'bac' refers strictly to the high school leaving exam."
   },
   {
     "id": "a1-264",
@@ -5917,7 +6004,8 @@
       "x": 75,
       "y": -74,
       "z": 99
-    }
+    },
+    "culturalContext": "In Québec business, 'le bureau' refers to one's desk or office, with the OQLF actively promoting French terminology in workplace software."
   },
   {
     "id": "a1-265",
@@ -5946,7 +6034,8 @@
       "x": 67,
       "y": -66,
       "z": 116
-    }
+    },
+    "culturalContext": "Shopping in stores ('magasin') in Québec is described with the verb 'magasiner', strictly avoiding the anglicism 'faire du shopping'."
   },
   {
     "id": "a1-266",
@@ -5974,7 +6063,8 @@
       "x": 64,
       "y": -63,
       "z": 112
-    }
+    },
+    "culturalContext": "Major public hospital centers ('hôpital') in Québec are integrated into regional health networks known as CISSS or CIUSSS."
   },
   {
     "id": "a1-267",
@@ -5995,7 +6085,8 @@
       "x": 83,
       "y": -58,
       "z": 125
-    }
+    },
+    "culturalContext": "Retail banking in Québec is uniquely anchored by the Desjardins cooperative movement, alongside major Canadian chartered banks ('banque')."
   },
   {
     "id": "a1-268",
@@ -6016,7 +6107,8 @@
       "x": 101,
       "y": -66,
       "z": 100
-    }
+    },
+    "culturalContext": "Canada Post ('la poste' or 'Postes Canada') delivers residential mail to communal neighborhood superboxes in many suburbs."
   },
   {
     "id": "a1-269",
@@ -6037,7 +6129,8 @@
       "x": 95,
       "y": -50,
       "z": 94
-    }
+    },
+    "culturalContext": "Montréal's primary intercity railway station ('gare') is Gare Centrale, situated beneath the downtown Queen Elizabeth Hotel."
   },
   {
     "id": "a1-270",
@@ -6057,7 +6150,8 @@
       "x": 83,
       "y": -57,
       "z": 115
-    }
+    },
+    "culturalContext": "Montréal-Trudeau Airport ('aéroport') serves as the primary international gateway to Québec and Atlantic Canada."
   },
   {
     "id": "a1-271",
@@ -6085,7 +6179,8 @@
       "x": 97,
       "y": -64,
       "z": 103
-    }
+    },
+    "culturalContext": "In Québec vacation areas, historic country inns ('auberges' and 'hôtels') provide cozy hospitality with regional culinary specialties."
   },
   {
     "id": "a1-272",
@@ -6106,7 +6201,8 @@
       "x": 88,
       "y": -55,
       "z": 105
-    }
+    },
+    "culturalContext": "Under Québec language laws, foreign cinema ('cinéma') releases must be made available in French-dubbed versions with adapted titles."
   },
   {
     "id": "a1-273",
@@ -6135,7 +6231,8 @@
       "x": 89,
       "y": -56,
       "z": 111
-    }
+    },
+    "culturalContext": "Major museums ('musée') in Québec, like the Montreal Museum of Fine Arts, offer free admission on the first Sunday of every month."
   },
   {
     "id": "a1-274",
@@ -6156,7 +6253,8 @@
       "x": 84,
       "y": -70,
       "z": 89
-    }
+    },
+    "culturalContext": "Public parks ('parc') in Québec, such as Montréal's Mount Royal Park, convert into cross-country ski trails and ice skating rinks each winter."
   },
   {
     "id": "a1-275",
@@ -6177,7 +6275,8 @@
       "x": 76,
       "y": -46,
       "z": 103
-    }
+    },
+    "culturalContext": "In summer, popular beach destinations ('plage') include Parc Jean-Drapeau's Jean-Doré Beach and regional lake parks in the Laurentians."
   },
   {
     "id": "a1-276",
@@ -6198,7 +6297,8 @@
       "x": 88,
       "y": -72,
       "z": 93
-    }
+    },
+    "culturalContext": "The Gulf of St. Lawrence opens to the sea ('mer'), famous for whale watching excursions in Tadoussac and the Gaspé Peninsula."
   },
   {
     "id": "a1-277",
@@ -6219,7 +6319,8 @@
       "x": 89,
       "y": -56,
       "z": 89
-    }
+    },
+    "culturalContext": "Mont-Tremblant in the Laurentian Mountains ('montagne') is one of eastern North America's most renowned ski and autumn foliage destinations."
   },
   {
     "id": "a1-278",
@@ -6240,7 +6341,8 @@
       "x": 100,
       "y": -58,
       "z": 113
-    }
+    },
+    "culturalContext": "The vast boreal forest ('forêt') covers over half of Québec's landmass, supporting forestry, biodiversity, and indigenous traditions."
   },
   {
     "id": "a1-279",
@@ -6269,7 +6371,8 @@
       "x": 97,
       "y": -51,
       "z": 105
-    }
+    },
+    "culturalContext": "Rivers ('rivière') across Québec power the province's massive hydroelectric dams, supplying clean renewable energy to homes and businesses."
   },
   {
     "id": "a1-280",
@@ -6290,7 +6393,8 @@
       "x": 94,
       "y": -36,
       "z": 100
-    }
+    },
+    "culturalContext": "Bright winter sun ('soleil') combined with fresh white snow creates intense glare, making UV-blocking sunglasses essential for drivers."
   },
   {
     "id": "a1-281",
@@ -6381,7 +6485,8 @@
       "x": 101,
       "y": -55,
       "z": 120
-    }
+    },
+    "culturalContext": "Freezing rain ('pluie verglaçante') in winter can coat roads and power lines in heavy ice ('verglas'), causing hazardous driving conditions."
   },
   {
     "id": "a1-285",
@@ -6402,7 +6507,8 @@
       "x": 105,
       "y": -35,
       "z": 104
-    }
+    },
+    "culturalContext": "Snow ('neige') in Québec has rich specialized terms: 'poudrerie' (blowing blizzard snow), 'sloche' (slush), and 'banc de neige' (snowbank)."
   },
   {
     "id": "a1-286",
@@ -6423,7 +6529,8 @@
       "x": 87,
       "y": -18,
       "z": 105
-    }
+    },
+    "culturalContext": "Biting winter wind ('vent') is monitored using the wind chill index ('refroidissement éolien'), warning when exposed skin risks frostbite."
   },
   {
     "id": "a1-287",
@@ -6644,7 +6751,8 @@
       "x": 93,
       "y": -9,
       "z": 109
-    }
+    },
+    "culturalContext": "Cellular phone plans ('téléphone cellulaire') in Québec are provided by major Canadian telecommunications carriers."
   },
   {
     "id": "a1-296",
@@ -6672,7 +6780,8 @@
       "x": 107,
       "y": -18,
       "z": 105
-    }
+    },
+    "culturalContext": "Computers ('ordinateur') in Québec offices use the standard Canadian Multilingual keyboard layout, allowing easy access to French accented characters."
   },
   {
     "id": "a1-297",
@@ -6753,7 +6862,8 @@
       "x": 93,
       "y": -1,
       "z": 110
-    }
+    },
+    "culturalContext": "Francophone music ('musique') in Québec is protected by radio broadcasting quotas mandating that 65% of vocal selections are in French."
   },
   {
     "id": "a1-300",
@@ -6774,6 +6884,7 @@
       "x": 105,
       "y": 9,
       "z": 99
-    }
+    },
+    "culturalContext": "Québec cinema ('film') has produced internationally acclaimed directors such as Denis Villeneuve, Jean-Marc Vallée, and Xavier Dolan."
   }
 ]

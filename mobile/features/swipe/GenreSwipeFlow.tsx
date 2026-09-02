@@ -39,7 +39,8 @@ interface GenreSwipeFlowProps {
 export function GenreSwipeFlow({ navigation }: GenreSwipeFlowProps) {
   const { isDarkMode, theme } = useAppTheme();
   const insets = useSafeAreaInsets();
-  const { concepts } = useProgressStore();
+  const concepts = useProgressStore((s) => s.concepts);
+  const recordAnswer = useProgressStore((s) => s.recordAnswer);
 
   // 1. Gather all noun concepts with explicit gender
   const nouns = useMemo(() => {
@@ -67,7 +68,10 @@ export function GenreSwipeFlow({ navigation }: GenreSwipeFlowProps) {
     if (!activeNoun) return;
 
     const isCorrectChoice = activeNoun.gender === chosenGender;
-    
+    recordAnswer(activeNoun.id, isCorrectChoice).catch((err) =>
+      console.warn("Could not record swipe progress:", err)
+    );
+
     // Play tactile responses
     if (isCorrectChoice) {
       triggerHaptic('success');

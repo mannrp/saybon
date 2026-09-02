@@ -47,8 +47,11 @@ export function PracticeFlow({ navigation, route }: PracticeFlowProps) {
   const { conceptIds } = route.params || { conceptIds: [] };
 
   // ── Database Access ─────────────────────────────────────────────────────────
-  const { concepts } = useProgressStore();
-  const { startSession, recordAnswer, activeSession, clearSession } = useSessionStore();
+  const concepts = useProgressStore((s) => s.concepts);
+  const startSession = useSessionStore((s) => s.startSession);
+  const recordAnswer = useSessionStore((s) => s.recordAnswer);
+  const activeSession = useSessionStore((s) => s.activeSession);
+  const clearSession = useSessionStore((s) => s.clearSession);
 
   const activeConcepts = useMemo(() => {
     if (conceptIds && conceptIds.length > 0) {

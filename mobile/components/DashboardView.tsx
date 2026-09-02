@@ -39,7 +39,8 @@ interface DashboardViewProps {
 export function DashboardView({ navigation }: DashboardViewProps) {
   const { isDarkMode, theme } = useAppTheme();
   const insets = useSafeAreaInsets();
-  const { concepts, progress } = useProgressStore();
+  const concepts = useProgressStore((s) => s.concepts);
+  const progress = useProgressStore((s) => s.progress);
 
   // State to manage the organic random word explorer modal
   const [exploreModalVisible, setExploreModalVisible] = useState(false);

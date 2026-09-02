@@ -1,0 +1,5342 @@
+[
+  {
+    "id": "ce-gapfill-0001",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Pour renouveler votre carte d'assurance maladie, il faut absolument que vous ___ ce formulaire avant vendredi.",
+    "options": [
+      {
+        "id": "a",
+        "text": "remplissez"
+      },
+      {
+        "id": "b",
+        "text": "remplissiez"
+      },
+      {
+        "id": "c",
+        "text": "remplirez"
+      },
+      {
+        "id": "d",
+        "text": "rempliriez"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The impersonal expression of obligation 'il faut que' always requires the subjunctive mood (subjonctif). For the subject pronoun 'vous', the correct present subjunctive form of the verb 'remplir' is 'remplissiez'.",
+    "distractorRationales": {
+      "a": "'Remplissez' is the present indicative form; the phrase 'il faut que' strictly requires the subjunctive mood.",
+      "c": "'Remplirez' is the simple future indicative, which is incompatible with the obligation structure 'il faut que'.",
+      "d": "'Rempliriez' is in the present conditional; the conditional cannot be used directly after 'il faut que' to express obligation."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0002",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Pendant que nous attendions l'autobus sous l'abri, une forte averse de grêle ___ soudainement.",
+    "options": [
+      {
+        "id": "a",
+        "text": "a débuté"
+      },
+      {
+        "id": "b",
+        "text": "débutait"
+      },
+      {
+        "id": "c",
+        "text": "débutera"
+      },
+      {
+        "id": "d",
+        "text": "débuterait"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In a past-tense narrative, a sudden, punctual event that interrupts an ongoing action (expressed in the imparfait by 'attendions') requires the passé composé ('a débuté').",
+    "distractorRationales": {
+      "b": "'Débutait' is in the imparfait; the adverb 'soudainement' marks a punctual interruption that is incompatible with the continuous aspect of the imparfait.",
+      "c": "'Débutera' is in the simple future (futur simple), which breaks the past narrative timeframe established by 'attendions'.",
+      "d": "'Débuterait' is in the present conditional (conditionnel présent), expressing a hypothetical or uncertain action rather than an established factual event."
+    },
+    "skillTags": [
+      "temps-du-passe"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0003",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le bureau de poste ___ se trouvent les colis des résidents du quartier ferme à dix-huit heures.",
+    "options": [
+      {
+        "id": "a",
+        "text": "dont"
+      },
+      {
+        "id": "b",
+        "text": "que"
+      },
+      {
+        "id": "c",
+        "text": "où"
+      },
+      {
+        "id": "d",
+        "text": "qui"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The relative pronoun 'où' is used to refer to a physical location ('le bureau de poste') where the action or situation takes place.",
+    "distractorRationales": {
+      "a": "'Dont' replaces a complement introduced by the preposition 'de' (e.g. avoir besoin de), which does not match the locational verb 'se trouver dans'.",
+      "b": "'Que' replaces a direct object (COD); here, the intransitive verb 'se trouvent' already has its postposed subject 'les colis des résidents'.",
+      "d": "'Qui' serves as the subject pronoun of the relative clause; here, the grammatical subject is already stated ('les colis des résidents')."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0004",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Avez-vous acheté des billets pour le spectacle d'humour samedi ? — Oui, nous ___ avons réservé deux hier.",
+    "options": [
+      {
+        "id": "a",
+        "text": "y"
+      },
+      {
+        "id": "b",
+        "text": "les"
+      },
+      {
+        "id": "c",
+        "text": "leur"
+      },
+      {
+        "id": "d",
+        "text": "en"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The adverbial pronoun 'en' is used to replace a noun introduced by an indefinite or partitive article ('des billets') when a specific numerical quantity ('deux') is expressed at the end of the clause.",
+    "distractorRationales": {
+      "a": "'Y' replaces a complement of place or an inanimate noun preceded by 'à', and is never used to represent a countable quantity of items.",
+      "b": "'Les' is a definite direct object pronoun referring to a totality; it cannot co-occur with a numerical quantifier like 'deux'.",
+      "c": "'Leur' is an indirect object pronoun (COI) referring strictly to plural persons, making it impossible for tickets."
+    },
+    "skillTags": [
+      "pronoms-complements"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0005",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Dans cette recette traditionnelle de tarte au sucre, le chef conseille de ne pas mettre ___ crème fraîche.",
+    "options": [
+      {
+        "id": "a",
+        "text": "de"
+      },
+      {
+        "id": "b",
+        "text": "du"
+      },
+      {
+        "id": "c",
+        "text": "des"
+      },
+      {
+        "id": "d",
+        "text": "une"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "After an absolute negation such as 'ne pas mettre', partitive articles (du, de la, de l', des) systematically reduce to the bare preposition 'de' (or 'd'' before a vowel).",
+    "distractorRationales": {
+      "b": "'Du' is the affirmative masculine singular partitive article; in an absolute negation and before a feminine noun, it is doubly incorrect.",
+      "c": "'Des' is the affirmative plural partitive or indefinite article; it must become 'de' after an absolute negation.",
+      "d": "'Une' is the singular indefinite article; for an uncountable mass noun in a negative sentence, standard French grammar requires 'de'."
+    },
+    "skillTags": [
+      "articles-partitifs"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0006",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Après avoir analysé les résultats du sondage, les deux directrices se sont déclarées très ___ du taux de participation.",
+    "options": [
+      {
+        "id": "a",
+        "text": "satisfait"
+      },
+      {
+        "id": "b",
+        "text": "satisfaites"
+      },
+      {
+        "id": "c",
+        "text": "satisfaits"
+      },
+      {
+        "id": "d",
+        "text": "satisfaite"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The predicate adjective 'satisfaites' must agree in gender and number with the feminine plural subject noun phrase 'les deux directrices'.",
+    "distractorRationales": {
+      "a": "'Satisfait' is masculine singular; it fails to reflect both the feminine gender and plural number of 'les deux directrices'.",
+      "c": "'Satisfaits' is masculine plural; it ignores the strictly feminine gender of the two directors mentioned.",
+      "d": "'Satisfaite' is feminine singular; it lacks the plural marker required by 'les deux directrices'."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0007",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Avant d'envoyer votre formulaire d'inscription en ligne, veillez ___ joindre tous les justificatifs demandés.",
+    "options": [
+      {
+        "id": "a",
+        "text": "sur"
+      },
+      {
+        "id": "b",
+        "text": "en"
+      },
+      {
+        "id": "c",
+        "text": "à"
+      },
+      {
+        "id": "d",
+        "text": "par"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The verbal phrase 'veiller à' followed by an infinitive means 'to make sure to do something' and obligatorily takes the preposition 'à'.",
+    "distractorRationales": {
+      "a": "'Sur' is only used with 'veiller' before a noun to mean watching over or protecting someone ('veiller sur quelqu'un'), never before an infinitive of purpose.",
+      "b": "'En' is used with a present participle to form the gérondif, but cannot introduce an infinitive after 'veiller'.",
+      "d": "'Par' expresses means or passive agent, but does not correspond to any valid syntactic construction governed by 'veiller'."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0008",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Si nous avions une semaine de congé supplémentaire cet hiver, nous ___ une escapade dans les Chic-Chocs.",
+    "options": [
+      {
+        "id": "a",
+        "text": "ferons"
+      },
+      {
+        "id": "b",
+        "text": "faisions"
+      },
+      {
+        "id": "c",
+        "text": "fassions"
+      },
+      {
+        "id": "d",
+        "text": "ferions"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "In a hypothetical system introduced by 'si' + imparfait ('si nous avions'), the verb in the main clause must be in the present conditional ('ferions').",
+    "distractorRationales": {
+      "a": "'Ferons' is in the simple future, which is only used in the main clause if the 'si' clause is in the present indicative ('si nous avons... nous ferons').",
+      "b": "'Faisions' is in the imparfait; standard French does not permit the imparfait in the main clause following a 'si' condition.",
+      "c": "'Fassions' is in the present subjunctive; hypothetical 'si' clauses never trigger the subjunctive mood."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0009",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Pendant toute notre enfance en Gaspésie, nous ___ au bord du fleuve dès que le printemps arrivait.",
+    "options": [
+      {
+        "id": "a",
+        "text": "allions"
+      },
+      {
+        "id": "b",
+        "text": "sommes allés"
+      },
+      {
+        "id": "c",
+        "text": "irons"
+      },
+      {
+        "id": "d",
+        "text": "irions"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The imparfait of habit ('allions') is required to express a recurring, customary action in the past, emphasized by 'toute notre enfance' and 'dès que le printemps arrivait'.",
+    "distractorRationales": {
+      "b": "'Sommes allés' is in the passé composé; this tense designates a single, completed, or bounded past event, not a repetitive past habit.",
+      "c": "'Irons' is in the simple future, which directly contradicts the past narrative timeframe of childhood.",
+      "d": "'Irions' is in the present conditional, expressing a hypothetical possibility rather than an actual lived memory."
+    },
+    "skillTags": [
+      "temps-du-passe"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0010",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le chef de département exige que chaque stagiaire ___ son rapport d'étape avant la fin du mois.",
+    "options": [
+      {
+        "id": "a",
+        "text": "remet"
+      },
+      {
+        "id": "b",
+        "text": "remette"
+      },
+      {
+        "id": "c",
+        "text": "remettra"
+      },
+      {
+        "id": "d",
+        "text": "remettrait"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The verb 'exiger que' conveys a strict command and obligatorily governs the subjunctive mood. In the third person singular, the present subjunctive of 'remettre' is 'remette'.",
+    "distractorRationales": {
+      "a": "'Remet' is the present indicative form; verbs expressing command like 'exiger que' forbid the indicative.",
+      "c": "'Remettra' is the simple future indicative, which is incompatible with the noun clause governed by 'exiger'.",
+      "d": "'Remettrait' is in the present conditional, which is invalid after a verb imposing a requirement."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0011",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Lorsque le nouvel arrivant a rencontré sa conseillère en emploi, il ___ a posé de nombreuses questions sur le marché local.",
+    "options": [
+      {
+        "id": "a",
+        "text": "la"
+      },
+      {
+        "id": "b",
+        "text": "l'"
+      },
+      {
+        "id": "c",
+        "text": "lui"
+      },
+      {
+        "id": "d",
+        "text": "leur"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The verb 'poser' takes an indirect personal object: 'poser une question à quelqu'un'. The appropriate singular indirect object pronoun (COI) is 'lui'.",
+    "distractorRationales": {
+      "a": "'La' is a feminine direct object pronoun (COD); 'poser' requires an indirect prepositional construction ('poser à').",
+      "b": "'L'' is the elided direct object pronoun, which cannot serve as an indirect object complement.",
+      "d": "'Leur' is a plural COI pronoun; here, the advisor is a single individual in the singular."
+    },
+    "skillTags": [
+      "pronoms-complements"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0012",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Ce programme de mentorat s'adresse principalement ___ personnes désireuses de se réorienter professionnellement.",
+    "options": [
+      {
+        "id": "a",
+        "text": "vers les"
+      },
+      {
+        "id": "b",
+        "text": "pour les"
+      },
+      {
+        "id": "c",
+        "text": "chez les"
+      },
+      {
+        "id": "d",
+        "text": "aux"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The pronominal verb 's'adresser à' governs the preposition 'à'. Before the plural noun 'personnes', the mandatory contraction of 'à + les' yields 'aux'.",
+    "distractorRationales": {
+      "a": "'Vers les' indicates physical orientation or directional movement, which does not match the syntactic government of 's'adresser à'.",
+      "b": "'Pour les' is a structural calque from English; the verb 's'adresser' strictly requires the preposition 'à'.",
+      "c": "'Chez les' indicates someone's home or a sociological milieu, which is incompatible with the intended recipient of 's'adresser à'."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0013",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Les propositions d'aménagement que le comité de quartier a ___ ont été adoptées à l'unanimité.",
+    "options": [
+      {
+        "id": "a",
+        "text": "examinées"
+      },
+      {
+        "id": "b",
+        "text": "examiné"
+      },
+      {
+        "id": "c",
+        "text": "examinée"
+      },
+      {
+        "id": "d",
+        "text": "examinés"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "When conjugated with the auxiliary 'avoir', the past participle ('examiné') agrees in gender and number with the preceding direct object pronoun 'que', whose antecedent is 'les propositions d'aménagement' (feminine plural).",
+    "distractorRationales": {
+      "b": "'Examiné' is masculine singular; it fails to make the required agreement with the preceding feminine plural direct object.",
+      "c": "'Examinée' is feminine singular; it lacks the plural 's' corresponding to 'les propositions'.",
+      "d": "'Examinés' is masculine plural; the antecedent noun 'propositions' is feminine."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0014",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Pour réussir cette sauce tomate à l'ancienne, il est préférable d'ajouter ___ ail finement haché.",
+    "options": [
+      {
+        "id": "a",
+        "text": "de"
+      },
+      {
+        "id": "b",
+        "text": "de l'"
+      },
+      {
+        "id": "c",
+        "text": "du"
+      },
+      {
+        "id": "d",
+        "text": "le"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The masculine noun 'ail' begins with a vowel; in an affirmative clause, the masculine singular partitive article 'du' obligatorily elides to 'de l'' to denote an unspecified quantity.",
+    "distractorRationales": {
+      "a": "'De' without an article is used after a negative or after an adverb of quantity, neither of which applies here.",
+      "c": "'Du' cannot stand before a word beginning with a vowel; French phonotactics mandate the elision to 'de l''.",
+      "d": "'Le' is the definite article, which would refer to garlic as a general concept or a specific known portion rather than an ingredient quantity."
+    },
+    "skillTags": [
+      "articles-partitifs"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0015",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "C'est en ___ quotidiennement la presse francophone que vous enrichirez votre vocabulaire pour le TEF.",
+    "options": [
+      {
+        "id": "a",
+        "text": "lire"
+      },
+      {
+        "id": "b",
+        "text": "lu"
+      },
+      {
+        "id": "c",
+        "text": "lisant"
+      },
+      {
+        "id": "d",
+        "text": "lisait"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The preposition 'en' followed by the present participle 'lisant' forms the gérondif, which expresses the means or manner by which the goal is achieved.",
+    "distractorRationales": {
+      "a": "'Lire' is the infinitive; in modern French, the preposition 'en' never directly governs a present infinitive.",
+      "b": "'Lu' is the past participle; the combination 'en lu' does not exist in French grammar.",
+      "d": "'Lisait' is the imparfait indicative; a preposition cannot be followed by an inflected indicative verb form."
+    },
+    "skillTags": [
+      "gerondif"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0016",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Bien que l'équipe municipale ___ tout son possible pour déneiger les voies rapides, la circulation reste paralysée.",
+    "options": [
+      {
+        "id": "a",
+        "text": "fait"
+      },
+      {
+        "id": "b",
+        "text": "fera"
+      },
+      {
+        "id": "c",
+        "text": "faisait"
+      },
+      {
+        "id": "d",
+        "text": "fasse"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The concessive conjunction 'bien que' obligatorily requires the subjunctive mood. For the verb 'faire' in the third person singular, the present subjunctive form is 'fasse'.",
+    "distractorRationales": {
+      "a": "'Fait' is the present indicative form; 'bien que' strictly proscribes the indicative in formal French.",
+      "b": "'Fera' is the simple future indicative, which is incompatible with the subjunctive requirement after 'bien que'.",
+      "c": "'Faisait' is in the imparfait indicative; concession introduced by 'bien que' never takes the indicative."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0017",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Lorsque les inspecteurs du travail sont intervenus sur le chantier, les contrevenants ___ déjà les preuves de l'incident.",
+    "options": [
+      {
+        "id": "a",
+        "text": "avaient dissimulé"
+      },
+      {
+        "id": "b",
+        "text": "ont dissimulé"
+      },
+      {
+        "id": "c",
+        "text": "dissimulaient"
+      },
+      {
+        "id": "d",
+        "text": "dissimuleront"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The plus-que-parfait ('avaient dissimulé') is required to show that an action was completed prior to another past event expressed in the passé composé ('sont intervenus').",
+    "distractorRationales": {
+      "b": "'Ont dissimulé' in the passé composé fails to establish the necessary past anteriority emphasized by the adverb 'déjà'.",
+      "c": "'Dissimulaient' in the imparfait would describe an action in progress during the inspectors' arrival, which contradicts 'déjà'.",
+      "d": "'Dissimuleront' is in the simple future, which is chronologically impossible in a past narrative."
+    },
+    "skillTags": [
+      "temps-du-passe"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0018",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le nouveau règlement d'urbanisme, en vertu ___ les propriétaires doivent isoler leur toiture, entrera en vigueur en octobre.",
+    "options": [
+      {
+        "id": "a",
+        "text": "de laquelle"
+      },
+      {
+        "id": "b",
+        "text": "duquel"
+      },
+      {
+        "id": "c",
+        "text": "auquel"
+      },
+      {
+        "id": "d",
+        "text": "desquels"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The prepositional phrase 'en vertu de' requires a compound relative pronoun built with 'de'. Because the antecedent 'le nouveau règlement' is masculine singular, the required contracted form is 'duquel' ('de + lequel').",
+    "distractorRationales": {
+      "a": "'De laquelle' is feminine singular; the antecedent noun 'règlement' is masculine.",
+      "c": "'Auquel' combines the preposition 'à' ('à + lequel'); the established phrase is 'en vertu de', not 'en vertu à'.",
+      "d": "'Desquels' is plural; the antecedent noun 'règlement' is singular."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0019",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Avez-vous envoyé votre relevé de notes officiel aux agents d'admission ? — Oui, je ___ ai transmis dès ce matin.",
+    "options": [
+      {
+        "id": "a",
+        "text": "les leur"
+      },
+      {
+        "id": "b",
+        "text": "leur le"
+      },
+      {
+        "id": "c",
+        "text": "le leur"
+      },
+      {
+        "id": "d",
+        "text": "lui le"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "In French, when two third-person object pronouns precede the verb, the direct object pronoun 'le' (relevé de notes) must precede the indirect object pronoun 'leur' (agents).",
+    "distractorRationales": {
+      "a": "'Les leur' uses the plural direct object 'les', but the antecedent noun 'votre relevé de notes' is singular.",
+      "b": "'Leur le' reverses the mandatory word order for third-person conjunctive pronouns, where COD (le/la/les) precedes COI (lui/leur).",
+      "d": "'Lui le' has two errors: the pronoun order is reversed and 'lui' is singular, whereas 'agents' is plural."
+    },
+    "skillTags": [
+      "pronoms-complements"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0020",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Selon les dernières prévisions météorologiques diffusées ce matin, une violente tempête de verglas ___ la région dès demain soir.",
+    "options": [
+      {
+        "id": "a",
+        "text": "frappe"
+      },
+      {
+        "id": "b",
+        "text": "frappera"
+      },
+      {
+        "id": "c",
+        "text": "frappait"
+      },
+      {
+        "id": "d",
+        "text": "frapperait"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The journalistic or presumptive conditional ('frapperait') is used to report unconfirmed news, forecasts, or information subject to reservation, introduced here by 'selon les dernières prévisions'.",
+    "distractorRationales": {
+      "a": "'Frappe' is in the present indicative, asserting an action currently taking place, which contradicts 'demain soir'.",
+      "b": "'Frappera' in the simple future asserts absolute certainty, removing the nuance of forecast or caution implied by 'selon les prévisions'.",
+      "c": "'Frappait' is in the imparfait, making it temporally impossible for an event forecasted for the following day."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0021",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le candidat a impressionné le jury d'embauche tout ___ un calme remarquable malgré la difficulté des épreuves techniques.",
+    "options": [
+      {
+        "id": "a",
+        "text": "en conservant"
+      },
+      {
+        "id": "b",
+        "text": "à conserver"
+      },
+      {
+        "id": "c",
+        "text": "de conserver"
+      },
+      {
+        "id": "d",
+        "text": "pour conserver"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The construction 'tout en' followed by a present participle ('en conservant') forms a gérondif that emphasizes the simultaneity of two ongoing states or actions performed by the same subject.",
+    "distractorRationales": {
+      "b": "'À conserver' does not form any valid temporal or modal construction with 'tout'.",
+      "c": "'De conserver' cannot combine with the adverb 'tout' to indicate simultaneous behavior.",
+      "d": "'Pour conserver' would express intention or purpose rather than the concurrent demeanor observed throughout the test."
+    },
+    "skillTags": [
+      "gerondif"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0022",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le ministre du Revenu a affirmé lors du point de presse qu'il ___ un nouveau crédit d'impôt l'automne prochain.",
+    "options": [
+      {
+        "id": "a",
+        "text": "instaurera"
+      },
+      {
+        "id": "b",
+        "text": "instaurerait"
+      },
+      {
+        "id": "c",
+        "text": "instaure"
+      },
+      {
+        "id": "d",
+        "text": "instaurait"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "In indirect discourse governed by a past-tense reporting verb ('a affirmé'), the rules of sequence of tenses (concordance des temps) require the future-in-the-past, which uses the present conditional form ('instaurerait').",
+    "distractorRationales": {
+      "a": "'Instaurera' is in the simple future; it violates the sequence of tenses rule required after a past-tense introductory verb.",
+      "c": "'Instaure' is in the present indicative, erasing the future projection planned for 'l'automne prochain'.",
+      "d": "'Instaurait' is in the imparfait, which would express simultaneous background action rather than a future policy rollout."
+    },
+    "skillTags": [
+      "concordance-des-temps"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0023",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Même si elles travaillent dans des succursales différentes, les deux directrices régionales se sont régulièrement ___ par visioconférence.",
+    "options": [
+      {
+        "id": "a",
+        "text": "parlées"
+      },
+      {
+        "id": "b",
+        "text": "parlée"
+      },
+      {
+        "id": "c",
+        "text": "parlé"
+      },
+      {
+        "id": "d",
+        "text": "parler"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The past participle of the reciprocal pronominal verb 'se parler' remains invariable ('parlé') because the reflexive pronoun 'se' is an indirect object (one says 'parler à quelqu'un').",
+    "distractorRationales": {
+      "a": "'Parlées' incorrectly applies feminine plural agreement with the subject, overlooking the fact that 'se' is an indirect object (COI).",
+      "b": "'Parlée' attempts feminine singular agreement, which is doubly incorrect with a plural subject and an indirect object structure.",
+      "d": "'Parler' is the infinitive form, which cannot form a compound past tense following the auxiliary 'sont'."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0024",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La direction a rappelé que l'accès aux dossiers médicaux des usagers est strictement subordonné ___ consentement écrit du patient.",
+    "options": [
+      {
+        "id": "a",
+        "text": "sur le"
+      },
+      {
+        "id": "b",
+        "text": "pour le"
+      },
+      {
+        "id": "c",
+        "text": "avec le"
+      },
+      {
+        "id": "d",
+        "text": "au"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The verbal adjective 'subordonné' obligatorily governs the preposition 'à' ('être subordonné à'). Before the masculine noun 'consentement', the contraction of 'à + le' produces 'au'.",
+    "distractorRationales": {
+      "a": "'Sur le' is an incorrect preposition; 'subordonner' is never followed by 'sur'.",
+      "b": "'Pour le' denotes purpose and violates the required prepositional regime of 'subordonné à'.",
+      "c": "'Avec le' denotes accompaniment, which is incompatible with the conditional dependence expressed by 'subordonné'."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0025",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La coordonnatrice craint que le budget alloué au projet communautaire ne ___ insuffisant pour couvrir tous les frais.",
+    "options": [
+      {
+        "id": "a",
+        "text": "soit"
+      },
+      {
+        "id": "b",
+        "text": "sera"
+      },
+      {
+        "id": "c",
+        "text": "est"
+      },
+      {
+        "id": "d",
+        "text": "serait"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "Verbs expressing fear or anxiety like 'craindre que' (accompanied here by the expletive 'ne') systematically trigger the subjunctive mood. In the third person singular, the present subjunctive of 'être' is 'soit'.",
+    "distractorRationales": {
+      "b": "'Sera' is the simple future indicative; verbs expressing fear prohibit the indicative mood.",
+      "c": "'Est' is the present indicative; the sentiment of apprehension does not allow a mood of factual certainty.",
+      "d": "'Serait' is in the present conditional, which is invalid in a noun complement clause governed by 'craindre que'."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0026",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Hier, en ouvrant sa boîte aux lettres, Julien a constaté qu'un inconnu ___ une enveloppe anonyme sur le paillasson.",
+    "options": [
+      {
+        "id": "a",
+        "text": "dépose"
+      },
+      {
+        "id": "b",
+        "text": "avait déposé"
+      },
+      {
+        "id": "c",
+        "text": "a déposé"
+      },
+      {
+        "id": "d",
+        "text": "déposera"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The plus-que-parfait ('avait déposé') is required to express an action that took place prior to the moment of discovery stated in the passé composé ('a constaté').",
+    "distractorRationales": {
+      "a": "'Dépose' is in the present indicative, clashing with a retrospective observation rooted in the past.",
+      "c": "'A déposé' in the passé composé does not convey the required relationship of anteriority relative to the main narrative event.",
+      "d": "'Déposera' is in the simple future, which is temporally impossible for an event whose physical trace has already been observed."
+    },
+    "skillTags": [
+      "temps-du-passe"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0027",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "L'organisme à but non lucratif ___ cette subvention gouvernementale a été accordée aide les familles défavorisées.",
+    "options": [
+      {
+        "id": "a",
+        "text": "dont"
+      },
+      {
+        "id": "b",
+        "text": "duquel"
+      },
+      {
+        "id": "c",
+        "text": "auquel"
+      },
+      {
+        "id": "d",
+        "text": "par lequel"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The verb 'accorder' is constructed with the preposition 'à' ('accorder une aide à quelqu'un'). With the masculine singular antecedent 'l'organisme', the proper contracted relative pronoun is 'auquel' ('à + lequel').",
+    "distractorRationales": {
+      "a": "'Dont' replaces a complement introduced by 'de'; one does not grant something 'de' someone, but 'à' someone.",
+      "b": "'Duquel' combines the preposition 'de' ('de + lequel'), which is syntactically incorrect with the verb 'accorder à'.",
+      "d": "'Par lequel' would denote an instrument or intermediary rather than the direct recipient of the grant."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0028",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Si tu as besoin de ces outils de jardinage pour la fin de semaine, je peux ___ prêter sans aucun problème.",
+    "options": [
+      {
+        "id": "a",
+        "text": "te les lui"
+      },
+      {
+        "id": "b",
+        "text": "les toi"
+      },
+      {
+        "id": "c",
+        "text": "te lui"
+      },
+      {
+        "id": "d",
+        "text": "te les"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Before an infinitive, the second-person indirect object pronoun 'te' obligatorily precedes the third-person direct object pronoun 'les' ('je peux te les prêter').",
+    "distractorRationales": {
+      "a": "'Te les lui' needlessly inserts a third pronoun 'lui', which has no grammatical role in the sentence.",
+      "b": "'Les toi' reverses the sequence of pronouns and uses the disjunctive form 'toi', which only appears after the verb in the affirmative imperative.",
+      "c": "'Te lui' places two indirect object pronouns side by side, omitting the direct object representing the gardening tools."
+    },
+    "skillTags": [
+      "pronoms-complements"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0029",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La porte-parole a précisé que les inspecteurs ___ le rapport final dès qu'ils auraient reçu toutes les expertises.",
+    "options": [
+      {
+        "id": "a",
+        "text": "publient"
+      },
+      {
+        "id": "b",
+        "text": "publieraient"
+      },
+      {
+        "id": "c",
+        "text": "publieront"
+      },
+      {
+        "id": "d",
+        "text": "publiaient"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "In indirect speech anchored in the past ('a précisé'), future action relative to the past reference point is expressed using the present conditional ('publieraient'), correlating with the past conditional 'auraient reçu'.",
+    "distractorRationales": {
+      "a": "'Publient' is in the present indicative, creating a tense clash with the past-tense main verb and the conditional clause.",
+      "c": "'Publieront' is in the simple future, which violates the sequence of tenses after a main verb in the passé composé.",
+      "d": "'Publiaient' is in the imparfait, which would express simultaneous ongoing action rather than a future contingent release."
+    },
+    "skillTags": [
+      "concordance-des-temps"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0030",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Si les automobilistes avaient respecté les consignes de sécurité routière, cet accident ___ évité.",
+    "options": [
+      {
+        "id": "a",
+        "text": "sera"
+      },
+      {
+        "id": "b",
+        "text": "serait"
+      },
+      {
+        "id": "c",
+        "text": "aurait été"
+      },
+      {
+        "id": "d",
+        "text": "avait été"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "In an unfulfilled past hypothetical system introduced by 'si' + plus-que-parfait ('si les automobilistes avaient respecté'), the main clause must be in the past conditional ('aurait été').",
+    "distractorRationales": {
+      "a": "'Sera' is in the simple future indicative, which is impossible in a counterfactual past conditional structure.",
+      "b": "'Serait' is in the present conditional, which would correspond to a present hypothetical condition ('si les automobilistes respectaient...').",
+      "d": "'Avait été' is in the plus-que-parfait indicative, a form restricted to the 'si' clause and forbidden in the main clause."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0031",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le comité a adopté cette résolution d'urgence de peur que les négociations syndicales ne ___ dans une impasse.",
+    "options": [
+      {
+        "id": "a",
+        "text": "s'enlisent"
+      },
+      {
+        "id": "b",
+        "text": "s'enliseront"
+      },
+      {
+        "id": "c",
+        "text": "s'enlisaient"
+      },
+      {
+        "id": "d",
+        "text": "s'enliseraient"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The concessive/apprehensive conjunction 'de peur que' (followed by an expletive 'ne') strictly requires the subjunctive mood. In the third person plural, the present subjunctive form is 's'enlisent'.",
+    "distractorRationales": {
+      "b": "'S'enliseront' is the simple future indicative; conjunctions of fear forbid the indicative mood.",
+      "c": "'S'enlisaient' is in the imparfait indicative, which is inadmissible in a clause governed by 'de peur que'.",
+      "d": "'S'enliseraient' is in the present conditional, which cannot replace the subjunctive required by this conjunction."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0032",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Si l'entreprise avait investi massivement dans ces technologies numériques l'an dernier, elle ___ beaucoup plus compétitive aujourd'hui.",
+    "options": [
+      {
+        "id": "a",
+        "text": "était"
+      },
+      {
+        "id": "b",
+        "text": "serait"
+      },
+      {
+        "id": "c",
+        "text": "sera"
+      },
+      {
+        "id": "d",
+        "text": "fût"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "In a mixed conditional sentence where the condition is a counterfactual past event ('si elle avait investi') but the result refers to the present situation ('aujourd'hui'), the main clause is conjugated in the present conditional ('serait').",
+    "distractorRationales": {
+      "a": "'Était' is in the imparfait indicative, which is excluded from the main clause of a 'si' conditional.",
+      "c": "'Sera' is in the simple future, which is temporally and modally incompatible with an unfulfilled past condition.",
+      "d": "'Fût' is the literary imperfect subjunctive, which is inappropriate for modern standard register and syntax."
+    },
+    "skillTags": [
+      "concordance-des-temps",
+      "conditionnel"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0033",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Ces deux romancières québécoises se sont ___ une admiration mutuelle tout au long de leur carrière littéraire.",
+    "options": [
+      {
+        "id": "a",
+        "text": "vouées"
+      },
+      {
+        "id": "b",
+        "text": "vouée"
+      },
+      {
+        "id": "c",
+        "text": "voué"
+      },
+      {
+        "id": "d",
+        "text": "vouer"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "In the pronominal construction 'se vouer', the reflexive pronoun 'se' is an indirect object (COI: 'vouer une admiration à l'autre') and the direct object (COD: 'une admiration mutuelle') appears AFTER the verb. Therefore, the past participle remains invariable ('voué').",
+    "distractorRationales": {
+      "a": "'Vouées' makes the common error of agreeing with the subject, ignoring that 'se' is an indirect object and the direct object follows the participle.",
+      "b": "'Vouée' attempts a feminine singular agreement, which is doubly incorrect given the plural subject and indirect object structure.",
+      "d": "'Vouer' is the infinitive form, which cannot form a compound past tense following the auxiliary 'sont'."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0034",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La conciliation travail-famille et le télétravail sont des enjeux cruciaux, ___ les nouveaux employés accordent une importance capitale.",
+    "options": [
+      {
+        "id": "a",
+        "text": "dont"
+      },
+      {
+        "id": "b",
+        "text": "desquels"
+      },
+      {
+        "id": "c",
+        "text": "pour lesquels"
+      },
+      {
+        "id": "d",
+        "text": "auxquels"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The verbal phrase 'accorder de l'importance à' governs the preposition 'à'. Because the antecedent 'des enjeux cruciaux' is masculine plural, the contracted relative pronoun required is 'auxquels' ('à + lesquels').",
+    "distractorRationales": {
+      "a": "'Dont' replaces a complement introduced by 'de', which does not match the preposition governed by 'accorder de l'importance à'.",
+      "b": "'Desquels' is contracted with 'de' ('de + lesquels'), which is syntactically incompatible with the expected preposition 'à'.",
+      "c": "'Pour lesquels' alters the established prepositional government of the idiom 'accorder de l'importance à'."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0035",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "D'après les conclusions préliminaires de l'enquête policière, le suspect ___ le pays sous une fausse identité quelques heures après le délit.",
+    "options": [
+      {
+        "id": "a",
+        "text": "aurait quitté"
+      },
+      {
+        "id": "b",
+        "text": "a quitté"
+      },
+      {
+        "id": "c",
+        "text": "quitterait"
+      },
+      {
+        "id": "d",
+        "text": "avait quitté"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The past conditional ('aurait quitté') is used to report a probable but unconfirmed past action with journalistic distance, matching the cautious hedge 'd'après les conclusions préliminaires'.",
+    "distractorRationales": {
+      "b": "'A quitté' in the passé composé would state the event as an absolute established fact, contradicting the hedging in 'd'après les conclusions préliminaires'.",
+      "c": "'Quitterait' is in the present conditional, which would situate the action in the present or future rather than the past ('après le délit').",
+      "d": "'Avait quitté' in the plus-que-parfait presents the action assertively without conveying the required modal nuance of unverified information."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0036",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Ce jeune entrepreneur a réussi à redresser les finances de son entreprise ___ de nouveaux marchés d'exportation en Amérique latine.",
+    "options": [
+      {
+        "id": "a",
+        "text": "pour conquérir"
+      },
+      {
+        "id": "b",
+        "text": "en conquérant"
+      },
+      {
+        "id": "c",
+        "text": "conquérant"
+      },
+      {
+        "id": "d",
+        "text": "de conquérir"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The gérondif 'en conquérant' (preposition 'en' + present participle) is the appropriate structure to express the means or causal action through which the financial recovery was achieved.",
+    "distractorRationales": {
+      "a": "'Pour conquérir' would express future intention or purpose rather than the effective means already employed to achieve the turnaround.",
+      "c": "'Conquérant' used alone as a present participle modifies a noun but lacks the circumstantial adverbial force of means inherent to the gérondif.",
+      "d": "'De conquérir' as a prepositional infinitive cannot function as an adverbial complement of means."
+    },
+    "skillTags": [
+      "gerondif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0037",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La directrice générale a enfin consenti ___ réexaminer les demandes de subvention refusées au cours du cycle précédent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "de"
+      },
+      {
+        "id": "b",
+        "text": "pour"
+      },
+      {
+        "id": "c",
+        "text": "à"
+      },
+      {
+        "id": "d",
+        "text": "par"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The verb 'consentir' in the sense of agreeing after reluctance obligatorily governs the preposition 'à' before an infinitive ('consentir à faire quelque chose').",
+    "distractorRationales": {
+      "a": "'De' is a common confusion with other verbs of decision (e.g. refuser de, décider de); 'consentir de' is ungrammatical in standard modern French.",
+      "b": "'Pour' conveys purpose and fails to satisfy the direct prepositional regime of 'consentir à'.",
+      "d": "'Par' is never governed by the verb 'consentir' before an infinitive."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0038",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La nouvelle politique de télétravail hybride s'appliquera dès le mois prochain, à moins que la direction ne ___ marche arrière.",
+    "options": [
+      {
+        "id": "a",
+        "text": "fait"
+      },
+      {
+        "id": "b",
+        "text": "fera"
+      },
+      {
+        "id": "c",
+        "text": "faisait"
+      },
+      {
+        "id": "d",
+        "text": "fasse"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The restrictive conjunction 'à moins que' (accompanied here by the expletive 'ne') strictly governs the subjunctive mood. In the third person singular, the present subjunctive of 'faire' is 'fasse'.",
+    "distractorRationales": {
+      "a": "'Fait' is the present indicative form; 'à moins que' strictly forbids the indicative.",
+      "b": "'Fera' is in the simple future indicative, which is incompatible with the subordination required by 'à moins que'.",
+      "c": "'Faisait' is in the imparfait indicative, which is inadmissible after 'à moins que'."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0039",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Contrairement aux prévisions initiales, les états financiers ont confirmé que la succursale canadienne ___ des bénéfices bien supérieurs aux estimations.",
+    "options": [
+      {
+        "id": "a",
+        "text": "avait dégagé"
+      },
+      {
+        "id": "b",
+        "text": "dégageait"
+      },
+      {
+        "id": "c",
+        "text": "dégagera"
+      },
+      {
+        "id": "d",
+        "text": "dégage"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In a noun clause governed by a past-tense verb ('ont confirmé'), the anteriority of a completed accounting period requires the plus-que-parfait indicative ('avait dégagé').",
+    "distractorRationales": {
+      "b": "'Dégageait' in the imparfait would denote an ongoing, simultaneous action, whereas the financial statements settle an already completed fiscal result.",
+      "c": "'Dégagera' in the simple future contradicts the fact that the financial results report on an already closed past period.",
+      "d": "'Dégage' in the present ignores the past sequence of tenses and the necessary anteriority of the financial performance."
+    },
+    "skillTags": [
+      "concordance-des-temps"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0040",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le premier ministre a pris la parole à la tribune quelques minutes après que les parlementaires ___ la motion de censure.",
+    "options": [
+      {
+        "id": "a",
+        "text": "aient rejeté"
+      },
+      {
+        "id": "b",
+        "text": "rejetaient"
+      },
+      {
+        "id": "c",
+        "text": "rejetteraient"
+      },
+      {
+        "id": "d",
+        "text": "avaient rejeté"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Unlike 'avant que' which requires the subjunctive, the conjunction 'après que' introduces an accomplished, factual reality and therefore strictly requires the indicative mood. Because the action took place prior to the speech in the past, the plus-que-parfait indicative ('avaient rejeté') is required.",
+    "distractorRationales": {
+      "a": "'Aient rejeté' is in the past subjunctive; this is a very common error caused by false analogy with 'avant que', but standard prescriptive grammar strictly requires the indicative after 'après que'.",
+      "b": "'Rejetaient' is in the imparfait; the imparfait fails to convey the completed aspect necessary to mark the anteriority of a finished vote.",
+      "c": "'Rejetteraient' is in the present conditional, an invalid mood for an established factual past event following 'après que'."
+    },
+    "skillTags": [
+      "temps-du-passe",
+      "concordance-des-temps"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash (translated by gemini-3.8-flash)",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0041",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Je doute fort que le comité de sélection ___ une décision avant la fin du mois, vu la complexité du dossier.",
+    "options": [
+      {
+        "id": "a",
+        "text": "prend"
+      },
+      {
+        "id": "b",
+        "text": "prendra"
+      },
+      {
+        "id": "c",
+        "text": "prenne"
+      },
+      {
+        "id": "d",
+        "text": "prendrait"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The verb 'douter que' expresses doubt and uncertainty, which obligatorily triggers the subjunctive mood. For 'le comité' (third-person singular), the present subjunctive form of 'prendre' is 'prenne'.",
+    "distractorRationales": {
+      "a": "'Prend' is the present indicative form — verbs expressing doubt like 'douter que' strictly forbid the indicative.",
+      "b": "'Prendra' is the simple future indicative; verbs of doubt require the subjunctive regardless of the future timeframe implied.",
+      "d": "'Prendrait' is the present conditional, which would express a hypothetical consequence rather than the object of doubt."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0042",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Lorsque les vérificateurs comptables ont exigé les registres financiers, le trésorier ___ déjà les anomalies.",
+    "options": [
+      {
+        "id": "a",
+        "text": "avait rectifié"
+      },
+      {
+        "id": "b",
+        "text": "a rectifié"
+      },
+      {
+        "id": "c",
+        "text": "rectifiait"
+      },
+      {
+        "id": "d",
+        "text": "rectifiera"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The plus-que-parfait ('avait rectifié') is required to express an action completed prior to another past event expressed in the passé composé ('ont exigé'), reinforced by 'déjà'.",
+    "distractorRationales": {
+      "b": "'A rectifié' in the passé composé does not establish the necessary anteriority relative to 'ont exigé'.",
+      "c": "'Rectifiait' in the imparfait would describe an action in progress when the auditors asked, contradicting 'déjà'.",
+      "d": "'Rectifiera' is in the simple future, which is temporally impossible in a past narrative."
+    },
+    "skillTags": [
+      "temps-du-passe"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0043",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le protocole de sécurité ___ les techniciens de laboratoire doivent se conformer a été révisé en profondeur.",
+    "options": [
+      {
+        "id": "a",
+        "text": "dont"
+      },
+      {
+        "id": "b",
+        "text": "auquel"
+      },
+      {
+        "id": "c",
+        "text": "duquel"
+      },
+      {
+        "id": "d",
+        "text": "par lequel"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The pronominal verb 'se conformer à' governs the preposition 'à'. Because the antecedent 'le protocole' is masculine singular, the contracted compound relative pronoun is 'auquel' ('à + lequel').",
+    "distractorRationales": {
+      "a": "'Dont' replaces a complement introduced by 'de'; 'se conformer' requires 'à', not 'de'.",
+      "c": "'Duquel' incorporates 'de' ('de + lequel'), which clashes with 'se conformer à'.",
+      "d": "'Par lequel' denotes an intermediary or instrument rather than the rule being complied with."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0044",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Grâce à cette stratégie d'expansion, la coopérative agricole a dégagé ___ substantiels bénéfices dès sa première année.",
+    "options": [
+      {
+        "id": "a",
+        "text": "du"
+      },
+      {
+        "id": "b",
+        "text": "des"
+      },
+      {
+        "id": "c",
+        "text": "les"
+      },
+      {
+        "id": "d",
+        "text": "de"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "In prescriptive formal French, when an epithet adjective precedes a plural noun ('substantiels bénéfices'), the plural partitive/indefinite article 'des' obligatorily reduces to the bare preposition 'de': 'de substantiels bénéfices'.",
+    "distractorRationales": {
+      "a": "'Du' is the masculine singular partitive article, which cannot determine the plural noun 'bénéfices'.",
+      "b": "'Des' is common in casual speech, but formal prescriptive grammar strictly requires 'de' when the adjective precedes a plural noun.",
+      "c": "'Les' is the definite article, which would refer to all profits or a specific known set of profits rather than an unspecified quantity."
+    },
+    "skillTags": [
+      "articles-partitifs"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0045",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Si l'ingénieur avait détecté la fissure plus tôt, la structure du pont ___ consolidée à temps.",
+    "options": [
+      {
+        "id": "a",
+        "text": "sera"
+      },
+      {
+        "id": "b",
+        "text": "serait"
+      },
+      {
+        "id": "c",
+        "text": "aurait été"
+      },
+      {
+        "id": "d",
+        "text": "avait été"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "In a hypothetical construction expressing an unfulfilled condition in the past with 'si' + plus-que-parfait ('si l'ingénieur avait détecté'), the main clause must be in the past conditional ('aurait été').",
+    "distractorRationales": {
+      "a": "'Sera' is the simple future indicative, which is invalid in counterfactual past conditions.",
+      "b": "'Serait' is in the present conditional, which would correspond to a present counterfactual condition ('si l'ingénieur détectait...').",
+      "d": "'Avait été' is in the plus-que-parfait indicative, which cannot be used in the main apodosis clause."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0046",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Malgré leurs divergences professionnelles, les deux négociatrices se sont toujours ___ avec courtoisie.",
+    "options": [
+      {
+        "id": "a",
+        "text": "parlé"
+      },
+      {
+        "id": "b",
+        "text": "parlées"
+      },
+      {
+        "id": "c",
+        "text": "parlée"
+      },
+      {
+        "id": "d",
+        "text": "parler"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In reciprocal pronominal verbs where the reflexive pronoun is an indirect object (COI) — one says 'parler à quelqu'un' — the past participle remains invariable: 'se sont parlé'.",
+    "distractorRationales": {
+      "b": "'Parlées' mistakenly applies feminine plural agreement with the subject, overlooking that 'se' is an indirect object.",
+      "c": "'Parlée' attempts a feminine singular agreement, which is doubly erroneous with a plural subject and indirect object verb.",
+      "d": "'Parler' is the infinitive form, which cannot form a compound past tense following 'sont'."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0047",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Après plusieurs mois d'audit approfondi, la nouvelle directrice est enfin à même ___ redresser les finances de l'organisme.",
+    "options": [
+      {
+        "id": "a",
+        "text": "à"
+      },
+      {
+        "id": "b",
+        "text": "de"
+      },
+      {
+        "id": "c",
+        "text": "pour"
+      },
+      {
+        "id": "d",
+        "text": "en"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The fixed idiomatic locution 'être à même de' ('to be in a position to / capable of') obligatorily governs the preposition 'de' before an infinitive.",
+    "distractorRationales": {
+      "a": "'À' is incorrect; although the idiom contains 'à même', the preposition linking it to the infinitive is strictly 'de'.",
+      "c": "'Pour' expresses intention or purpose, which violates the established fixed phrase 'être à même de'.",
+      "d": "'En' cannot introduce an infinitive after this adjectival locution."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0048",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le gestionnaire a accepté le mandat tout ___ les risques financiers considérables que comportait l'opération.",
+    "options": [
+      {
+        "id": "a",
+        "text": "à savoir"
+      },
+      {
+        "id": "b",
+        "text": "de savoir"
+      },
+      {
+        "id": "c",
+        "text": "pour savoir"
+      },
+      {
+        "id": "d",
+        "text": "en sachant"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The locution 'tout en' followed by a present participle ('en sachant') forms a gérondif expressing concession and simultaneity: accepting the mandate while being fully aware of the risks.",
+    "distractorRationales": {
+      "a": "'À savoir' means 'namely' or 'that is to say', which does not make grammatical or logical sense here.",
+      "b": "'De savoir' does not combine with 'tout' to express concession or simultaneity.",
+      "c": "'Pour savoir' would indicate a purpose of acquiring knowledge, contradicting the context of already possessing the knowledge."
+    },
+    "skillTags": [
+      "gerondif"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0049",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le premier ministre a annoncé ce matin que le gouvernement ___ un plan d'aide économique dès le mois prochain.",
+    "options": [
+      {
+        "id": "a",
+        "text": "déploierait"
+      },
+      {
+        "id": "b",
+        "text": "déploiera"
+      },
+      {
+        "id": "c",
+        "text": "déploie"
+      },
+      {
+        "id": "d",
+        "text": "déployait"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In indirect reported speech governed by a past-tense verb ('a annoncé'), an action that is future relative to the past statement must be expressed in the future-in-the-past (present conditional 'déploierait').",
+    "distractorRationales": {
+      "b": "'Déploiera' is the simple future indicative; it fails the sequence of tenses rule required after a past-tense reporting verb.",
+      "c": "'Déploie' is in the present indicative, erasing the future projection implied by 'dès le mois prochain'.",
+      "d": "'Déployait' is in the imparfait, which would indicate a simultaneous background action rather than a future planned rollout."
+    },
+    "skillTags": [
+      "concordance-des-temps"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0050",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Bien que l'équipe de recherche ___ tous les essais cliniques, elle préfère attendre l'aval ministériel avant de publier.",
+    "options": [
+      {
+        "id": "a",
+        "text": "a complété"
+      },
+      {
+        "id": "b",
+        "text": "ait complété"
+      },
+      {
+        "id": "c",
+        "text": "avait complété"
+      },
+      {
+        "id": "d",
+        "text": "complétera"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The concessive conjunction 'bien que' requires the subjunctive mood. To express a completed past action prior to the present main clause, the past subjunctive ('ait complété') is required.",
+    "distractorRationales": {
+      "a": "'A complété' is in the passé composé of the indicative; 'bien que' strictly forbids the indicative.",
+      "c": "'Avait complété' is in the plus-que-parfait of the indicative, violating the subjunctive requirement.",
+      "d": "'Complétera' is in the simple future indicative, which is incompatible with 'bien que'."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0051",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Les autorités permettront la reprise des activités nautiques pourvu que la météo ___ clémente ce week-end.",
+    "options": [
+      {
+        "id": "a",
+        "text": "sera"
+      },
+      {
+        "id": "b",
+        "text": "était"
+      },
+      {
+        "id": "c",
+        "text": "serait"
+      },
+      {
+        "id": "d",
+        "text": "soit"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The conditional conjunction 'pourvu que' ('provided that') requires the subjunctive mood. In the third-person singular, the present subjunctive of 'être' is 'soit'.",
+    "distractorRationales": {
+      "a": "'Sera' is the simple future indicative; conjunctions of condition like 'pourvu que' never take the indicative.",
+      "b": "'Était' is in the imparfait indicative, which is invalid after 'pourvu que'.",
+      "c": "'Serait' is in the present conditional; the conditional cannot be used directly after 'pourvu que'."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0052",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Si notre entreprise avait modernisé ses serveurs l'an passé, nous ___ beaucoup plus réactifs aujourd'hui.",
+    "options": [
+      {
+        "id": "a",
+        "text": "serions"
+      },
+      {
+        "id": "b",
+        "text": "avions été"
+      },
+      {
+        "id": "c",
+        "text": "aurons été"
+      },
+      {
+        "id": "d",
+        "text": "étions"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In a mixed hypothetical condition, when an unfulfilled past condition ('si elle avait modernisé') produces a present consequence ('aujourd'hui'), the main clause takes the present conditional ('nous serions').",
+    "distractorRationales": {
+      "b": "'Avions été' is the plus-que-parfait indicative, which cannot appear in the main clause of a 'si' construction.",
+      "c": "'Aurons été' is the future anterior indicative, which cannot express a hypothetical present consequence.",
+      "d": "'Étions' is in the imparfait indicative, which is not permitted in the main clause of an unfulfilled condition."
+    },
+    "skillTags": [
+      "concordance-des-temps",
+      "conditionnel"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0053",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "La rigueur budgétaire et le maintien des effectifs sont précisément ___ les délégués syndicaux voulaient discuter.",
+    "options": [
+      {
+        "id": "a",
+        "text": "ce à quoi"
+      },
+      {
+        "id": "b",
+        "text": "ce dont"
+      },
+      {
+        "id": "c",
+        "text": "ce que"
+      },
+      {
+        "id": "d",
+        "text": "ce pour quoi"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The verb 'discuter de quelque chose' takes the preposition 'de'. When referring to an abstract antecedent clause or topic without a gendered noun antecedent, 'ce dont' ('ce + de') is required.",
+    "distractorRationales": {
+      "a": "'Ce à quoi' would correspond to a verb constructed with 'à' (e.g. s'attendre à, penser à), whereas 'discuter' governs 'de'.",
+      "c": "'Ce que' is the direct object relative pronoun; 'discuter' requires an indirect prepositional construction with 'de'.",
+      "d": "'Ce pour quoi' indicates cause or purpose ('that for which'), not the conversational topic of 'discuter de'."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0054",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Des plaintes officielles concernant le bruit nocturne, la municipalité en a déjà ___ plus d'une cinquantaine cette année.",
+    "options": [
+      {
+        "id": "a",
+        "text": "reçues"
+      },
+      {
+        "id": "b",
+        "text": "reçue"
+      },
+      {
+        "id": "c",
+        "text": "reçu"
+      },
+      {
+        "id": "d",
+        "text": "recevoir"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "According to prescriptive French grammar rules, when the preceding direct object is the adverbial pronoun 'en', the past participle conjugated with 'avoir' remains invariable: 'en a déjà reçu'.",
+    "distractorRationales": {
+      "a": "'Reçues' makes the common error of agreeing in feminine plural with the noun represented by 'en', violating the rule of invariability with 'en'.",
+      "b": "'Reçue' attempts a feminine singular agreement, which is incorrect.",
+      "d": "'Recevoir' is the infinitive, which cannot form the compound past after the auxiliary 'a'."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0055",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le tribunal administratif a invalidé la décision municipale ___ graves vices de procédure constatés durant l'audience.",
+    "options": [
+      {
+        "id": "a",
+        "text": "quant aux"
+      },
+      {
+        "id": "b",
+        "text": "face des"
+      },
+      {
+        "id": "c",
+        "text": "auprès des"
+      },
+      {
+        "id": "d",
+        "text": "eu égard aux"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The formal prepositional locution 'eu égard à' ('in view of / considering') governs the preposition 'à', which contracts with 'les' to form 'aux' before the plural noun: 'eu égard aux graves vices'.",
+    "distractorRationales": {
+      "a": "'Quant aux' means 'as for' or 'regarding', which sets a topic rather than providing the legal rationale for a verdict.",
+      "b": "'Face des' is ungrammatical; the proper locution is 'face à' or 'en face de'.",
+      "c": "'Auprès des' denotes physical proximity or relationship with people/institutions, not consideration of legal procedural defects."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0056",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Bien que le projet soit ambitieux, je ne pense pas que cette stratégie ___ réalisable à court terme.",
+    "options": [
+      {
+        "id": "a",
+        "text": "soit"
+      },
+      {
+        "id": "b",
+        "text": "sera"
+      },
+      {
+        "id": "c",
+        "text": "est"
+      },
+      {
+        "id": "d",
+        "text": "serait"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "When verbs of opinion and belief (such as 'penser' or 'croire') are used in the negative ('ne pas penser que'), they cast doubt on the subordinate clause, which obligatorily triggers the subjunctive mood: 'soit'.",
+    "distractorRationales": {
+      "b": "'Sera' is the future indicative; negated verbs of opinion require the subjunctive rather than the indicative.",
+      "c": "'Est' is the present indicative, which is used when 'penser que' is affirmative, but strictly forbidden when negated.",
+      "d": "'Serait' is in the present conditional, which cannot replace the subjunctive mood mandated by the negative matrix clause."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0057",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "D'après les révélations publiées ce matin dans la presse, le président-directeur général ___ sa démission imminente.",
+    "options": [
+      {
+        "id": "a",
+        "text": "annoncera"
+      },
+      {
+        "id": "b",
+        "text": "annoncerait"
+      },
+      {
+        "id": "c",
+        "text": "annonçait"
+      },
+      {
+        "id": "d",
+        "text": "a annoncé"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The journalistic conditional ('conditionnel d'information non confirmée') is required to report unverified rumors or anticipated events with epistemic distance, introduced by 'd'après les révélations'.",
+    "distractorRationales": {
+      "a": "'Annoncera' in the future simple asserts the future event as absolute fact, lacking the required journalistic reserve.",
+      "c": "'Annonçait' is in the imparfait, which would indicate a repeated past action rather than an unconfirmed prospective announcement.",
+      "d": "'A annoncé' presents the announcement as an accomplished certainty, contradicting the cautious hedging of 'd'après les révélations'."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0058",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "C'est seulement ___ des mesures d'économie drastiques que l'hôpital parviendra à résorber son déficit récurrent.",
+    "options": [
+      {
+        "id": "a",
+        "text": "à appliquer"
+      },
+      {
+        "id": "b",
+        "text": "de appliquer"
+      },
+      {
+        "id": "c",
+        "text": "en appliquant"
+      },
+      {
+        "id": "d",
+        "text": "pour appliquer"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The gérondif 'en appliquant' expresses the conditional means or instrument by which the hospital will manage to eliminate its deficit.",
+    "distractorRationales": {
+      "a": "'À appliquer' cannot function as a restrictive adverbial phrase of means following 'c'est seulement'.",
+      "b": "'De appliquer' is unelided and syntactically invalid in this cleft construction of means.",
+      "d": "'Pour appliquer' denotes goal or objective, not the active means through which the recovery is achieved."
+    },
+    "skillTags": [
+      "gerondif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0059",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "L'entente de principe a été signée quelques instants après que les représentants syndicaux ___ les dernières clauses salariales.",
+    "options": [
+      {
+        "id": "a",
+        "text": "aient paraphé"
+      },
+      {
+        "id": "b",
+        "text": "paraphent"
+      },
+      {
+        "id": "c",
+        "text": "parapheraient"
+      },
+      {
+        "id": "d",
+        "text": "eurent paraphé"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Unlike 'avant que' (which takes the subjunctive), the temporal conjunction 'après que' introduces an accomplished, factual past reality and strictly governs the indicative mood. After a past event, the passé antérieur ('eurent paraphé') expresses immediate past anteriority.",
+    "distractorRationales": {
+      "a": "'Aient paraphé' is in the past subjunctive; using the subjunctive after 'après que' is a very common prescriptive error through false analogy with 'avant que'.",
+      "b": "'Paraphent' is in the present indicative, which fails to mark the completed anteriority of the signing.",
+      "c": "'Parapheraient' is in the present conditional, an invalid mood for a factual past event introduced by 'après que'."
+    },
+    "skillTags": [
+      "temps-du-passe",
+      "concordance-des-temps"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0060",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Ces données stratégiques relatives aux parts de marché, notre directeur des ventes ___ a présentées lors de la plénière.",
+    "options": [
+      {
+        "id": "a",
+        "text": "nous les"
+      },
+      {
+        "id": "b",
+        "text": "les nous"
+      },
+      {
+        "id": "c",
+        "text": "nous leur"
+      },
+      {
+        "id": "d",
+        "text": "nous en"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In French double pronoun word order before the verb, first- or second-person pronouns (me, te, nous, vous) strictly precede third-person direct object pronouns (le, la, les): 'nous les a présentées'.",
+    "distractorRationales": {
+      "b": "'Les nous' reverses the mandatory grammatical order in which 'nous' must precede third-person 'les'.",
+      "c": "'Nous leur' combines two indirect object pronouns, omitting the direct object representing 'ces données'.",
+      "d": "'Nous en' uses the quantitative/partitive pronoun 'en' instead of the definite direct object pronoun 'les' required by 'ces données'."
+    },
+    "skillTags": [
+      "pronoms-complements"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0061",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Les ouvriers spécialisés ont inspecté les nouvelles machines et ils les ont ___ fonctionner pendant deux heures.",
+    "options": [
+      {
+        "id": "a",
+        "text": "laissées"
+      },
+      {
+        "id": "b",
+        "text": "laissé"
+      },
+      {
+        "id": "c",
+        "text": "laissés"
+      },
+      {
+        "id": "d",
+        "text": "laissée"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "Under contemporary French standard grammar (and the official 1990 orthographic rectifications), the past participle of 'laisser' followed by an infinitive is systematically invariable: 'les ont laissé fonctionner' (similar to 'faire' + infinitive).",
+    "distractorRationales": {
+      "a": "'Laissées' applies an obsolete agreement rule; modern standard French treats 'laisser + infinitive' as invariable.",
+      "c": "'Laissés' attempts masculine plural agreement, ignoring both the feminine antecedent ('les machines') and the invariability rule.",
+      "d": "'Laissée' attempts feminine singular agreement, which is doubly incorrect."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0062",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le greffier doit consigner les déclarations du témoin avant que l'audience ne ___ suspendue par le magistrat.",
+    "options": [
+      {
+        "id": "a",
+        "text": "est"
+      },
+      {
+        "id": "b",
+        "text": "sera"
+      },
+      {
+        "id": "c",
+        "text": "soit"
+      },
+      {
+        "id": "d",
+        "text": "serait"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The temporal locution 'avant que' (often accompanied by an expletive 'ne') denotes an event that is prospective and unrealized, strictly requiring the subjunctive mood ('soit').",
+    "distractorRationales": {
+      "a": "'Est' is in the present indicative; 'avant que' strictly forbids the indicative mood.",
+      "b": "'Sera' is in the simple future indicative; temporal clauses with 'avant que' never take the future.",
+      "d": "'Serait' is in the present conditional, which cannot replace the required subjunctive mood."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0063",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le conseil a adopté plusieurs directives environnementales, au respect ___ chaque filiale est désormais tenue.",
+    "options": [
+      {
+        "id": "a",
+        "text": "desquels"
+      },
+      {
+        "id": "b",
+        "text": "auxquelles"
+      },
+      {
+        "id": "c",
+        "text": "duquel"
+      },
+      {
+        "id": "d",
+        "text": "desquelles"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The prepositional phrase 'au respect de' requires a compound relative pronoun with 'de'. Because the antecedent 'directives environnementales' is feminine plural, the required form is 'desquelles' ('de + lesquelles').",
+    "distractorRationales": {
+      "a": "'Desquels' is masculine plural, which fails to agree with the feminine noun 'directives'.",
+      "b": "'Auxquelles' combines the preposition 'à' ('à + lesquelles'), whereas the noun phrase is 'au respect de' ('de').",
+      "c": "'Duquel' is masculine singular, failing in both gender and number agreement with 'directives'."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0064",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "L'ambassadrice a confirmé que les délégations étrangères ___ les négociations dès leur arrivée dans la capitale.",
+    "options": [
+      {
+        "id": "a",
+        "text": "entameraient"
+      },
+      {
+        "id": "b",
+        "text": "entameront"
+      },
+      {
+        "id": "c",
+        "text": "entament"
+      },
+      {
+        "id": "d",
+        "text": "entamaient"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "Under the rules of concordance des temps, when the main verb of speech is in a past tense ('a confirmé'), future action in the subordinate clause must be expressed using the future-in-the-past (present conditional 'entameraient').",
+    "distractorRationales": {
+      "b": "'Entameront' is in the simple future indicative; it violates the sequence of tenses after a past introductory verb.",
+      "c": "'Entament' is in the present indicative, which fails to convey the future projection of the negotiations.",
+      "d": "'Entamaient' is in the imparfait, which would imply a simultaneous ongoing action rather than a future event."
+    },
+    "skillTags": [
+      "concordance-des-temps"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0065",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "L'athlète a dû déclarer forfait pour les demi-finales faute ___ s'être suffisamment remis de sa blessure au genou.",
+    "options": [
+      {
+        "id": "a",
+        "text": "à"
+      },
+      {
+        "id": "b",
+        "text": "de"
+      },
+      {
+        "id": "c",
+        "text": "par"
+      },
+      {
+        "id": "d",
+        "text": "pour"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The prepositional idiom 'faute de' ('for lack of / failing to') strictly governs the preposition 'de' before an infinitive or noun.",
+    "distractorRationales": {
+      "a": "'À' is incorrect; 'faute à' is a colloquialism used with a person ('c'est la faute à...'), never with an infinitive expressing cause.",
+      "c": "'Par' does not form any valid idiom with 'faute'.",
+      "d": "'Pour' is redundant and syntactically invalid after 'faute'."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0066",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Sans l'intervention providentielle des pompiers forestiers, le sinistre ___ l'ensemble du village en quelques heures.",
+    "options": [
+      {
+        "id": "a",
+        "text": "a détruit"
+      },
+      {
+        "id": "b",
+        "text": "détruirait"
+      },
+      {
+        "id": "c",
+        "text": "aurait détruit"
+      },
+      {
+        "id": "d",
+        "text": "avait détruit"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "Following the counterfactual prepositional phrase 'sans l'intervention...' expressing an unfulfilled condition in the past, the main clause requires the past conditional ('aurait détruit').",
+    "distractorRationales": {
+      "a": "'A détruit' in the passé composé asserts the destruction as an actual historical reality, which contradicts the firefighter intervention that prevented it.",
+      "b": "'Détruirait' is in the present conditional, which would apply to a counterfactual situation in the present, not the past.",
+      "d": "'Avait détruit' is in the plus-que-parfait indicative, which cannot serve as the main verb of an apodosis."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0067",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Dès qu'elle ___ les conclusions de l'enquête préliminaire, la juge ordonna la levée immédiate des scellés.",
+    "options": [
+      {
+        "id": "a",
+        "text": "a lu"
+      },
+      {
+        "id": "b",
+        "text": "lisait"
+      },
+      {
+        "id": "c",
+        "text": "lira"
+      },
+      {
+        "id": "d",
+        "text": "eut lu"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "In a formal historical narrative where the main clause is in the passé simple ('ordonna'), the temporal subordinate clause introduced by 'dès que' expressing immediate anteriority requires the passé antérieur: 'eut lu'.",
+    "distractorRationales": {
+      "a": "'A lu' is in the passé composé, which clashes with the literary register of the passé simple 'ordonna'.",
+      "b": "'Lisait' is in the imparfait, which denotes an ongoing action rather than an immediate completed antecedent event.",
+      "c": "'Lira' is in the simple future, breaking the past narrative timeframe."
+    },
+    "skillTags": [
+      "temps-du-passe"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0068",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Quoique cette mesure fiscale ___ de vives critiques parmi les économistes, elle sera maintenue par le gouvernement.",
+    "options": [
+      {
+        "id": "a",
+        "text": "suscite"
+      },
+      {
+        "id": "b",
+        "text": "suscitera"
+      },
+      {
+        "id": "c",
+        "text": "suscitait"
+      },
+      {
+        "id": "d",
+        "text": "susciterait"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The concessive conjunction 'quoique' (synonym of 'bien que') obligatorily requires the subjunctive mood: 'suscite'.",
+    "distractorRationales": {
+      "b": "'Suscitera' is the future indicative; concessive conjunctions like 'quoique' strictly prohibit the indicative mood.",
+      "c": "'Suscitait' is in the imparfait indicative, which is invalid after 'quoique'.",
+      "d": "'Susciterait' is in the present conditional, which cannot replace the mandated subjunctive."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0069",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Après avoir relu l'ébauche de contrat, les deux juristes d'entreprise se sont rapidement ___ compte de l'omission.",
+    "options": [
+      {
+        "id": "a",
+        "text": "rendues"
+      },
+      {
+        "id": "b",
+        "text": "rendu"
+      },
+      {
+        "id": "c",
+        "text": "rendus"
+      },
+      {
+        "id": "d",
+        "text": "rendre"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "In the idiomatic pronominal locution 'se rendre compte de', the noun 'compte' is the direct object (COD) placed after the verb ('rendre quoi ? compte ; à qui ? se'). Because the COD is postposed, the past participle remains invariable: 'se sont rendu compte'.",
+    "distractorRationales": {
+      "a": "'Rendues' mistakenly agrees with the feminine plural subject, ignoring that 'compte' is the direct object following the verb.",
+      "c": "'Rendus' attempts masculine plural agreement, which is equally incorrect due to the postposed direct object.",
+      "d": "'Rendre' is an infinitive, which cannot follow the auxiliary 'sont' in this compound tense."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0070",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Réduire les émissions polluantes tout en préservant l'emploi local, c'est précisément ___ aspire notre société contemporaine.",
+    "options": [
+      {
+        "id": "a",
+        "text": "ce dont"
+      },
+      {
+        "id": "b",
+        "text": "ce que"
+      },
+      {
+        "id": "c",
+        "text": "ce à quoi"
+      },
+      {
+        "id": "d",
+        "text": "ce pour quoi"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The verb 'aspirer à' governs the preposition 'à'. When referring back to an entire clause or infinitive concept rather than a specific gendered noun, the relative pronoun is 'ce à quoi' ('ce + à').",
+    "distractorRationales": {
+      "a": "'Ce dont' would correspond to a verb constructed with 'de' (e.g. rêver de, parler de), whereas 'aspirer' takes 'à'.",
+      "b": "'Ce que' is the direct object relative pronoun; 'aspirer' requires an indirect prepositional complement with 'à'.",
+      "d": "'Ce pour quoi' indicates cause or motivation ('that for which'), not the object of aspiration."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0071",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Vu la fermeté affichée par les négociateurs patronaux, il est fort peu probable que les parties ___ à une entente ce soir.",
+    "options": [
+      {
+        "id": "a",
+        "text": "parviendront"
+      },
+      {
+        "id": "b",
+        "text": "parvenaient"
+      },
+      {
+        "id": "c",
+        "text": "parviendraient"
+      },
+      {
+        "id": "d",
+        "text": "parviennent"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "While 'il est probable que' takes the indicative, expressions of low probability such as 'il est peu probable que' cast doubt and strictly require the subjunctive mood: 'parviennent'.",
+    "distractorRationales": {
+      "a": "'Parviendront' is the future indicative; unlike 'il est probable', the negative or attenuated form 'il est peu probable' mandates the subjunctive.",
+      "b": "'Parvenaient' is in the imparfait indicative, which is invalid after an impersonal expression of probability in the present.",
+      "c": "'Parviendraient' is in the present conditional, which cannot replace the subjunctive mood triggered by 'il est peu probable que'."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0072",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "___-il pris connaissance du rapport d'audit à temps, l'administrateur délégué aurait immédiatement suspendu les transactions.",
+    "options": [
+      {
+        "id": "a",
+        "text": "Eût"
+      },
+      {
+        "id": "b",
+        "text": "Ait"
+      },
+      {
+        "id": "c",
+        "text": "Avait"
+      },
+      {
+        "id": "d",
+        "text": "Aurait"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In elevated literary and formal French, an unfulfilled past condition can be expressed without 'si' through subject-verb inversion using the imperfect subjunctive (or second form of the past conditional): 'Eût-il pris connaissance...'.",
+    "distractorRationales": {
+      "b": "'Ait' is the present subjunctive, which cannot express an inverted past counterfactual hypothesis.",
+      "c": "'Avait' is the indicative; inverted hypothetical clauses without 'si' require the subjunctive form 'eût', not the indicative 'avait'.",
+      "d": "'Aurait' is in the conditional; inversion with 'aurait-il pris' in the protasis condition is a common stylistic error proscribed in formal grammar."
+    },
+    "skillTags": [
+      "concordance-des-temps",
+      "conditionnel"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0073",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Les chefs d'État ont conclu un sommet bilatéral exhaustif, au terme ___ un accord de libre-échange historique a été signé.",
+    "options": [
+      {
+        "id": "a",
+        "text": "auquel"
+      },
+      {
+        "id": "b",
+        "text": "duquel"
+      },
+      {
+        "id": "c",
+        "text": "dont"
+      },
+      {
+        "id": "d",
+        "text": "dans lequel"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The prepositional phrase 'au terme de' ('at the end/conclusion of') requires a compound relative pronoun built with 'de'. With the masculine singular antecedent 'un sommet bilatéral', the required form is 'duquel' ('de + lequel').",
+    "distractorRationales": {
+      "a": "'Auquel' combines 'à' ('à + lequel'), whereas the locution is 'au terme de', not 'au terme à'.",
+      "c": "'Dont' cannot be used when the relative pronoun is governed by a compound prepositional locution ending in 'de' ('au terme de') — compound relative pronouns (duquel/desquels) are mandatory in this syntactic position.",
+      "d": "'Dans lequel' ignores the required prepositional phrase 'au terme de'."
+    },
+    "skillTags": [
+      "pronoms-relatifs"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0074",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Les mélodies traditionnelles que le public a ___ chanter par la chorale résonnent encore dans la nef de la basilique.",
+    "options": [
+      {
+        "id": "a",
+        "text": "entendues"
+      },
+      {
+        "id": "b",
+        "text": "entendue"
+      },
+      {
+        "id": "c",
+        "text": "entendu"
+      },
+      {
+        "id": "d",
+        "text": "entendant"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "With perception verbs followed by an infinitive, the past participle only agrees with the preceding direct object if that object is the agent performing the action of the infinitive. Here, 'les mélodies' do not sing; they are sung ('par la chorale'). Because the object does not perform the action, the participle remains strictly invariable: 'entendu'.",
+    "distractorRationales": {
+      "a": "'Entendues' commits the classic trap of agreeing with 'les mélodies', failing to recognize that 'les mélodies' is the passive patient of 'chanter', not its agent.",
+      "b": "'Entendue' attempts a feminine singular agreement, which is doubly incorrect.",
+      "d": "'Entendant' is the present participle, which cannot follow the auxiliary 'a' in a compound tense."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0075",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le comptable véreux a effectué d'importants virements bancaires vers des comptes extraterritoriaux à l'insu ___ conseil d'administration.",
+    "options": [
+      {
+        "id": "a",
+        "text": "au"
+      },
+      {
+        "id": "b",
+        "text": "par le"
+      },
+      {
+        "id": "c",
+        "text": "pour le"
+      },
+      {
+        "id": "d",
+        "text": "du"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The elevated prepositional phrase 'à l'insu de' ('without the knowledge of') strictly requires the preposition 'de'. Before the masculine noun 'conseil', the mandatory contraction 'de + le' yields 'du'.",
+    "distractorRationales": {
+      "a": "'Au' is the contraction of 'à + le', which violates the prepositional rection of 'à l'insu de'.",
+      "b": "'Par le' is syntactically invalid; 'à l'insu' never combines with 'par'.",
+      "c": "'Pour le' is ungrammatical in this fixed idiom."
+    },
+    "skillTags": [
+      "prepositions"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0076",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le doyen refuse d'homologuer la thèse de doctorat, non point qu'elle ___ d'originalité, mais parce qu'elle contient des lacunes méthodologiques.",
+    "options": [
+      {
+        "id": "a",
+        "text": "manquait"
+      },
+      {
+        "id": "b",
+        "text": "manquera"
+      },
+      {
+        "id": "c",
+        "text": "manque"
+      },
+      {
+        "id": "d",
+        "text": "manquerait"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The elevated negative causal conjunction 'non point que' (or 'non que') introduces a rejected hypothetical reason, which strictly requires the subjunctive mood: 'manque'.",
+    "distractorRationales": {
+      "a": "'Manquait' is in the imparfait indicative, which is invalid after 'non point que'.",
+      "b": "'Manquera' is in the future indicative; clauses introduced by 'non point que' systematically reject the indicative.",
+      "d": "'Manquerait' is in the present conditional, which cannot replace the required subjunctive."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0077",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Selon plusieurs sources diplomatiques concordantes, les émissaires secrets ___ un cessez-le-feu durable dès hier soir.",
+    "options": [
+      {
+        "id": "a",
+        "text": "ont conclu"
+      },
+      {
+        "id": "b",
+        "text": "auraient conclu"
+      },
+      {
+        "id": "c",
+        "text": "avaient conclu"
+      },
+      {
+        "id": "d",
+        "text": "concluaient"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The past conditional ('auraient conclu') is required to report an unverified past event with journalistic epistemic distance, attributed to external sources ('selon plusieurs sources... concordantes').",
+    "distractorRationales": {
+      "a": "'Ont conclu' in the passé composé asserts the conclusion as an established historical fact, omitting the requisite modal distancing.",
+      "c": "'Avaient conclu' in the plus-que-parfait presents the event as an objective, settled past reality rather than an alleged report.",
+      "d": "'Concluaient' in the imparfait describes an ongoing action rather than a concluded diplomatic achievement."
+    },
+    "skillTags": [
+      "conditionnel"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0078",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Les chaleurs accablantes et les sécheresses intenses qu'il a ___ tout au long de l'été ont décimé les cultures céréalières.",
+    "options": [
+      {
+        "id": "a",
+        "text": "faites"
+      },
+      {
+        "id": "b",
+        "text": "faite"
+      },
+      {
+        "id": "c",
+        "text": "fait"
+      },
+      {
+        "id": "d",
+        "text": "faits"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The past participle of the verb 'faire' used in an impersonal construction ('il a fait chaud / les chaleurs qu'il a fait') is strictly and perpetually invariable: 'qu'il a fait'.",
+    "distractorRationales": {
+      "a": "'Faites' makes the notorious agreement error of agreeing with the preceding feminine plural noun 'chaleurs', overlooking that 'faire' is used impersonally.",
+      "b": "'Faite' attempts feminine singular agreement, which is equally incorrect with an impersonal verb.",
+      "d": "'Faits' attempts masculine plural agreement, violating the rule of absolute invariability for impersonal 'faire'."
+    },
+    "skillTags": [
+      "accord"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0079",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le porte-parole du consortium a certifié aux journalistes que les ingénieurs ___ les travaux dès que les fonds requis auraient été débloqués.",
+    "options": [
+      {
+        "id": "a",
+        "text": "reprendraient"
+      },
+      {
+        "id": "b",
+        "text": "reprendront"
+      },
+      {
+        "id": "c",
+        "text": "auraient repris"
+      },
+      {
+        "id": "d",
+        "text": "reprenaient"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In a multi-clause reported speech structure governed by a past verb ('a certifié'), the subsequent action is contingent on an anterior condition in the past conditional ('auraient été débloqués'), requiring the future-in-the-past (present conditional 'reprendraient').",
+    "distractorRationales": {
+      "b": "'Reprendront' is in the simple future indicative, which violates the sequence of tenses after a past introductory verb and clashes with 'auraient été débloqués'.",
+      "c": "'Auraient repris' is in the past conditional, which incorrectly suggests anteriority rather than posterior resumption following the release of funds.",
+      "d": "'Reprenaient' is in the imparfait indicative, which describes a simultaneous ongoing state rather than a contingent future resumption."
+    },
+    "skillTags": [
+      "concordance-des-temps"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-gapfill-0080",
+    "module": "CE",
+    "itemType": "gap-fill",
+    "stimulusId": null,
+    "prompt": "Le gouvernement a déployé d'importants contingents policiers dans la métropole de sorte que le sommet international ___ se dérouler en toute quiétude.",
+    "options": [
+      {
+        "id": "a",
+        "text": "peut"
+      },
+      {
+        "id": "b",
+        "text": "pourra"
+      },
+      {
+        "id": "c",
+        "text": "pouvait"
+      },
+      {
+        "id": "d",
+        "text": "puisse"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "When the conjunction 'de sorte que' introduces an intended goal or purpose (equivalent to 'afin que' / 'pour que') rather than an already accomplished consequence, it obligatorily takes the subjunctive mood: 'puisse'.",
+    "distractorRationales": {
+      "a": "'Peut' is in the present indicative; 'de sorte que' followed by the indicative expresses an achieved consequence, not a deliberate purpose.",
+      "b": "'Pourra' is the simple future indicative, which is invalid when expressing an intentional purpose.",
+      "c": "'Pouvait' is in the imparfait indicative, which fails to mark the intended goal of the deployment."
+    },
+    "skillTags": [
+      "subjonctif"
+    ],
+    "targetBand": 8,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0001-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0001",
+    "prompt": "D'après Geneviève Tremblay, pour quelle raison principale les habitants fréquentent-ils davantage le marché public ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Pour profiter des animations musicales le samedi"
+      },
+      {
+        "id": "b",
+        "text": "Pour échapper au coût élevé des grandes épiceries"
+      },
+      {
+        "id": "c",
+        "text": "Pour soutenir la rénovation récente des chapiteaux"
+      },
+      {
+        "id": "d",
+        "text": "Pour découvrir un nouveau dépanneur de quartier"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The text explicitly quotes Geneviève Tremblay stating that the steep rise in prices at large grocery stores ('la montée vertigineuse des prix dans les grandes épiceries') is driving residents to buy directly from local producers.",
+    "distractorRationales": {
+      "a": "Musical entertainment ('animations musicales') is mentioned as an added feature of the market, not as the primary financial driver identified by Geneviève Tremblay.",
+      "c": "Protective tents ('chapiteaux protecteurs') are introduced by organizers to improve comfort, but the vendor does not link customer turnout to them.",
+      "d": "The pop-up convenience stand ('dépanneur éphémère') is cited as evidence of market vitality, not as the core reason consumers shifted their shopping habits."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0001-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0001",
+    "prompt": "Dans le texte, quel connecteur logique introduit l'attitude prudente adoptée par les organisateurs ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "toutefois"
+      },
+      {
+        "id": "b",
+        "text": "depuis"
+      },
+      {
+        "id": "c",
+        "text": "malgré"
+      },
+      {
+        "id": "d",
+        "text": "nettement"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The connector 'toutefois' ('however/nevertheless') introduces contrast and qualification after the optimistic sales observations, framing the organizers' need for vigilance.",
+    "distractorRationales": {
+      "b": "'Depuis' is a temporal preposition expressing starting duration ('depuis trois ans'), not a logical connector of contrast.",
+      "c": "'Malgré' introduces concession regarding spring weather at the beginning of the sentence ('malgré les caprices...'), not the organizers' caution.",
+      "d": "'Nettement' is an intensifier adverb ('nettement plus nombreuse') qualifying quantity, not a discourse connector."
+    },
+    "skillTags": [
+      "connecteurs-logiques"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0001-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0001",
+    "prompt": "Que peut-on déduire de la baisse de fréquentation vécue lors de l'été précédent ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les marchands locaux avaient augmenté leurs tarifs"
+      },
+      {
+        "id": "b",
+        "text": "Les récoltes printanières avaient été insuffisantes"
+      },
+      {
+        "id": "c",
+        "text": "La chaleur extrême a freiné les déplacements à pied"
+      },
+      {
+        "id": "d",
+        "text": "Le comité de quartier avait annulé les festivités"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The passage notes that June's record crowds dropped sharply 'dès l'apparition des premières canicules de juillet', implying that extreme summer heat deterred outdoor visits and pedestrian shopping.",
+    "distractorRationales": {
+      "a": "No price increases by the vendors are mentioned; price spikes only concern commercial supermarkets.",
+      "b": "Poor spring harvests are not mentioned; the text focuses on consumer turnout and weather factors.",
+      "d": "Festivities were not cancelled; the drop was directly linked to the arrival of heatwaves ('canicules')."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0001-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0001",
+    "prompt": "Quelle est l'idée directrice de l'ensemble de ce court article ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'échec économique des grandes bannières d'alimentation"
+      },
+      {
+        "id": "b",
+        "text": "L'impact des canicules sur les récoltes maraîchères"
+      },
+      {
+        "id": "c",
+        "text": "La contestation des tarifs municipaux par les marchands"
+      },
+      {
+        "id": "d",
+        "text": "L'engouement populaire et la vitalité d'un marché local"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The entire passage chronicles the revitalization, growing popularity, and community investments surrounding the Rosemont public market despite seasonal hurdles.",
+    "distractorRationales": {
+      "a": "The article mentions high supermarket prices, not a complete commercial collapse of supermarket chains.",
+      "b": "The heatwave is cited merely as a past seasonal challenge for attendance, not as an agricultural disaster.",
+      "c": "There is no mention whatsoever of disputes over municipal fees or vendor protests."
+    },
+    "skillTags": [
+      "main-idea"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0001-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0001",
+    "prompt": "Selon le premier paragraphe, quelle circonstance n'a PAS empêché l'augmentation des visiteurs ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les conditions météorologiques printanières difficiles"
+      },
+      {
+        "id": "b",
+        "text": "La fermeture temporaire du dépanneur de quartier"
+      },
+      {
+        "id": "c",
+        "text": "Le manque de variété dans les légumes maraîchers"
+      },
+      {
+        "id": "d",
+        "text": "Le refus des producteurs d'offrir des rabais"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The text states 'Malgré les caprices fréquents de la météo printanière, les marchands locaux constatent que la clientèle s'avère nettement plus nombreuse', demonstrating that poor spring weather did not prevent attendance growth.",
+    "distractorRationales": {
+      "b": "The convenience shop is not closed; it is an active pop-up ('dépanneur éphémère') currently operating.",
+      "c": "A lack of vegetable variety is never stated; the vendor sells fresh organic vegetables.",
+      "d": "Refusal to provide discounts is never mentioned in the text."
+    },
+    "skillTags": [
+      "negation",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0002-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0002",
+    "prompt": "Quels aménagements ont principalement contribué à rassurer les cyclistes montréalais en hiver ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "La distribution municipale gratuite de vêtements chauds"
+      },
+      {
+        "id": "b",
+        "text": "La fermeture complète des boulevards aux véhicules lourds"
+      },
+      {
+        "id": "c",
+        "text": "L'agrandissement du REV et un déneigement mécanique efficace"
+      },
+      {
+        "id": "d",
+        "text": "L'interdiction de stationner le long des axes périphériques"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The article explicitly points to 'L'expansion continue du Réseau express vélo (REV) et la modernisation du déneigement mécanique des pistes cyclables' as key factors reassuring daily riders.",
+    "distractorRationales": {
+      "a": "Free winter clothing distribution is never mentioned; cyclists purchase their own layered gear.",
+      "b": "Closing major streets to trucks is not mentioned in the text.",
+      "d": "Parking bans on peripheral roads are not cited as the cause of riders' confidence."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0002-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0002",
+    "prompt": "À quel moment la Ville de Montréal prévoit-elle uniformiser ses opérations de déneigement cyclable ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dès le mois de juillet prochain"
+      },
+      {
+        "id": "b",
+        "text": "Au cours des trois prochaines années"
+      },
+      {
+        "id": "c",
+        "text": "Dès le début de la saison estivale"
+      },
+      {
+        "id": "d",
+        "text": "Avant le retour de la prochaine saison hivernale"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The text explicitly states: 'La Ville s'est engagée à harmoniser ses opérations de déblaiement d'ici l'hiver prochain' ('by next winter').",
+    "distractorRationales": {
+      "a": "July is not mentioned for snow removal standardization; July was only referenced in text 1 regarding heatwaves.",
+      "b": "A three-year horizon is unsupported; the city promised action by next winter.",
+      "c": "Standardizing snow clearing is slated for next winter, not during the upcoming summer."
+    },
+    "skillTags": [
+      "temporal-sequence"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0002-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0002",
+    "prompt": "Que peut-on déduire du témoignage de Marc-André Côté sur la pratique du vélo d'hiver ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Qu'elle exige une condition physique d'athlète professionnel"
+      },
+      {
+        "id": "b",
+        "text": "Qu'elle devient accessible dès lors qu'on utilise le bon matériel"
+      },
+      {
+        "id": "c",
+        "text": "Qu'elle est impossible sans l'assistance d'un vélo électrique"
+      },
+      {
+        "id": "d",
+        "text": "Qu'elle demeure trop risquée pour les déplacements d'écoliers"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "Marc-André asserts that appropriate gear ('un équipement judicieusement sélectionné') demystifies the practice and makes daily commuting pleasant and safe.",
+    "distractorRationales": {
+      "a": "He counters the myth of extreme athleticism by showing that simple gear adjustments make it widely feasible.",
+      "c": "Electric bicycles are not mentioned in his testimony.",
+      "d": "He does not claim it is dangerous for school travel; he himself commutes to his school year-round."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0002-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0002",
+    "prompt": "Quelle est l'attitude générale de l'auteur envers l'évolution du vélo d'hiver à Montréal ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Positive, tout en reconnaissant des disparités de service"
+      },
+      {
+        "id": "b",
+        "text": "Critique face aux coûts municipaux exorbitants des pistes"
+      },
+      {
+        "id": "c",
+        "text": "Sceptique quant à la viabilité du réseau par grand froid"
+      },
+      {
+        "id": "d",
+        "text": "Indifférente aux revendications des associations cyclistes"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The author praises the 'démocratisation' and technical improvements while objectively noting existing gaps in peripheral sectors ('réserves notables à propos des secteurs périphériques').",
+    "distractorRationales": {
+      "b": "The author never criticizes municipal spending or calls infrastructure costs exorbitant.",
+      "c": "The author documents expanding adoption, showing that cold weather is manageable with proper gear.",
+      "d": "The author pays close attention to cyclist associations' concerns rather than ignoring them."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0002-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0002",
+    "prompt": "Dans l'expression « braver les frimas », que désigne le mot « frimas » ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les automobilistes agressifs"
+      },
+      {
+        "id": "b",
+        "text": "Les pannes mécaniques fréquentes"
+      },
+      {
+        "id": "c",
+        "text": "Les côtes abruptes de la ville"
+      },
+      {
+        "id": "d",
+        "text": "Le froid vif et les gelées d'hiver"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "'Frimas' is a literary and formal French term denoting freezing mist, frost, or intense winter cold.",
+    "distractorRationales": {
+      "a": "'Frimas' is a meteorological term and has nothing to do with motorists.",
+      "b": "'Frimas' does not designate bicycle mechanical issues.",
+      "c": "'Frimas' does not refer to topography or street inclines."
+    },
+    "skillTags": [
+      "lexical-precision"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0003-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0003",
+    "prompt": "Quel est le but principal de l'initiative mise en place à Sherbrooke ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Créer un restaurant communautaire à but lucratif"
+      },
+      {
+        "id": "b",
+        "text": "Favoriser les liens entre les aînés et les étudiants"
+      },
+      {
+        "id": "c",
+        "text": "Former des cuisiniers professionnels pour la région"
+      },
+      {
+        "id": "d",
+        "text": "Remplacer l'aide alimentaire d'urgence par des cours"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The opening sentence identifies the core objective: 'une initiative prometteuse pour briser l'isolement social des aînés : des ateliers de cuisine collective intergénérationnels'.",
+    "distractorRationales": {
+      "a": "The project is a non-profit community workshop, not a commercial restaurant.",
+      "c": "The goal is social connection and budget management, not professional chef vocational training.",
+      "d": "The text does not mention replacing emergency food assistance programs."
+    },
+    "skillTags": [
+      "main-idea"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0003-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0003",
+    "prompt": "Que font les participants avec les repas préparés durant les ateliers culinaires ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ils les vendent au marché public pour financer le centre"
+      },
+      {
+        "id": "b",
+        "text": "Ils les livrent directement aux résidences pour personnes seules"
+      },
+      {
+        "id": "c",
+        "text": "Ils les congèlent pour les banques alimentaires municipales"
+      },
+      {
+        "id": "d",
+        "text": "Ils les partagent ensemble à table ou les emportent chez eux"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The article states: 'Les plats concoctés sont ensuite partagés autour d'une grande tablée conviviale ou emportés pour dépanner les étudiants'.",
+    "distractorRationales": {
+      "a": "The meals are never sold at public markets.",
+      "b": "Direct door-to-door delivery to private care facilities is not mentioned.",
+      "c": "Donations to commercial food banks are not described; participants consume or take the food."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0003-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0003",
+    "prompt": "Quel rôle logique joue la conjonction « tandis que » dans le deuxième paragraphe ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elle exprime une cause indiscutable"
+      },
+      {
+        "id": "b",
+        "text": "Elle indique une conclusion logique"
+      },
+      {
+        "id": "c",
+        "text": "Elle marque un contraste et une simultanéité"
+      },
+      {
+        "id": "d",
+        "text": "Elle introduit une condition préalable"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "'Tandis que' highlights the simultaneous reciprocal exchange and contrast between what the seniors share (history, recipes) and what the students contribute (energy, digital skills).",
+    "distractorRationales": {
+      "a": "'Tandis que' does not indicate causality (which would be 'parce que' or 'puisque').",
+      "b": "'Tandis que' does not introduce a deductive conclusion (like 'donc' or 'par conséquent').",
+      "d": "'Tandis que' does not state a prerequisite condition (like 'à condition que')."
+    },
+    "skillTags": [
+      "connecteurs-logiques"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0003-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0003",
+    "prompt": "Dans la phrase « initient volontiers leurs partenaires d'un jour », à qui renvoie l'expression soulignée ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aux personnes âgées qui participent à l'atelier"
+      },
+      {
+        "id": "b",
+        "text": "Aux professeurs de cuisine du collège local"
+      },
+      {
+        "id": "c",
+        "text": "Aux employés administratifs du centre social"
+      },
+      {
+        "id": "d",
+        "text": "Aux élus municipaux responsables du budget"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In context, 'les jeunes... initient volontiers leurs partenaires d'un jour aux applications numériques', where 'leurs partenaires d'un jour' refers back to the senior workshop partners.",
+    "distractorRationales": {
+      "b": "College culinary teachers are not mentioned in the workshop session.",
+      "c": "Community center office staff are not the recipients of the digital mentoring.",
+      "d": "Municipal politicians only provide funding and are not culinary partners."
+    },
+    "skillTags": [
+      "reference-anaphorique"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0003-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0003",
+    "prompt": "Que peut-on déduire de la décision finale prise par les élus municipaux ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que le centre communautaire manquait de personnel bénévole"
+      },
+      {
+        "id": "b",
+        "text": "Que les résultats de l'expérience ont justifié son élargissement"
+      },
+      {
+        "id": "c",
+        "text": "Que le coût des denrées a forcé la ville à fermer d'autres cours"
+      },
+      {
+        "id": "d",
+        "text": "Que les étudiants réclamaient des crédits scolaires obligatoires"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The city council's decision to renew funding and finance two new cohorts indicates that the pilot project delivered convincing social benefits that justified expanding it.",
+    "distractorRationales": {
+      "a": "A shortage of volunteers is not cited; the project is described as an undisputed success.",
+      "c": "The passage never mentions cutting or closing other municipal courses.",
+      "d": "Students demanding mandatory academic credits is completely unsupported by the text."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0004-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0004",
+    "prompt": "Quelle est la thèse centrale développée dans cet article sur le droit à la déconnexion ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le télétravail doit être aboli pour protéger la santé mentale"
+      },
+      {
+        "id": "b",
+        "text": "Les courriels envoyés la fin de semaine devraient être interdits par la loi"
+      },
+      {
+        "id": "c",
+        "text": "Les chartes d'entreprise restent inefficaces sans changement de culture interne"
+      },
+      {
+        "id": "d",
+        "text": "Les salariés refusent majoritairement de déconnecter leurs téléphones"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The passage argues that formal disconnection charters remain mere wishful thinking ('vœux pieux') without deep structural changes in performance metrics and managerial culture.",
+    "distractorRationales": {
+      "a": "The author discusses managing remote work boundaries, not abolishing telework.",
+      "b": "The text focuses on corporate culture and workload criteria rather than demanding new legislation.",
+      "d": "Employees feel guilty due to peer and managerial pressure, rather than voluntarily refusing to disconnect."
+    },
+    "skillTags": [
+      "main-idea"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0004-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0004",
+    "prompt": "Selon l'auteur, pourquoi de nombreux salariés répondent-ils encore aux messages professionnels en soirée ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ils craignent que leur silence soit perçu comme un désengagement"
+      },
+      {
+        "id": "b",
+        "text": "Ils reçoivent des primes financières pour chaque réponse rapide"
+      },
+      {
+        "id": "c",
+        "text": "Ils préfèrent terminer leurs tâches avant le début du week-end"
+      },
+      {
+        "id": "d",
+        "text": "Leurs contrats de travail imposent une astreinte téléphonique formelle"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The text explains that immediate responsiveness is tacitly viewed as a marker of commitment ('la réactivité immédiate demeure perçue comme un indicateur d'engagement'), generating guilt and implicit pressure.",
+    "distractorRationales": {
+      "b": "No financial bonuses or overtime incentives for rapid replies are mentioned.",
+      "c": "Personal preference is not the stated reason; the cause is tacit managerial pressure and anxiety.",
+      "d": "The charters explicitly state that employees are NOT required to answer outside hours; the constraint is cultural, not contractual."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0004-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0004",
+    "prompt": "Que stipulent expressément les règlements internes adoptés par les entreprises mentionnées ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'interdiction absolue de faire du télétravail les vendredis"
+      },
+      {
+        "id": "b",
+        "text": "L'obligation d'éteindre les serveurs informatiques à vingt heures"
+      },
+      {
+        "id": "c",
+        "text": "La suppression des primes pour les cadres envoyant des courriels tardifs"
+      },
+      {
+        "id": "d",
+        "text": "La dispense formelle de répondre aux sollicitations en dehors des heures de bureau"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The text states that these charters 'précisent explicitement qu'aucun employé n'est tenu de consulter sa boîte de courriels professionnels ni de répondre à des sollicitations urgentes en soirée ou durant la fin de semaine'.",
+    "distractorRationales": {
+      "a": "Banning telework on Fridays is never mentioned.",
+      "b": "Shutting down physical computer servers at night is not part of the policies described.",
+      "c": "Withholding bonuses from managers who email late is not mentioned."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0004-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0004",
+    "prompt": "Comment peut-on qualifier le jugement des spécialistes des relations de travail envers les chartes actuelles ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Enthousiaste et confiant quant à leurs retombées rapides"
+      },
+      {
+        "id": "b",
+        "text": "Critique et dubitatif quant à leur efficacité réelle sur le terrain"
+      },
+      {
+        "id": "c",
+        "text": "Opposé à toute intervention patronale dans la vie des salariés"
+      },
+      {
+        "id": "d",
+        "text": "Indécis devant le manque d'études statistiques probantes"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "Specialists view current charters with skepticism, warning that without structural workload changes and leadership role-modeling, they will remain 'une simple déclaration d'intention sans portée concrète'.",
+    "distractorRationales": {
+      "a": "Their reaction is far from enthusiastic; they emphasize real-world shortcomings.",
+      "c": "They do not oppose corporate intervention; they advocate deeper structural reform.",
+      "d": "They are not undecided; they express a clear, unequivocal diagnostic critique."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0004-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0004",
+    "prompt": "Dans la dernière phrase, quelle relation logique l'expression « en l'absence de » établit-elle ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une justification historique rétrospective"
+      },
+      {
+        "id": "b",
+        "text": "Une comparaison temporelle d'antériorité"
+      },
+      {
+        "id": "c",
+        "text": "Une condition négative préalable à la réussite"
+      },
+      {
+        "id": "d",
+        "text": "Une opposition directe entre deux faits accomplis"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "'En l'absence de' sets up a negative condition: unless structural workload revisions and managerial leadership occur, the right to disconnect cannot succeed.",
+    "distractorRationales": {
+      "a": "It does not look back at historical justification; it looks forward at conditional success factors.",
+      "b": "It is not a temporal marker of chronological precedence.",
+      "d": "It expresses conditionality rather than a simple factual contrast between established events."
+    },
+    "skillTags": [
+      "connecteurs-logiques"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0005-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0005",
+    "prompt": "Sur quelle stratégie les cinémas indépendants misent-ils pour attirer à nouveau les spectateurs ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sur des rétrospectives d'auteurs et des soirées de débats animés"
+      },
+      {
+        "id": "b",
+        "text": "Sur la diffusion exclusive des superproductions américaines"
+      },
+      {
+        "id": "c",
+        "text": "Sur une réduction massive du prix des billets d'entrée"
+      },
+      {
+        "id": "d",
+        "text": "Sur l'interdiction des appareils mobiles dans les salles"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The text explicitly states: 'ces établissements de proximité privilégient une programmation soignée combinant des rétrospectives d'œuvres patrimoniales, des cycles documentaires engagés et des rencontres-débats'.",
+    "distractorRationales": {
+      "b": "They actively avoid competing with Hollywood blockbusters ('plutôt que d'engager une lutte stérile contre les mégaproductions').",
+      "c": "Price slashing is not mentioned as their strategy; experiential enrichment is.",
+      "d": "Cell phone bans inside screening rooms are never discussed."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0005-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0005",
+    "prompt": "Quel rôle remplit l'adverbe « Pourtant » au début du deuxième paragraphe ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il illustre une conséquence attendue de la crise"
+      },
+      {
+        "id": "b",
+        "text": "Il marque un revirement inattendu face au déclin annoncé"
+      },
+      {
+        "id": "c",
+        "text": "Il ajoute un argument économique supplémentaire"
+      },
+      {
+        "id": "d",
+        "text": "Il situe les événements dans une chronologie passée"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "'Pourtant' ('yet/however') signals a strong contrast against the gloomy opening sentence that predicted the inevitable doom of neighborhood theaters.",
+    "distractorRationales": {
+      "a": "It contrasts with the crisis rather than illustrating an expected consequence.",
+      "c": "It does not add an economic point; it shifts the narrative from vulnerability to creative revival.",
+      "d": "It functions as an adversative logical connector, not a temporal sequence marker."
+    },
+    "skillTags": [
+      "connecteurs-logiques"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0005-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0005",
+    "prompt": "Que peut-on déduire de l'ajout d'espaces café et de librairies dans ces établissements ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les exploitants cherchent à compenser la disparition des distributeurs de confiseries"
+      },
+      {
+        "id": "b",
+        "text": "Les municipalités obligent les cinémas à diversifier leurs sources d'imposition"
+      },
+      {
+        "id": "c",
+        "text": "Les spectateurs refusent d'acheter des billets sans collation offerte"
+      },
+      {
+        "id": "d",
+        "text": "L'expérience recherchée dépasse le cadre du visionnement d'un film pour devenir sociale"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "By creating welcoming community spaces where audiences stay and talk after screenings, independent cinemas transform cinema outings into social, multifaceted community experiences.",
+    "distractorRationales": {
+      "a": "Candy machines are never mentioned; this is an unfounded distraction.",
+      "b": "Municipal tax diversification mandates are completely fabricated.",
+      "c": "Audiences refusing to buy tickets without free snacks is nowhere in the text."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0005-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0005",
+    "prompt": "Dans la phrase finale, quelle nuance le syntagme « septième art » apporte-t-il au texte ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une référence dévalorisante aux productions commerciales"
+      },
+      {
+        "id": "b",
+        "text": "Une appellation technique désignant le matériel de projection"
+      },
+      {
+        "id": "c",
+        "text": "Une périphrase valorisante consacrée pour désigner le cinéma"
+      },
+      {
+        "id": "d",
+        "text": "Une distinction catégorique entre films d'animation et fictions"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "'Le septième art' is the standard elevated French periphrasis used to designate cinema as an established artistic discipline.",
+    "distractorRationales": {
+      "a": "It is an honorific, dignified designation, not a disparaging reference.",
+      "b": "It refers to cinema as an artistic medium, not projection hardware.",
+      "d": "It does not differentiate animation from live-action cinema."
+    },
+    "skillTags": [
+      "lexical-precision"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0005-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0005",
+    "prompt": "Quel est le point de vue exprimé par l'auteur dans la conclusion de l'article ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Résigné devant l'inévitable domination du numérique à domicile"
+      },
+      {
+        "id": "b",
+        "text": "Optimiste quant à la capacité des cinémas de quartier à préserver le lien social"
+      },
+      {
+        "id": "c",
+        "text": "Prudent face aux risques financiers encourus par les salles coopératives"
+      },
+      {
+        "id": "d",
+        "text": "Défavorable aux rencontres intellectuelles après les projections"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The conclusion closes on an uplifting note, celebrating how neighborhood theaters 'prouvent avec brio que le grand écran conserve une magie collective irremplaçable'.",
+    "distractorRationales": {
+      "a": "The author explicitly rejects resignation, showing how independent cinemas counteract streaming dominance.",
+      "c": "Financial risks are not highlighted in the triumphant final assessment.",
+      "d": "The author praises post-film debates as a vital factor in customer loyalty."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0006-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0006",
+    "prompt": "Quelle est l'idée principale défendue dans l'ensemble de ce texte ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'interdiction légale imminente de la confection de vêtements synthétiques"
+      },
+      {
+        "id": "b",
+        "text": "La fermeture définitive des grandes enseignes de distribution vestimentaire"
+      },
+      {
+        "id": "c",
+        "text": "La baisse générale du pouvoir d'achat chez les étudiants des grandes villes"
+      },
+      {
+        "id": "d",
+        "text": "L'essor de la seconde main comme réponse éthique, assortie de limites réelles"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The article charts the shift toward second-hand fashion as an ethical and trendy choice, while concluding with sociologists' warnings about overconsumption within vintage buying.",
+    "distractorRationales": {
+      "a": "A legal ban on synthetic fibers is never proposed in the article.",
+      "b": "The total shutdown of major fast-fashion retailers is not stated.",
+      "c": "While budget concerns are acknowledged, purchasing power collapse is not the primary thesis."
+    },
+    "skillTags": [
+      "main-idea"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0006-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0006",
+    "prompt": "Outre les friperies, quelle initiative locale gagne en popularité selon le texte ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'importation massive de textiles recyclés depuis l'étranger"
+      },
+      {
+        "id": "b",
+        "text": "L'organisation de défilés de mode dans les galeries marchandes"
+      },
+      {
+        "id": "c",
+        "text": "La tenue d'ateliers collectifs de réparation et de couture artisanale"
+      },
+      {
+        "id": "d",
+        "text": "La distribution automatique d'uniformes scolaires reconditionnés"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The text explicitly mentions: 'des ateliers associatifs de réparation, de raccommodage et d'ennoblissement textile se multiplient dans les centres urbains'.",
+    "distractorRationales": {
+      "a": "Mass import of foreign recycled textiles is not mentioned.",
+      "b": "Fashion shows in shopping centers are completely absent from the text.",
+      "d": "School uniform vending machines are never mentioned."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0006-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0006",
+    "prompt": "D'après les sociologues cités, quelle pratique n'élimine PAS le risque d'accumulation matérielle ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'achat compulsif d'articles d'occasion sur les plateformes numériques"
+      },
+      {
+        "id": "b",
+        "text": "L'apprentissage des techniques traditionnelles de raccommodage"
+      },
+      {
+        "id": "c",
+        "text": "Le refus catégorique d'acheter des vêtements de prêt-à-porter"
+      },
+      {
+        "id": "d",
+        "text": "La réutilisation prolongée d'un manteau d'hiver plusieurs années"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "Sociologists warn against the illusion that second-hand purchases are harmless: 'La quête compulsive de bonnes affaires vintage sur les réseaux sociaux peut en effet perpétuer la même logique d'accumulation effrénée'.",
+    "distractorRationales": {
+      "b": "Mending classes foster sustainable habits, not material accumulation.",
+      "c": "Refusing fast-fashion ready-to-wear is not flagged as an accumulation trap.",
+      "d": "Wearing a winter coat for multiple years directly embodies slow, durable use."
+    },
+    "skillTags": [
+      "negation",
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0006-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0006",
+    "prompt": "Dans la phrase « si elle ne s'accompagne pas d'un ralentissement global », à quoi renvoie le pronom « elle » ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "À l'industrie de la confection de tissus"
+      },
+      {
+        "id": "b",
+        "text": "À la quête compulsive de bonnes affaires"
+      },
+      {
+        "id": "c",
+        "text": "À la friperie traditionnelle de quartier"
+      },
+      {
+        "id": "d",
+        "text": "À la conscience de la valeur des matières"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "In 'La quête compulsive de bonnes affaires vintage sur les réseaux sociaux peut en effet perpétuer la même logique d'accumulation effrénée si elle ne s'accompagne pas d'un ralentissement...', 'elle' clearly refers back to the subject 'la quête compulsive'.",
+    "distractorRationales": {
+      "a": "'L'industrie' is too distant and not the syntactic subject of the clause.",
+      "c": "'La friperie' is not the antecedent in this sentence.",
+      "d": "'La conscience' appears after 'elle' in the sentence and cannot be its antecedent."
+    },
+    "skillTags": [
+      "reference-anaphorique"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0006-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0006",
+    "prompt": "Que peut-on déduire de l'évolution du statut de la friperie chez les jeunes générations ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elle a perdu sa clientèle historique en augmentant ses tarifs"
+      },
+      {
+        "id": "b",
+        "text": "Elle est devenue une obligation légale dictée par les villes"
+      },
+      {
+        "id": "c",
+        "text": "Elle est passée d'une nécessité modeste à une affirmation identitaire"
+      },
+      {
+        "id": "d",
+        "text": "Elle remplace désormais tous les centres d'apprentissage technique"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The text explains that buying second-hand, once seen as a choice dictated purely by tight financial constraints ('jadis considéré comme un choix dicté par de strictes contraintes budgétaires'), is now embraced as an ecological, original, and fashionable identity statement.",
+    "distractorRationales": {
+      "a": "Losing its historical client base due to price hikes is not mentioned.",
+      "b": "There are no municipal legal requirements forcing people to shop at thrift stores.",
+      "d": "It does not replace all technical schools, only complements them via informal workshops."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0007-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0007",
+    "prompt": "Quelle position l'auteur adopte-t-il vis-à-vis de l'interdiction de l'IA dans les universités ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il la considère comme l'unique rempart contre la triche généralisée"
+      },
+      {
+        "id": "b",
+        "text": "Il réclame des sanctions exemplaires contre les départements laxistes"
+      },
+      {
+        "id": "c",
+        "text": "Il suggère d'attendre des détecteurs numériques parfaitement fiables"
+      },
+      {
+        "id": "d",
+        "text": "Il la juge irréaliste sur le plan technique et contraire à la mission éducative"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The author describes the ban as a 'tentation prohibitionniste' that proved 'inapplicable sur le plan technique' and illogical given that the technology is reshaping the professional world.",
+    "distractorRationales": {
+      "a": "The author directly rejects prohibition as illusory and obsolete.",
+      "b": "The author advocates pedagogical integration, not disciplinary escalation.",
+      "c": "The author notes that infallible detection is technically impossible, making waiting pointless."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0007-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0007",
+    "prompt": "Selon le passage, comment la notion même de « compétence rédactionnelle » universitaire se transforme-t-elle ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elle valorise la problématisation et l'esprit critique plutôt que la compilation"
+      },
+      {
+        "id": "b",
+        "text": "Elle se limite désormais à la vérification automatisée de l'orthographe"
+      },
+      {
+        "id": "c",
+        "text": "Elle exige la mémorisation orale pour éliminer tout recours à l'écrit"
+      },
+      {
+        "id": "d",
+        "text": "Elle délègue la rédaction argumentative aux modèles d'apprentissage profond"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The text states that evaluation no longer consists of linear summaries of compiled data, but evaluates 'la capacité singulière de l'étudiant à problématiser un enjeu complexe... et à déployer une pensée originale'.",
+    "distractorRationales": {
+      "b": "Spelling automation is not the focus; higher-order critical argumentation is.",
+      "c": "Oral memorization to eliminate writing is never advocated.",
+      "d": "Writing is not surrendered to deep learning models; genuine student synthesis must supersede them."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0007-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0007",
+    "prompt": "Dans le texte, quel terme appartient au registre soutenu pour désigner les composantes enseignantes de l'université ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les agents conversationnels"
+      },
+      {
+        "id": "b",
+        "text": "Les modèles statistiques"
+      },
+      {
+        "id": "c",
+        "text": "Les facultés"
+      },
+      {
+        "id": "d",
+        "text": "Les plateformes"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "In this formal academic register, 'les facultés' (or 'corps professoraux') designates the academic teaching bodies and colleges of a university.",
+    "distractorRationales": {
+      "a": "'Les agents conversationnels' refers to AI chat bots, not academic faculties.",
+      "b": "'Les modèles statistiques' refers to mathematical LLM architectures.",
+      "d": "'Les plateformes' designates digital web systems, not academic personnel."
+    },
+    "skillTags": [
+      "register-detection",
+      "lexical-precision"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0007-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0007",
+    "prompt": "Quelle nuance l'adverbe « Désormais » apporte-t-il dans l'évolution du débat pédagogique ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il annonce un retour nostalgique aux méthodes du passé"
+      },
+      {
+        "id": "b",
+        "text": "Il marque le passage d'une réaction réflexe à une stratégie réfléchie"
+      },
+      {
+        "id": "c",
+        "text": "Il indique une incertitude temporaire en attendant des directives"
+      },
+      {
+        "id": "d",
+        "text": "Il signale l'abandon complet de toute forme d'évaluation sommative"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "'Désormais' marks the chronological and intellectual pivot from the initial knee-jerk prohibition attempt ('certains départements ont d'abord envisagé d'interdire') to a mature, constructive pedagogical integration.",
+    "distractorRationales": {
+      "a": "It does not look backward to old methods; it embraces the new reality forward.",
+      "c": "It indicates a developing consensus, not passive uncertainty.",
+      "d": "Summative assessment is restructured, not abandoned."
+    },
+    "skillTags": [
+      "connecteurs-logiques"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0007-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0007",
+    "prompt": "Quel est l'axe directeur de la réflexion présentée dans cet article ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "La commercialisation des logiciels d'écriture par les entreprises privées"
+      },
+      {
+        "id": "b",
+        "text": "L'incompétence présumée des enseignants face aux mutations technologiques"
+      },
+      {
+        "id": "c",
+        "text": "Le déclin irrémédiable de la rigueur académique dans les collèges"
+      },
+      {
+        "id": "d",
+        "text": "La redéfinition nécessaire des exigences intellectuelles face aux outils d'IA"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The article's overarching thesis is that generative AI forces higher education to redefine academic rigor around critical thinking, source verification, and original problem-solving.",
+    "distractorRationales": {
+      "a": "Commercial marketing of AI software is not the central focus.",
+      "b": "The author does not accuse professors of incompetence, but describes a structural challenge.",
+      "c": "The author does not bemoan irreversible decline; rather, they point to pedagogical renewal."
+    },
+    "skillTags": [
+      "main-idea"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0008-q1",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0008",
+    "prompt": "Quel est l'enjeu fondamental exposé par l'auteur dans ce texte de réflexion ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'équilibre complexe entre régulation linguistique et compétitivité numérique"
+      },
+      {
+        "id": "b",
+        "text": "La suppression pure et simple des lois protégeant les langues minoritaires"
+      },
+      {
+        "id": "c",
+        "text": "L'obligation pour les entreprises d'adopter l'anglais comme langue de travail"
+      },
+      {
+        "id": "d",
+        "text": "L'échec total des politiques publiques d'affichage dans les grandes villes"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The article articulates the delicate tension between state legislative intervention to safeguard a minority language and the demands of economic competitiveness in a globalized digital economy.",
+    "distractorRationales": {
+      "b": "The author never argues for repealing language laws; they explore how to sustain them.",
+      "c": "Surrendering to English is explicitly framed as a risk to be avoided, not a recommendation.",
+      "d": "Past public signage policies are acknowledged as successful, not as failures."
+    },
+    "skillTags": [
+      "main-idea"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0008-q2",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0008",
+    "prompt": "Que peut-on inférer de l'avertissement formulé par les sociolinguistes ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Que les entreprises de haute technologie soutiennent activement le français"
+      },
+      {
+        "id": "b",
+        "text": "Que les marchés financiers favorisent naturellement les langues locales"
+      },
+      {
+        "id": "c",
+        "text": "Que les concessions successives au nom de la rentabilité mènent à l'effacement culturel"
+      },
+      {
+        "id": "d",
+        "text": "Que la mondialisation renforcera spontanément la diversité linguistique"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "Sociolinguists warn that tolerating minor incremental compromises ('micro-reculs') for short-term profits triggers a gradual, irreversible spiral of assimilation ('spirale d'assimilation progressive').",
+    "distractorRationales": {
+      "a": "Tech companies are portrayed as pushing against regulatory constraints, not proactively promoting French.",
+      "b": "Free market forces are explicitly described as hostile to minority language survival.",
+      "d": "Global market forces tend toward unilingualism, not spontaneous diversity."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0008-q3",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0008",
+    "prompt": "Selon la conclusion de l'auteur, de quoi la vitalité durable d'une langue dépend-elle principalement ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "De l'imposition de peines d'amendes plus sévères contre les contrevenants"
+      },
+      {
+        "id": "b",
+        "text": "Du subventionnement intégral de toutes les plateformes transactionnelles"
+      },
+      {
+        "id": "c",
+        "text": "De la fermeture hermétique des marchés intérieurs aux conglomérats étrangers"
+      },
+      {
+        "id": "d",
+        "text": "D'une valeur culturelle et sociale qui suscite une adhésion spontanée et vivante"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The final sentence concludes that legal coercion is insufficient on its own; language vitality requires 'la création d'un écosystème culturel dynamique et d'une fierté collective authentique, capables d'insuffler une valeur économique et sociale durable'.",
+    "distractorRationales": {
+      "a": "The author specifically notes that legal penalties ('sanctions législatives' / 'contrainte juridique') cannot suffice on their own.",
+      "b": "Total subsidization of commercial platforms is never proposed.",
+      "c": "Economic isolationism or closing borders is not advocated."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0008-q4",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0008",
+    "prompt": "Dans l'expression « ralentir l'attraction de capitaux étrangers », à quel domaine le mot « capitaux » appartient-il ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aux investissements financiers et fonds d'affaires"
+      },
+      {
+        "id": "b",
+        "text": "Aux métropoles administratives de la province"
+      },
+      {
+        "id": "c",
+        "text": "Aux erreurs graves commises par les gestionnaires"
+      },
+      {
+        "id": "d",
+        "text": "Aux équipements matériels des usines de production"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "In an economic context, 'capitaux' refers to financial assets, investment funds, and venture capital.",
+    "distractorRationales": {
+      "b": "It does not refer to geographical capital cities (capitale/capitales).",
+      "c": "'Capitaux' here is a plural noun of finance, not the adjective meaning mortal or critical (e.g. péché capital).",
+      "d": "It refers to financial liquid assets and investments, not physical factory machinery."
+    },
+    "skillTags": [
+      "reference-anaphorique",
+      "lexical-precision"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-passage-0008-q5",
+    "module": "CE",
+    "itemType": "passage-mcq",
+    "stimulusId": "ce-passage-0008",
+    "prompt": "Quel faux ami potentiel le mot « conglomérats » peut-il évoquer pour un apprenant anglophone ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une assemblée informelle d'artisans locaux"
+      },
+      {
+        "id": "b",
+        "text": "Un groupe diversifié de grandes entreprises fusionnées"
+      },
+      {
+        "id": "c",
+        "text": "Un rassemblement temporaire de citoyens en grève"
+      },
+      {
+        "id": "d",
+        "text": "Un amas rocheux naturel formé par la sédimentation"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "In commercial and economic texts, 'conglomérats' refers to large corporate groups formed by merging diverse companies (cognate with English 'conglomerate'), while in geological contexts it refers to sedimentary rock; here the learner must recognize its primary corporate economic meaning.",
+    "distractorRationales": {
+      "a": "It does not mean a small craft guild.",
+      "c": "It does not refer to a gathering of striking citizens.",
+      "d": "While conglomerate is a geological term in geology, in this economic context it means major corporate entities."
+    },
+    "skillTags": [
+      "false-friend",
+      "lexical-precision"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0001-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0001",
+    "prompt": "Que doit faire un locataire pour pouvoir utiliser l'espace de stationnement ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Signer un bail de deux ans avec la propriétaire"
+      },
+      {
+        "id": "b",
+        "text": "Débourser un montant de cinquante dollars par mois"
+      },
+      {
+        "id": "c",
+        "text": "Payer la facture d'eau chaude de l'appartement"
+      },
+      {
+        "id": "d",
+        "text": "Acheter la cuisinière électrique du logement"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The ad explicitly states: 'Stationnement réservé disponible dans la ruelle arrière pour un supplément de 50 $ par mois' — parking requires an additional fee of $50 per month.",
+    "distractorRationales": {
+      "a": "A two-year lease is not mentioned anywhere; the text only mentions apartment rental details.",
+      "c": "Hot water is already included in the rent ('Eau chaude et chauffage inclus'), not paid separately for parking.",
+      "d": "The stove is already equipped in the kitchen ('Cuisine équipée d'une cuisinière électrique'), not purchased for parking."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0002-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0002",
+    "prompt": "Que se passe-t-il si un abonné doit rendre un livre pendant les trois jours de fermeture ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il peut déposer son document dans la boîte extérieure sans pénalité"
+      },
+      {
+        "id": "b",
+        "text": "Il doit obligatoirement attendre le jeudi matin pour venir au comptoir"
+      },
+      {
+        "id": "c",
+        "text": "Il devra payer des pénalités journalières de retard à la réouverture"
+      },
+      {
+        "id": "d",
+        "text": "Il doit prolonger son emprunt par téléphone auprès du service d'aide"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The notice states that the outdoor book return chute remains accessible at all times ('La chute à livres extérieure restera accessible en tout temps') and that no overdue fines will be charged ('Aucun frais de retard ne sera calculé').",
+    "distractorRationales": {
+      "b": "Patrons do not have to wait until Thursday morning because the exterior chute remains open 24/7.",
+      "c": "The document explicitly states that no late fees will be assessed for items due during the closure.",
+      "d": "Phone renewals are not required; the return chute is open and fines are waived."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0003-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0003",
+    "prompt": "À quel horaire Marc travaillera-t-il en remplacement de son collègue le vendredi ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "De huit heures à midi"
+      },
+      {
+        "id": "b",
+        "text": "De huit heures à seize heures"
+      },
+      {
+        "id": "c",
+        "text": "De seize heures à minuit"
+      },
+      {
+        "id": "d",
+        "text": "De midi à minuit"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The email specifies: 'tu prendras en charge mon horaire de fermeture du vendredi soir de 16 h à minuit' (from 4:00 PM to midnight).",
+    "distractorRationales": {
+      "a": "8:00 AM to 12:00 PM is not mentioned anywhere in the email.",
+      "b": "8:00 AM to 4:00 PM is the Thursday daytime shift that the author will work in replacement of Marc.",
+      "d": "12:00 PM to midnight is not the shift described in the text."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0004-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0004",
+    "prompt": "Comment une personne intéressée par cet emploi doit-elle faire parvenir sa candidature ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "En complétant un formulaire sur le site internet du dépanneur"
+      },
+      {
+        "id": "b",
+        "text": "En téléphonant au propriétaire du commerce le samedi matin"
+      },
+      {
+        "id": "c",
+        "text": "En transmettant son curriculum vitæ par messagerie courriel"
+      },
+      {
+        "id": "d",
+        "text": "En remettant son document en main propre au responsable sur place"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The posting concludes with explicit instructions: 'Veuillez déposer votre curriculum vitæ directement au gérant en boutique' (hand it directly to the manager in store).",
+    "distractorRationales": {
+      "a": "There is no mention of an online form or website for the store.",
+      "b": "Telephone calls to the owner are not requested in the job ad.",
+      "c": "Email submission is not mentioned; only in-person drop-off at the store is specified."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0005-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0005",
+    "prompt": "Pendant la fermeture de l'accès principal, par quel endroit les voyageurs doivent-ils entrer ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Par le bâtiment d'accès de la rue Berri"
+      },
+      {
+        "id": "b",
+        "text": "Par la station Laurier située plus au nord"
+      },
+      {
+        "id": "c",
+        "text": "Par les portes coupe-feu de l'avenue du Mont-Royal"
+      },
+      {
+        "id": "d",
+        "text": "Par le quai réservé aux autobus de correspondance"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The notice states: 'l'accès principal de l'avenue du Mont-Royal sera complètement inaccessible... Les usagers sont invités à emprunter l'édicule secondaire situé sur la rue Berri'.",
+    "distractorRationales": {
+      "b": "Station Laurier is only the destination of the shuttle bus for mobility-impaired riders, not the regular entrance.",
+      "c": "The Mont-Royal entrance is completely closed, and emergency fire doors are not for general access.",
+      "d": "There is no special bus platform entrance mentioned for boarding trains."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0006-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0006",
+    "prompt": "Quelle condition faut-il remplir pour annuler son rendez-vous sans devoir payer de frais ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Fournir un certificat rédigé par son médecin de famille"
+      },
+      {
+        "id": "b",
+        "text": "Prévenir la clinique au minimum deux jours avant la date prévue"
+      },
+      {
+        "id": "c",
+        "text": "Se présenter au secrétariat dix minutes avant la consultation"
+      },
+      {
+        "id": "d",
+        "text": "Régler d'avance le coût de son examen dentaire annuel"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The email specifies: 'communiquer avec notre secrétariat au moins 48 heures à l'avance afin d'éviter des frais d'annulation tardive de 35 $' (48 hours = 2 days in advance).",
+    "distractorRationales": {
+      "a": "A doctor's medical certificate is not required to avoid cancellation fees.",
+      "c": "Arriving 10 minutes early is for filling out paperwork, not for cancelling without charge.",
+      "d": "Paying in advance for the dental check-up is never mentioned."
+    },
+    "skillTags": [
+      "detail-scan",
+      "lexical-precision"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0007-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0007",
+    "prompt": "Quel accessoire fait partie des équipements inclus avec le vélo mis en vente ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un casque de protection fluorescent"
+      },
+      {
+        "id": "b",
+        "text": "Un ensemble de feux clignotants rechargeables"
+      },
+      {
+        "id": "c",
+        "text": "Un dispositif de verrouillage antivol robuste"
+      },
+      {
+        "id": "d",
+        "text": "Une trousse complète de clés de réparation"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The ad explicitly lists among the included items: 'cadenas en U de haute sécurité' (a high-security U-lock, which is a robust locking device).",
+    "distractorRationales": {
+      "a": "A safety helmet is not mentioned in the listing.",
+      "b": "Bicycle lights or flashers are not mentioned in the listing.",
+      "d": "A toolkit with repair wrenches is not included."
+    },
+    "skillTags": [
+      "detail-scan",
+      "lexical-precision"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0008-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0008",
+    "prompt": "Que doivent présenter les résidents pour accéder gratuitement aux vestiaires chauffés ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une carte d'abonnement au club aquatique local"
+      },
+      {
+        "id": "b",
+        "text": "Le reçu d'inscription aux cours de natation d'été"
+      },
+      {
+        "id": "c",
+        "text": "Un billet acheté d'avance auprès du surveillant"
+      },
+      {
+        "id": "d",
+        "text": "Un document officiel attestant de leur adresse de résidence"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The notice concludes: 'gratuit pour tous les résidents sur présentation d'une preuve de domicile valide' (valid proof of address/residence).",
+    "distractorRationales": {
+      "a": "A swim club membership card is not required; proof of local address is.",
+      "b": "A receipt for summer swim classes is irrelevant, especially since swim classes ended on August 31.",
+      "c": "Access is completely free for local residents, so purchasing a ticket is incorrect."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 4,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0009-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0009",
+    "prompt": "Quel équipement n'est PAS compris dans le prix de l'atelier de poterie ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le matériel personnel de protection et de modelage"
+      },
+      {
+        "id": "b",
+        "text": "La terre glaise nécessaire à la confection"
+      },
+      {
+        "id": "c",
+        "text": "L'utilisation des tours de potier électriques"
+      },
+      {
+        "id": "d",
+        "text": "Le passage des pièces dans le four céramique"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The ad explicitly points out what is excluded: 'le tablier de protection et les petits outils personnels de façonnage ne sont pas fournis et doivent être apportés par chaque élève'.",
+    "distractorRationales": {
+      "b": "Clay is included in the fee ('dix kilogrammes d'argile naturelle').",
+      "c": "Access to electric potter's wheels is included ('accès aux tours électriques').",
+      "d": "Kiln firings are included in the price ('les cuissons au four céramique')."
+    },
+    "skillTags": [
+      "negation",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0010-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0010",
+    "prompt": "Quelle est la conséquence pour un étudiant qui abandonne un cours entre le 6 et le 19 septembre ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il obtient un échec automatique et perd ses droits de scolarité"
+      },
+      {
+        "id": "b",
+        "text": "Il évite la mention d'échec mais ne reçoit aucun remboursement"
+      },
+      {
+        "id": "c",
+        "text": "Il se voit rembourser l'intégralité de ses frais d'inscription"
+      },
+      {
+        "id": "d",
+        "text": "Il doit payer des pénalités financières supplémentaires au cégep"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "Combining the two stated rules: dropping before September 19 avoids an academic failure ('sans mention d'échec au dossier scolaire'), but tuition refunds closed on September 5 ('aucun remboursement financier ne sera accordé pour les cours abandonnés après le 5 septembre').",
+    "distractorRationales": {
+      "a": "An automatic fail only occurs after September 19 at 4:00 PM, not before.",
+      "c": "Refunds ended on September 5, so no refund is granted between September 6 and 19.",
+      "d": "No extra financial penalty fees are mentioned; the student simply forfeits fees already paid."
+    },
+    "skillTags": [
+      "inference",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0011-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0011",
+    "prompt": "Quand est-il strictement interdit de garer son automobile dans la rue visée par l'avis ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dès qu'une accumulation de cinq centimètres de neige est atteinte"
+      },
+      {
+        "id": "b",
+        "text": "Durant toute la fin de semaine précédant le passage de la charrue"
+      },
+      {
+        "id": "c",
+        "text": "Dès que les signaux lumineux et panneaux temporaires sont posés"
+      },
+      {
+        "id": "d",
+        "text": "Uniquement pendant les heures d'ouverture des commerces locaux"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The notice states: 'Lorsque les gyrophares jaunes d'avertissement et les panneaux d'interdiction temporaires orange sont installés le long des trottoirs, le stationnement de rue est rigoureusement interdit'.",
+    "distractorRationales": {
+      "a": "The parking ban is triggered by the signs and flashers, not by a specific snowfall depth metric.",
+      "b": "Weekend-long parking bans are not mentioned; the operation runs from 7:00 PM tonight to 7:00 AM tomorrow.",
+      "d": "The operation takes place overnight (19 h to 7 h), outside daytime business hours."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0012-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0012",
+    "prompt": "Que peut faire Monsieur Tremblay s'il a absolument besoin de son bureau avant mardi prochain ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Exiger un transporteur d'urgence en déboursant un supplément"
+      },
+      {
+        "id": "b",
+        "text": "Annuler sa commande et demander un remboursement au magasin"
+      },
+      {
+        "id": "c",
+        "text": "Faire livrer le colis chez un voisin résidant à proximité"
+      },
+      {
+        "id": "d",
+        "text": "Aller chercher lui-même son article à l'entrepôt dès le lendemain"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The email explains that home delivery is delayed until Tuesday, but offers an immediate alternative: 'vous pouvez vous présenter dès demain matin pour en faire la cueillette directement au comptoir des retraits' at the Laval warehouse.",
+    "distractorRationales": {
+      "a": "An emergency expedited courier option with an extra fee is not offered.",
+      "b": "Order cancellation and refunds are not suggested in the message.",
+      "c": "Rerouting the delivery to a neighbor is not presented as an available option."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0013-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0013",
+    "prompt": "Quel candidat verrait sa demande d'emploi rejetée d'après les exigences de l'annonce ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une personne titulaire d'une AEC sans expérience en service de garde subventionné"
+      },
+      {
+        "id": "b",
+        "text": "Une personne détenant un DEC en éducation à l'enfance avec un cours de secourisme"
+      },
+      {
+        "id": "c",
+        "text": "Une éducatrice ayant obtenu une attestation d'équivalence reconnue par le ministère"
+      },
+      {
+        "id": "d",
+        "text": "Une candidate diplômée disponible pour occuper un poste à temps plein de 35 heures"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The ad explicitly rules out applicants with only an AEC and no prior subsidized daycare experience: 'Les personnes détenant seulement une attestation d'études collégiales (AEC) sans expérience préalable en milieu subventionné ne seront pas retenues'.",
+    "distractorRationales": {
+      "b": "A DEC graduate with up-to-date first aid meets the requirements perfectly.",
+      "c": "An educator holding a recognized ministry equivalence is eligible.",
+      "d": "Full-time availability for 35 hours per week is the exact job specification."
+    },
+    "skillTags": [
+      "negation",
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0014-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0014",
+    "prompt": "Dans quelle situation un usager doit-il payer un montant de 25 $ pour se faire vacciner ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "S'il oublie d'apporter sa carte d'assurance maladie au rendez-vous"
+      },
+      {
+        "id": "b",
+        "text": "S'il est un adulte en bonne santé ne faisant partie d'aucun groupe ciblé"
+      },
+      {
+        "id": "c",
+        "text": "S'il se présente au CLSC en dehors des journées sans rendez-vous"
+      },
+      {
+        "id": "d",
+        "text": "S'il demande à recevoir deux doses de vaccin au cours de la même visite"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The notice states that the flu vaccine is free for vulnerable priority groups (seniors 65+, pregnant women, chronic respiratory/cardiac patients), while non-priority individuals pay a $25 fee: 'Les personnes ne faisant pas partie de ces groupes prioritaires peuvent également recevoir le vaccin moyennant un tarif administratif de 25 $'.",
+    "distractorRationales": {
+      "a": "The RAMQ card is mandatory for everyone, not a substitute for the fee.",
+      "c": "The sessions are only held Wednesday and Friday; other days are not mentioned.",
+      "d": "Double doses in one visit are never mentioned."
+    },
+    "skillTags": [
+      "inference",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0015-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0015",
+    "prompt": "Quel élément les employés participants ne sont-ils PAS tenus d'apporter au repas de groupe ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une salade composée froide"
+      },
+      {
+        "id": "b",
+        "text": "Un mets chaud cuisiné maison"
+      },
+      {
+        "id": "c",
+        "text": "Les verres et assiettes jetables"
+      },
+      {
+        "id": "d",
+        "text": "Une tartelette aux légumes"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The email states that the company provides all tableware and beverages: 'L'entreprise prend en charge toutes les boissons chaudes, les jus, la vaisselle compostable et les desserts festifs', so employees do not need to bring disposable plates and cups.",
+    "distractorRationales": {
+      "a": "Employees are asked to bring a savory salad or appetizer to share.",
+      "b": "Employees are invited to bring a main dish or savory entrée.",
+      "d": "A vegetable tart is an example of a savory dish that an employee would bring."
+    },
+    "skillTags": [
+      "negation",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0016-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0016",
+    "prompt": "Quel avantage exclusif le Forfait Bureau Fixe offre-t-il par rapport au Forfait Bureau Ouvert ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'impression illimitée de documents en noir et blanc"
+      },
+      {
+        "id": "b",
+        "text": "La connexion gratuite au réseau internet haute vitesse"
+      },
+      {
+        "id": "c",
+        "text": "L'accès à une machine à café en libre-service le midi"
+      },
+      {
+        "id": "d",
+        "text": "La possibilité d'accéder à son poste à toute heure du jour et de la nuit"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The Fixed Desk tier gives 24/7 access ('accessible 24 h sur 24'), whereas the Open Desk tier is restricted to daytime hours on weekdays ('accès illimité en journée du lundi au vendredi').",
+    "distractorRationales": {
+      "a": "Printing is charged per page in both plans ('fait l'objet d'une tarification à la page dans les deux forfaits').",
+      "b": "High-speed internet is included in both packages.",
+      "c": "Coffee is provided in both packages."
+    },
+    "skillTags": [
+      "detail-scan",
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0017-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0017",
+    "prompt": "Pourquoi un propriétaire ayant soumis un dossier complet et conforme pourrait-il être privé de subvention ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parce que les crédits budgétaires alloués à la ville sont déjà épuisés"
+      },
+      {
+        "id": "b",
+        "text": "Parce que son immeuble d'habitation a été construit avant 1990"
+      },
+      {
+        "id": "c",
+        "text": "Parce qu'il a fait appel à un artisan titulaire d'une licence RBQ"
+      },
+      {
+        "id": "d",
+        "text": "Parce qu'il a déposé sa demande deux semaines avant la date limite"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The notice warns of a budget constraint: funds are awarded first-come, first-served ('selon le principe du premier arrivé, premier servi'), meaning valid applications will be denied funding if total municipal funds run out ('sans garantie de financement pour les dossiers conformes déposés tardivement').",
+    "distractorRationales": {
+      "b": "Pre-1990 construction is an eligibility requirement, not a ground for disqualification.",
+      "c": "Hiring an RBQ-certified contractor is a mandatory requirement, not a disqualifier.",
+      "d": "Submitting before the deadline is required; submitting early increases chances of receiving funding."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0018-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0018",
+    "prompt": "Quelle est la position juridique et financière adoptée par l'entreprise dans sa réponse ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elle refuse toute intervention en invoquant l'expiration de la garantie légale"
+      },
+      {
+        "id": "b",
+        "text": "Elle consent à un geste commercial partiel sans admettre sa responsabilité"
+      },
+      {
+        "id": "c",
+        "text": "Elle s'engage à rembourser intégralement les frais de technicien et de pièces"
+      },
+      {
+        "id": "d",
+        "text": "Elle conteste formellement la réalité de la panne mécanique signalée"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The email states that the manufacturer's warranty is expired, but as an exceptional commercial gesture ('à titre purement exceptionnel et sans reconnaissance de responsabilité'), the company will cover 70% of replacement parts while leaving labor and travel fees to the customer.",
+    "distractorRationales": {
+      "a": "The company does not outright refuse; it offers to cover 70% of parts costs.",
+      "c": "Labor and travel are explicitly excluded and left to the client.",
+      "d": "The company does not dispute the existence of the breakdown; it acknowledges the customer's claim."
+    },
+    "skillTags": [
+      "register-detection",
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0019-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0019",
+    "prompt": "Quelle exigence éliminatoire un cabinet de traduction doit-il impérativement respecter selon l'offre ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Avoir son siège social situé dans l'arrondissement du Plateau"
+      },
+      {
+        "id": "b",
+        "text": "Disposer d'une équipe de traducteurs disponibles les fins de semaine"
+      },
+      {
+        "id": "c",
+        "text": "Prouver au moins cinq ans d'expérience dans le transport lourd"
+      },
+      {
+        "id": "d",
+        "text": "Garantir la traduction de plus de dix mille mots par journée de travail"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The tender outlines strict mandatory conditions: 'Exigences impératives : expérience minimale de cinq années documentée dans le secteur du matériel de transport lourd' (minimum 5 years documented experience in heavy transport equipment).",
+    "distractorRationales": {
+      "a": "Geographical location in the Plateau is not an requirement.",
+      "b": "Weekend availability is not stated; only turnaround times of under 48 hours for urgent orders.",
+      "d": "A daily output quota of 10,000 words is never mentioned; the contract is 150,000 words over 12 months."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "ce-doc-0020-q1",
+    "module": "CE",
+    "itemType": "doc-match",
+    "stimulusId": "ce-doc-0020",
+    "prompt": "Quel employé ne pourra PAS se faire rembourser l'achat d'un fauteuil ergonomique ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un employé régulier ayant soumis sa facture 15 jours après l'achat"
+      },
+      {
+        "id": "b",
+        "text": "Une employée qui a acheté un support d'écran conforme aux normes CSA"
+      },
+      {
+        "id": "c",
+        "text": "Un travailleur embauché depuis plus d'un an travaillant en formule hybride"
+      },
+      {
+        "id": "d",
+        "text": "Un salarié ayant acheté un meuble d'occasion auprès d'un particulier"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The policy notice explicitly excludes private second-hand purchases: 'Les achats de matériel d'occasion entre particuliers sont formellement exclus du remboursement'.",
+    "distractorRationales": {
+      "a": "Submitting within 15 days is well within the 30-day window, so this employee is eligible.",
+      "b": "A monitor stand complying with CSA standards is expressly covered up to $300.",
+      "c": "An employee with over one year of service has already completed the 6-month probation period and is eligible."
+    },
+    "skillTags": [
+      "negation",
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  }
+]

@@ -1,0 +1,1223 @@
+[
+  {
+    "id": "co-script-0001-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0001",
+    "prompt": "Quel est l'objectif principal de l'appel du client ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Annuler définitivement sa prise en charge médicale"
+      },
+      {
+        "id": "b",
+        "text": "Demander les tarifs d'une consultation d'urgence"
+      },
+      {
+        "id": "c",
+        "text": "Repousser son rendez-vous médical à un autre moment"
+      },
+      {
+        "id": "d",
+        "text": "Formuler une plainte contre son physiothérapeute"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The client calls specifically to change his Tuesday appointment ('déplacer à une autre date') to later in the week due to a travel conflict.",
+    "distractorRationales": {
+      "a": "He does not wish to cancel his therapy, only to move his appointment to Thursday.",
+      "b": "He asks about availability on Thursday afternoon, not emergency consultation fees.",
+      "d": "There is no dissatisfaction expressed; he speaks politely and asks for a routine schedule change."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0001-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0001",
+    "prompt": "Quel est le registre de langue utilisé entre les deux interlocuteurs ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Familier, avec des expressions d'argot local"
+      },
+      {
+        "id": "b",
+        "text": "Professionnel et courtois, propre aux services"
+      },
+      {
+        "id": "c",
+        "text": "Agressif et impatient de la part du client"
+      },
+      {
+        "id": "d",
+        "text": "Neutre et distant, frôlant l'indifférence"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The interaction uses formal 'vous', polite markers ('s'il vous plaît', 'merci beaucoup'), and professional greetings typical of a clinical service reception.",
+    "distractorRationales": {
+      "a": "Neither speaker uses 'tu' or slang; the language is standard and formal.",
+      "c": "The customer is polite and cooperative, not aggressive or impatient.",
+      "d": "The receptionist is accommodating ('Voyons... J'ai une disponibilité') and friendly rather than cold."
+    },
+    "skillTags": [
+      "register-detection"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0001-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0001",
+    "prompt": "Pourquoi le client ne peut-il pas se présenter à son rendez-vous de mardi ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parce qu'il souffre d'un malaise physique imprévu"
+      },
+      {
+        "id": "b",
+        "text": "Parce qu'il a oublié l'horaire convenu d'avance"
+      },
+      {
+        "id": "c",
+        "text": "Parce que son thérapeute habituel est indisponible"
+      },
+      {
+        "id": "d",
+        "text": "Parce qu'il doit effectuer un déplacement de travail"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The caller explains his reason clearly: 'Un empêchement professionnel m'oblige à voyager' (a professional obligation requires him to travel).",
+    "distractorRationales": {
+      "a": "He mentions no illness or physical discomfort as the reason for rescheduling.",
+      "b": "He knows his appointment day precisely ('rendez-vous de mardi matin').",
+      "c": "The therapist's availability is not the issue; the schedule conflict is on the client's side."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0001-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0001",
+    "prompt": "À quel moment le nouveau rendez-vous a-t-il été fixé ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Jeudi après-midi à dix-sept heures quinze"
+      },
+      {
+        "id": "b",
+        "text": "Mardi prochain à la même heure matinale"
+      },
+      {
+        "id": "c",
+        "text": "Jeudi midi avant la fermeture du centre"
+      },
+      {
+        "id": "d",
+        "text": "Vendredi matin en ouverture de clinique"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The receptionist offers Thursday at 17:15 ('17 h 15 ce jeudi-là'), which the client enthusiastically accepts ('C'est parfait, réservez ce créneau').",
+    "distractorRationales": {
+      "b": "Tuesday is the day being cancelled, not the newly scheduled date.",
+      "c": "The slot is at 17:15 (late afternoon), not at noon.",
+      "d": "Friday is not discussed or proposed during the conversation."
+    },
+    "skillTags": [
+      "temporal-sequence",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0002-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0002",
+    "prompt": "Quelle est l'attitude initiale de Thomas face à l'invitation de Sophie ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il accepte immédiatement sans poser de condition"
+      },
+      {
+        "id": "b",
+        "text": "Il refuse avec agacement l'interruption de son travail"
+      },
+      {
+        "id": "c",
+        "text": "Il reproche à sa collègue de s'interrompre si tôt"
+      },
+      {
+        "id": "d",
+        "text": "Il décline poliment en raison d'une contrainte horaire"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Thomas initially hesitates and politely declines going out to the bistro because he brought his lunch and has a strict deadline: 'J'aimerais bien, mais... je dois absolument terminer... avant 14 heures'.",
+    "distractorRationales": {
+      "a": "He does not accept immediately; he initially says he has brought his lunch and has a deadline.",
+      "b": "His response is courteous ('J'aimerais bien, mais...'), not annoyed or angry.",
+      "c": "He expresses no criticism towards Sophie; he only mentions his own workload."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0002-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0002",
+    "prompt": "Quelle tâche urgente Thomas doit-il impérativement terminer avant 14 heures ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "La relecture et correction d'un document financier"
+      },
+      {
+        "id": "b",
+        "text": "La rédaction de l'invitation pour le repas du midi"
+      },
+      {
+        "id": "c",
+        "text": "La préparation de son plat cuisiné à la maison"
+      },
+      {
+        "id": "d",
+        "text": "La négociation d'un contrat commercial au bistro"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "Thomas specifies: 'je dois absolument terminer la révision du rapport financier avant 14 heures' (revising/reviewing the financial report).",
+    "distractorRationales": {
+      "b": "Sophie is the one inviting colleagues, not Thomas writing invitations.",
+      "c": "His lunch is already prepared and brought from home ('j'ai apporté mon repas maison').",
+      "d": "The bistro was simply a lunch suggestion from Sophie, not a business negotiation."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0002-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0002",
+    "prompt": "Quel indice révèle le lien de proximité entre les deux collègues ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le vouvoiement formel et les excuses répétées"
+      },
+      {
+        "id": "b",
+        "text": "L'usage de titres honorifiques administratifs"
+      },
+      {
+        "id": "c",
+        "text": "Le tutoiement spontané et le ton convivial"
+      },
+      {
+        "id": "d",
+        "text": "La signature officielle au bas de la note"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The use of 'Dis-moi', 'tu viens', and casual workplace suggestions demonstrates informal tutoiement and a friendly, collegial relationship.",
+    "distractorRationales": {
+      "a": "The speakers use 'tu', not 'vous', and neither offers formal apologies.",
+      "b": "No administrative titles or honorifics are used; they call each other by first names.",
+      "d": "This is a live spoken conversation, not a written formal memo."
+    },
+    "skillTags": [
+      "register-detection"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0002-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0002",
+    "prompt": "Où les deux collègues vont-ils finalement passer leur pause de midi ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dans le bureau individuel de Sophie au calme"
+      },
+      {
+        "id": "b",
+        "text": "Sur l'espace extérieur de la cafétéria du travail"
+      },
+      {
+        "id": "c",
+        "text": "À la terrasse du bistro situé au coin de la rue"
+      },
+      {
+        "id": "d",
+        "text": "Dans une salle de conférence du deuxième étage"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "Sophie suggests sitting on the cafeteria terrace ('sur la terrasse de la cafétéria') where Thomas can eat his homemade meal, which Thomas accepts.",
+    "distractorRationales": {
+      "a": "Sophie's private office is not mentioned as a lunch spot.",
+      "c": "The neighborhood bistro was Sophie's first idea, abandoned so Thomas can eat his home-cooked food.",
+      "d": "A conference room is never mentioned."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0003-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0003",
+    "prompt": "Quelle est la destination finale du train concerné par l'annonce ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Montréal"
+      },
+      {
+        "id": "b",
+        "text": "Québec"
+      },
+      {
+        "id": "c",
+        "text": "Trois-Rivières"
+      },
+      {
+        "id": "d",
+        "text": "Sherbrooke"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The announcer explicitly states: 'Le train régional numéro 452 à destination de Québec'.",
+    "distractorRationales": {
+      "a": "Montréal is not the destination announced.",
+      "c": "Trois-Rivières is not mentioned in the broadcast.",
+      "d": "Sherbrooke is not mentioned in the broadcast."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0003-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0003",
+    "prompt": "Pour quel motif le départ du train est-il retardé d'une quinzaine de minutes ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Un encombrement de bagages dans les couloirs"
+      },
+      {
+        "id": "b",
+        "text": "Des conditions météorologiques très défavorables"
+      },
+      {
+        "id": "c",
+        "text": "Une vérification technique du système de signalisation"
+      },
+      {
+        "id": "d",
+        "text": "Une grève surprise des agents de bord de la gare"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The delay is explained as: 'en raison d'une inspection technique de la signalisation' (a technical inspection of the signaling equipment).",
+    "distractorRationales": {
+      "a": "Luggage congestion is not mentioned as a cause for the delay.",
+      "b": "Weather conditions are not cited in the station message.",
+      "d": "There is no mention of labor strikes or conductor walkouts."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0003-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0003",
+    "prompt": "Où les voyageurs doivent-ils désormais se rendre pour monter à bord du train ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Au quai numéro cinq"
+      },
+      {
+        "id": "b",
+        "text": "À la voie numéro trois"
+      },
+      {
+        "id": "c",
+        "text": "Au comptoir d'information central"
+      },
+      {
+        "id": "d",
+        "text": "À la zone des autobus de banlieue"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The speaker informs travelers of the track change: 'L'embarquement des passagers s'effectuera désormais au quai 5'.",
+    "distractorRationales": {
+      "b": "Track 3 was the initial track ('initialement prévu... voie 3'), which has been changed.",
+      "c": "Passengers are asked to check boards, not to line up at the central info desk.",
+      "d": "The train is not replaced by suburban buses; boarding takes place on platform 5."
+    },
+    "skillTags": [
+      "temporal-sequence",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0003-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0003",
+    "prompt": "Quelle consigne obligatoire les voyageurs ne doivent-ils PAS oublier avant de monter ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Présenter leur passeport aux agents de sécurité"
+      },
+      {
+        "id": "b",
+        "text": "Peser l'ensemble de leurs bagages à main"
+      },
+      {
+        "id": "c",
+        "text": "Éteindre leurs appareils téléphoniques mobiles"
+      },
+      {
+        "id": "d",
+        "text": "Faire valider leur titre de transport en gare"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The announcement concludes: 'ne pas oublier de composter votre titre de transport avant l'accès aux voitures' (validating/composting tickets before entering cars).",
+    "distractorRationales": {
+      "a": "Passports are not required for this regional train journey.",
+      "b": "Weighing carry-on baggage is not mentioned for this train.",
+      "c": "Turning off mobile phones is never requested in the message."
+    },
+    "skillTags": [
+      "negation",
+      "detail-scan"
+    ],
+    "targetBand": 5,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0004-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0004",
+    "prompt": "Pour quel événement particulier la circulation automobile sur le pont est-elle interrompue ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "La tenue d'une épreuve sportive de course à pied"
+      },
+      {
+        "id": "b",
+        "text": "L'inauguration d'une nouvelle piste cyclable sécurisée"
+      },
+      {
+        "id": "c",
+        "text": "Le tournage d'une superproduction cinématographique"
+      },
+      {
+        "id": "d",
+        "text": "Des travaux d'urgence consécutifs à des intempéries"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The notice states that the closure is 'En prévision du marathon annuel ce dimanche' (the annual running marathon).",
+    "distractorRationales": {
+      "b": "Pedestrians and cyclists can use the north bridge temporarily, but the closure is caused by the marathon.",
+      "c": "Film shoots are not mentioned.",
+      "d": "The closure is planned for a sporting event, not emergency storm repairs."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0004-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0004",
+    "prompt": "Quelle solution de remplacement est expressément suggérée pour traverser le cours d'eau ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le recours à des navettes fluviales d'urgence"
+      },
+      {
+        "id": "b",
+        "text": "Le covoiturage obligatoire par l'autoroute nord"
+      },
+      {
+        "id": "c",
+        "text": "L'usage exclusif du taxi sur les voies d'accès"
+      },
+      {
+        "id": "d",
+        "text": "L'utilisation de la ligne jaune du réseau de métro"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Drivers are advised to use the yellow subway line: 'les usagers de la route sont invités à privilégier la ligne jaune du métro'.",
+    "distractorRationales": {
+      "a": "River ferries are not mentioned in the advisory.",
+      "b": "Carpooling on a northern highway is not proposed.",
+      "c": "Taxi-only lanes are not mentioned."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0004-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0004",
+    "prompt": "Quelle restriction horaire s'applique aux cyclistes qui souhaitent emprunter le pont ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le passage leur est complètement prohibé toute la journée"
+      },
+      {
+        "id": "b",
+        "text": "Ils ne peuvent circuler que dans le sens sud-nord le matin"
+      },
+      {
+        "id": "c",
+        "text": "Leur accès à la passerelle n'est autorisé que jusqu'à 8 h"
+      },
+      {
+        "id": "d",
+        "text": "Ils doivent obligatoirement rouler à pied après 14 h"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The announcement states: 'Les piétons et cyclistes pourront toutefois emprunter la passerelle nord jusqu'à 8 h seulement' (only until 8:00 AM).",
+    "distractorRationales": {
+      "a": "Cyclists are not barred all day; they are permitted before 8:00 AM.",
+      "b": "Directional restrictions (south-to-north) are not mentioned.",
+      "d": "Walking bikes after 14:00 is not mentioned; vehicle circulation resumes after 14:00."
+    },
+    "skillTags": [
+      "negation",
+      "temporal-sequence"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0004-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0004",
+    "prompt": "Quelle est la visée communicative et le ton général de ce message radiophonique ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une mise en demeure répressive contre les automobilistes"
+      },
+      {
+        "id": "b",
+        "text": "Un bulletin d'utilité publique préventif et informatif"
+      },
+      {
+        "id": "c",
+        "text": "Un message commercial faisant la promotion d'un événement"
+      },
+      {
+        "id": "d",
+        "text": "Une tribune militante réclamant la fin de la voiture en ville"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The opening 'Info-travaux métropolitain' and objective, structured directions mark this as an informative, preventive public service announcement.",
+    "distractorRationales": {
+      "a": "The message is not an aggressive police warning; it provides road closure notices.",
+      "c": "It does not advertise tickets for the marathon, but alerts commuters to travel changes.",
+      "d": "It is not an anti-car political editorial; it is an official transit advisory."
+    },
+    "skillTags": [
+      "register-detection",
+      "author-stance"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0005-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0005",
+    "prompt": "Quelle est la position adoptée par le commis face à la demande du client ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il refuse catégoriquement toute assistance et ordonne de partir"
+      },
+      {
+        "id": "b",
+        "text": "Il accepte d'effectuer un remboursement monétaire immédiat"
+      },
+      {
+        "id": "c",
+        "text": "Il applique la politique stricte tout en offrant un compromis"
+      },
+      {
+        "id": "d",
+        "text": "Il conteste la véracité de la panne signalée par le client"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The clerk adheres strictly to the rule against cash refunds without a receipt ('la politique du magasin m'interdit tout remboursement au comptant'), but uses the customer's loyalty account to offer an exchange or credit.",
+    "distractorRationales": {
+      "a": "He is helpful and polite, finding a solution via the loyalty program rather than turning the client away.",
+      "b": "He explicitly denies a cash refund ('m'interdit tout remboursement au comptant').",
+      "d": "He never doubts or disputes that the headphones have battery issues."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0005-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0005",
+    "prompt": "Quel problème technique le client a-t-il constaté sur son nouvel appareil ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le son produit par les haut-parleurs est déformé"
+      },
+      {
+        "id": "b",
+        "text": "La batterie intégrée ne conserve pas son autonomie"
+      },
+      {
+        "id": "c",
+        "text": "Le cordon de recharge fourni est endommagé"
+      },
+      {
+        "id": "d",
+        "text": "Le boîtier de connexion sans fil refuse de s'ouvrir"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The customer states: 'la batterie ne tient pas la charge' (the battery does not hold a charge).",
+    "distractorRationales": {
+      "a": "Sound distortion is not mentioned by the buyer.",
+      "c": "A broken charging cord is not mentioned.",
+      "d": "A jammed charging case is not mentioned."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0005-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0005",
+    "prompt": "Quel élément a permis de débloquer la situation malgré la perte du reçu papier ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'enregistrement de l'achat sur le compte de fidélité"
+      },
+      {
+        "id": "b",
+        "text": "La présentation du relevé bancaire imprimé du client"
+      },
+      {
+        "id": "c",
+        "text": "L'intervention bienveillante du directeur du magasin"
+      },
+      {
+        "id": "d",
+        "text": "La boîte d'emballage originale scellée avec le code-barres"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The customer used his loyalty card ('grâce à votre compte fidélité, je peux immédiatement retrouver la transaction'), allowing the purchase to be verified electronically.",
+    "distractorRationales": {
+      "b": "Bank statements are not mentioned or requested.",
+      "c": "The store manager was not summoned; the clerk handled it directly.",
+      "d": "The barcode on the packaging is not what located the purchase transaction."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0005-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0005",
+    "prompt": "Quelle relation sociale caractérise cet échange oral ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une querelle houleuse entre deux proches de longue date"
+      },
+      {
+        "id": "b",
+        "text": "Un interrogatoire formel mené par un agent assermenté"
+      },
+      {
+        "id": "c",
+        "text": "Une discussion intime et informelle entre collègues"
+      },
+      {
+        "id": "d",
+        "text": "Une négociation commerciale polie entre client et employé"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The exchange is a classic commercial transaction: polite address ('monsieur', 's'il vous plaît'), formal vous, and negotiation around return policies.",
+    "distractorRationales": {
+      "a": "Neither party is screaming or arguing; it is civil and constructive.",
+      "b": "It is a standard customer service desk exchange, not a law enforcement interrogation.",
+      "c": "They do not know each other casually and use formal register, not informal banter."
+    },
+    "skillTags": [
+      "register-detection"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0006-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0006",
+    "prompt": "Quelle est la première réaction du développeur face à la proposition d'avancer le lancement ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il se réjouit de terminer le contrat plus rapidement que prévu"
+      },
+      {
+        "id": "b",
+        "text": "Il exprime de sérieuses réserves en insistant sur les dangers"
+      },
+      {
+        "id": "c",
+        "text": "Il démissionne sur-le-champ pour protester contre la pression"
+      },
+      {
+        "id": "d",
+        "text": "Il assure sa directrice que le produit est déjà totalement prêt"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "Julien responds that it is very risky ('Honnêtement, Geneviève, c'est très risqué') and warns that cutting testing short risks catastrophic production crashes.",
+    "distractorRationales": {
+      "a": "He is not pleased; he is worried about software stability.",
+      "c": "He does not resign; he negotiates workable solutions.",
+      "d": "He explicitly states that security tests have not been finalized."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0006-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0006",
+    "prompt": "À quelles conditions le développeur accepte-t-il finalement d'avancer la date de livraison ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "En travaillant seul tout le week-end avec une prime de nuit"
+      },
+      {
+        "id": "b",
+        "text": "En supprimant intégralement la vérification des modules bancaires"
+      },
+      {
+        "id": "c",
+        "text": "En confiant l'ensemble du projet à une firme externe sous-traitante"
+      },
+      {
+        "id": "d",
+        "text": "En recevant du renfort et en reportant les options secondaires"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Julien sets clear conditions: 'Avec deux renforts dédiés, ça devient envisageable, à condition de reporter les fonctionnalités secondaires à la version suivante'.",
+    "distractorRationales": {
+      "a": "He does not offer to work alone over the weekend; he requests additional staff.",
+      "b": "Payment issues were just resolved; he refuses to skip core tests.",
+      "c": "Outsourcing the entire project to an external contractor is never mentioned."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0006-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0006",
+    "prompt": "Quel indice révèle la nature des rapports professionnels entre Geneviève et Julien ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'emploi des prénoms et le tutoiement dans un cadre de confiance"
+      },
+      {
+        "id": "b",
+        "text": "Le recours constant aux formules protocolaires de soumission"
+      },
+      {
+        "id": "c",
+        "text": "Une distance hiérarchique froide interdisant toute discussion"
+      },
+      {
+        "id": "d",
+        "text": "L'usage d'un vocabulaire syndicaliste agressif et revendicatif"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "They address each other by their first names ('Julien', 'Geneviève') and use 'tu' while openly and constructively debating risks, showing professional trust.",
+    "distractorRationales": {
+      "b": "Julien does not show blind subservience; he openly pushes back and negotiates.",
+      "c": "The manager listens, acknowledges his concerns ('Je comprends tes réserves'), and problem-solves collaboratively.",
+      "d": "No confrontational union rhetoric is used; it is an internal project discussion."
+    },
+    "skillTags": [
+      "register-detection"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0006-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0006",
+    "prompt": "Quel volet technique critique l'équipe vient-elle de stabiliser ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Le design graphique de l'interface utilisateur"
+      },
+      {
+        "id": "b",
+        "text": "L'intégration du système de géolocalisation"
+      },
+      {
+        "id": "c",
+        "text": "Le traitement et la sécurité des transactions de paiement"
+      },
+      {
+        "id": "d",
+        "text": "La traduction du contenu de l'application en anglais"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "Julien states: 'Nous venons tout juste de corriger les anomalies critiques de paiement' (critical payment anomalies).",
+    "distractorRationales": {
+      "a": "UI design is not mentioned as the recently solved critical bug.",
+      "b": "Geolocation is not mentioned in the transcript.",
+      "d": "Language translation is not mentioned."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 6,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0007-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0007",
+    "prompt": "Comment la professeure formule-t-elle sa réserve concernant la soumission de l'article ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "De manière diplomatique par une suggestion indirecte"
+      },
+      {
+        "id": "b",
+        "text": "Par un ordre autoritaire interdisant toute publication"
+      },
+      {
+        "id": "c",
+        "text": "En dénigrant la qualité d'ensemble du travail de l'étudiant"
+      },
+      {
+        "id": "d",
+        "text": "En exprimant un désintérêt poli pour le sujet traité"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "The professor first praises the student's work ('travail remarquable', 'rigueur méthodologique indéniable') and then delicately frames her criticism as a rhetorical question: 'Cela dit... ne pensez-vous pas que... mériterait d'être un peu plus étayée ?'.",
+    "distractorRationales": {
+      "b": "She does not issue an authoritarian ban; she advises waiting for quarterly numbers.",
+      "c": "She emphasizes that the work is remarkable, not inferior.",
+      "d": "She demonstrates high intellectual engagement with his methodology."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0007-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0007",
+    "prompt": "Que décide finalement de faire Alexandre suite aux recommandations de son mentor ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Transmettre son article immédiatement à une autre revue moins exigeante"
+      },
+      {
+        "id": "b",
+        "text": "Supprimer complètement le troisième chapitre pour éviter toute critique"
+      },
+      {
+        "id": "c",
+        "text": "Patienter afin d'incorporer les nouveaux indicateurs statistiques"
+      },
+      {
+        "id": "d",
+        "text": "Contester l'avis de son professeur auprès du comité universitaire"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "Alexandre accepts the advice: 'Vous avez tout à fait raison, je vais temporiser et intégrer ces nouvelles données' (wait for the release of quarterly data in 10 days to incorporate them).",
+    "distractorRationales": {
+      "a": "He does not switch to an inferior journal; he wants his submission to the primary journal to be as robust as possible.",
+      "b": "He will bolster the third chapter with data, not delete it.",
+      "d": "He agrees completely with her guidance ('Vous avez tout à fait raison')."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0007-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0007",
+    "prompt": "Quel trait stylistique traduit le registre soutenu et universitaire de cette interaction ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Des plaisanteries légères et l'emploi régulier de diminutifs"
+      },
+      {
+        "id": "b",
+        "text": "Un vouvoiement respectueux assorti d'un lexique conceptuel précis"
+      },
+      {
+        "id": "c",
+        "text": "L'interruption fréquente de la parole sur un ton passionné"
+      },
+      {
+        "id": "d",
+        "text": "L'alternance systématique entre l'anglais et le français parlé"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "The dialogue exhibits elevated academic discourse: formal vous, address by title ('Professeur Vasseur'), sophisticated vocabulary ('rigueur méthodologique', 'évaluation par les pairs', 'approximation empirique').",
+    "distractorRationales": {
+      "a": "There are no jokes or nicknames; the tone is intellectual and serious.",
+      "c": "Neither speaker interrupts the other; the cadence is measured and respectful.",
+      "d": "The conversation is entirely in formal standard French."
+    },
+    "skillTags": [
+      "register-detection"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0007-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0007",
+    "prompt": "Quelle section précise du manuscrit nécessite un renforcement selon la professeure ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "L'introduction théorique et la revue bibliographique"
+      },
+      {
+        "id": "b",
+        "text": "Le résumé introductif destiné à la couverture"
+      },
+      {
+        "id": "c",
+        "text": "La conclusion finale portant sur les politiques publiques"
+      },
+      {
+        "id": "d",
+        "text": "L'analyse comparative développée dans le troisième chapitre"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "The professor singles out: 'votre analyse comparative du troisième chapitre mériterait d'être un peu plus étayée'.",
+    "distractorRationales": {
+      "a": "The theoretical introduction is not faulted.",
+      "b": "The abstract is not mentioned.",
+      "c": "The conclusion is not mentioned."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0008-q1",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0008",
+    "prompt": "Quelle est la position défendue par Madame Lemieux face au projet de bornes ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Elle rejette la légitimité des objectifs écologiques modernes"
+      },
+      {
+        "id": "b",
+        "text": "Elle demande l'achat immédiat de dix bornes à recharge rapide"
+      },
+      {
+        "id": "c",
+        "text": "Elle exige l'interdiction de tout véhicule électrique au garage"
+      },
+      {
+        "id": "d",
+        "text": "Elle conteste le partage égalitaire des coûts entre copropriétaires"
+      }
+    ],
+    "correctOptionId": "d",
+    "rationale": "Madame Lemieux agrees with ecology in principle ('Personne ne conteste l'intérêt...'), but objects to splitting costs equally among all co-owners when only three have hybrid cars ('exiger que la facture... soit assumée à parts égales... me paraît pour le moins prématuré').",
+    "distractorRationales": {
+      "a": "She does not deny ecology; she expressly concedes its validity.",
+      "b": "She opposes broad spending, so purchasing ten rapid chargers is the exact opposite of her position.",
+      "c": "She does not seek to ban electric cars, only to ensure appropriate financing."
+    },
+    "skillTags": [
+      "author-stance"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0008-q2",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0008",
+    "prompt": "Pour quelle raison financière la proposition de Monsieur Dupuis est-elle jugée inopportune ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "La copropriété a déjà engagé d'importantes dépenses de toiture"
+      },
+      {
+        "id": "b",
+        "text": "L'immeuble est menacé d'une saisie judiciaire imminente"
+      },
+      {
+        "id": "c",
+        "text": "Le gestionnaire de l'immeuble a détourné le fonds de réserve"
+      },
+      {
+        "id": "d",
+        "text": "Les tarifs de l'électricité municipale ont triplé récemment"
+      }
+    ],
+    "correctOptionId": "a",
+    "rationale": "Madame Lemieux explains the fiscal constraint: 'nos finances sont déjà lourdement grevées par la réfection de la toiture votée au printemps' (finances already burdened by roof repairs voted in the spring).",
+    "distractorRationales": {
+      "b": "There is no foreclosure or judicial seizure mentioned.",
+      "c": "Embezzlement by the building manager is never mentioned.",
+      "d": "Municipal electricity price hikes are not cited."
+    },
+    "skillTags": [
+      "inference"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0008-q3",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0008",
+    "prompt": "Quel registre de langue et climat rhétorique dominent cet échange d'assemblée ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Une altercation agressive ponctuée de cris et d'insultes"
+      },
+      {
+        "id": "b",
+        "text": "Un bavardage décontracté et désordonné entre intimes"
+      },
+      {
+        "id": "c",
+        "text": "Un débat formel et délibératif aux désaccords polis et mesurés"
+      },
+      {
+        "id": "d",
+        "text": "Une récitation de consignes d'urgence en cas de sinistre"
+      }
+    ],
+    "correctOptionId": "c",
+    "rationale": "The debate is conducted with civic decorum ('Chers voisins', 'monsieur Dupuis', formal vous) with polished adversarial diplomacy ('pour le moins prématuré', 'Personne ne conteste... En revanche').",
+    "distractorRationales": {
+      "a": "There are no insults or yelling; the discussion is civil and restrained.",
+      "b": "It is an official co-owners meeting, not casual gossip.",
+      "d": "It is a budgetary debate, not a recitation of safety guidelines."
+    },
+    "skillTags": [
+      "register-detection"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  },
+  {
+    "id": "co-script-0008-q4",
+    "module": "CO",
+    "itemType": "audio-mcq",
+    "stimulusId": "co-script-0008",
+    "prompt": "Quel compromis alternatif Madame Lemieux suggère-t-elle pour dénouer l'impasse ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Organiser une loterie pour désigner les bénéficiaires des bornes"
+      },
+      {
+        "id": "b",
+        "text": "Réaliser une étude individuelle financée par les seuls demandeurs"
+      },
+      {
+        "id": "c",
+        "text": "Attendre que l'ensemble des propriétaires achètent un véhicule"
+      },
+      {
+        "id": "d",
+        "text": "Transférer la gestion du stationnement à la ville de Montréal"
+      }
+    ],
+    "correctOptionId": "b",
+    "rationale": "She concludes with her counter-proposal: 'Je propose plutôt une étude de faisabilité individuelle à la charge des usagers demandeurs' (individual study paid by requesting users).",
+    "distractorRationales": {
+      "a": "A lottery is never proposed.",
+      "c": "She does not demand waiting for 100% vehicle ownership, but matching costs to beneficiaries.",
+      "d": "Ceding the private garage to the city is not mentioned."
+    },
+    "skillTags": [
+      "detail-scan"
+    ],
+    "targetBand": 7,
+    "sourceModel": "gemini-3.8-flash",
+    "reviewStatus": "auto-validated"
+  }
+]

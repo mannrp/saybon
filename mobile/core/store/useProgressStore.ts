@@ -98,7 +98,9 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
     const updated = updateProgressRecord(existing, isCorrect);
 
     // 3. Persist to SQLite and MMKV hot cache synchronously/asynchronously
-    await saveProgress(updated);
+    void saveProgress(updated).catch((err) =>
+      console.warn(`Failed to persist progress for ${conceptId}:`, err)
+    );
 
     // 4. Update memory state in Zustand
     set((state) => ({
@@ -114,21 +116,11 @@ export const useProgressStore = create<ProgressStore>((set, get) => ({
   resetProgress: async () => {
     set({ isLoading: true, error: null });
     try {
-      const { concepts, conceptsMap } = get();
-      
-      // Open transaction to reset progress entries in SQLite
+      // Reset progress entries in SQLite in a single atomic UPDATE
       const { db, rebuildProgressHotCache } = require('../db/database');
-      await db.execute('BEGIN TRANSACTION;');
-      
-      for (const concept of concepts) {
-        await db.execute(
-          `INSERT OR REPLACE INTO progress (conceptId, mastery, seenState, reviewState, familiarityScore, streak, attempts, correctAnswers, lastSeen)
-           VALUES (?, 0, 0, 'new', 0.0, 0, 0, 0, NULL)`,
-          [concept.id]
-        );
-      }
-      
-      await db.execute('COMMIT;');
+      await db.execute(
+        `UPDATE progress SET mastery = 0, seenState = 0, reviewState = 'new', familiarityScore = 0.0, streak = 0, attempts = 0, correctAnswers = 0, lastSeen = NULL;`
+      );
       
       // Rebuild the MMKV hot-cache
       await rebuildProgressHotCache();
